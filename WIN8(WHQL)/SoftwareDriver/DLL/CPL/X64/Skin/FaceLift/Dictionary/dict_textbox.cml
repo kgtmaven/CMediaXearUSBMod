@@ -1,0 +1,113 @@
+<TextBox.Dictionary>
+
+	<!-- this ClearText value specifies whether to clear text when textBox is focused (True, False) -->
+	<Setter Property="ClearText" Value="False"/>	
+	
+	<!-- this FontWeight value is Normal type -->
+	<Setter Property="FontWeight" Value="Normal"/>	
+	
+	<!-- this Cursor value is Ibeam type -->
+	<Setter Property="Cursor" Value="Ibeam"/>	
+
+	<!-- this BackgroundImage value is for textbox background image -->
+	<Setter Property="BackgroundImage" Value="" />
+	
+  <!-- this Password value is for textbox password style -->
+	<Setter Property="Password" Value="False" />
+	
+	<!-- this IsDigitalOnly value is for textbox digital only -->
+  <Setter Property="IsNumberOnly" Value="False" /> 
+	
+	<!-- this IsNatural value is for textbox natural digital only -->
+  <Setter Property="IsNatural" Value="False" /> 
+  
+  <!-- this IsReadOnly value is for textbox read only -->
+  <Setter Property="IsReadOnly" Value="False" /> 
+  
+  <!-- this MaxLength value is for textbox max character number -->
+  <Setter Property="MaxLength" Value="100" /> 
+  
+  <!-- this InputHintText is for textbox input hint -->
+  <Setter Property="InputHintText" Value="" /> 
+    
+  <!-- this SelectedBackColor is for textbox selected text background color, which format is #ARGB, white, black, red, green, blue, yellow, ... -->
+  <Setter Property="SelectedBackColor" Value="#FF96B5DA" />   
+  
+  <!-- this CaretColor is for textbox caret color, which format is #ARGB, white, black, red, green, blue, yellow, ... -->
+  <Setter Property="CaretColor" Value="Black" />
+  
+  <!-- this FontFamily value is Arial type -->
+  <Setter Property="FontFamily" Value="Arial" />
+  		
+  <!-- this dBTextbox value is for dB textbox -->  
+  <Style Key="DBTextBox">  
+  	<Setter Property="BackgroundImage" Value="Resources/Res_dBTextbox.png" />
+  	<Setter Property="Foreground" Value="Black"/>
+		<Setter Property="FontSize" Value="12"/>
+		<Setter Property="Background" Value="White"/>
+		<Setter Property="Width" Value="45"/>
+    <Setter Property="Height" Value="25"/>
+    <Setter Property="IsNumberOnly" Value="True"/>
+    <Setter Property="ClearText" Value="True"/>
+  </Style>
+  
+    <!-- this XearTextbox value is for Xear textbox -->  
+  <Style Key="XearTextbox">  
+  	<Setter Property="BackgroundImage" Value="Resources/Res_dBTextbox.png" />
+  	<Setter Property="Foreground" Value="Black"/>
+		<Setter Property="FontSize" Value="12"/>
+		<Setter Property="Background" Value="White"/>
+		<Setter Property="Width" Value="40"/>
+    <Setter Property="Height" Value="25"/>
+    <Setter Property="IsNatural" Value="True"/>
+    <Setter Property="ClearText" Value="True"/>
+  </Style>
+  
+    <!-- this dBTextbox value is for kalaok textbox -->  
+  <Style Key="KKTextBox">  
+  	<Setter Property="BackgroundImage" Value="Resources/Res_dBTextbox.png" />
+  	<Setter Property="Foreground" Value="Black"/>
+		<Setter Property="FontSize" Value="12"/>
+		<Setter Property="Background" Value="White"/>
+		<Setter Property="Width" Value="50"/>
+    <Setter Property="Height" Value="25"/>
+    <Setter Property="IsNumberOnly" Value="True"/>    
+  </Style>
+  
+  <!-- this PanelProfileTextbox value is for default panel profile textbox -->
+  <Style Key="PanelProfileTextbox">
+  	<Setter Property="BackgroundImage" Value="PanelProfile\TextBox.png" /> 
+  	<Setter Property="Width" Value="154.265"/>
+    <Setter Property="Height" Value="25"/>
+    <Setter Property="Foreground" Value="Black"/>
+		<Setter Property="FontSize" Value="12"/>
+		<Setter Property="Background" Value="White"/>  	
+  </Style>
+  
+  <!-- this NewProfileWindowTextbox value is for new profile window textbox -->
+  <Style Key="NewProfileWindowTextbox">
+  	<Setter Property="BackgroundImage" Value="PanelProfile\NewProfileWindow_TextBox.png" />
+  </Style>
+  
+  <!-- this EQTextbox value is for EQ text box -->
+  <Style Key="EQTextbox">
+  	<Setter Property="BackgroundImage" Value="EQ\TextBox.png" />
+  	<Setter Property="Width" Value="164" />
+  	<Setter Property="Height" Value="25"/>
+  	<Setter Property="FontSize" Value="9"/>
+  	<Setter Property="Foreground" Value="Black"/>
+  	<Setter Property="Background" Value="White"/>  	
+  	<Setter Property="Text.HorizontalAlignment" Value="Center"/>
+  	<Setter Property="FontWeight" Value="Normal"/>
+  </Style>
+  
+  <!-- this KaraokeTextbox value is for Karaoke text box -->
+  <Style Key="KaraokeTextbox">
+  	<Setter Property="BackgroundImage" Value="EQ\TextBox.png" />
+  	<Setter Property="Width" Value="30" />
+  	<Setter Property="Height" Value="25"/>
+  	<Setter Property="IsReadOnly" Value="True" />
+  	<Setter Property="Foreground" Value="Black"/>
+  </Style>  
+  
+</TextBox.Dictionary>

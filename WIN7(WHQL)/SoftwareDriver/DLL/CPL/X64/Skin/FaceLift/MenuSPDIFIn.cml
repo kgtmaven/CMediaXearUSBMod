@@ -1,0 +1,5 @@
+<SkinMenu Name="SPDIFInMenu" Style="EffectMenu" Opacity="0.95">
+  <SkinMenuItem Name="SPDIFInVol" Style="EffectMenuItem" Content="ml_SPDIFInVol_Title"/>
+  <SkinMenuItem Name="SPDIFInSamplingRate" Style="EffectMenuItem" Content="ml_SPDIFInSamplingRate_Title"/>
+  <SkinMenuItem Name="SPDIFInAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+</SkinMenu>

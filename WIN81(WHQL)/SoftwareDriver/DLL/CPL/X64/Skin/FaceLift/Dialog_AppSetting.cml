@@ -1,0 +1,42 @@
+﻿<Window WindowStartupLocation="CenterScreen" ShowInTaskbar="True"  Topmost="False"  WindowStyle="None" BorderThickness="0" Padding="0" ResizeMode="CanMinimize" Name="Dialog_AppSetting" 
+	Width="542" Height="416" Background.Image="DialogAppSetting/BG.png"  AllowsTransparency="True" Opacity="0.99">
+    	
+		<Image Source="DialogAppSetting/TitleBar.png" Left="149" Top="0" Width="246" Height="26" Name="AppSettingTitleBar"/>
+		
+		<!--<TextBlock Name="ml_AsioDriver" Foreground="#FF666666" FontFamily="Arial" Left="30" Top="41" Visibility="hidden" Text="ml_DialogAppSetting_ASIODriverSelect" Width="260" Text.HorizontalAlignment="Right"/>-->
+		<!--<ComboBox Name="AsioDriver" Width="125" Left="181" Top="41" Visibility="Hidden"></ComboBox>-->
+
+		 <!--<TextBlock Name="ml_AudioDevice" Foreground="#FF666666" FontFamily="Arial" Left="30" Top="68.45" Height="15" Text="ml_DialogAppSetting_AudioDeviceSelect" Width="260" Text.HorizontalAlignment="Right"/>
+		<ComboBox Name="AudioDevice" Style="DefaultCombobox" Width="152" Left="298" Top="64" Height="26" Dropbutton.Left="128" Label.Width="125" />-->
+
+		<TextBlock Name="ml_SystemTray" FontWeight="Bold" Foreground="#FF666666" FontFamily="Arial" Left="30" Top="107" Height="15" Text="ml_DialogAppSetting_ShowSystemTrayIcon" Width="260" Text.HorizontalAlignment="Right"/>
+		<CheckBox Name="SystemTray" Left="298" Top="99" IsChecked="True" Style="EnableFeatureButton" />
+		
+		<TextBlock Name="ml_UITransparent" FontWeight="Bold" Foreground="#FF666666" FontFamily="Arial" Left="30" Top="134" Height="15" Text="ml_DialogAppSetting_UITransparent" Width="260" Text.HorizontalAlignment="Right"/>
+		<!--<Slider Minimum="1" Maximum="9" AutoToolTipPrecision="0" AutoToolTipPlacement="BottomRight" Name="UITransparent" Width="156" Left="298" Top="126" SmallChange="1" LargeChange="1" Style="StaticResource NonFillSlider"></Slider>-->
+		<Slider Orientation="Horizontal" Height="32" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="298" Top="126" Width="156" Maximum="9" Name="UITransparent" Minimum="1" SmallChange="1" LargeChange="1" Tag="0" Style="NonFillSlider" Tooltip.Show="True" Image.Thumb.Normal="Resources/Res_HSlider_BigLThumb.png" />		
+		
+		<TextBlock Name="ml_MultiLanguage" FontWeight="Bold" Foreground="#FF666666" FontFamily="Arial" Left="30" Top="169" Height="15" Text="ml_DialogAppSetting_LanguageSelect" Width="260" Text.HorizontalAlignment="Right"/>
+		<ComboBox Name="MultiLanguage" Style="DefaultCombobox" Left="298" Top="166" Width="152" Height="26" Dropbutton.Left="128" Label.Width="125"/>
+		
+		<!--<TextBlock Name="ml_Skin" FontWeight="Bold" Foreground="#FF666666" FontFamily="Arial" Left="30" Top="200"  Height="15" Text="ml_DialogAppSetting_SkinSelect" Width="260" Text.HorizontalAlignment="Right"/>
+		<ComboBox Name="Skin" Style="DefaultCombobox" Width="152" Left="298" Top="197" Height="26" Dropbutton.Left="128" Label.Width="125"/>-->
+		
+		<TextBlock Foreground="#FF666666" FontWeight="Bold" FontFamily="Arial" Left="30" Top="200" Height="15" Text="ml_DialogAppSetting_DisableWelcomeMsg" Width="260" Text.HorizontalAlignment="Right"/>
+		<CheckBox Name="DisableWelcomeMsg" Left="298" Top="197" IsChecked="True" Style="EnableFeatureButton" />
+			
+		
+		<!--<Button Name="BtnWinClose" Cursor="Hand" Left="492" Top="0" Width="50" Height="26" Image.Normal="DialogAppSetting/Close.png"/>-->
+		
+		<Button Name="OK" Left="260" Top="375" Width="85" Height="35" Style="ClickButton"
+                     Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_DialogAppSetting_OK" Foreground="#FF787878" FontWeight="Bold"/>
+		
+		<Button Name="Cancel" Left="340" Top="375" Width="85" Height="35" Style="ClickButton"
+                     Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_DialogAppSetting_Canel" Foreground="#FF787878" FontWeight="Bold"/>
+		
+		<Button Name="Apply" Left="420" Top="375" Width="90" Height="35" Style="ClickButton" 
+										Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_DialogAppSetting_Apply" Foreground="#FF787878" FontWeight="Bold"/>
+		
+		<TextBlock Name="DialogAppSettingTitle" FontWeight="Bold" Text="ml_DialogAppSetting_Title" Foreground="#FF666666" FontWeight="Bold" Text.HorizontalAlignment="Center" Text.VerticalAlignment="Top" Top="4" Left="192" Height="18.95" Width="166.733"/>
+		
+</Window>

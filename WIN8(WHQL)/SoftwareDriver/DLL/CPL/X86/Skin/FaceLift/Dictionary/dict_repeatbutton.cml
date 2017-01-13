@@ -1,0 +1,7 @@
+<RepeatButton.Dictionary>
+
+		<!-- this Cursor value is for mouse cursor when mouse is over on this control, for example: Arrow, Arrow, Cross, ... -->
+		<Setter Property="Cursor" Value="Hand"/>		<!--  Hand, Arrow -->
+		
+	
+</RepeatButton.Dictionary>

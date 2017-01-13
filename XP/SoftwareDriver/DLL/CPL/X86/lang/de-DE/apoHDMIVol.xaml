@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HDMIVol_HDMIVol">HDMI</sys:String>
+  <sys:String x:Key="ml_HDMIVol_L">L</sys:String>
+  <sys:String x:Key="ml_HDMIVol_R">R</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Title">Lautstärkeregelung</sys:String>
+  <sys:String x:Key="ml_HDMIVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_HDMIVol_VoldB_Range_Error">Der Lautstärkebereich in dB liegt zwischen {0:F2} und {1:F2}.</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Balance">Sperren</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnBalance">Sperre aufheben</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Mute">Stumm</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnMute">Ton einschalten</sys:String>
+</ResourceDictionary>

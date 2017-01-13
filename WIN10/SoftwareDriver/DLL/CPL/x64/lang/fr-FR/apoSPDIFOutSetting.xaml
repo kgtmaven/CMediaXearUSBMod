@@ -1,0 +1,11 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutSetting_Title">Paramètres du Sorties S/PDIF</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_LFECenterChannelSwap">Inverser la sortie basses/centre</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SideBackSurroundSwap">Inverser la sortie surround cote/arriere</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SpeakerTest">test haut-parleur</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_2Channels">Stéréo</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_4Channels">Quadraphonique</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_5dot1Channels">Surround 5.1</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_7dot1Channels">Surround 7.1</sys:String>
+</ResourceDictionary>

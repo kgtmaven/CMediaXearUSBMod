@@ -1,0 +1,19 @@
+<Canvas  Width="643" Height="455" Name="HeadPhoneSurroundMax">
+	<Canvas Width="643" Height="455" Name="MainContent">
+		<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_HeadPhoneSurroundMax_Title"/>
+    <Canvas Width="643" Height="455" Name="GreyMainContent">
+  	  <TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_HeadPhoneSurroundMax_EnableSM" />
+  		<CheckBox Left="56" Top="71" Name="BtnEnableSM" Style="EnableFeatureButton" ToolTip="ml_HeadPhoneSurroundMax_EnableSM"/>	
+  		<Image Name="SurroundMax_Logo_Image" Left="534" Top="10" Source="SurroundMax/Logo_SurroundMax.png" />		
+  		<Image Name="Diagram_SM_Off" Width="456" Height="240" Left="80" Top="127.666" Source="SurroundMax/SurroundMax_off.png" />
+  		<Image Name="Diagram_SM_4" Width="456" Height="240" Left="80" Top="127.666" Source="SurroundMax/SurroundMax_4.png" />
+  		<Image Name="Diagram_SM_6" Width="456" Height="240" Left="80" Top="127.666" Source="SurroundMax/SurroundMax_6.png" />
+  		<Image Name="Diagram_SM_8" Width="456" Height="240" Left="80" Top="127.666" Source="SurroundMax/SurroundMax_8.png" />
+	  </Canvas> 
+  </Canvas> 	
+	<Canvas Width="643" Height="455" Name="WarningContent" Visibility="Hidden">
+		<TextBlock Name="Warning_Icon" Left="45" Top="410" Source="SurroundMax/InfoLogo.png" />
+	  <TextBlock Width="550" Height="80"  Left="80" Top="385" Foreground="White" Style="ApoText" TextWrapping="Wrap"
+			Text="ml_HeadPhoneSurroundMax_ChannelRequirement"/>
+	 </Canvas>
+</Canvas>

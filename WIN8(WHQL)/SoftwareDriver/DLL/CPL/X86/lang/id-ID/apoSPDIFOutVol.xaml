@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutVol_SPDIFOutVol">SPDIF-Out</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_L">L</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_R">R</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_Title">Kontrol Volume</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_VoldB_Range_Error">Rentang volume dalam dB adalah antara {0:F2} dan {1:F2}.</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_Balance">Kunci</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_UnBalance">Buka Kunci</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_Mute">Diam</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVol_UnMute">Bunyikan</sys:String>
+</ResourceDictionary>

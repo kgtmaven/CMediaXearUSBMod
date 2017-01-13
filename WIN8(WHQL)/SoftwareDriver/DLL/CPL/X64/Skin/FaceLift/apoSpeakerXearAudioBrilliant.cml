@@ -1,0 +1,20 @@
+<Canvas Width="643" Height="455" Name="SpeakerXearAudioBrilliant">  
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerAudioBrilliant_Title"/>	
+	
+	<TextBlock Foreground="White" Left="80" Top="93" Height="30"  Style="ApoText" Text="ml_SpeakerAudioBrilliant_Enable" />
+	<CheckBox Left="56" Top="89" Height="27" Width="26" Name="BtnEnableAudioBrilliant" Style="EnableFeatureButton" ToolTip="ml_SpeakerAudioBrilliant_Enable" />
+<TextBlock Name="AudioBrilliant_Logo" Source="XearAudioBrilliant/AudioBrilliant_Logo.png" Left="534" Top="10" />
+<Canvas Name="MainContent" Left="0" Top="140" Width="640" Height="455" >
+
+	<TextBlock Name="TextLevel" Foreground="White" Left="93" Top="30"  Style="ApoText" Text="ml_SpeakerAudioBrilliant_Level" />
+  <Slider Orientation="Horizontal" Height="36" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="93" Top="76" Width="300" Maximum="6" Name="BrilliantLevel" Minimum="0" SmallChange="1" Style="HSlider" Tooltip.Show="True"/>
+	<!--<TextBox Left="420" Top="76" Name="LevelTextBox" Style="XearTextbox" FontSize="10"/>-->
+	<TextBox Left="420" Top="76" width="45" Name="LevelTextBox" Style="KaraokeTextbox"/>
+   <Button Left="505" Top="75" Name="ResetBrilliant" Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerAudioBrilliant_Reset" FontWeight="Bold" Foreground="#FF787878" /> 
+	
+		<!--<TextBlock Name="Intro" Foreground="White" Left="93" Top="250" Style="ApoText" Text="Audio Brilliant introduction in here." />-->
+
+	</Canvas>
+	
+</Canvas>

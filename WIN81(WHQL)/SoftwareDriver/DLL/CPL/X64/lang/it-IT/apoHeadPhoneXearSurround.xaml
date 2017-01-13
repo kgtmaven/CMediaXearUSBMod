@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Title">Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_EnableXearSurroundEffect">Attiva Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSize">Dimensione stanza</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeS">Stanza piccola</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeM">Stanza media</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeL">Stanza grande</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeA">Stanza anecoica</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelRequirement">L'effetto surround Xear supporta solo stereo (2 canali). Premere il tasto di seguito per regolare l'impostazione del canale.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelsSetting">Impostazione canali</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Sound_Field_Expansion">Espansione campo sonoro</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Speaker_Angle">Angolo altoparlante</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Narrow">Stretto</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Wide">Ampio</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

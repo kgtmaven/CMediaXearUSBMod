@@ -1,0 +1,12 @@
+<SkinMenu Name="MicInMenu" Style="EffectMenu" Opacity="0.95">
+  <SkinMenuItem Name="MicInVol" Style="EffectMenuItem" Content="ml_MicInVol_Title"/>
+  <SkinMenuItem Name="MicInSamplingRate" Style="EffectMenuItem" Content="ml_MicInSamplingRate_Title"/>
+  <SkinMenuItem Name="MicInKaraoke" Style="EffectMenuItem" Content="ml_MicInKaraoke_Title"/>
+  <SkinMenuItem Name="MicInENC" Style="EffectMenuItem" Content="ml_MicInENC_Title"/>
+  <SkinMenuItem Name="MicInAEC" Style="EffectMenuItem" Content="ml_MicInAEC_Title"/>
+  <SkinMenuItem Name="MicInBeamForming" Style="EffectMenuItem" Content="ml_MicInBeamForming_Title"/>
+  <SkinMenuItem Name="MicInXearMagicVoice" Style="EffectMenuItem" Content="ml_MicInXearMagicVoice_Title"/>
+  <SkinMenuItem Name="MicInBoost" Style="EffectMenuItem" Content="ml_MicInBoost_Title"/>
+  <SkinMenuItem Name="MicInAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+  <SkinMenuItem Name="MicInNoiseReduction" Style="EffectMenuItem" Content="ml_MicInNoiseReduction_Title"/>
+</SkinMenu>

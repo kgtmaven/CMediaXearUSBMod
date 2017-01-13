@@ -1,0 +1,24 @@
+<Window WindowStartupLocation="CenterScreen" ShowInTaskbar="False"  Topmost="False"  WindowStyle="None" BorderThickness="0" Padding="0" ResizeMode="CanMinimize" Name="DialogMessageBox" 
+	Width="391" Height="199" Background.Image="DialogMessageBox/BG.png"  AllowsTransparency="True" Opacity="0.99">
+    	
+		<Image Source="DialogMessageBox/TitleBar.png" Left="109.5" Top="0" Width="174" Height="23" Name="MessageBoxTitleBar"/>
+		
+		<Image Left="32.167" Top="55" Width="29" Height="28" GroupName="MessageBoxIcon" Name="ConfirmIcon" Source="DialogMessageBox/Confirm_Icon.png" />
+		<Image Left="32.167" Top="55" Width="29" Height="28" GroupName="MessageBoxIcon" Name="ErrorIcon" Source="DialogMessageBox/Error_Icon.png" />
+		<Image Left="32.167" Top="55" Width="29" Height="28" GroupName="MessageBoxIcon" Name="WarningIcon" Source="DialogMessageBox/Warning_Icon.png" />
+		
+		<!--<Button Name="BtnWinClose" Cursor="Hand" Left="341" Top="0" Width="50" Height="26" Image.Normal="DialogMessageBox/Close.png"/>-->
+		
+		<Button Name="BtnYes" Left="195" Top="160" Width="80" Height="35" 
+                     Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_DialogMsgBox_Yes" Foreground="#000000" FontWeight="Bold"/>
+		
+		<Button Name="BtnNo" Left="285" Top="160" Width="80" Height="35" 
+                     Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_DialogMsgBox_No" Foreground="#000000" FontWeight="Bold"/>
+		
+		<Button Name="BtnClose" Left="285" Top="160" Width="80" Height="35" Style="ClickButton" 
+										Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_DialogMsgBox_Exit" Foreground="#000000" FontWeight="Bold"/>
+		
+		<TextBlock Name="Message_Title" Foreground="#FF666666" Style="ApoText"  FontWeight="Bold" Text.HorizontalAlignment="Center" Text.VerticalAlignment="Top" Top="2" Left="139" Height="18.95" Width="115.233"/>
+		
+		<TextBlock Top="63" Left="69" Height="85" Width="286" Foreground="#FF666666" Style="ApoText"  Text.HorizontalAlignment="Left" Text.VerticalAlignment="Top" Name="Message_Text" TextWrapping="Wrap"/>
+</Window>

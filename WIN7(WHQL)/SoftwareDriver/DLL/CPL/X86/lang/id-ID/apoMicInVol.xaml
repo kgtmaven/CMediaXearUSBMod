@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInVol_MicInVol">Mikrofon</sys:String>
+  <sys:String x:Key="ml_MicInVol_L">L</sys:String>
+  <sys:String x:Key="ml_MicInVol_R">R</sys:String>
+  <sys:String x:Key="ml_MicInVol_Title">Kontrol Volume</sys:String>
+  <sys:String x:Key="ml_MicInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_MicInVol_VoldB_Range_Error">Rentang volume dalam dB adalah antara {0:F2} dan {1:F2}.</sys:String>
+  <sys:String x:Key="ml_MicInVol_Balance">Kunci</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnBalance">Buka Kunci</sys:String>
+  <sys:String x:Key="ml_MicInVol_Mute">Diam</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnMute">Bunyikan</sys:String>
+  <sys:String x:Key="ml_MicInVol_MonitorVol">Monitor</sys:String>
+  <sys:String x:Key="ml_MicInVol_ListenToThisDeviceOnDefaultRender">Dengarkan perangkat ini dari perangkat output default</sys:String>
+</ResourceDictionary>

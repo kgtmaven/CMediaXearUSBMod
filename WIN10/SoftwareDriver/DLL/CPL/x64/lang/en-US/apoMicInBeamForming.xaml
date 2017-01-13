@@ -1,0 +1,7 @@
+﻿<ResourceDictionary 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="ml_MicInBeamForming_Title">Beam Forming</sys:String>
+	<sys:String x:Key="ml_MicInBeamForming_EnableBeamForming">Enable Beam Forming</sys:String>
+</ResourceDictionary>

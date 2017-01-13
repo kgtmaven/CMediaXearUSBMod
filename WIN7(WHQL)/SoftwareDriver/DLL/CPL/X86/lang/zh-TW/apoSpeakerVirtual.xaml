@@ -1,0 +1,31 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerVirtual_Title">7.1 Virtual Speaker Shifter</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_EnableVirtualSpeakerShifter">啟動 7.1 Virtual Speaker Shifter</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Volume_SPDIFOUT">數位輸出</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Clockwise">順時鐘環繞</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_CounterClockwise">逆時鐘環繞</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_WiseArround">手動旋轉</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_ManualSetting">手動平移</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_SubdB">音量減弱</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_AdddB">音量增強</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Head">聆聽者</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Center">中央</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_FrontLeft">前左</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_BackLeft">後左</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_SideLeft">側左</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_FrontRight">前右</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_BackRight">後右</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_SideRight">側右</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Woofer">重低音</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_L">L</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_R">R</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Reset">恢復預設值</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_LS">LS</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_RS">RS</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Lb">Lb</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Rb">Rb</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_C">C</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_W">W</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEQ_Title">均衡器</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_EnableEqualizer">开启均衡器</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Prompt">*请输入自定义名称…*</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Invalid">文件名不合法 (不可包含 /\:*?\"&lt;&gt;| 字符)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_SaveError">自定义 EQ 设定,储存失败</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_LoadError">自定义 EQ 设定,载入失败</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_DeleteError">自定义 EQ 设定,删除失败</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_ContentSameAsPreset">EQ设定与默认内建模式相同</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Dance">舞曲</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Bass">低音</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Tremble">高音</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Live">现场</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rock">摇滚</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_SoftRock">抒情摇滚</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Jazz">爵士</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Metal">重金属</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rap">饶舌乐</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Classic">古典乐</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Vocal">声乐</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Save">新增</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Delete">删除</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Default">预设</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Manual">自定义</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_HasTheSameUserDefineName">此EQ名称已经存在。 是否替换它?</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEM_Title">Efek lingkungan</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_EnableEnvironmentEffects">Aktifkan Efek lingkungan</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Environment">Lingkungan</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_RoomSize">Ukuran Ruangan</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SmallRoom">Ruangan Kecil</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_MediumRoom">Ruangan Sedang</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LargeRoom">Ruangan Besar</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Default">Default</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Generic">Generik</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_PaddedCell">Ruangan berbantalan</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Room">Kamar</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Bathroom">Kamar mandi</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LivingRoom">Ruang tamu</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneRoom">Ruang batu</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ConcertHall">Ruang konser</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Cave">Gua</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Arena">Arena</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hangar">Hanggar</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_CarpetedHallway">Teras berkarpet</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hallway">Teras</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneCorridor">Koridor batu</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Alley">Lorong</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Forest">Hutan</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_City">Kota</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Mountains">Gunung</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Quarry">Lubang Sumur</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Plain">Biasa</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ParkingLot">Lapangan parkir</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SewerPipe">Pipa pancuran</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_UnderWater">Di bawah air</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Drugged">Drugged</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Dizzy">Berputar</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Psychotic">Psikosis</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

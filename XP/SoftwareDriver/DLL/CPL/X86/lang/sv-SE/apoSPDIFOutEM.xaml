@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEM_Title">Miljöeffekter </sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_EnableEnvironmentEffects">Aktivera Miljöeffekter</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Environment">Miljö</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_RoomSize">Rumsstorlek</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SmallRoom">Litet rum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_MediumRoom">Mellanstort rum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LargeRoom">Stort rum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Default">Standard</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Generic">Allmän</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_PaddedCell">Dämpad cell</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Room">Rum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Bathroom">Badrum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LivingRoom">Vardagsrum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneRoom">Stenrum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Auditorium">Teatersalong</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ConcertHall">Konserthall</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Cave">Grotta</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Arena">Arena</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hangar">Hangar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_CarpetedHallway">Vestibul med matta</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hallway">Korridor</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneCorridor">Stenkorridor</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Alley">Allé</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Forest">Skog</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_City">Stad</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Mountains">Berg</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Quarry">Stenbrott</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Plain">Klart</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ParkingLot">Parkeringsruta</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SewerPipe">Avloppsrör</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_UnderWater">Under vatten</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Drugged">Drugged</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Dizzy">Yr</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Psychotic">Psykotisk</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

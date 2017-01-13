@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Información</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Salir</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Selección del dispositivo de salida</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Para activar el altavoz, asegúrese de que está marcado su icono.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">Para acceder al menú de funciones, haga clic con el botón secundario en el icono del dispositivo. De este modo aparecerán características y efectos de sonido adicionales.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">No volver a mostrar este mensaje.</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,108 @@
+<ComboBox.Dictionary>	
+	
+	<!-- for combobox background image -->
+	<Setter Property="Image.Background" Value=""/>
+
+	<!-- the label text position-->
+	<Setter Property="Label.Left" Value="0"/>
+	<Setter Property="Label.Top" Value="0"/>
+	<Setter Property="Label.Width" Value="0"/>
+	<Setter Property="Label.Height" Value="0"/>
+
+	<!-- define the drop down button -->
+	<Setter Property="Dropbutton.Left" Value="0"/>		
+	<Setter Property="Dropbutton.Top" Value="0"/>		
+	<Setter Property="Dropbutton.Width" Value="0"/>		
+	<Setter Property="Dropbutton.Height" Value="0"/>		
+	<Setter Property="Dropbutton.Image.Normal" Value=""/>
+	<Setter Property="Dropbutton.Image.MouseOver" Value=""/>
+	<Setter Property="Dropbutton.Image.Selected" Value=""/>
+	<Setter Property="Dropbutton.Image.Disable" Value=""/>
+
+	<!-- define the droplist -->
+		<!-- the margin for the drop list -->
+		<Setter Property="Droplist.Margin" Value="0, 0, 0, 0"/>
+
+		<!-- the max width of the drop list window -->
+		<Setter Property="Droplist.Width" Value=""/>
+
+		<!-- the max height of the drop list window -->
+		<Setter Property="Droplist.Height" Value="200"/>
+
+		<!-- the background color of the drop list -->
+		<Setter Property="Droplist.Background" Value="#FF000000"/>
+
+		<!-- the background image of the drop list -->
+ 		<Setter Property="Droplist.Image.Background" Value=""/>
+
+		<!-- the background image bottom heights of the drop list -->
+		<Setter Property="Droplist.Image.BottomHeight" Value=""/>
+	
+		<!-- define the droplist item -->
+			<!-- the item height -->
+			<Setter Property="Item.Height" Value="24"/>
+
+			<!-- the item background when selected-->
+			<Setter Property="Item.Image.Selected" Value=""/>
+
+			<!-- the item background color when selected-->
+			<Setter Property="Item.Background.Selected" Value="#FF8080ff"/>
+
+			<!-- Define text property -->
+			<Setter Property="Item.Text.Color.Normal" Value="Black"/>
+			<Setter Property="Item.Text.Color.Selected" Value="Yellow"/>
+			
+			<Setter Property="Item.Text.FontWeight" Value="Normal"/>
+			<Setter Property="Item.Text.FontHeight" Value="10"/>						
+			
+		<!-- define the droplist scroll bar -->
+			<Setter Property="Scroll.Image.Background" Value=""/>
+			<Setter Property="Scroll.Image.Thumb" Value=""/>
+								
+		<!-- define the droplist scroll top button -->
+		<Setter Property="ScrollButton.Top.Image.Normal" Value=""/>
+		<Setter Property="ScrollButton.Top.Image.MouseOver" Value=""/>
+		<Setter Property="ScrollButton.Top.Image.Selected" Value=""/>
+		<Setter Property="ScrollButton.Top.Image.Disable" Value=""/>
+		
+		<!-- define the droplist scroll bottom button -->
+		<Setter Property="ScrollButton.Bottom.Image.Normal" Value=""/>
+		<Setter Property="ScrollButton.Bottom.Image.MouseOver" Value=""/>
+		<Setter Property="ScrollButton.Bottom.Image.Selected" Value=""/>
+		<Setter Property="ScrollButton.Bottom.Image.Disable" Value=""/>
+		
+	<Style Key="DefaultCombobox">
+		<Setter Property="Image.Background" Value="Resources\combobox\combobox_bg.png"/>
+		<Setter Property="Label.Left" Value="2"/>
+		<Setter Property="Label.Top" Value="2"/>
+		<Setter Property="Label.Width" Value="100"/>
+		<Setter Property="Label.Height" Value="22"/>
+		<Setter Property="Dropbutton.Left" Value="103"/>		
+		<Setter Property="Dropbutton.Top" Value="2"/>		
+		<Setter Property="Dropbutton.Width" Value="22"/>		
+		<Setter Property="Dropbutton.Height" Value="22"/>		
+		<Setter Property="Dropbutton.Image.Normal" Value="Resources\combobox\btn_dorpdown_no.png"/>
+		<Setter Property="Dropbutton.Image.MouseOver" Value="Resources\combobox\btn_dorpdown_mo.png"/>
+		<Setter Property="Dropbutton.Image.Selected" Value="Resources\combobox\btn_dorpdown_se.png"/>
+		<Setter Property="Dropbutton.Image.Disable" Value="Resources\combobox\btn_dorpdown_di.png"/>
+		<Setter Property="Droplist.Image.Background" Value="Resources\combobox\droplist_bg.png"/>
+		<Setter Property="Droplist.Image.BottomHeight" Value="3"/>
+		<Setter Property="Droplist.Margin" Value="2, 2, 2, 2"/>
+		<Setter Property="Item.Image.Selected" Value="Resources\combobox\combobox_Itemselect.png"/>
+		<Setter Property="Scroll.Image.Background" Value="Resources\combobox\combobox_Scroll_bk.png"/>
+		<Setter Property="Scroll.Image.Thumb" Value="Resources\combobox\combobox_Scroll_thumb.png"/>
+		
+			
+		<!-- define the droplist scroll top button -->
+		<Setter Property="ScrollButton.Top.Image.Normal" Value="Resources\combobox\btn_scroll_top_no.png"/>
+		<Setter Property="ScrollButton.Top.Image.MouseOver" Value="Resources\combobox\btn_scroll_top_mo.png"/>
+		<Setter Property="ScrollButton.Top.Image.Selected" Value="Resources\combobox\btn_scroll_top_se.png"/>
+		<Setter Property="ScrollButton.Top.Image.Disable" Value="Resources\combobox\btn_scroll_top_di.png"/>
+		
+		<!-- define the droplist scroll bottom button -->
+		<Setter Property="ScrollButton.Bottom.Image.Normal" Value="Resources\combobox\btn_scroll_bottom_no.png"/>
+		<Setter Property="ScrollButton.Bottom.Image.MouseOver" Value="Resources\combobox\btn_scroll_bottom_mo.png"/>
+		<Setter Property="ScrollButton.Bottom.Image.Selected" Value="Resources\combobox\btn_scroll_bottom_se.png"/>
+		<Setter Property="ScrollButton.Bottom.Image.Disable" Value="Resources\combobox\btn_scroll_bottom_di.png"/>
+	</Style>
+</ComboBox.Dictionary>

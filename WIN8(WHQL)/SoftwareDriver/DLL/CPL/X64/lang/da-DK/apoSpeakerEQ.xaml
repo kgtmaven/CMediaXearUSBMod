@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEQ_Title">Equalizer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_EnableEqualizer">Aktiver Equalizer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Prompt">*Indtast forudindstillet navn...*</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Invalid">Filnavn ugyldigt (kan ikke indeholde tegnene /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_SaveError">Gem EQ-brugerdefineret fejl</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_LoadError">Indlæs EQ-brugerdefineret fejl</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_DeleteError">Slet EQ-brugerdefineret fejl</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_ContentSameAsPreset">Indholdet i denne profil er den samme som en forudindstillet tilstand</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Dance">Danse</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Bass">Bas</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Tremble">Diskant</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Live">Direkte</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_SoftRock">Blød rock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Classic">Klassisk</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Vocal">Opera</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Save">Gem</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Delete">Slet</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Default">Standard</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Manual">Manuelt</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_HasTheSameUserDefineName">EQ-navnet findes allerede. Ønsker du at erstatte det?</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_EnableXearSurroundEffect">Habilitar Xear Surround</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSize">Room Size</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeS">Small Room</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeM">Medium Room</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeL">Large Room</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeA">Anechoic Room</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelRequirement">O efeito surround Xear apenas suporta estéreo (2 canais). Pode premir o botão abaixo para ajustar a definição dos canais.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelsSetting">Definicao de Canais</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

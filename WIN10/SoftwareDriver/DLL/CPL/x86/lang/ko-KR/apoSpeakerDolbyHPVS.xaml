@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_EnableDolbyVirtualSpeaker">Dolby Virtual Speaker 활성화</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Title">Dolby Surround Effect</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_VSSmall">Reference Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_VSLarge">Wide Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_EnableDolbyHeadphone">Dolby Headphone 활성화</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Studio">Studio</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Cinema">Cinema</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Hall">Hall</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_DolbyHeadphone">Dolby Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_DolbyVirtualSpeaker">Dolby Virtual Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_EnableDolbySurroundEffect">Dolby Surround Effect 활성화</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_ChannelRequirement">는 스테레오만 지원합니다(2 채널).</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_ChannelsSetting">채널 설정</sys:String>
+</ResourceDictionary>

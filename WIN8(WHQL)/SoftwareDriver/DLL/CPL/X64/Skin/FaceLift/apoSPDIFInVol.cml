@@ -1,0 +1,18 @@
+﻿<!--
+<Canvas Width="643" Height="455" Name="SPDIFInVolume">
+-->
+<Canvas Width="643" Height="455" Name="SPDIFInVol">
+   
+	<TextBlock Left="30" Top="23" Height="35" Style="ApoTitle" Text="ml_SPDIFInVol_Title"/>	
+	<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="285" Top="136" Width="32" Maximum="100" Name="LeftChannel" Minimum="0" SmallChange="0" Tag="0" Style="VSlider" Tooltip.Show="True"/>
+  <Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="335" Top="136" Width="32" Maximum="100" Name="RightChannel" Minimum="0" SmallChange="0" Tag="1" Style="VSlider" Tooltip.Show="True"/>
+  <TextBlock Foreground="White" Left="223" Top="105" Height="26" Width="200" FontWeight="Bold" FontSize="10"  Text="ml_SPDIFInVol_SPDIFInVol" Text.VerticalAlignment="Center" />
+  <TextBlock Foreground="White" Left="280" Top="335" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_SPDIFInVol_L" Text.VerticalAlignment="Center"  Text.HorizontalAlignment="Center"/>
+  <TextBlock Foreground="White" Left="330" Top="335" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_SPDIFInVol_R" Text.VerticalAlignment="Center"  Text.HorizontalAlignment="Center"/>
+  <TextBlock Foreground="White" Left="370" Top="360" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_SPDIFInVol_dB" Text.VerticalAlignment="Center" Text.HorizontalAlignment="Center"/>
+  <TextBox Left="280" Top="356" Name="LdB" Style="DBTextBox" Tag="0" FontSize="8"/>
+  <TextBox Left="326" Top="356" Name="RdB" Style="DBTextBox" Tag="1" FontSize="8"/>
+	<CheckBox Left="312" Top="331" Name="Balance" Style="LockButton" IsChecked="True" Tooltip="ml_SPDIFInVol_Balance" Tooltip.Check="ml_SPDIFInVol_UnBalance"/>
+	<CheckBox Name="Mute" Style="MuteButton" Left="312" Top="380" Tooltip="ml_SPDIFInVol_Mute" Tooltip.Check="ml_SPDIFInVol_UnMute"></CheckBox>
+
+</Canvas>

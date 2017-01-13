@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogInfo_DetailInformation">ข้อมูลรายละเอียด</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_Name">ชื่อ</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_Version">รูปแบบที่</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_ModifiedDate">วันที่แก้ไข</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailWindow_Title">ข้อมูลรายละเอียด</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Title">ข้อมูล</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Exit">ออก</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Detail">รายละเอียด</sys:String>
+  <sys:String x:Key="ml_DialogInfo_AudioCodec">CODEC สัญญาณเสียง :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_AudioDriverVersion">รุ่นไดร์ฟเวอร์สัญญาณเสียง :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DirectXVersion">รุ่น DirectX :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_FirmwareVersion">รุ่นเฟิร์มแวร์  :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_CPLVersion">รุ่น CPL :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_ASIOTech">ASIO Technology by Steinberg Media Technologies GmbH.</sys:String>
+  <sys:String x:Key="ml_DialogInfo_ASIOInterface">ASIO Interface Technology by Steinberg Media Technologies GmbH.</sys:String>
+  <sys:String x:Key="ml_DialogInfo_LegalWindow_Title">ข้อมูลเกี่ยวกับกฎหมาย</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Legal">ด้านกฎหมาย</sys:String>
+</ResourceDictionary>

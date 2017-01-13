@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_PanelProfile_Music">Musikläge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Movie">Filmläge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Karaoke">Karaoke läge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HiFi">Hi-Fi läge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Recording">Inspelningsläge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Communication">Kommunikationsläge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Gaming">Spelläge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Racing">Racingläge</sys:String>
+  <sys:String x:Key="ml_PanelProfile_FPS">FPS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_RTS">RTS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Manual">Manuell</sys:String>
+  <sys:String x:Key="ml_PanelProfile_AddProfile">Lägg profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfile">Ta bort profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName">Profilnamn</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileDescription">Profil Beskrivning</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Prompt">Ange profilnamn</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Invalid">Filnamnet ogiltigt (kan inte innefatta tecknen /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowOK">OK</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowCancel">Avbryt</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindow_Title">Ny profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_DeleteConfirm">Är du säker på att du vill ta bort den här profilen ?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileNumberLimit">Antalet profilen kan inte mer än fem ?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowDelete">Ta bort</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowCancel">Avbryt</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileName">Profilnamn</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindow_Title">Ta bort profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameSettingInProfileList">Det finns en profil som är samma som aktuell inställning.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameUserDefineName">Profilnamnet finns redan. Vill du skriva över det?</sys:String>
+</ResourceDictionary>

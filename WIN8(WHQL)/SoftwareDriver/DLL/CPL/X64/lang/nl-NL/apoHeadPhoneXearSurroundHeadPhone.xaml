@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_EnableXearSurroundEffect">Inschakelen Xear Surround</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSize">Kamergrootte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeS">Kleine ruimte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeM">Middelgrote ruimte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeL">Grote ruimte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeA">Galmvrije ruimte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelRequirement">Xear Surround Effect ondersteunt alleen stereo (2 kanalen). Druk op de knop hieronder om de kanaalinstelling aan te passen.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelsSetting">Kanalen instellen</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

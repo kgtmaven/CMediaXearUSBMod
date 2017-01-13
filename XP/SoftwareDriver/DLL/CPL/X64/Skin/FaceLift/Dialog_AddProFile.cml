@@ -1,0 +1,32 @@
+<Window WindowStartupLocation="CenterScreen" ShowInTaskbar="True"  WindowStyle="None" BorderThickness="0" Padding="0" ResizeMode="CanMinimize" Name="Dialog_AddProFile" 
+	Width="391" Height="199" Background.Image="DialogProfile/AddProfileWindow_bg.png"  AllowsTransparency="True" Opacity="0.99" Topmost="False" >
+    <Image Source="DialogProfile/TitleBar.png" Left="109.5" Top="0" Width="174" Height="23" Name="DialogProfileTitleBar"/>
+
+<!--
+		<Button Name="BtnWinClose" Cursor="Hand" Left="341" Top="0" Width="50" Height="26" Image.Normal="DialogProfile/Close.png"/>
+	-->
+		
+		<Button Name="AddProFileBtnYes" Left="195" Top="160" Width="80" Height="35" FontSize="10" Style="ClickButton" 
+										Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_PanelProfile_NewProfileWindowOK" Foreground="#FF787878" FontWeight="Bold"/>
+		
+		<Button Name="AddProFileBtnNo" Left="285" Top="160" Width="80" Height="35" FontSize="10" Style="ClickButton" 
+										Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_PanelProfile_NewProfileWindowCancel" Foreground="#FF787878" FontWeight="Bold"/>
+	
+
+	<TextBlock Name="PanelProfile_ProfileName" Width="170" Left="5" Top="60" Foreground="#FF666666" Style="ApoText" Text.HorizontalAlignment="Right" Text="ml_PanelProfile_ProfileName" >		
+	</TextBlock>
+	
+	
+	<TextBox Left="180" Top="55" Name="AddProfileName" FontSize="12"  FontWeight="Thin" Text.HorizontalAlignment="Left" Foreground="Black" Style="PanelProfileTextbox" >
+	</TextBox>	
+
+	<TextBlock Name="PanelProfile_ProfileDescription" Width="170" Left="5" Top="110" Foreground="#FF666666" Style="ApoText" Text.HorizontalAlignment="Right" Text="ml_PanelProfile_ProfileDescription" >		
+	</TextBlock>
+
+	<TextBox Left="180" Top="105" Name="AddProfileDescription" FontSize="12"  FontWeight="Thin" Text.HorizontalAlignment="Left" Foreground="Black" Style="PanelProfileTextbox" >
+	</TextBox>	
+
+		
+	<TextBlock Name="DialogAddProfileTitle" Text="ml_PanelProfile_NewProfileWindow_Title" Foreground="#FF666666" Style="ApoText" Text.HorizontalAlignment="Center" Text.VerticalAlignment="Top" Top="2" Left="139" Height="18.95" Width="115.233"/>
+	
+</Window>

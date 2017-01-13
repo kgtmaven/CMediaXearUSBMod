@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEM_Title">环境仿真音效</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_EnableEnvironmentEffects">启动环境仿真音效</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Environment">环境</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_RoomSize">房间大小</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SmallRoom">小房间</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_MediumRoom">中房间</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LargeRoom">大房间</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Default">预设</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Generic">一般环境</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_PaddedCell">吸音室</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Room">卧房</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Bathroom">浴室</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LivingRoom">客厅</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneRoom">石室</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Auditorium">观众席</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ConcertHall">音乐厅</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Cave">洞穴</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Arena">竞技场</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hangar">飞机棚</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_CarpetedHallway">地毯走廊</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hallway">走廊</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneCorridor">石头回廊</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Alley">胡同</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Forest">森林</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_City">城市</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Mountains">山中</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Quarry">采石场</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Plain">平原</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ParkingLot">停车场</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SewerPipe">下水道</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_UnderWater">水底</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Drugged">迷幻</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Dizzy">晕眩</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Psychotic">疯狂</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_KTV">KTV</sys:String>
+</ResourceDictionary>

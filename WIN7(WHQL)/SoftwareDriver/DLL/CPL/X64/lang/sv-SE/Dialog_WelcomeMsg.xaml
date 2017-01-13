@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Information</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Avsluta</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Val av ut-enhet</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Aktivera högtalaren genom att se till att högtalarikonen är markerad.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">Du kommer åt funktionsmenyn genom att högerklicka på enhetsikonen. Detta gör att du får de extra funktionerna samt ljudeffekterna.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">Visa inte det här meddelandet igen.</sys:String>
+</ResourceDictionary>

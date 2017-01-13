@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutSetting_Title">스피커 설정</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_LFECenterChannelSwap">가운데/저음 출력 바꾸기</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SideBackSurroundSwap">측면/후면 서라운드 출력 바꾸기</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SpeakerTest">스피커 테스트</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_2Channels">스테레오</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_4Channels">4채널 방식</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_5dot1Channels">5.1 서라운드</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_7dot1Channels">7.1 서라운드</sys:String>
+</ResourceDictionary>

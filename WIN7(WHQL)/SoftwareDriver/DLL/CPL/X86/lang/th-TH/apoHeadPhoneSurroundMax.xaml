@@ -1,0 +1,7 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSurroundMax_Title">Xear Surround Max</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSurroundMax_EnableSM">เปิดใช้งาน Xear Surround Max</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSurroundMax_ChannelRequirement">Xear Surround Max can only be enabled when Virtual Surround, Speaker Shifter or Real Multi-Channel Output setting is turned on.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSurroundMax_ChannelsSetting">การตั้งค่าช่อง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSurroundMax_XearSurroundEffect"> Xear Surround Effect</sys:String>
+</ResourceDictionary>

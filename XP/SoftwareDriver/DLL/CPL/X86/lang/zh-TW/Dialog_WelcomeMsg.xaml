@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">訊息</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">退出</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">選擇音效裝置</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">要啟動喇叭裝置，請確認已勾選喇叭裝置圖標。</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">以滑鼠右鍵點擊該設備圖標，可開啟功能選單。這將提供額外的功能和聲音特效。</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">下次不再顯示此訊息</sys:String>
+</ResourceDictionary>

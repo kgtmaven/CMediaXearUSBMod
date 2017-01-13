@@ -1,0 +1,31 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutVirtual_Title">7.1 Virtual Speaker Shifter</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_EnableVirtualSpeakerShifter">7.1 Virtual Speaker Shifter inschakelen</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Volume_SPDIFOUT">S/PDIF-Out</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Clockwise">Wijzerzin</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_CounterClockwise">Tegenwijzerzin</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_WiseArround">Handmatig draaien</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_ManualSetting">Handmatig verschuiven</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_SubdB">Niveau lager</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_AdddB">Niveau hoger</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Head">Hoofd</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Center">Centrum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_FrontLeft">Front Links</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_BackLeft">Links achter</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_SideLeft">Opzij</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_FrontRight">Rechts voor</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_BackRight">Terug Rechts</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_SideRight">Rechts</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Woofer">Woofer</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_L">L</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_R">R</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Reset">Reset</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_LS">LS</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_RS">RS</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Lb">Lb</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_Rb">Rb</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_C">C</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_W">W</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFOutVirtual_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

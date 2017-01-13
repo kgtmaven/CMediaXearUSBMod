@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEQ_Title">Эквалайзер</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_EnableEqualizer">Включить эквалайзер</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Prompt">*Введите название предустановки...*</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Invalid">Недопустимое имя файла (не должно содержать символы /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_SaveError">Ошибка сохранения пользовательского EQ</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_LoadError">Ошибка загрузки пользовательского EQ</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_DeleteError">Ошибка удаления пользовательского EQ</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_ContentSameAsPreset">Содержимое профиля идентично режиму предустановки</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Dance">Танец</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Bass">Басы</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Tremble">Дрожать</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Live">Вживую</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rock">Тяжелый рок</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_SoftRock">Рок</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Jazz">Джаз</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Metal">Металл</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rap">Рэп</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Classic">Классика</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Vocal">Опера</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Save">сохранить</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Delete">Удалить</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Default">По умолчанию</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Manual">Вручную</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_HasTheSameUserDefineName">Это имя эквалайзера уже существует. Заменить?</sys:String>
+</ResourceDictionary>

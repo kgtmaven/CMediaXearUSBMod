@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearVoiceClarity_Title">Xear Voice Clarity</sys:String>
+  <sys:String x:Key="ml_SpeakerXearVoiceClarity_Enable">Xear Voice Clarity 활성화</sys:String>
+  <sys:String x:Key="ml_SpeakerXearVoiceClarity_Level">Voice Clarity 레벨</sys:String>
+  <sys:String x:Key="ml_SpeakerXearVoiceClarity_Reset">재설정</sys:String>
+  <sys:String x:Key="ml_SpeakerXearVoiceClarity_Supp">Noise Suppression for communication</sys:String>
+</ResourceDictionary>

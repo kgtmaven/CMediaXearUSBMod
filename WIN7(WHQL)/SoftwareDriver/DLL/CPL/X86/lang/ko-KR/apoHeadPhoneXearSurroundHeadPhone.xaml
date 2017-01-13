@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_EnableXearSurroundEffect">활성화 Xear Surround</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSize">실내 크기</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeS">소형 실내</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeM">중형 실내</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeL">대형 실내</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeA">울림이 없는 실내</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelRequirement">Xear 서라운드 효과가 스테레오(2개의 채널)만 지원합니다. 아래 버튼을 눌러 채널 설정을 조정할 수 있습니다.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelsSetting">채널 설정</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

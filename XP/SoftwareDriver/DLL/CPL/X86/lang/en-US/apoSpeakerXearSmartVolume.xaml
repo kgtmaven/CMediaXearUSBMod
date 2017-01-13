@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSmartVolume_Title">Xear Smart Volume</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSmartVolume_Enable">Enable Xear Smart Volume</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSmartVolume_Level">Volume Level</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSmartVolume_Mode">Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSmartVolume_Music">Music(High Dynamic)</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSmartVolume_Speech">Speech(Low Dynamic)</sys:String>
+</ResourceDictionary>

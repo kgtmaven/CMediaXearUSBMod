@@ -1,0 +1,16 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerVol_Front">前置</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Rear">后置</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_CenLFE">中央/重低音</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Side">侧置</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_L">左</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_R">右</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Title">音量控制</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_VoldB_Range_Error">音量范围dB值介于 {0:F2} 到 {1:F2}之间</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Balance">锁定</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnBalance">解除锁定</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Mute">静音</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnMute">解除静音</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Master">主音量</sys:String>
+</ResourceDictionary>

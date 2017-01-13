@@ -1,0 +1,82 @@
+<Canvas Width="643" Height="455" Name="SpeakerXearSurroundHeadPhone">
+
+	<Canvas Width="643" Height="455" Name="MainContent">
+		<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerXearSurroundHeadPhone_Title"/>
+		<Canvas Width="643" Height="455" Name="GreyMainContent">
+      <CheckBox Left="56" Top="71" Name="BtnEnableXearSurroundHeadPhone" Style="EnableFeatureButton" IsChecked="True" ToolTip="ml_SpeakerXearSurroundHeadPhone_EnableXearSurroundEffect"/>
+  		<TextBlock Foreground="White" Left="80" Top="74" Height="30" Style="ApoText" Text="ml_SpeakerXearSurroundHeadPhone_EnableXearSurroundEffect" />
+  		<!--
+  		<RadioButton Left="67" Top="150" GroupName="SpeakersXearSurroundHeadPhoneEffect" Name="BtnEnableXearHP" Tag="1"  ToolTip="ml_SpeakerXearSurroundHeadPhone_Headphone}" IsChecked="True" Visibility="Hidden" Style="DefaultRadio"/>
+  		<TextBlock Foreground="White" Left="90" Top="150" Height="30" Width="326" FontSize="10" FontWeight="Bold" Text="ml_SpeakerXearSurroundHeadPhone_Headphone" Visibility="Hidden"/>
+  		-->
+      
+      <RadioButton Left="85" Top="120" GroupName="HPSPK_Mode" Name="BtnXearMusic" Tag="0" ToolTip="Music/Gaming mode" Style="DefaultRadio"/>
+  		<TextBlock Name="BtnXearMusic_Text" Foreground="White" Left="110" Top="118" Text="Music/Gaming mode" Style="ApoText"/>
+      
+      <RadioButton Left="85" Top="150" GroupName="HPSPK_Mode" Name="BtnXearMovie" Tag="1" ToolTip="Movie mode" Style="DefaultRadio"/>
+  		<TextBlock Name="BtnXearMovie_Text" Foreground="White" Left="110" Top="148" Text="Movie mode" Style="ApoText"/>
+     
+  		<!--
+  		<CheckBox Left="66" Top="153"  Name="ChannelCopy" ToolTip="ml_SpeakerXearSurroundHeadPhone_ChannelCopySF" Style="DefaultCheckbox" />
+  		<TextBlock Name="ChannelCopy_Text" Foreground="White" Left="89" Top="162" Style="ApoText" Text="ml_SpeakerXearSurroundHeadPhone_ChannelCopySF" />
+  	    	-->
+  		<!--<TextBlock Name="Headphone_Diagram" Source="XearSurroundEffect/Headphone_Diagram.png" Width="411" Height="206" Left="195" Top="81" />-->
+  
+  		<Image Name="Headphone_Diagram_On" Width="411" Height="206" Left="195" Top="81" Source="XearSurroundEffect/Headphone_Diagram_On.png" />
+  		<Image Name="Headphone_Diagram_Off" Width="411" Height="206" Left="195" Top="81" Source="XearSurroundEffect/Headphone_Diagram_Off.png" />
+  	
+  		<TextBlock Name="Headphone_Logo" Source="XearSurroundEffect/Logo_SurroundHeadphone.png" Left="534" Top="10" />
+  	
+  		<Canvas Name="SpeakerTestView" Width="400" Height="250" Left="216.5" Top="90">
+  				<RadioButton Style="DefaultRadio" Name="ImgLF" Width="46" Height="68" Cursor="Hand" GroupName="SpeakerTest" Tag="1" Left="103" Top="0"
+  				 Image.Uncheck.Normal="XearSurroundEffect/L_no.png" Image.Check.Normal="XearSurroundEffect/L_Glow.png" />
+  				
+  				<RadioButton Style="DefaultRadio" Name="ImgRF" Width="46" Height="68" Cursor="Hand" GroupName="SpeakerTest" Tag="2" Left="213" Top="0" 
+  				Image.Uncheck.Normal="XearSurroundEffect/R_no.png" Image.Check.Normal="XearSurroundEffect/R_Glow.png" />
+  				
+  				<RadioButton Style="DefaultRadio" Name="ImgCenter" Width="58" Height="39" Cursor="Hand" GroupName="SpeakerTest" Tag="4" Left="153" Top="-1" 
+  				Image.Uncheck.Normal="XearSurroundEffect/C_no.png" Image.Check.Normal="XearSurroundEffect/C_Glow.png" />
+  					
+  				<RadioButton Style="DefaultRadio" Name="ImgWoofer" Width="48" Height="42" Cursor="Hand" GroupName="SpeakerTest" Tag="8" Left="170" Top="25" 
+  				Image.Uncheck.Normal="XearSurroundEffect/Bass_no.png" Image.Check.Normal="XearSurroundEffect/Bass_Glow.png" />
+  				
+  				<RadioButton Style="DefaultRadio" Name="ImgLB" Width="50" Height="78" Cursor="Hand" GroupName="SpeakerTest" Tag="16" Left="86" Top="96"
+  				Image.Uncheck.Normal="XearSurroundEffect/LB_no.png" Image.Check.Normal="XearSurroundEffect/LB_Glow.png" />
+  				
+  				<RadioButton Style="DefaultRadio" Name="ImgRB" Width="50" Height="78" Cursor="Hand" GroupName="SpeakerTest" Tag="32" Left="226" Top="96"
+  				Image.Uncheck.Normal="XearSurroundEffect/RB_no.png" Image.Check.Normal="XearSurroundEffect/RB_Glow.png" />
+  
+  				<RadioButton Style="DefaultRadio" Name="ImgLS" Width="40" Height="72" Cursor="Hand" GroupName="SpeakerTest" Tag="512" Left="42" Top="72"
+  				Image.Uncheck.Normal="XearSurroundEffect/LS_no.png" Image.Check.Normal="XearSurroundEffect/LS_Glow.png" />
+  				
+  				<RadioButton Style="DefaultRadio" Name="ImgRS" Width="40" Height="72" Cursor="Hand" GroupName="SpeakerTest" Tag="1024" Left="280" Top="72"
+  				Image.Uncheck.Normal="XearSurroundEffect/RS_no.png" Image.Check.Normal="XearSurroundEffect/RS_Glow.png" />
+  		</Canvas>
+  	
+  		
+  		<CheckBox Name="BtnSpeakerTest" Width="65" Height="56" Cursor="Hand" Tag="1024" Left="365" Top="198" ToolTip="ml_SpeakerSetting_SpeakerTest" Opacity="0.5" Style="TestButton"/>	
+  		
+  		<RadioButton Style="DefaultRadio" Name="RoomSizeS" Left="114.263" Top="291" GroupName="SpeakersXearSurroundHeadPhoneRoomSize" Cursor="Hand" Width="106" Height="102" ToolTip="ml_SpeakerXearSurroundHeadPhone_RoomSizeS" Tag="2"
+  		Image.Uncheck.Normal="XearSurroundEffect/SmallRoom_no.png" Image.Uncheck.MouseOver="XearSurroundEffect/SmallRoom_mo.png" Image.Check.Normal="XearSurroundEffect/SmallRoom_se.png" />
+  		
+  		<RadioButton Style="DefaultRadio" Name="RoomSizeM" GroupName="SpeakersXearSurroundHeadPhoneRoomSize" Cursor="Hand" Left="245.333" Top="291" Width="106" Height="102" Tag="1" ToolTip="ml_SpeakerXearSurroundHeadPhone_RoomSizeM"
+  		Image.Uncheck.Normal="XearSurroundEffect/MediumRoom_no.png" Image.Uncheck.MouseOver="XearSurroundEffect/MediumRoom_mo.png" Image.Check.Normal="XearSurroundEffect/MediumRoom_se.png" />
+  		
+  		<RadioButton Style="DefaultRadio" Name="RoomSizeL" GroupName="SpeakersXearSurroundHeadPhoneRoomSize" Cursor="Hand" Left="380.263" Top="291" Width="106" Height="102" Tag="0" ToolTip="ml_SpeakerXearSurroundHeadPhone_RoomSizeL"
+  		Image.Uncheck.Normal="XearSurroundEffect/LargeRoom_no.png" Image.Uncheck.MouseOver="XearSurroundEffect/LargeRoom_mo.png" Image.Check.Normal="XearSurroundEffect/LargeRoom_se.png" />
+  		<!--
+  		<RadioButton Style="DefaultRadio" Name="RoomSizeA" GroupName="SpeakersXearSurroundHeadPhoneRoomSize" Cursor="Hand" Left="460.096" Top="41" Width="106" Height="102" Tag="3" ToolTip="ml_SpeakerXearSurroundHeadPhone_RoomSizeA" Visibility="Hidden"
+  		Image.Uncheck.Normal="XearSurroundEffect/AnechoicRoom_no.png" Image.Uncheck.MouseOver="XearSurroundEffect/AnechoicRoom_mo.png" Image.Check.Normal="XearSurroundEffect/AnechoicRoom_se.png" />
+  		-->
+  	
+  		<TextBlock Name="RoomTitle" Foreground="White" Left="40" Top="264" Height="20" Width="100" Style="ApoText" Text="ml_SpeakerXearSurroundHeadPhone_RoomSize" />
+  	</Canvas>
+  </Canvas>
+	
+  <Canvas Width="643" Height="455" Name="WarningContent" Visibility="Hidden">
+      <TextBlock Name="Warning_Icon" Left="45" Top="410" Source="XearSurroundEffect/InfoLogo.png" />
+      <TextBlock Width="550" Height="80"  Left="80" Top="385" Foreground="White" Text.HorizontalAlignment="Center" Style="ApoText" TextWrapping="Wrap"
+				Text="ml_SpeakerXearSurroundHeadPhone_ChannelRequirement"/>
+  </Canvas>
+
+</Canvas>

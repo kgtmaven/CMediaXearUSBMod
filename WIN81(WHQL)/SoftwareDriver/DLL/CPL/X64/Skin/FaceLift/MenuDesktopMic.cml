@@ -1,0 +1,12 @@
+<SkinMenu Name="DesktopMicMenu" Style="EffectMenu" Opacity="0.95">
+  <SkinMenuItem Name="DesktopMicVol" Style="EffectMenuItem" Content="ml_MicInVol_Title"/>
+  <SkinMenuItem Name="DesktopMicSamplingRate" Style="EffectMenuItem" Content="ml_MicInSamplingRate_Title"/>
+  <SkinMenuItem Name="DesktopMicKaraoke" Style="EffectMenuItem" Content="ml_MicInKaraoke_Title"/>
+  <SkinMenuItem Name="DesktopMicENC" Style="EffectMenuItem" Content="ml_MicInENC_Title"/>
+  <SkinMenuItem Name="DesktopMicAEC" Style="EffectMenuItem" Content="ml_MicInAEC_Title"/>
+  <SkinMenuItem Name="DesktopMicBeamForming" Style="EffectMenuItem" Content="ml_MicInBeamForming_Title"/>
+  <SkinMenuItem Name="DesktopMicXearMagicVoice" Style="EffectMenuItem" Content="ml_MicInXearMagicVoice_Title"/>
+  <SkinMenuItem Name="DesktopMicBoost" Style="EffectMenuItem" Content="ml_MicInBoost_Title"/>
+  <SkinMenuItem Name="DesktopMicAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+  <SkinMenuItem Name="DesktopMicNoiseReduction" Style="EffectMenuItem" Content="ml_MicInNoiseReduction_Title"/>
+</SkinMenu>

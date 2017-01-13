@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogAppSetting_Yes">Ja</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_No">Nr</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_AudioDeviceSelect">Val av ljudenhet :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_ASIODriverSelect">Välj ASIO Driver :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_LanguageSelect">Val av språk :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_SkinSelect">Välj Skal :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_UITransparent">UI-transparent :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_ShowSystemTrayIcon">Visa ikonen i systemfältet :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Title">Applikationsinställning</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_OK">OK</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Canel">Avbryt</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Apply">Tillämpa</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_DisableWelcomeMsg">Visa inte startmeddelandet :</sys:String>
+</ResourceDictionary>

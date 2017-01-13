@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogAppSetting_Yes">Ja</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_No">Geen</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_AudioDeviceSelect">Selecteer audio-apparaat :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_ASIODriverSelect">Selecteren ASIO driver :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_LanguageSelect">Taalkeuze :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_SkinSelect">Selecteren skin :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_UITransparent">UI Transparant :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_ShowSystemTrayIcon">Toon pictogram systeemvak :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Title">Instelling toepassing</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_OK">OK</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Canel">Annuleren</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Apply">Toepassen</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_DisableWelcomeMsg">Opstartbericht niet tonen :</sys:String>
+</ResourceDictionary>

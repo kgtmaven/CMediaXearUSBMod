@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_EnableXearSurroundEffect">Aktiver Xear Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSize">Rumstørrelse</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeS">Lille rum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeM">Mellemstort rum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeL">Stort rum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeA">Anekoisk rum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelRequirement">Xear Surround Effect understøtter kun Stereo (2 kanaler)</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelsSetting">Kanaler Indstilling</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

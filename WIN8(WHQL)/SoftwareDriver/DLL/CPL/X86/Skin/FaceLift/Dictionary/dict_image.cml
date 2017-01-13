@@ -1,0 +1,20 @@
+<Image.Dictionary>
+	
+		<!-- this Source value is for normal image -->
+		<Setter Property="Source" Value=""/>
+		
+		<!-- this Stretch value is for image stretch, optional: Fill (default), None, Uniform, UniformToFill -->
+		<Setter Property="Stretch" Value=""/>
+		
+	<Style Key="ImageForOffDiagram">
+		<Setter Property="Stretch" Value="Uniform"/>
+		<Setter Property="Visibility" Value="Visible"/>
+		<Setter Property="Opacity" Value="DisabledOpacity"/>
+	</Style>
+	
+	<Style Key="ImageForOnDiagram">
+		<Setter Property="Stretch" Value="Uniform"/>
+		<Setter Property="Visibility" Value="Visible"/>
+		<Setter Property="Opacity" Value="DisabledOpacity"/>
+	</Style>
+</Image.Dictionary>

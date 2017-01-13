@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">ข้อมูล</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">ออก</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">การเลือกอุปกรณ์เอาต์พุต</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">หากต้องการเปิดการทำงานของลำโพง โปรดตรวจสอบว่าให้แน่ใจว่าคุณได้ทำเครื่องหมายเลือกที่ไอคอนลำโพงแล้ว</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">ในการเข้าเมนูฟังก์ชัน โปรดคลิกขวาที่ไอคอนอุปกรณ์ ระบบจะแสดงคุณลักษณะและเอฟเฟกต์เสียงต่าง ๆ เพิ่มเติม</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">ไม่ต้องแสดงข้อความนี้อีก</sys:String>
+</ResourceDictionary>

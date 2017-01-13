@@ -1,0 +1,4 @@
+[SETUP]
+ATYPE=42
+INI_PATH=SoftwareDriver\InI
+SupportOS=WINXP

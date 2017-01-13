@@ -1,0 +1,7 @@
+<Window Name="SystemTrayLClickPanel" AutoHidden="True" CornerRadius="10" Topmost="True" Width="60" Height="200" Background.Image="Main/PopupMenu_bg.png" >
+	<Slider Name="SpeakerVol" Style="VSlider" Height="129" Left="18" Top="20" Minimum="0" Maximum="100" Tooltip.Show="True"/>
+	<CheckBox Name="SpeakerMute" Left="18" Top="166" Width="26" Height="20" 
+		Tooltip="ml_Main_Mute" Tooltip.Check="ml_Main_UnMute"
+		Image.Uncheck.Normal="Main/UnmuteBtn_no.png" Image.Uncheck.MouseOver="Main/UnmuteBtn_mo.png" 
+		Image.Check.Normal="Main/MuteBtn_no.png" Image.Check.MouseOver="Main/MuteBtn_mo.png" />
+</Window>

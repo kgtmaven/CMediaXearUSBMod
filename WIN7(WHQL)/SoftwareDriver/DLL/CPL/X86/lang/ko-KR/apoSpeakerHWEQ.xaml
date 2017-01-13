@@ -1,0 +1,5 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerHWEQ_Title">고음 / 저음</sys:String>
+  <sys:String x:Key="ml_SpeakerHWEQ_BassLevel">저음</sys:String>
+  <sys:String x:Key="ml_SpeakerHWEQ_TrebleLevel">고음</sys:String>
+</ResourceDictionary>

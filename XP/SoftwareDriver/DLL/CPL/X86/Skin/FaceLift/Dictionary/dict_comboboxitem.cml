@@ -1,0 +1,10 @@
+<ComboBoxItem.Dictionary>
+  
+	<!-- combobox item Name -->
+	<Setter Property="Name" Value=""/>
+  
+	<!-- combobox item text -->
+	<Setter Property="Content" Value=""/>
+  
+</ComboBoxItem.Dictionary>
+

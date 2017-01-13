@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurround_Title">Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_EnableXearSurroundEffect">Xear Surround Effect 有効にする</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSize">ルームサイズ</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeS">小部屋</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeM">中部屋</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeL">大部屋</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeA">音響室</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelRequirement">Xearサラウンド効果はステレオ(2チャンネル)にのみ対応します。以下のボタンを押してチャンネル設定を調整できます。</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelsSetting">チャンネル設定</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Sound_Field_Expansion">サウンドフィールド拡張</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Speaker_Angle">スピーカーの角度</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Narrow">狭い</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Wide">広い</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

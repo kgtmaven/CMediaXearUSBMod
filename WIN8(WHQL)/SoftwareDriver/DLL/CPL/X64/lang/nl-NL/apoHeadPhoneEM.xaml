@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEM_Title">Omgevingseffecten</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_EnableEnvironmentEffects">Omgevingseffecten inschakelen</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Environment">Omgeving</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_RoomSize">Kamergrootte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SmallRoom">Kleine ruimte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_MediumRoom">Middelgrote ruimte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LargeRoom">Grote ruimte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Default">Standaard</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Generic">Generiek</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_PaddedCell">Gewatteerde cel</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Room">Lokaal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Bathroom">Badkamer</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LivingRoom">Woonkamer</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneRoom">Stenen kamer</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ConcertHall">Concertzaal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Cave">Grot</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Arena">Arena</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hangar">Hangaar</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_CarpetedHallway">Gang met tapijt</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hallway">Portaal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneCorridor">Stenen gang</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Alley">Steeg</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Forest">Bos</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_City">Stad</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Mountains">Bergen</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Quarry">Steengroeve</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Plain">Vlakte</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ParkingLot">Parkeergarage</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SewerPipe">Rioolpijp</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_UnderWater">Onderwater</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Drugged">Onder invloed</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Dizzy">Duizelig</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Psychotic">Psychotisch</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

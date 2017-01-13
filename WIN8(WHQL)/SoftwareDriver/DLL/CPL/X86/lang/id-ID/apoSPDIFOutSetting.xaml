@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutSetting_Title">Setelan Speaker</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_LFECenterChannelSwap">Tukar output tengah/bas</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SideBackSurroundSwap">Tukar output surround samping/belakang</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SpeakerTest">Speaker Test</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_4Channels">Kuadrafonik</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_5dot1Channels">5.1 Surround</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_7dot1Channels">7.1 Surround</sys:String>
+</ResourceDictionary>

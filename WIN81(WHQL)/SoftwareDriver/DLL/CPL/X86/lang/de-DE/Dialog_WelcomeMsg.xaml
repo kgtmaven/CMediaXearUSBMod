@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Information</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Beenden</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Auswahl des Ausgabegerätes</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Zur Aktivierung der Lautsprecher bitte sicherstellen, dass das Lautsprecher-Symbol markiert ist.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">Zum Öffnen des Funktionsmenüs bitte mit der rechten Maustaste auf das Gerätesymbol klicken. Hier finden Sie weitere Funktionen und Toneffekte.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">Diese Meldung nicht wieder anzeigen.</sys:String>
+</ResourceDictionary>

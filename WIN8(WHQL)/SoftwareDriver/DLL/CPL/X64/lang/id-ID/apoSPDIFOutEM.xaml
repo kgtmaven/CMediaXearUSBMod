@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEM_Title">Efek lingkungan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_EnableEnvironmentEffects">Aktifkan Efek lingkungan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Environment">Lingkungan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_RoomSize">Ukuran Ruangan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SmallRoom">Ruangan Kecil</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_MediumRoom">Ruangan Sedang</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LargeRoom">Ruangan Besar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Default">Default</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Generic">Generik</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_PaddedCell">Ruangan berbantalan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Room">Kamar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Bathroom">Kamar mandi</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LivingRoom">Ruang tamu</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneRoom">Ruang batu</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ConcertHall">Ruang konser</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Cave">Gua</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Arena">Arena</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hangar">Hanggar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_CarpetedHallway">Teras berkarpet</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hallway">Teras</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneCorridor">Koridor batu</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Alley">Lorong</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Forest">Hutan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_City">Kota</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Mountains">Gunung</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Quarry">Lubang Sumur</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Plain">Biasa</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ParkingLot">Lapangan parkir</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SewerPipe">Pipa pancuran</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_UnderWater">Di bawah air</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Drugged">Drugged</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Dizzy">Berputar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Psychotic">Psikosis</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

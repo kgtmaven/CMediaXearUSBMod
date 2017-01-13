@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEQ_Title">Equalizer</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_EnableEqualizer">Aktifkan Equalizer</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Prompt">*Masukkan nama prasetel…*</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Invalid">Nama file tidak valid (tidak boleh mengandung karakter /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_SaveError">Penyimpanan EQ Buatan Pengguna Gagal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_LoadError">Pemuatan EQ Buatan Pengguna Gagal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_DeleteError">Penghapusan EQ Buatan Pengguna Gagal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_ContentSameAsPreset">Konten profil sama dengan mode prasetel</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Dance">Dansa</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Bass">Bas</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Tremble">Treble</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Live">Langsung</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_SoftRock">Rock-Lembut</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Classic">Klasik</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Vocal">Opera</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Save">Simpan</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Delete">Hapus</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Default">Default</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Manual">Manual</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_HasTheSameUserDefineName">Nama EQ sudah ada. Anda ingin menggantinya?</sys:String>
+</ResourceDictionary>

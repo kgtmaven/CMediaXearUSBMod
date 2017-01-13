@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">การตั้งค่าหูฟัง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">ทดสอบหูฟัง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">สเตอริโอ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">หูฟัง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">โปรดเลือกการปรับจูนเกนตามความต้านทานทางไฟกระแสสลับของหูฟังที่ตรงกัน</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">เกนปกติ (0 เดซิเบลสำหรับ &lt; 64 โอห์ม)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">เกนสูง (6dB เดซิเบลสำหรับ 64~150 โอห์ม)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">เกนสูงพิเศษ (12dB เดซิเบลสำหรับ 150~300 โอห์ม)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,61 @@
+<Canvas Width="643" Height="455" Name="MicInKaraoke" Stretch="Fill" StretchDirection="Both" MaxWidth="643" MaxHeight="455">
+
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35" Style="ApoTitle" Text="ml_MicInKaraoke_Title"/>
+	
+	<TextBlock Name="MagicVoice_Logo" Left="534" Top="10" Source="SingFX/Logo_MagicVoice.png" />
+	<TextBlock Name="MicEcho_Logo" Left="534" Top="10" Source="SingFX/Logo_SingFX.png" />
+
+	
+	<Canvas Width="643" Height="230" Top="100" Name="CanvasMicEcho">
+
+		<CheckBox Left="80" Top="3" Name="BtnEnableMircophoneEffects"  ToolTip="ml_MicInKaraoke_MicrophoneEcho" Style="EnableFeatureButton" />
+
+		<TextBlock Name="MicrophoneEcho" Foreground="White" Left="109" Top="5" Height="30"  Style="ApoText" Text="ml_MicInKaraoke_MicrophoneEcho" />
+
+	
+	<Slider  Orientation="Horizontal" Name="EchoLevel" Width="300.833" Left="123.167" Top="50" Maximum="12" Minimum="-12" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Style="NonFillSlider" Tooltip.Show="True"/>
+
+		<!-- 
+		<TextBlock Name="Tick" Height="12" Width="289" Left="125" Top="84" Source="SingFX/EchoSlider_Tick.png" />
+		-->
+		<Image Source="SingFX/Tick.png" Width="2" Height="12" Left="125" Top="84"/>
+
+		<Image Source="SingFX/Tick.png" Width="2" Height="9" Left="199" Top="85"/>
+
+		<Image Source="SingFX/Tick.png" Width="2" Height="12" Left="271" Top="85.75"/>
+
+		<Image Source="SingFX/Tick.png" Width="2" Height="9" Left="344" Top="85"/>
+
+		<Image Source="SingFX/Tick.png" Width="2" Height="12" Left="418" Top="84"/>
+
+		<TextBlock Name="Low" Foreground="White" Left="116" Top="100" Height="30" Width="68" Style="ApoText" Text="ml_MicInKaraoke_Low"  />
+
+		<TextBlock Name="Defaul" Foreground="White" Left="254" Top="100" Height="30" Width="68" Style="ApoText" Text="ml_MicInKaraoke_Default"  />
+
+		<TextBlock Name="High" Foreground="White" Left="408" Top="100" Height="30" Width="68" Style="ApoText" Text="ml_MicInKaraoke_High"  />
+
+		<Button Name="BtnMEReset" Left="450" Top="40"  Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerKaraoke_Reset" />		
+	</Canvas>
+
+	
+<Canvas Width="643" Height="250" Top="250" Name="CanvasMagicVoice">
+
+		<CheckBox Left="80" Top="3" Name="BtnEnableMagicVoice"  ToolTip="ml_MicInKaraoke_MagicVoice" Style="EnableFeatureButton" />
+
+		<TextBlock Name="MagicVoice" Foreground="White" Left="109" Height="30" Style="ApoText" Text="ml_MicInKaraoke_MagicVoice" Top="5" />
+
+
+		<RadioButton Name="BtnMonster" Cursor="Hand" GroupName="EMEffect" Tag="0" Width="67" Height="65" Left="120"  ToolTip="ml_MicInKaraoke_Monster" Top="67" Image.Uncheck.Normal="SingFX/Monster_No.png" Image.Uncheck.MouseOver="SingFX/Monster_Mo.png" Image.Check.Normal="SingFX/Monster_se.png" Image.Check.MouseOver="SingFX/Monster_se.png" />
+
+		<RadioButton Name="BtnCartoon" Cursor="Hand" GroupName="EMEffect" Tag="1" Width="67" Height="65" Left="220"  ToolTip="ml_MicInKaraoke_Cartoon" Top="67" Image.Uncheck.Normal="SingFX/Cartoon_No.png" Image.Uncheck.MouseOver="SingFX/Cartoon_Mo.png" Image.Check.Normal="SingFX/Cartoon_se.png" Image.Check.MouseOver="SingFX/Cartoon_se.png" />
+
+		<RadioButton Name="BtnMan" Cursor="Hand" GroupName="EMEffect" Tag="2" Width="67" Height="65" Left="320"  ToolTip="ml_MicInKaraoke_Man" Top="67" Image.Uncheck.Normal="SingFX/Man_No.png" Image.Uncheck.MouseOver="SingFX/Man_Mo.png" Image.Check.Normal="SingFX/Man_se.png" Image.Check.MouseOver="SingFX/Man_se.png" />
+
+		<RadioButton Name="BtnWoman" Cursor="Hand" GroupName="EMEffect" Tag="3" Width="67" Height="65" Left="420"  ToolTip="ml_MicInKaraoke_Woman" Top="67" Image.Uncheck.Normal="SingFX/Woman_No.png" Image.Uncheck.MouseOver="SingFX/Woman_Mo.png" Image.Check.Normal="SingFX/Woman_se.png" Image.Check.MouseOver="SingFX/Woman_se.png" />
+
+	</Canvas>
+
+
+</Canvas>
+

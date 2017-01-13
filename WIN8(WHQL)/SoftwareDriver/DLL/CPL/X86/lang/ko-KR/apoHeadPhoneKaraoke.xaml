@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Title">Xear SingFX</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_EnableKeyShifting">키 이동 활성화</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_EnableVocalFading">음성 페이딩 활성화</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Low">피치 내리기</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_High">피치 올리기</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Voice">음성</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_NoVoice">음성 없음</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Reset">재설정</sys:String>
+</ResourceDictionary>

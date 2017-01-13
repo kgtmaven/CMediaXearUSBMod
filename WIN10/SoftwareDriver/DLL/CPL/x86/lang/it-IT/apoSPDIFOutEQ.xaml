@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEQ_Title">Equalizzatore</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_EnableEqualizer">Abilita equalizzatore</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Prompt">*Inserire nome preimpostato...*</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Invalid">Nome file non valido (impossibile includere i caratteri /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_SaveError">Salvataggio EQ definite dall'utente non riuscito</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_LoadError">Caricamento EQ definite dall'utente non riuscito</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_DeleteError">Eliminazione EQ definite dall'utente non riuscito</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_ContentSameAsPreset">Il contenuto del profilo è identico alla modalità predefinita</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Dance">Dance</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Bass">Basso</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Tremble">Alti</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Live">Dal vivo</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_SoftRock">SoftRock</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Classic">Classica</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Vocal">Opera</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Save">Salva</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Delete">Elimina</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Default">Predefinito</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Manual">Manuale</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_HasTheSameUserDefineName">Nome EQ già presente. Sostituirlo?</sys:String>
+</ResourceDictionary>

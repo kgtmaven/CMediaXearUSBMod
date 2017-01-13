@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInXearMagicVoice_Title">Xear Magic Voice</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_EnableMicrophoneEffects">Mikrofon Efektlerini Etkinleştir</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_MicrophoneEcho">Mikrofon Ekosu</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_MagicVoice">Sihirli Ses</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Low">Düşük</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Default">Varsayılan</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_High">Yüksek</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Cartoon">Çizgi Film</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Monster">Canavar</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Man">Erkek</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Woman">Kadın</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_EnableDolbyPrologicIIx">啟動 Dolby Pro logic IIx</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Panorama">Panorama</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MusicMode">音樂模式</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MovieMode">電影模式</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Reset">重置</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Title">Dolby Pro logic IIx</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelRequirement">Dolby PLIIx 只支持喇叭組態為立體聲(2聲道)以上的組態,如(四聲道/ 5.1 環場音效/ 7.1 環場音效), 請按下方按鈕至喇叭設定頁面調整聲道設定</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelsSetting">頻道設定</sys:String>
+</ResourceDictionary>

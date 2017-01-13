@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEQ_Title">Equalizer</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_EnableEqualizer">Enable Equalizer</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Prompt">*Please input preset name...*</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Invalid">File name invalid(can't include /\:*?\"&lt;&gt;| character)</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_SaveError">Save EQ User-Defined Fail</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_LoadError">Load EQ User-Defined Fail</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_DeleteError">Delete EQ User-Defined Fail</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_ContentSameAsPreset">the content of profile is the same as preset mode</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Dance">Dance</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Bass">Bass</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Tremble">Treble</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Live">Live</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_SoftRock">SoftRock</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Classic">Classic</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Vocal">Opera</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Save">Save</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Delete">Delete</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Default">Default</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Manual">Manual</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_HasTheSameUserDefineName">The EQ already exists. Do you want to replace it?</sys:String>
+</ResourceDictionary>

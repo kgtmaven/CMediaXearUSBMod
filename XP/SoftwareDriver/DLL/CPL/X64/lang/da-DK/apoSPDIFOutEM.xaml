@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEM_Title">Miljøreffekter</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_EnableEnvironmentEffects">Aktiver miljøeffekter</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Environment">Miljø</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_RoomSize">Rumstørrelse</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SmallRoom">Lille rum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_MediumRoom">Mellemstort rum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LargeRoom">Stort rum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Default">Standard</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Generic">Generisk</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_PaddedCell">Udfyldt celle</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Room">Værelse</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Bathroom">Badeværelse</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LivingRoom">Dagligstue</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneRoom">Stenværelse</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ConcertHall">Koncertsal</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Cave">Hule</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Arena">Arena</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hangar">Hangar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_CarpetedHallway">Tæppebelagt indgang</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hallway">Indgang</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneCorridor">Stenkorridor</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Alley">Gyde</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Forest">Skov</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_City">By</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Mountains">Bjerge</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Quarry">Stenbrud</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Plain">Slette</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ParkingLot">Parkeringsplads</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SewerPipe">Kloakrør</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_UnderWater">Under vand</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Drugged">Under indflydelse</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Dizzy">Svimmel</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Psychotic">Psykotisk</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

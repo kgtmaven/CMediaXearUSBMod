@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Auricular Ajuste</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Auricular Test</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Estéreo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Auricular</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Seleccione el ajuste de ganancia según su supuesto de uso o la impedancia coincidente del auricular.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Ganancia normal (0 dB para &lt;64 ohmios)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">Ganancia alta (6 dB para 64~150 ohmios)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Ganancia extra alta (12 dB para 150~300 ohmios)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

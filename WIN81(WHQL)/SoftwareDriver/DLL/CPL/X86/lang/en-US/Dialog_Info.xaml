@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogInfo_DetailInformation">Detail Information</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_Name">Name</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_Version">Version</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_ModifiedDate">Modified Date</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailWindow_Title">Detail Information</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Title">Information</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Exit">Exit</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Detail">Detail</sys:String>
+  <sys:String x:Key="ml_DialogInfo_AudioCodec">Audio CODEC :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_AudioDriverVersion">Audio Driver Version :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DirectXVersion">DirectX Version :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_FirmwareVersion">Firmware Version :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_CPLVersion">CPL Version :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_ASIOTech">ASIO Technology by Steinberg Media Technologies GmbH.</sys:String>
+  <sys:String x:Key="ml_DialogInfo_ASIOInterface">ASIO Interface Technology by Steinberg Media Technologies GmbH.</sys:String>
+  <sys:String x:Key="ml_DialogInfo_LegalWindow_Title">Legal Information</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Legal">Legal</sys:String>
+</ResourceDictionary>

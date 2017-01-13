@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <!--<sys:String x:Key="ml_SPDIFOutVolume_SPDIFOUT">S/PDIF-Out</sys:String>-->
+  <sys:String x:Key="ml_StereoMixVol_StereoMixVol">Stereo Mix</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_L">L</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_R">R</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_Title">Volume principale</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_VoldB_Range_Error">Il volume in dB è tra {0:F2} e {1:F2}.</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_Balance">Blocca</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_UnBalance">Sblocca</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_Mute">Disattiva audio</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_UnMute">Attiva sonoro</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Informazioni</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Esci</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Selezione dispositivo in uscita</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Per attivare il microfono, verificare che l’icona del microfono sia stata selezionata</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">Per accedere al menu delle funzioni, fare clic con il tasto destro del mouse sull'icona del dispositivo. In tal modo, verranno forniti ulteriori funzioni ed effetti audio.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">Non mostrare di nuovo questo messaggio.</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,14 @@
+<SkinMenu Name="SPDIFOutMenu" Style="EffectMenu" Opacity="0.95">
+  <SkinMenuItem Name="SPDIFOutVol" Style="EffectMenuItem" Content="ml_SPDIFOutVol_Title"/>
+  <SkinMenuItem Name="SPDIFOutSetting" Style="EffectMenuItem" Content="ml_SPDIFOutSetting_Title"/>
+  <SkinMenuItem Name="SPDIFOutSamplingRate" Style="EffectMenuItem" Content="ml_SPDIFOutSamplingRate_Title"/>
+  <SkinMenuItem Name="SPDIFOutEQ" Style="EffectMenuItem"	Content="ml_SPDIFOutEQ_Title"/>
+  <SkinMenuItem Name="SPDIFOutEM" Style="EffectMenuItem" Content="ml_SPDIFOutEM_Title"/>
+  <SkinMenuItem Name="SPDIFOutVirtual" Style="EffectMenuItem" Content="ml_SPDIFOutVirtual_Title"/>
+  <SkinMenuItem Name="SPDIFOutKaraoke" Style="EffectMenuItem" Content="ml_SPDIFOutKaraoke_Title"/>
+  <SkinMenuItem Name="SPDIFOutXearAudioBrilliant" Style="EffectMenuItem" Content="Xear Audio Brilliant" />
+  <SkinMenuItem Name="SPDIFOutXearDynamicBass" Style="EffectMenuItem" Content="Xear Dynamic Bass" />
+  <SkinMenuItem Name="SPDIFOutXearSmartVolume" Style="EffectMenuItem" Content="Xear Smart Volume" />
+  <SkinMenuItem Name="SPDIFOutXearVoiceClarity" Style="EffectMenuItem" Content="Xear Voice Clarity" />
+  <SkinMenuItem Name="SPDIFOutAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+</SkinMenu>

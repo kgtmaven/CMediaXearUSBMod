@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Title">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_EnableXearSurroundEffect">Aktiver Xear Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelRequirement">Xear Surround Effect understøtter kun Stereo (2 kanaler)</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelsSetting">Kanaler Indstilling</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Sound_Field_Expansion">Udvidelse af lydfeltet</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speaker_Angle">Højttalervinkel</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Narrow">Smal</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Wide">Bred</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

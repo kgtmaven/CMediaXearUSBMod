@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInVol_MicInVol">マイクロホン</sys:String>
+  <sys:String x:Key="ml_MicInVol_L">L</sys:String>
+  <sys:String x:Key="ml_MicInVol_R">R</sys:String>
+  <sys:String x:Key="ml_MicInVol_Title">音量コントロール</sys:String>
+  <sys:String x:Key="ml_MicInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_MicInVol_VoldB_Range_Error">dB の音量範囲は{0:F2}から{1:F2}です。</sys:String>
+  <sys:String x:Key="ml_MicInVol_Balance">ロック</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnBalance">ロック解除</sys:String>
+  <sys:String x:Key="ml_MicInVol_Mute">消音</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnMute">消音解除</sys:String>
+  <sys:String x:Key="ml_MicInVol_MonitorVol">モニター</sys:String>
+  <sys:String x:Key="ml_MicInVol_ListenToThisDeviceOnDefaultRender">デフォルトの出力デバイスからこのデバイスを聴く</sys:String>
+</ResourceDictionary>

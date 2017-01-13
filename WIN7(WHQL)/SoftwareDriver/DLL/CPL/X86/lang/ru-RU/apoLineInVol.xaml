@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_LineInVol_LineInVol">Громкость записи микрофона</sys:String>
+  <sys:String x:Key="ml_LineInVol_L">L</sys:String>
+  <sys:String x:Key="ml_LineInVol_R">R</sys:String>
+  <sys:String x:Key="ml_LineInVol_Title">Регулировка громкости</sys:String>
+  <sys:String x:Key="ml_LineInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_LineInVol_VoldB_Range_Error">Громкость в дБ находится в пределах от {0:F2} до {1:F2}</sys:String>
+  <sys:String x:Key="ml_LineInVol_Balance"> Блокировка</sys:String>
+  <sys:String x:Key="ml_LineInVol_UnBalance">отпереть</sys:String>
+  <sys:String x:Key="ml_LineInVol_Mute">Выкл Звук</sys:String>
+  <sys:String x:Key="ml_LineInVol_UnMute">включить звук</sys:String>
+  <sys:String x:Key="ml_LineInVol_MonitorVol">Контролировать громкость</sys:String>
+  <sys:String x:Key="ml_LineInVol_ListenToThisDeviceOnDefaultRender">Выводить звук этого устройства с устройства вывода, заданного по умолчанию</sys:String>
+</ResourceDictionary>

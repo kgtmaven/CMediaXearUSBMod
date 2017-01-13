@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Title">Xear Surround Effekt</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_EnableXearSurroundEffect">Xear Surround Effekt aktivieren</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSize">Raumgröße</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeS">Kleiner Raum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeM">Mittelgroßr Raum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeL">Großer Raum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeA">Reflexionsarmer Raum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelRequirement">Xear Surround Effekt unterstutzt nur Stereo (2 Kanale)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelsSetting">Kanale einstellen</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Sound_Field_Expansion">Sound Field Erweiterung</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Speaker_Angle">Lautsprecherwinkel</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Narrow">Eng</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Wide">Weit</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

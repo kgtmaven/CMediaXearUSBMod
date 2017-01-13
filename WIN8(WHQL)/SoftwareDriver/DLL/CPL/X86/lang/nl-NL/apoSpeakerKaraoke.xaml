@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerKaraoke_Title">Xear SingFX</sys:String>
+  <sys:String x:Key="ml_SpeakerKaraoke_EnableKeyShifting">Nootverschuiving inschakelen</sys:String>
+  <sys:String x:Key="ml_SpeakerKaraoke_EnableVocalFading">Stemvervaging inschakelen</sys:String>
+  <sys:String x:Key="ml_SpeakerKaraoke_Low">Trager</sys:String>
+  <sys:String x:Key="ml_SpeakerKaraoke_High">Sneller</sys:String>
+  <sys:String x:Key="ml_SpeakerKaraoke_Voice">Stem</sys:String>
+  <sys:String x:Key="ml_SpeakerKaraoke_NoVoice">Geen stem</sys:String>
+  <sys:String x:Key="ml_SpeakerKaraoke_Reset">Reset</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,5 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyPCEE4_Title">Dolby PCEEv4</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPCEE4_LaunchDolbyUI">Интерфейс</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPCEE4_LaunchDolbyUIDescription">Запустить интерфейс пользователя Dolby, чтобы задать необходимые параметры</sys:String>
+</ResourceDictionary>

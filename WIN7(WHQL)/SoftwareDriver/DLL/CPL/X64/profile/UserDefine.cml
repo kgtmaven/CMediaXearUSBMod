@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+		<RadioButton Name="UserDefine" GroupName="ProFileMenu" Left="905" Top="0" Width="42" Height="41" Cursor="Arrow" Image.Uncheck.Normal="PanelProfile/Manual_no.png" Image.Check.Normal="PanelProfile/Manual_se.png"  Image.Check.MouseOver="PanelProfile/Manual_se.png" Image.Uncheck.MouseOver="PanelProfile/Manual_mo.png" Tooltip="ml_PanelProfile_Manual" Tooltip.Check="ml_PanelProfile_Manual" />
+

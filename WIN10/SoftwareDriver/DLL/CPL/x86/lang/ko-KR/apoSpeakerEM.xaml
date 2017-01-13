@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEM_Title">환경 효과</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_EnableEnvironmentEffects">환경 효과 활성화</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Environment">환경</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_RoomSize">실내 크기</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SmallRoom">소형 실내</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_MediumRoom">중형 실내</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LargeRoom">대형 실내</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Default">기본값</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Generic">일반</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_PaddedCell">쿠션을 댄 방</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Room">방</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Bathroom">욕실</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LivingRoom">거실</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneRoom">스톤 룸</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Auditorium">공개 대화</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ConcertHall">콘서트 홀</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Cave">동굴</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Arena">전투장</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hangar">격납고</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_CarpetedHallway">양탄자가 깔린 복도</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hallway">복도</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneCorridor">돌 복도</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Alley">뒷골목</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Forest">숲</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_City">도시</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Mountains">산</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Quarry">채석장</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Plain">평야</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ParkingLot">주차장</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SewerPipe">하수관</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_UnderWater">물 속</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Drugged">취한 상태</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Dizzy">현기증</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Psychotic">사이코틱</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_KTV">노래방</sys:String>
+</ResourceDictionary>

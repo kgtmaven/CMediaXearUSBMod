@@ -1,0 +1,8 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Информация</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Выход</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Выбор устройства вывода</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Отметка рядом со значком динамика означает, что устройство готово к работе</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">Нажмите правой клавишей мыши на значок динамика, чтобы открыть список функций</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">Больше не показывать это сообщение</sys:String>
+</ResourceDictionary>

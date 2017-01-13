@@ -1,0 +1,11 @@
+<Canvas Width="643" Height="455" Name="MicInBeamForming">
+	<TextBlock Name="BF_Logo" Left="534" Top="10" Source="BeamForming/Logo_VoClearBF.png" />
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_MicInBeamForming_Title"/>
+	<TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_MicInBeamForming_EnableBeamForming" />
+
+	<CheckBox Left="56" Top="71"  Name="BtnEnableBeamForming" Style="EnableFeatureButton" ToolTip="ml_MicInBeamForming_EnableBeamForming"/>
+	
+	<Image Name="Diagram_BEAMOff" Width="329" Height="255" Left="150.333" Top="127.666" Tag="BtnEnableBeamForming" Source="BeamForming/Diagram_BFOff.png" />
+
+	<Image Name="Diagram_BEAMOn" Width="329" Height="255" Left="150.333" Top="127.666" Tag="BtnEnableBeamForming" Source="BeamForming/Diagram_BFOn.png" />
+</Canvas>

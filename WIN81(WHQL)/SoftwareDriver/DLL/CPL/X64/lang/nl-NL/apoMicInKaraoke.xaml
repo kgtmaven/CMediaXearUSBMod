@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInKaraoke_Title">Xear SingFX</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_EnableMicrophoneEffects">Microfooneffecten inschakelen</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_MicrophoneEcho">Microfoonecho</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_MagicVoice">Magische stem</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Low">Lage</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Default">Standaard</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_High">Hoge</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Cartoon">Cartoon</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Monster">Monster</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Man">Man</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Woman">Vrouw</sys:String>
+</ResourceDictionary>

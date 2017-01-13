@@ -1,0 +1,29 @@
+<ResourceDictionary 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="ml_EQ">이퀄라이저</sys:String>
+	<sys:String x:Key="ml_EM">환경 효과</sys:String>
+	<sys:String x:Key="ml_VSS">7.1 Virtual Speaker Shifter</sys:String>
+	<sys:String x:Key="ml_FB">플렉스 저음 II</sys:String>
+	<sys:String x:Key="ml_KS">키 이동</sys:String>
+	<sys:String x:Key="ml_VF">음성 페이딩</sys:String>
+	<sys:String x:Key="ml_XS">Xear Surround Effect</sys:String>
+	<sys:String x:Key="ml_SF">Xear SingFX</sys:String>
+	<sys:String x:Key="ml_ENC">환경 잡음 억제</sys:String>
+	<sys:String x:Key="ml_AEC">음향 에코 취소</sys:String>
+	<sys:String x:Key="ml_BF">빔 형성</sys:String>
+	<sys:String x:Key="ml_DS">Dolby Surround 효과</sys:String>
+	<sys:String x:Key="ml_PLIIx">Dolby Pro logic IIx</sys:String>
+	<sys:String x:Key="ml_DL">Dolby Digital Live</sys:String>
+	<sys:String x:Key="ml_SS">DTS Surround Sensation</sys:String>
+	<sys:String x:Key="ml_NeoPC">DTS NEO:PC</sys:String>
+	<sys:String x:Key="ml_Interactive">DTS Interactive</sys:String>
+	<sys:String x:Key="ml_XSH">Xear Surround HeadPhone</sys:String>
+	<sys:String x:Key="ml_AB">Xear Audio Brilliant</sys:String>
+	<sys:String x:Key="ml_DB">Xear Dynamic Bass</sys:String>
+	<sys:String x:Key="ml_SVN">Xear Smart Volume</sys:String>
+	<sys:String x:Key="ml_VC">Xear Voice Clarity</sys:String>
+	<sys:String x:Key="ml_NR">Noise Reduction</sys:String>
+	<sys:String x:Key="ml_SMX">Xear Surround Max</sys:String>
+</ResourceDictionary>

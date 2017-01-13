@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInKaraoke_Title">Xear SingFX</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_EnableMicrophoneEffects">Aktifkan Efek Mikrofon</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_MicrophoneEcho">Gema Mikrofon</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_MagicVoice">Suara Magis</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Low">Rendah</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Default">Default</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_High">Tinggi</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Cartoon">Kartun</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Monster">Monster</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Man">Pria</sys:String>
+  <sys:String x:Key="ml_MicInKaraoke_Woman">Wanita</sys:String>
+</ResourceDictionary>

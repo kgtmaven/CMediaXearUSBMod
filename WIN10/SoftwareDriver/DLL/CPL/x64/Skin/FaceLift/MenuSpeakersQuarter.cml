@@ -1,0 +1,24 @@
+<SkinMenu Name="SpeakerQuarterMenu" Style="EffectMenu" Opacity="0.95" >
+  <SkinMenuItem Name="SpeakerQuarterVol" Style="EffectMenuItem" Content="ml_SpeakerVol_Title" />
+  <SkinMenuItem Name="SpeakerQuarterSetting" Style="EffectMenuItem" Content="ml_SpeakerSetting_Title" />
+  <SkinMenuItem Name="SpeakerQuarterSamplingRate" Style="EffectMenuItem" Content="ml_SpeakerSamplingRate_Title" />
+  <SkinMenuItem Name="SpeakerQuarterEQ" Style="EffectMenuItem"	Content="ml_SpeakerEQ_Title" />
+  <SkinMenuItem Name="SpeakerQuarterEM" Style="EffectMenuItem" Content="ml_SpeakerEM_Title" />
+  <SkinMenuItem Name="SpeakerQuarterVirtual" Style="EffectMenuItem" Content="ml_SpeakerVirtual_Title" />
+  <SkinMenuItem Name="SpeakerQuarterFlexBass" Style="EffectMenuItem" Content="ml_SpeakerFlexBass_Title" />
+  <SkinMenuItem Name="SpeakerQuarterKaraoke" Style="EffectMenuItem" Content="ml_SpeakerKaraoke_Title" />
+  <SkinMenuItem Name="SpeakerQuarterHWEQ" Style="EffectMenuItem" Content="ml_SpeakerHWEQ_Title" />
+  <SkinMenuItem Name="SpeakerQuarterXearSurroundHeadPhone" Style="EffectMenuItem" Content="ml_SpeakerXearSurroundHeadPhone_Title" />
+  <SkinMenuItem Name="SpeakerQuarterXearSurroundSpeakers" Style="EffectMenuItem" Content="ml_SpeakerXearSurroundSpeakers_Title" />
+  <SkinMenuItem Name="SpeakerQuarterDTSSS" Style="EffectMenuItem" Content="ml_SpeakerDTSSS_Title" Normal.Image.Content="Resources/Res_DTS_Menu_Logo.png" />
+  <SkinMenuItem Name="SpeakerQuarterDTSNeoPC" Style="EffectMenuItem" Content="ml_SpeakerDTSNeoPC_Title" Normal.Image.Content="Resources/Res_DTS_Menu_Logo.png" />
+  <SkinMenuItem Name="SpeakerQuarterDolbyHPVS" Style="EffectMenuItem" Content="ml_SpeakerDolbyHPVS_Title" Normal.Image.Content="Resources/Res_Dolby_Menu_Logo.png" />
+  <SkinMenuItem Name="SpeakerQuarterDolbyHPV2" Style="EffectMenuItem" Content="ml_SpeakerDolbyHPVS_Title" Normal.Image.Content="Resources/Res_Dolby_Menu_Logo.png" />
+  <SkinMenuItem Name="SpeakerQuarterDolbyPLIIx" Style="EffectMenuItem" Content="ml_SpeakerDolbyPLIIx_Title" Normal.Image.Content="Resources/Res_Dolby_Menu_Logo.png" />
+  <SkinMenuItem Name="SpeakerQuarterXearAudioBrilliant" Style="EffectMenuItem" Content="Xear Audio Brilliant" />
+  <SkinMenuItem Name="SpeakerQuarterXearDynamicBass" Style="EffectMenuItem" Content="Xear Dynamic Bass" />
+  <SkinMenuItem Name="SpeakerQuarterXearSmartVolume" Style="EffectMenuItem" Content="Xear Smart Volume" />
+  <SkinMenuItem Name="SpeakerQuarterXearVoiceClarity" Style="EffectMenuItem" Content="Xear Voice Clarity" />
+  <SkinMenuItem Name="SpeakerQuarterAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+  <SkinMenuItem Name="SpeakerQuarterSurroundMax" Style="EffectMenuItem" Content="ml_SpeakerSurroundMax_Title"/>
+</SkinMenu>

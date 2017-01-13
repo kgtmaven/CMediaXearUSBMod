@@ -1,0 +1,31 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerVirtual_Title">7.1 Virtual Speaker Shifter</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_EnableVirtualSpeakerShifter">Aktiver 7.1 Virtual Speaker Shifter</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Volume_SPDIFOUT">S/PDIF-ud</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Clockwise">Med uret</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_CounterClockwise">Mod uret</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_WiseArround">Manuel rotation</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_ManualSetting">Manuelt skifte</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_SubdB">Niveau ned</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_AdddB">Niveau op</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Head">Head</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Center">Center</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_FrontLeft">Front Venstre</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_BackLeft">Tilbage Venstre</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_SideLeft">Side Venstre</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_FrontRight">Forreste højre</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_BackRight">Tilbage Højre</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_SideRight">Side Højre</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Woofer">Basenhed</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_L">L</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_R">R</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Reset">Nulstil</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_LS">LS</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_RS">RS</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Lb">Lb</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_Rb">Rb</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_C">C</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_W">W</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerVirtual_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

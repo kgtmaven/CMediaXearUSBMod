@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEQ_Title">Equalizer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_EnableEqualizer">Equalizer inschakelen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Prompt">*Geef een naam op voor de preset…*</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Invalid">Bestandsnaam ongeldig (mag teken /\:*?\"&lt;&gt;| niet bevatten)</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_SaveError">Opslaan gebruikers-EQ mislukt</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_LoadError">Laden gebruikers-EQ mislukt</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_DeleteError">Verwijderen gebruikers-EQ mislukt</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_ContentSameAsPreset">De inhoud van het profiel is dezelfde als de preset modus</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Dance">Dance</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Bass">Lage tonen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Tremble">Hoge tonen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Live">Live</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_SoftRock">SoftRock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Classic">Klassiek</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Vocal">Opera</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Save">Opslaan</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Delete">Verwijderen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Default">Standaard</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Manual">Handleiding</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_HasTheSameUserDefineName">Een EQ met deze naam bestaat reeds. Wilt u het vervangen?</sys:String>
+</ResourceDictionary>

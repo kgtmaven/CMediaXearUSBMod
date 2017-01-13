@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_LineInVol_LineInVol">Line In</sys:String>
+  <sys:String x:Key="ml_LineInVol_L">L</sys:String>
+  <sys:String x:Key="ml_LineInVol_R">R</sys:String>
+  <sys:String x:Key="ml_LineInVol_Title">Volymkontroll</sys:String>
+  <sys:String x:Key="ml_LineInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_LineInVol_VoldB_Range_Error">Området för volym i dB är mellan {0:F2} och {1:F2}.</sys:String>
+  <sys:String x:Key="ml_LineInVol_Balance">Låsa</sys:String>
+  <sys:String x:Key="ml_LineInVol_UnBalance">Låsa upp</sys:String>
+  <sys:String x:Key="ml_LineInVol_Mute">Ljud av</sys:String>
+  <sys:String x:Key="ml_LineInVol_UnMute">Ljud på</sys:String>
+  <sys:String x:Key="ml_LineInVol_MonitorVol">Monitor</sys:String>
+  <sys:String x:Key="ml_LineInVol_ListenToThisDeviceOnDefaultRender">Lyssna på den här enheten från standard-ut-enheten</sys:String>
+</ResourceDictionary>

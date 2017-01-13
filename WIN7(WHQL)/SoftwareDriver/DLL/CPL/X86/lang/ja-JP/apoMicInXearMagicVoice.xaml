@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInXearMagicVoice_Title">Xear Magic Voice</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_EnableMicrophoneEffects">マイクエフェクトを有効にする</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_MicrophoneEcho">マイクエコー</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_MagicVoice">マジックボイス</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Low">低</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Default">デフォルト</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_High">高</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Cartoon">マンガ</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Monster">モンスター</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Man">男性</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Woman">女性</sys:String>
+</ResourceDictionary>

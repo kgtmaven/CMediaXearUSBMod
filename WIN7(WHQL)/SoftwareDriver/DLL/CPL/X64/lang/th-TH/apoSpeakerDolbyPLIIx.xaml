@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_EnableDolbyPrologicIIx">เปิดใช้งาน Dolby Pro logic IIx</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Panorama">Panorama</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MusicMode">โหมดเพลง</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MovieMode">โหมดภาพยนตร์</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Reset">รีเซ็ต</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Title">Dolby Pro logic IIx</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelRequirement">Dolby PLIIx รองรับการตั้งค่าลำโพงแบบสี่ช่องสัญญาณ, ระบบเสียงรอบทิศทางรูปแบบ 5.1 </sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelsSetting">การตั้งค่าช่อง</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,72 @@
+<!--
+<Canvas Width="643" Height="455" Name="SpeakerVolume" Stretch="Fill" StretchDirection="Both" MaxWidth="643" MaxHeight="455">
+-->
+<Canvas Width="643" Height="455" Name="SpeakerVol" Stretch="Fill" StretchDirection="Both" MaxWidth="643" MaxHeight="455">
+
+	<TextBlock Left="30" Top="23" Height="35" Style="ApoTitle" Text="ml_SpeakerVol_Title"/>	
+	
+	<Canvas Top="100" Name="FrontChannels" Text.HorizontalAlignment="Center" Width="250" Height="290">	
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="49" Top="40" Width="32" Maximum="100" Name="MasterVol" Minimum="0" SmallChange="0" Style="VSlider" Tooltip.Show="True"/>
+		<TextBlock Foreground="White" Left="5" Top="10" Height="26" Width="120" FontWeight="Bold" FontSize="10" Text="ml_SpeakerVol_Master" />
+		<TextBlock Foreground="White" Left="84" Top="264" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_dB"/>
+		
+		<TextBox Left="40" Top="260" Name="MasterdB" Style="DBTextBox" FontSize="8"/>
+		<CheckBox Left="50" Top="235" Name="BtnMute" Style="MuteButton" Tooltip="ml_SpeakerVol_Mute" Tooltip.Check="ml_SpeakerVol_UnMute"/>
+		
+		
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="137" Top="40" Width="32" Maximum="100" Name="FrontLeft" Minimum="0" SmallChange="0" Tag="0" Style="VSlider" Tooltip.Show="True"/>
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="187" Top="40" Width="32" Maximum="100" Name="FrontRight" Minimum="0" SmallChange="0" Tag="1" Style="VSlider" Tooltip.Show="True"/>
+		
+		<TextBlock Foreground="White" Left="136" Top="10" Height="26" Width="80" FontWeight="Bold" FontSize="10" Text="ml_SpeakerVol_Front" />
+		<TextBlock Foreground="White" Left="132" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_L" />
+		<TextBlock Foreground="White" Left="184" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_R" />
+		<TextBlock Foreground="White" Left="222" Top="264" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_dB"/>
+		
+		<TextBox Left="132" Top="260" Name="LFdB" Style="DBTextBox" Tag="0" FontSize="8"/>
+		<TextBox Left="178" Top="260" Name="RFdB" Style="DBTextBox" Tag="1" FontSize="8"/>
+		<CheckBox Left="163" Top="235" Name="FrontBalance" Style="LockButton"  IsChecked="True" Tooltip="ml_SpeakerVol_Balance" Tooltip.Check="ml_SpeakerVol_UnBalance"/>
+	</Canvas>
+	
+	<Canvas Left="250" Top="100" Name="RearChannels" Width="130" Height="290">	
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="17" Top="40" Width="32" Maximum="100" Name="RearLeft" Minimum="0" SmallChange="0" Tag="4" Style="VSlider" Tooltip.Show="True"/>
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="67" Top="40" Width="32" Maximum="100" Name="RearRight" Minimum="0" SmallChange="0" Tag="5" Style="VSlider" Tooltip.Show="True"/>
+		<TextBlock Foreground="White" Left="16" Top="10" Height="26" Width="80" FontWeight="Bold" FontSize="10" Text="ml_SpeakerVol_Rear"  Text.VerticalAlignment="Center"/>
+		<TextBlock Foreground="White" Left="12" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_L" />
+		<TextBlock Foreground="White" Left="64" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_R" />
+		<TextBlock Foreground="White" Left="102" Top="264" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_dB"/>
+		
+		<TextBox Left="12" Top="260" Name="LBdB" Style="DBTextBox" Tag="4" FontSize="8"/>
+		<TextBox Left="58" Top="260" Name="RBdB" Style="DBTextBox" Tag="5" FontSize="8"/>
+		<CheckBox Left="43" Top="235" Name="RearBalance" Style="LockButton"  IsChecked="True" Tooltip="ml_SpeakerVol_Balance" Tooltip.Check="ml_SpeakerVol_UnBalance"/>
+	</Canvas>
+		
+	<Canvas Left="380" Top="100" Name="CWChannels" Width="130" Height="290">	
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="17" Top="40" Width="32" Maximum="100" Name="CWLeft" Minimum="0" SmallChange="0" Tag="2" Style="VSlider" Tooltip.Show="True"/>
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="67" Top="40" Width="32" Maximum="100" Name="CWRight" Minimum="0" SmallChange="0" Tag="3" Style="VSlider" Tooltip.Show="True"/>
+		
+		<TextBlock Foreground="White" Left="12" Top="10" Height="26" Width="90" FontWeight="Bold" FontSize="10" Text="ml_SpeakerVol_CenLFE" />
+		<TextBlock Foreground="White" Left="12" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_L" />
+		<TextBlock Foreground="White" Left="64" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_R" />
+		<TextBlock Foreground="White" Left="102" Top="264" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_dB"/>
+		
+		<TextBox Left="12" Top="260" Name="CdB" Style="DBTextBox" Tag="2" FontSize="8"/>
+		<TextBox Left="58" Top="260" Name="WdB" Style="DBTextBox" Tag="3" FontSize="8"/>
+		<CheckBox Left="43" Top="235" Name="CWBalance" Style="LockButton"  IsChecked="True" Tooltip="ml_SpeakerVol_Balance" Tooltip.Check="ml_SpeakerVol_UnBalance"/>
+	</Canvas>	
+	
+	<Canvas Left="510" Top="100" Name="SideChannels" Width="130" Height="290">	
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="17" Top="40" Width="32" Maximum="100" Name="SideLeft" Minimum="0" SmallChange="0" Tag="6" Style="VSlider" Tooltip.Show="True"/>
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="67" Top="40" Width="32" Maximum="100" Name="SideRight" Minimum="0" SmallChange="0" Tag="7" Style="VSlider" Tooltip.Show="True"/>
+		
+		<TextBlock Foreground="White" Left="16" Top="10" Height="26" Width="80" FontWeight="Bold" FontSize="10" Text="ml_SpeakerVol_Side" Text.HorizontalAlignment="Center" Text.VerticalAlignment="Center" />
+		<TextBlock Foreground="White" Left="12" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_L" />
+		<TextBlock Foreground="White" Left="64" Top="240" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_R" />
+		<TextBlock Foreground="White" Left="102" Top="264" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="ml_SpeakerVol_dB"/>
+		
+		<TextBox Left="12" Top="260" Name="LSdB" Style="DBTextBox" Tag="6" FontSize="8"/>
+		<TextBox Left="58" Top="260" Name="RSdB" Style="DBTextBox" Tag="7" FontSize="8"/>
+		<CheckBox Left="43" Top="235" Name="SideBalance" Style="LockButton" IsChecked="True" Tooltip="ml_SpeakerVol_Balance" Tooltip.Check="ml_SpeakerVol_UnBalance"/>
+	</Canvas>
+
+</Canvas>
+

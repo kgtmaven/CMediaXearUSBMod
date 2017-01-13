@@ -1,0 +1,60 @@
+﻿<Canvas Width="643" Height="455" Name="HeadPhoneSetting">
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_HeadPhoneSetting_Title" />
+
+<!--
+	<RadioButton Left="67" Top="180" GroupName="Channels" Name="HeadPhone" Tag="2" Style="DefaultRadio" />
+	<TextBlock Foreground="White" Name="HpText" Left="85" Top="180"  Style="ApoText" Text="ml_HeadPhoneSetting_Headphone" />
+-->	
+
+<!--
+	<RadioButton Left="67" Top="205" GroupName="Channels" Name="Channels2" Tag="2" Style="DefaultRadio" />
+	<TextBlock Foreground="White" Name="Channel2Text" Left="85" Top="205"  Style="ApoText" Text="ml_HeadPhoneSetting_2Channels" />
+-->	
+<!--
+	<CheckBox Left="253" Top="328" Name="ChannelCopy" ToolTip="ml_HeadPhoneSetting_ChannelCopySF" Style="DefaultCheckbox" />
+	<TextBlock Foreground="White" Left="275" Top="337"  Name="ChannelCopy_Text" Style="ApoText" Text="ml_HeadPhoneSetting_ChannelCopySF" />
+-->		
+
+
+	<TextBlock Foreground="White" TextWrapping="Wrap"  Left="130" Top="302" Name="AmplifierTB" Height="55" Width="350" Style="ApoText" Text="ml_HeadPhoneSetting_AmplifierDescription" />
+	<ComboBox Style="DefaultCombobox" Left="170" Top="349" Name="Amplifier" Width="267" Label.Width="240" Dropbutton.Left="243" Height="26" >
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain0"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain1"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain2"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain3"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain4"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain5"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain6"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain7"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain8"/>
+		<ComboBoxItem Foreground="Black" Content="ml_HeadPhoneSetting_Gain9"/>
+	</ComboBox>
+
+
+	
+	<Image Top="125.333" Width="360" Height="159" Left="129.5" Source="Setting/SoundField.png" />
+
+<!--
+	<Canvas Width="385" Height="224.5" Left="216.5" Top="85.5" Name="SpeakerTestView" >
+		<RadioButton Name="ImgLF" Width="48" Height="73" Cursor="Hand" GroupName="SpeakerTest" Tag="1" Left="106.6" Top="22.5" Image.Uncheck.Normal="Setting/L_no.png" Image.Check.Normal="Setting/L_glow.png" />
+		<RadioButton Name="ImgRF" Width="48" Height="73" Cursor="Hand" GroupName="SpeakerTest" Tag="2" Left="223" Top="22.5" Image.Uncheck.Normal="Setting/R_no.png" Image.Check.Normal="Setting/R_glow.png" />
+	</Canvas>
+-->
+
+	<Canvas Width="385" Height="224.5" Left="116.5" Top="65.5" Name="HeadphoneTestView" >
+		<Image Width="138" Height="101" Left="122.5" Top="44.75"  Source="Setting/HeadphoneIcon.png" />
+		<RadioButton Name="ImgLF" Cursor="Hand" GroupName="SpeakerTest" Width="46" Height="64" Left="122.5" Top="82.5" Tag="1" Image.Uncheck.Normal="Setting/HeadphoneLeft_no.png" Image.Check.Normal="Setting/HeadphoneLeft_glow.png" />
+		<RadioButton Name="ImgRF" Cursor="Hand" GroupName="SpeakerTest" Width="46" Height="64" Left="214" Top="83" Tag="2" Image.Uncheck.Normal="Setting/HeadphoneRight_no.png" Image.Check.Normal="Setting/HeadphoneRight_glow.png" />
+	</Canvas>
+	
+	<CheckBox Name="BtnSpeakerTest" Width="65" Height="56" Cursor="Hand" Tag="1024" Left="274.833" Top="155.375" ToolTip="ml_HeadPhoneSetting_SpeakerTest"  Style="TestButton" />
+
+	<ComboBox Style="DefaultCombobox" Left="450" Top="30" Name="OutputTerminalTypeControl" Width="140" Label.Width="113" Dropbutton.Left="116" Height="26" >	
+		<ComboBoxItem Tag="0" Foreground="Black" Content="Speaker"/>	
+		<ComboBoxItem Tag="1" Foreground="Black" Content="HeadPhone"/>	
+		<ComboBoxItem Tag="2" Foreground="Black" Content="SPDIF Out"/>	
+	</ComboBox>
+	
+				
+</Canvas>

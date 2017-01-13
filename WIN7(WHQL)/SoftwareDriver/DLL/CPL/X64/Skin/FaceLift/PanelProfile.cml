@@ -1,0 +1,13 @@
+<Canvas Name="PanelProfile" Background.Image="PanelProfile/bg.png" Animate.Style="D3D">	
+
+	<Canvas Name="PanelProfileList" Left="22" Top="10" Width="415" Height="45" Page.cx="60">
+		<Embed Name="PanelProfileListContent" Left="0" Top="0" Width="415" Height="45" />
+	</Canvas>	
+	
+	<RepeatButton Name="ScrollLeft" Left="5" Top="15" Width="15" Height="20" Image.Normal="PanelProfile/LeftScroll_no.png" Image.MouseOver="PanelProfile/LeftScroll_mo.png" />	
+	<RepeatButton Name="ScrollRight" Left="440" Top="15" Width="15" Height="20" Image.Normal="PanelProfile/RightScroll_no.png" Image.MouseOver="PanelProfile/RightScroll_mo.png" />	
+	
+	<Button Name="AddProfile" Width="18" Height="18" Cursor="Hand" Left="468" Top="2" Image.Normal="PanelProfile/AddProfile_no.png" Image.MouseOver="PanelProfile/AddProfile_mo.png" Tooltip="ml_PanelProfile_AddProfile"/>
+	<Button Name="DeleteProfile" Width="18" Height="18" Cursor="Hand" Left="468" Top="24" Image.Normal="PanelProfile/DeleteProfile_no.png" Image.MouseOver="PanelProfile/DeleteProfile_mo.png" Tooltip="ml_PanelProfile_DeleteProfile"/>
+	
+</Canvas>

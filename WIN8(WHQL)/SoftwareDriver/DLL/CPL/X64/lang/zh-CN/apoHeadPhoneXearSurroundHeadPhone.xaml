@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_EnableXearSurroundEffect">启动 Xear Surround</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSize">房间大小</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeS">小房间</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeM">中房间</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeL">大房间</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_RoomSizeA">无回声室</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelRequirement">Xear环绕声效果只支持立体声（2声道），您可以按下面的按钮调整声道设置。</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelsSetting">频道设定</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

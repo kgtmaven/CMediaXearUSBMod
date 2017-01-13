@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadphoneVol_HeadphoneVol">Hovedtelefon</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_L">L</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_R">R</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_Title">Lydstyrkekontrol</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_VoldB_Range_Error">Intervallet for lydstyrken i dB er mellem {0:F2} og {1:F2}.</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_Balance">Lås</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_UnBalance">Lås op</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_Mute">Lydløs</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_UnMute">Slå lyden til</sys:String>
+</ResourceDictionary>

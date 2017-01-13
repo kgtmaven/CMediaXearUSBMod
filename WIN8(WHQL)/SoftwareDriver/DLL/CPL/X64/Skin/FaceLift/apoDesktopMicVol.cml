@@ -1,0 +1,37 @@
+﻿<!--
+<Canvas Width="643" Height="455" Name="MicInVolume">  
+-->
+<Canvas Width="643" Height="455" Name="MicInVol">  
+	
+	<TextBlock Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_MicInVol_Title"/>	
+				
+	<Canvas Width="210" Height="350" Top="105" Left="101" Name="Border_Vol" >
+		<TextBlock Foreground="White"  Height="26" Width="210" FontWeight="Bold" FontSize="10"  Text="ml_MicInVol_MicInVol" Text.VerticalAlignment="Center" />
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="63" Top="31" Width="32" Maximum="100" Name="LeftChannel" Minimum="0" SmallChange="0" Tag="0" Style="VSlider" Tooltip.Show="True"/>
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="113" Top="31" Width="32" Maximum="100" Name="RightChannel" Minimum="0" SmallChange="0" Tag="1" Style="VSlider" Tooltip.Show="True"/>
+		<TextBlock Foreground="White" Left="58" Top="230" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_MicInVol_L" Text.VerticalAlignment="Center"  Text.HorizontalAlignment="Center"/>
+		<TextBlock Foreground="White" Left="108" Top="230" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_MicInVol_R" Text.VerticalAlignment="Center"  Text.HorizontalAlignment="Center"/>
+		<TextBlock Foreground="White" Left="148" Top="255" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_MicInVol_dB" Text.VerticalAlignment="Center" Text.HorizontalAlignment="Center"/>
+		<TextBox Left="58" Top="251" Name="LdB" Style="DBTextBox" Tag="0" FontSize="8"/>
+		<TextBox Left="104" Top="251" Name="RdB" Style="DBTextBox" Tag="1" FontSize="8"/>
+		<CheckBox Left="90" Top="226" Name="Balance" Style="LockButton" IsChecked="True" Tooltip="ml_MicInVol_Balance" Tooltip.Check="ml_MicInVol_UnBalance"/>	
+		<CheckBox Name="Mute" Style="MuteButton" Left="90" Top="275" Tooltip="ml_MicInVol_Mute" Tooltip.Check="ml_MicInVol_UnMute"/>
+		<!--
+		<CheckBox Name="ListenToDevice" Left="93" Top="305" ToolTip="ml_MicInVol_ListenToThisDeviceOnDefaultRender"/>    			
+		-->
+	</Canvas>
+				
+	<Canvas Width="210" Height="350" Top="105" Left="315" Name="Border_MonitorVol">	
+		<TextBlock Foreground="White"  Height="26" Width="210" FontWeight="Bold" FontSize="10"  Text="ml_MicInVol_MonitorVol"  Text.VerticalAlignment="Center"/>	
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="63" Top="31" Width="32" Maximum="100" Name="AALeft" Minimum="0" SmallChange="0" Tag="0" Style="VSlider" Tooltip.Show="True"/>
+		<Slider Orientation="Vertical" Height="190" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="113" Top="31" Width="32" Maximum="100" Name="AARight" Minimum="0" SmallChange="0" Tag="1" Style="VSlider" Tooltip.Show="True"/>     		
+		<TextBlock Foreground="White" Left="58" Top="230" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_MicInVol_L" Text.VerticalAlignment="Center"  Text.HorizontalAlignment="Center"/>
+		<TextBlock Foreground="White" Left="108" Top="230" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_MicInVol_R" Text.VerticalAlignment="Center"  Text.HorizontalAlignment="Center"/>
+		<TextBlock Foreground="White" Left="148" Top="255" Height="22" Width="32" FontWeight="Bold" FontSize="10" Text="ml_MicInVol_dB" Text.VerticalAlignment="Center" Text.HorizontalAlignment="Center"/>
+		<TextBox Left="58" Top="251" Name="AALdB" Style="DBTextBox" Tag="0" FontSize="8"/>
+		<TextBox Left="104" Top="251" Name="AARdB" Style="DBTextBox" Tag="1" FontSize="8"/>
+		<CheckBox Left="90" Top="226" Name="AABalance" Style="LockButton"  IsChecked="True" Tooltip="ml_MicInVol_Balance" Tooltip.Check="ml_MicInVol_UnBalance"/>
+		<CheckBox Name="AAMute" Style="MuteButton" Left="90" Top="275" Tooltip="ml_MicInVol_Mute" Tooltip.Check="ml_MicInVol_UnMute"/>
+	</Canvas>
+				
+</Canvas>

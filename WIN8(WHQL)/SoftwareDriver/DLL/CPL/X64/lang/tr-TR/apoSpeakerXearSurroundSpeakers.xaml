@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Title">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_EnableXearSurroundEffect">Etkinleþtir Xear Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelRequirement">Xear Surround Efekti yalnızca Stereo (2 kanal)'ı destekler</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelsSetting">Kanal ayarý</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Sound_Field_Expansion">Ses Alan Genişlemesi</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speaker_Angle">Hoparlör Açısı</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Narrow">Dar</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Wide">Geniş</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

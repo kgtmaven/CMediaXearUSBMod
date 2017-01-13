@@ -1,0 +1,89 @@
+[COPYFILES_32]
+SoftwareDriver\DLL\CPL\x86\>>>%INSTALLDIR%\CPL\
+
+
+[COPYFILES_64]
+SoftwareDriver\DLL\CPL\x64\>>>%INSTALLDIR%\CPL\
+
+
+[POSTRUNAPP_INSTALL_32]
+%INSTALLDIR%\CPL\FaceLift.exe /h /i
+
+[POSTRUNAPP_INSTALL_64]
+%INSTALLDIR%\CPL\FaceLift_x64.exe /h /i
+
+[POSTRUNAPP_BEFOREREMOVEFILE_32]
+
+
+[POSTRUNAPP_BEFOREREMOVEFILE_64]
+
+
+[BEFORERUNAPP_REMOVE_32]
+%INSTALLDIR%\CPL\FaceLift.exe /u /q -WAIT
+
+[BEFORERUNAPP_REMOVE_64]
+%INSTALLDIR%\CPL\FaceLift_x64.exe /u /q -WAIT
+
+
+[BEFORERUNAPP_TERMINATE_32]
+
+[BEFORERUNAPP_TERMINATE_64]
+
+[POSTDELFILE_REMOVE_32]
+%WINDIR%\System\Dlap.pfx
+%WINDIR%\System32\CmiInstallResAll.dll
+%WINDIR%\system32\Drivers\CMUAC.sys
+%WINDIR%\system\Cmxxxx.ini
+
+[POSTDELFILE_REMOVE_64]
+%WINDIR%\System\Dlap.pfx
+%WINDIR%\System32\CmiInstallResAll64.dll
+%WINDIR%\system32\Drivers\CMUAC.sys
+%WINDIR%\system\Cmxxxx.ini
+
+[ADDREG_32]
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}",,,"Xear Audio Center"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","InfoTip",REG_EXPAND_SZ,"Configuration your sound card"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","System.ApplicationName",,"CMedia.FaceLift"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","System.ControlPanel.Category",,"4"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","System.Software.TasksFileUrl",,"internal" 
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}\DefaultIcon",,,"%WINDIR%\cmeau6620.ico" -RMREGKEY
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}\Shell\Open\Command",,,"%INSTALLDIR%\CPL\FaceLift.exe" -RMREGKEY
+
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{0B18BB59-2090-498d-A46A-A92550EBD04A}",,,"Xear Audio Center" -RMREGKEY
+
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Run",Cm6620Sound,,"%INSTALLDIR%\CPL\FaceLift.exe /h /d"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\RunOnce",Cm6620Sound2,,"~"%INSTALLDIR%\CPL\FaceLift.exe~" /h /d /i /q"
+
+HKLM,"Software\cmitmp\",CMUninstallString,,"%WINDIR%\System32\Cmeau6620.exe /rm /pusb6620"
+
+[ADDREG_64]
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}",,,"Xear Audio Center"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","InfoTip",REG_EXPAND_SZ,"Configuration your sound card"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","System.ApplicationName",,"CMedia.FaceLift"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","System.ControlPanel.Category",,"4"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}","System.Software.TasksFileUrl",,"internal"
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}\DefaultIcon",,,"%WINDIR%\cmeau6620.ico" -RMREGKEY
+HKCR,"CLSID\{0B18BB59-2090-498d-A46A-A92550EBD04A}\Shell\Open\Command",,,"%INSTALLDIR%\CPL\FaceLift_x64.exe" -RMREGKEY
+
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{0B18BB59-2090-498d-A46A-A92550EBD04A}",,,"Xear Audio Center" -RMREGKEY
+
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Run",Cm6620Sound,,"%INSTALLDIR%\CPL\FaceLift_x64.exe /h /d"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\RunOnce",Cm6620Sound2,,"~"%INSTALLDIR%\CPL\FaceLift_x64.exe~" /h /d /i /q"
+
+HKLM,"Software\Wow6432Node\cmitmp\",CMUninstallString,,"%WINDIR%\System32\Cmeau6620.exe /rm /pusb6620"
+
+
+[ADDSTARTPROGRAM_32]
+Xear Audio Center,%INSTALLDIR%\CPL\FaceLift.exe,,,"Xear Audio Center",%WINDIR%\cmeau6620.ico
+
+
+[ADDSTARTPROGRAM_64]
+Xear Audio Center,%INSTALLDIR%\CPL\FaceLift_x64.exe,,,"Xear Audio Center",%WINDIR%\cmeau6620.ico
+
+
+[ADDSHORTCUT_32]
+"%INSTALLDIR%\CPL\FaceLift.exe",,%DESKTOPDIR%,"Xear Audio Center",%WINDIR%\cmeau6620.ico
+
+[ADDSHORTCUT_64]
+"%INSTALLDIR%\CPL\FaceLift_x64.exe",,%DESKTOPDIR%,"Xear Audio Center",%WINDIR%\cmeau6620.ico

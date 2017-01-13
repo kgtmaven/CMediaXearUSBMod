@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEQ_Title">Égaliseur</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_EnableEqualizer">Activer l’égaliseur</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Prompt">*Entrez un nom de paramètre prédéfini...*</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Invalid">Nom de fichier non valide (les caractères  /\:*?\"&lt;&gt;| ne sont pas autorisés)</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_SaveError">Échec de l’enregistrement des paramètres EQ définis par l’utilisateur</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_LoadError">Échec du chargement des paramètres EQ définis par l’utilisateur</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_DeleteError">Échec de la suppression des paramètres EQ définis par l’utilisateur</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_ContentSameAsPreset">Le contenu de ce profil est le même que le mode prédéfini</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Dance">Dance</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Bass">Basses</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Tremble">Aigus</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Live">En direct</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_SoftRock">Rock doux</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Metal">Métal</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Classic">Classique</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Vocal">Opéra</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Save">Enregistrer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Delete">Supprimer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Default">Par défaut</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Manual">Manuelle</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_HasTheSameUserDefineName">Le nom de EQ existe déjà. Souhaitez-vous le remplacer ?</sys:String>
+</ResourceDictionary>

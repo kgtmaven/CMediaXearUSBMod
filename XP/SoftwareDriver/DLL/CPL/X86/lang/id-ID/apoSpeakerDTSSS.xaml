@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDTSSS_EnableDTSSurroundSensation">Aktifkan DTS Surround Sensation</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_UseNEOPCasstereoexpander">Use NEO:PC as stereo expander</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_BassEnhancement">Bass Enhancement</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_DailogClarity">Dailog Clarity</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_SoundStageExpansionFactor">Sound Stage Expansion Factor</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_PhysicalSpeakerAngle">Physical Speaker Angle</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MixLFEChanneltoOutput">Mix LFE Channel to Output</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Headphone">Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Speaker">Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Title">DTS Surround Sensation</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ChannelRequirement">DTS Surround Sensation hanya mendukung Stereo (2 Kanal)</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ChannelsSetting">Saluran Setting</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Mode">Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MusicMode">Modus musik</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MovieMode">Mode film</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ContentType">Content Type</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_DTSVoiceClarity">DTS Voice Clarity</sys:String>
+</ResourceDictionary>

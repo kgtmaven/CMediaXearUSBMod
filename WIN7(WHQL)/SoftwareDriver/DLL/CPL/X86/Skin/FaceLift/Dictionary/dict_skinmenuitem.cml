@@ -1,0 +1,83 @@
+<SkinMenuItem.Dictionary>
+	<!-- the item style flags -->
+	<Setter Property="Flags" Value=""/>
+		
+	<!-- the item text -->
+	<Setter Property="Content" Value=""/>
+
+	<!-- item text drawing effect -->
+	<Setter Property="DrawTextContent" Value="True"/>
+
+	<!-- the item height -->
+	<Setter Property="Height" Value="24"/>
+
+	<!-- the left title area for the item -->
+	<Setter Property="TitleWidth" Value="0"/>
+
+	<!-- when draw Image.Background, include the Title area or not -->
+	<Setter Property="SkipTitleDrawing" Value="False"/>
+
+	<!-- item text drawing effect -->
+	<Setter Property="Effect" Value="Lighting"/> <!-- Lighting, ColorMasking, Image -->
+
+	<!-- the icon of the item -->
+	<Setter Property="Image.Icon" Value=""/>
+
+	<!-- the separator background -->
+	<Setter Property="Image.Separator" Value=""/>
+
+	<!-- the image when item checked -->
+	<Setter Property="Image.Check" Value=""/>
+
+	<!-- the image for item with submenu -->
+	<Setter Property="Image.SubMenu" Value=""/>
+
+	<!-- some property value when Normal status -->
+		<!-- the item normal background -->
+		<Setter Property="Normal.Image.Background" Value=""/>
+
+		<!-- the item Content Image -->
+		<Setter Property="Normal.Image.Content" Value=""/>
+
+		<Setter Property="Normal.Text.Foreground" Value="White"/>
+		<Setter Property="Normal.Text.FontWeight" Value="Bold"/>
+		<Setter Property="Normal.Text.FontHeight" Value="10"/>						
+
+	<!-- some property value when Over status -->
+		<!-- define the item background -->
+		<Setter Property="Over.Image.Background" Value=""/>
+
+		<!-- define the item Content Image -->
+		<Setter Property="Over.Image.Content" Value=""/>
+
+		<Setter Property="Over.Background" Value="Blue"/>
+		<Setter Property="Over.Text.Foreground" Value="Yellow"/>
+		<Setter Property="Over.Text.FontWeight" Value="Bold"/>
+		<Setter Property="Over.Text.FontHeight" Value="10"/>		
+		
+		<!-- define the item light color -->
+		<Setter Property="Over.LightColor" Value=""/>
+						
+	<Style Key="EffectMenuItem">
+		<Setter Property="Effect" Value="Lighting"/>
+		<Setter Property="Height" Value="28"/>
+		<Setter Property="Normal.Text.Foreground" Value="White"/>
+		<Setter Property="Normal.Text.FontWeight" Value="Bold"/>
+		<Setter Property="Over.Background" Value="Blue"/>
+		<Setter Property="Over.Text.Foreground" Value="White"/>
+		<Setter Property="Over.Text.FontWeight" Value="Bold"/>
+	</Style>
+	<Style Key="TrayMenuItem">
+		<Setter Property="Effect" Value="Lighting"/>
+		<Setter Property="Height" Value="26"/>
+		<Setter Property="Normal.Text.Foreground" Value="White"/>
+		<Setter Property="Normal.Text.FontWeight" Value="Bold"/>
+		<Setter Property="Over.Background" Value="Blue"/>
+		<Setter Property="Over.Text.Foreground" Value="White"/>
+		<Setter Property="Over.Text.FontWeight" Value="Bold"/>
+	</Style>
+	<Style Key="Separator">
+		<Setter Property="Flags" Value="Separator"/>
+		<Setter Property="Image.Separator" Value="Main\MenuSeparator.png"/>
+	</Style>
+</SkinMenuItem.Dictionary>

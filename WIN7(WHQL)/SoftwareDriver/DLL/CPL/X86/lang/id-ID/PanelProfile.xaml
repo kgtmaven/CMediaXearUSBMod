@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_PanelProfile_Music">Modus musik</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Movie">Mode film</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Karaoke">Karaoke</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HiFi">Mode Hi-Fi</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Recording">Mode rekaman</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Communication">Mode komunikasi</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Gaming">Mode game</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Racing">Mode Balapan</sys:String>
+  <sys:String x:Key="ml_PanelProfile_FPS">FPS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_RTS">RTS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Manual">Manual</sys:String>
+  <sys:String x:Key="ml_PanelProfile_AddProfile">Tambahkan Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfile">Hapus Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName">Nama Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileDescription">Deskripsi Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Prompt">Masukkan nama profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Invalid">Nama file tidak valid (tidak boleh mengandung karakter /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowOK">OK</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowCancel">Batal</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindow_Title">Profil Baru</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_DeleteConfirm">Anda yakin ingin menghapus profil ini ?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileNumberLimit">Jumlah profil maksimal lima?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowDelete">Hapus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowCancel">Batal</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileName">Nama Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindow_Title">Hapus Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameSettingInProfileList">Ada profil yang setelannya sama dengan setelah saat ini.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameUserDefineName">Nama profil sudah ada. Anda ingin menggantinya?</sys:String>
+</ResourceDictionary>

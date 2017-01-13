@@ -1,0 +1,26 @@
+﻿<Canvas Width="643" Height="455" Name="HeadPhoneHWEQ">
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35" Style="ApoTitle" Text="ml_SpeakerHWEQ_Title"/>	
+	
+	<Slider Left="160" Top="179" Maximum="12" Minimum="-12" Name="TrebleLevel" Style="NonFillSlider" Width="301" SmallChange="0.1" Tooltip.Show="True"/>
+	<Slider Left="160" Top="312" Maximum="12" Minimum="-12" Name="BassLevel" Style="NonFillSlider" Width="301" SmallChange="0.1" Tooltip.Show="True"/>
+	
+	<Image Source="HWEQ/Tick.png" Width="2" Height="12" Left="162" Top="338"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="9" Left="235" Top="339"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="12" Left="309.25" Top="339.75"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="9" Left="382" Top="339"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="12" Left="456" Top="338"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="12" Left="162" Top="206"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="9" Left="235" Top="206"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="12" Left="309.25" Top="206"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="9" Left="382" Top="206"/>
+	<Image Source="HWEQ/Tick.png" Width="2" Height="12" Left="456" Top="206"/>
+	
+	<TextBlock Foreground="White" Left="123" Top="259"  Style="ApoText" Text="ml_SpeakerHWEQ_BassLevel"/>
+	<TextBlock Foreground="White" Left="123" Top="294"  Style="ApoText" Text="-12.0 dB"/>
+	<TextBlock Foreground="White" Left="460" Top="294"  Style="ApoText" Text="+12.0 dB"/>
+	
+	<TextBlock Foreground="White" Left="123" Top="125" Style="ApoText" Text="ml_SpeakerHWEQ_TrebleLevel"/>
+	<TextBlock Foreground="White" Left="123" Top="161" Style="ApoText" Text="-12.0 dB"/>
+  <TextBlock Foreground="White" Left="460" Top="161" Style="ApoText" Text="+12.0 dB"/>
+</Canvas>

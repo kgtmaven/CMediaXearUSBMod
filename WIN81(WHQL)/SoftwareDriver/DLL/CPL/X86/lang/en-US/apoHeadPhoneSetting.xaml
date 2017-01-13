@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Headphone Settings</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Headphone Test</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Please select gain tuning according to your usage scenario or matching headphone impedance.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Normal Gain (0dB for &lt;64 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">High Gain (6dB for 64~150 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Extra High Gain (12dB for 150~300 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

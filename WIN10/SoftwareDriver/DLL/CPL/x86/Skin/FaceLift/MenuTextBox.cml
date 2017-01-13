@@ -1,0 +1,5 @@
+<SkinMenu Name="TextBoxMenu" Style="TextBoxMenu" Opacity="0.95">
+  <SkinMenuItem Name="TextBox_Cut" 		Style="TrayMenuItem" Content="ml_TextBox_Cut"/>
+  <SkinMenuItem Name="TextBox_Copy" 	Style="TrayMenuItem" Content="ml_TextBox_Copy"/>
+  <SkinMenuItem Name="TextBox_Paste" 	Style="TrayMenuItem" Content="ml_TextBox_Paste"/>
+</SkinMenu>

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyVS_Title">Dolby Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSSmall">Reference モード</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSLarge">Wide モード</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_EnableDolbySurroundEffect">Dolby Surround 有効にする </sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelRequirement">Dolby Surround 効果  2チャンネルのステレオのみサポートしています</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelsSetting">チャンネル設定</sys:String>
+</ResourceDictionary>

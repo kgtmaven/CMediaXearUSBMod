@@ -1,0 +1,11 @@
+﻿<ResourceDictionary 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="ml_DialogMsgBox_Confirm">Confirmar</sys:String>
+	<sys:String x:Key="ml_DialogMsgBox_Error">Erro</sys:String>
+	<sys:String x:Key="ml_DialogMsgBox_Warning">Aviso</sys:String>
+	<sys:String x:Key="ml_DialogMsgBox_Yes">Sim</sys:String>
+	<sys:String x:Key="ml_DialogMsgBox_No">Não</sys:String>
+	<sys:String x:Key="ml_DialogMsgBox_Exit">Sair</sys:String>
+</ResourceDictionary>

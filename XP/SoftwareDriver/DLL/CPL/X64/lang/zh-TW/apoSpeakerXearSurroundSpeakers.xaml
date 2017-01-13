@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Title">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_EnableXearSurroundEffect">啟動 Xear Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelRequirement">Xear環繞聲效果僅支持立體聲（2聲道）</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelsSetting">頻道設定</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Sound_Field_Expansion">擴展喇叭音場</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speaker_Angle">喇叭音場角度</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Narrow">窄</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Wide">寬</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

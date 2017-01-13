@@ -1,0 +1,88 @@
+<Canvas Width="643" Height="455" Name="SpeakerFlexBass">  
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerFlexBass_Title"/>	
+
+	<TextBlock Name="FB_Logo" Source="FlexBass/Logo_LivingFBII.png" Left="534" Top="10" />	
+	<TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_SpeakerFlexBass_EnableFlexBass" />
+	<CheckBox Left="56" Top="71" Height="27" Width="26" Name="BtnEnableFlexBass" Style="EnableFeatureButton" ToolTip="ml_SpeakerFlexBass_EnableFlexBass" />
+
+<Canvas Name="MainContent" Left="0" Top="100" Width="640" Height="455" >
+
+	<TextBlock Name="TextBassCof" Foreground="White" Left="93" Top="0"  Style="ApoText" Text="ml_SpeakerFlexBass_BassCof" />
+  <Slider Orientation="Horizontal" Height="36" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="110" Top="26" Width="168" Maximum="250" Name="CutFrequency" Minimum="50" SmallChange="0" Style="HSlider" Tooltip.Show="True"/>
+	<Image Name="Tick1" Source="FlexBass/Tick.png" Left="112.544" Top="59" Width="2" Height="12" />
+	<Image Name="Tick2" Source="FlexBass/Tick.png" Left="152.501" Top="61.875" Width="2" Height="8.75" />
+	<Image Name="Tick3" Source="FlexBass/Tick.png" Left="191.5" Top="58.25" Width="2" Height="12" />
+	<Image Name="Tick4" Source="FlexBass/Tick.png" Left="231.624" Top="61.75" Width="2" Height="8.75" />
+	<Image Name="Tick5" Source="FlexBass/Tick.png" Left="273.956" Top="58.5" Width="2" Height="12" />
+	<TextBlock Name="Text50" Foreground="White" Left="104.334" Top="75" Height="16" Style="ApoText" Text = "50" />
+	<TextBlock Name="Text100" Foreground="White" Left="141" Top="75" Height="16" Style="ApoText" Text = "100" />
+	<TextBlock Name="Text150" Foreground="White" Left="182" Top="75" Height="16" Style="ApoText" Text = "150" />
+	<TextBlock Name="Text200" Foreground="White" Left="220" Top="75" Height="16" Style="ApoText" Text = "200" />
+	<TextBlock Name="Text250" Foreground="White" Left="264" Top="75" Height="16" Style="ApoText" Text = "250" />
+    <TextBlock Name="TextHZ" Foreground="White" Left="294" Top="73" Height="20"  Style="ApoText"  Text="ml_SpeakerFlexBass_Hz"/>
+	
+	<TextBlock Name="TextBassLevel" Foreground="White" Left="360" Top="0" Style="ApoText" Text="ml_SpeakerFlexBass_BassLevel" />
+  <Slider Orientation="Horizontal" Height="36" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="371" Top="26" Width="168" Maximum="12" Name="BassLevel" Minimum="-12" SmallChange="0.1" Tag="0" Style="NonFillSlider" Tooltip.Show="True"/>
+	<Image Name="Tick6" Source="FlexBass/Tick.png" Left="373.169" Top="58.875" Width="2" Height="12" />
+	<Image Name="Tick7" Source="FlexBass/Tick.png" Left="414.376" Top="61.75" Width="2" Height="8.75" />
+	<Image Name="Tick8" Source="FlexBass/Tick.png" Left="453.25" Top="58.875" Width="2" Height="12" />
+	<Image Name="Tick9" Source="FlexBass/Tick.png" Left="493.499" Top="62" Width="2" Height="8.75" />
+	<Image Name="Tick10" Source="FlexBass/Tick.png" Left="535.081" Top="59.25" Width="2" Height="12" />
+	<TextBlock Name="Text-12" Foreground="White" Left="364" Top="75" Height="16" Style="ApoText" Text = "-12" />
+	<TextBlock Name="Text12" Foreground="White" Left="524" Top="75" Height="16" Style="ApoText" Text = "12" />
+   <TextBlock Name="Textdb" Foreground="White" Left="548" Top="73" Height="20"  Style="ApoText" Text="ml_SpeakerFlexBass_dB"/>
+
+  
+	<Image Name="ImgSoundField" Top="147" Width="330" Height="154" Left="36" Source="FlexBass/SoundField.png" />
+
+	<Image Name="ImgWoofer" Width="34" Height="33" Left="196.833" Top="148.763" Source="FlexBass/Small_Woofer.png" />
+
+	<TextBlock Name="FrontL" Width="26" Height="52" Left="132" Top="127" Source="FlexBass/Small_L.png" />
+	<TextBlock Name="FrontL_LARGE" Width="26" Height="52" Left="132" Top="127" Source="FlexBass/Large_L.png" />
+	<TextBlock Name="Center" Width="44" Height="28" Left="179" Top="117.833" Source="FlexBass/Small_C.png" />
+	<TextBlock Name="Center_LARGE" Width="44" Height="28" Left="179" Top="117.833" Source="FlexBass/Large_C.png" />
+	<TextBlock Name="FrontR" Width="27" Height="52" Left="238.833" Top="127.167" Source="FlexBass/Small_R.png" />
+	<TextBlock Name="FrontR_LARGE" Width="27" Height="52" Left="238.833" Top="127.167" Source="FlexBass/Large_R.png" />
+	<TextBlock Name="SideLS" Width="27" Height="58" Left="93" Top="181.667" Source="FlexBass/Small_LS.png" />
+	<TextBlock Name="SideLS_LARGE" Width="27" Height="58" Left="93" Top="181.667" Source="FlexBass/Large_LS.png" />
+	<TextBlock Name="SideRS" Width="27" Height="58" Left="279" Top="181.667" Source="FlexBass/Small_RS.png" />
+	<TextBlock Name="SideRS_LARGE" Width="27" Height="58" Left="279" Top="181.667" Source="FlexBass/Large_RS.png" />
+	<TextBlock Name="BackLB" Width="28" Height="59" Left="150" Top="230.333" Source="FlexBass/Small_LB.png" />
+	<TextBlock Name="BackLB_LARGE" Width="28" Height="59" Left="150" Top="230.333" Source="FlexBass/Large_LB.png" />
+	<TextBlock Name="BackRB" Width="28" Height="58" Left="222.166" Top="231.333" Source="FlexBass/Small_RB.png" />
+	<TextBlock Name="BackRB_LARGE" Width="28" Height="58" Left="222.166" Top="231.333" Source="FlexBass/Large_RB.png" />
+
+
+		
+		<TextBlock Name="ComboxTitle_LR" Foreground="White" Left="383" Top="155" Height="16" Width="60" Style="ApoText" Text="ml_SpeakerFlexBass_LR" Text.HorizontalAlignment="Right" />
+    <TextBlock Name="ComboxTitle_LbRb" Foreground="White" Left="383" Top="193" Height="16" Width="60" Style="ApoText" Text="ml_SpeakerFlexBass_LbRb" Text.HorizontalAlignment="Right" />
+    <TextBlock Name="ComboxTitle_C" Foreground="White" Left="383" Top="228" Height="16" Width="60" Style="ApoText" Text="ml_SpeakerFlexBass_C" Text.HorizontalAlignment="Right" />
+    <TextBlock Name="ComboxTitle_LsRs" Foreground="White" Left="383" Top="265" Height="16" Width="60" Style="ApoText" Text="ml_SpeakerFlexBass_LsRs" Text.HorizontalAlignment="Right" />
+
+		 <!-- ~0x3 == 0xffc == 4092-->
+    <ComboBox Name="FrontLR" Style="DefaultCombobox" Left="448.955" Top="151.479" Width="127" Height="26">
+        <ComboBoxItem Name="SmallFrontLR" Foreground="Black" Content="ml_SpeakerFlexBass_NonfullRangeSpeaker"/>
+        <ComboBoxItem Name="LargeFrontLR" Foreground="Black" Content="ml_SpeakerFlexBass_FullRangeSpeaker"/>
+    </ComboBox>
+
+    <!-- ~0x30 == 0xfcf == 4047-->
+	<ComboBox Name="BackLR" Style="DefaultCombobox" Left="448.955" Top="189.979" Width="127" Height="26">
+		<ComboBoxItem Name="SmallBackLR" Foreground="Black" Content="ml_SpeakerFlexBass_NonfullRangeSpeaker"/>
+		<ComboBoxItem Name="LargeBackLR" Foreground="Black" Content="ml_SpeakerFlexBass_FullRangeSpeaker"/>
+	</ComboBox>
+
+		<!-- ~0x4 == 0xffb ==  4091-->
+  <ComboBox Name="CenterCombox" Style="DefaultCombobox" Left="448.955" Top="224.479" Tag="4091" Width="127" Height="26">
+		<ComboBoxItem Name="SmallCenter" Foreground="Black" Content="ml_SpeakerFlexBass_NonfullRangeSpeaker"/>
+		<ComboBoxItem Name="LargeCenter" Foreground="Black" Content="ml_SpeakerFlexBass_FullRangeSpeaker"/>
+	</ComboBox>
+
+	<!-- ~0x600 == 0x9ff == 2559-->
+	<ComboBox Name="SideLR" Style="DefaultCombobox" Left="448.955" Top="261.479" Tag="2559" Width="127" Height="26">
+		<ComboBoxItem Name="SmallSideLR" Foreground="Black" Content="ml_SpeakerFlexBass_NonfullRangeSpeaker"/>
+		<ComboBoxItem Name="LargeSideLR" Foreground="Black" Content="ml_SpeakerFlexBass_FullRangeSpeaker"/>
+	</ComboBox>
+	</Canvas>
+	
+</Canvas>

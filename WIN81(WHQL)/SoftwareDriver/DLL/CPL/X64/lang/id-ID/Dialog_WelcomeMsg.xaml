@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Informasi</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Keluar</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Memilih perangkat output</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Untuk mengaktifkan speaker, pastikan Ikon speaker sudah dicentang.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">Untuk mengakses menu fungsi, klik kanan pada ikon perangkat. Cara ini akan menyediakan sejumlah fitur dan efek suara tambahan.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">Jangan tampilkan lagi pesan ini.</sys:String>
+</ResourceDictionary>

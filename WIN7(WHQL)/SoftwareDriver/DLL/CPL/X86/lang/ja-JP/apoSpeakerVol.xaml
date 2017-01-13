@@ -1,0 +1,16 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerVol_Front">前方</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Rear">後方</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_CenLFE">中央/LFE</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Side">側面</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_L">L</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_R">R</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Title">音量コントロール</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_VoldB_Range_Error">dB の音量範囲は{0:F2}から{1:F2}です。</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Balance">ロック</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnBalance">ロック解除</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Mute">消音</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnMute">消音解除</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Master">マスター</sys:String>
+</ResourceDictionary>

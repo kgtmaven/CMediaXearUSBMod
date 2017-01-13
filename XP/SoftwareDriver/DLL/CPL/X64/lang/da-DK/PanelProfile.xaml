@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_PanelProfile_Music">Musiktilstand</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Movie">Filmtilstand</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Karaoke">Karaoke</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HiFi">HiFi</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Recording">Optagetilstand</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Communication">Kommunikationstilstand</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Gaming">Spiltilstand</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Racing">Racertilstand</sys:String>
+  <sys:String x:Key="ml_PanelProfile_FPS">FPS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_RTS">RTS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Manual">Manuelt</sys:String>
+  <sys:String x:Key="ml_PanelProfile_AddProfile">Tilføj Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfile">Slet Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName">Profil Navn</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileDescription">Profil Beskrivelse</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Prompt">Angiv profilnavn.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Invalid">Filnavn ugyldigt (kan ikke indeholde tegnene /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowOK">OK</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowCancel">Annuller</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindow_Title">Ny profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_DeleteConfirm">Er du sikker på, du vil slette denne profil?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileNumberLimit">Antallet af profiler kan ikke være højere end fem.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowDelete">Slet</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowCancel">Annuller</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileName">Profil Navn</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindow_Title">Slet Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameSettingInProfileList">Der er en profil med samme som aktuelle indstilling.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameUserDefineName">Profilnavnet findes allerede. Ønsker du at erstatte det?</sys:String>
+</ResourceDictionary>

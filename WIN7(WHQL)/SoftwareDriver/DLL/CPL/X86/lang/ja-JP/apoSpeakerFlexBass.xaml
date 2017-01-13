@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerFlexBass_Title">フレックス・バス II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_EnableFlexBass">フレックス・バス IIを有効にする</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassCof">カットオフ周波数</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassLevel">低音レベル</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LR">LR</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LsRs">Ls/Rs</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LbRb">Lb/Rb</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_C">C</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_Hz">Hz</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_FullRangeSpeaker">大スピーカー（低音なし）</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_NonfullRangeSpeaker">小スピーカー（低音あり）</sys:String>
+</ResourceDictionary>

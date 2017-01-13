@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Title">Xear SingFX</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_EnableKeyShifting">Abilita spostamento tasto</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_EnableVocalFading">Abilita dissolvenza vocale</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Low">Tono giù</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_High">Tono su</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Voice">Voce</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_NoVoice">Disattiva voce</sys:String>
+  <sys:String x:Key="ml_HeadPhoneKaraoke_Reset">Reset</sys:String>
+</ResourceDictionary>

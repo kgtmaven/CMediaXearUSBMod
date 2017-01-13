@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyVS_Title">Dolby Surround Lautsprecher</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSSmall">Referenzmodus</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSLarge">Weiter Modus</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_EnableDolbySurroundEffect">Dolby Surround aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelRequirement">Dolby Surround Effekt unterstützt nur Stereo (2 Kanäle)</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelsSetting">Kanäle einstellen</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEQ_Title">Эквалайзер</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_EnableEqualizer">Включить эквалайзер</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Prompt">*Введите название предустановки...*</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Invalid">Недопустимое имя файла (не должно содержать символы /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_SaveError">Ошибка сохранения пользовательского EQ</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_LoadError">Ошибка загрузки пользовательского EQ</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_DeleteError">Ошибка удаления пользовательского EQ</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_ContentSameAsPreset">Содержимое профиля идентично режиму предустановки</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Dance">Танец</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Bass">Басы</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Tremble">Дрожать</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Live">Вживую</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rock">Тяжелый рок</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_SoftRock">Рок</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Jazz">Джаз</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Metal">Металл</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rap">Рэп</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Classic">Классика</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Vocal">Опера</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Save">сохранить</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Delete">Удалить</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Default">По умолчанию</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Manual">Вручную</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_HasTheSameUserDefineName">Это имя эквалайзера уже существует. Заменить?</sys:String>
+</ResourceDictionary>

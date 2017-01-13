@@ -1,0 +1,11 @@
+<Canvas Width="643" Height="455" Name="MicInNoiseReduction">
+
+	<TextBlock Name="NR_Logo" Left="534" Top="10" Source="NR/Logo_VoClearNR.png" />
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_MicInNoiseReduction_Title"/>
+	<CheckBox Left="56" Top="71"  Name="BtnEnableNR" Style="EnableFeatureButton" Tooltip="ml_MicInNoiseReduction_EnableNoiseReduction" />
+	<TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_MicInNoiseReduction_EnableNoiseReduction" />
+	
+	<Image Name="Diagram_NROff" Width="331" Height="259" Left="150.333" Top="127.666" Source="NR/Diagram_NROff.png"/>	
+	<Image Name="Diagram_NROn" Width="331" Height="259" Left="150.333" Top="127.666" Source="NR/Diagram_NROn.png"/>
+	
+</Canvas>

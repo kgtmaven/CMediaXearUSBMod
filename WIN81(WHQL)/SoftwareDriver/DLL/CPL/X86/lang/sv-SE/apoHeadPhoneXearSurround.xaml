@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Title">Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_EnableXearSurroundEffect">Enable Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSize">Rumsstorlek</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeS">Litet rum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeM">Mellanstort rum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeL">Stort rum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_RoomSizeA">Ekofritt rum</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelRequirement">Xear Surround Effect stöder endast Stereo (2 kanaler), tryck på nedanstående knapp för at justera kanalinställning.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelsSetting">Kanaler Installning</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Sound_Field_Expansion">Sound Field Expansion</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Speaker_Angle">Högtalarvinkel</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Narrow">Smal</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_Wide">Bred</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurround_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

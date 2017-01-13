@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_EnableDolbyPrologicIIx">Dolby Pro logic IIx 有効にする</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Panorama">Panorama</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MusicMode">音楽モード</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MovieMode">ムービーモード</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Reset">リセット</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Title">Dolby Pro logic IIx</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelRequirement">Dolby PLIIx は Quadraphonic、5.1 サラウンド、7.1 サラウンドのスピーカー設定をサポートしています。</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelsSetting">チャンネル設定</sys:String>
+</ResourceDictionary>

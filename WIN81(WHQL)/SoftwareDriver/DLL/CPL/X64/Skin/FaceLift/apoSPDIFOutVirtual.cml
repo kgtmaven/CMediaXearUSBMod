@@ -1,0 +1,97 @@
+<Canvas Name="SPDIFOutVirtual">
+	<TextBlock Left="30" Top="23" Height="35" Style="ApoTitle" Text="ml_SPDIFOutVirtual_Title" />		
+	<TextBlock Left="80" Top="74" Height="30" FontSize="10" Text.HorizontalAlignment="Left" Style="ApoText" Text="ml_SPDIFOutVirtual_EnableVirtualSpeakerShifter" />		
+	<CheckBox Left="56" Top="71" Width="27" Height="26" Name="BtnEnableSpeakerVirtual" Style="EnableFeatureButton"  ToolTip="ml_SPDIFOutVirtual_EnableVirtualSpeakerShifter"/>
+	<TextBlock Name="VSS_Logo" Source="VirtualSpeaker/Logo_LivingVSS.png" Left="534" Top="10" />	
+	<RadioButton Left="73" Top="150" Width="43" Height="42" Name="Clockwise" GroupName="SpeakerVSSFunction" Cursor="Hand" Tooltip="ml_SPDIFOutVirtual_Clockwise" 
+		Image.Uncheck.Normal="VirtualSpeaker/BtnClockwise_no.png" Image.Check.Normal="VirtualSpeaker/BtnClockwise_se.png"
+		Image.Uncheck.MouseOver="VirtualSpeaker/BtnClockwise_mo.png" Image.Check.MouseOver="VirtualSpeaker/BtnClockwise_mo.png"  RepeatClick="True"/>
+	<RadioButton Left="73" Top="198" Width="43" Height="42" Name="CounterClockwise" GroupName="SpeakerVSSFunction" Cursor="Hand" Tooltip="ml_SPDIFOutVirtual_CounterClockwise"
+		Image.Uncheck.Normal="VirtualSpeaker/BtnAnticlockwise_no.png" Image.Check.Normal="VirtualSpeaker/BtnAnticlockwise_se.png" 
+		Image.Uncheck.MouseOver="VirtualSpeaker/BtnAnticlockwise_mo.png" Image.Check.MouseOver="VirtualSpeaker/BtnAnticlockwise_mo.png"  RepeatClick="True"/>
+	<RadioButton Left="73" Top="244" Width="43" Height="42" Name="WiseArround" GroupName="SpeakerVSSFunction" Cursor="Hand" Tooltip="ml_SPDIFOutVirtual_WiseArround"
+		Image.Uncheck.Normal="VirtualSpeaker/BtnWiseArround_no.png" Image.Check.Normal="VirtualSpeaker/BtnWiseArround_se.png" 
+		Image.Uncheck.MouseOver="VirtualSpeaker/BtnWiseArround_mo.png" Image.Check.MouseOver="VirtualSpeaker/BtnWiseArround_mo.png" />
+	<RadioButton Left="73" Top="294" Width="43" Height="42" Name="Manual" GroupName="SpeakerVSSFunction" Cursor="Hand" Tooltip="ml_SPDIFOutVirtual_ManualSetting"
+		Image.Uncheck.Normal="VirtualSpeaker/BtnManual_no.png" Image.Check.Normal="VirtualSpeaker/BtnManual_se.png" 
+		Image.Uncheck.MouseOver="VirtualSpeaker/BtnManual_mo.png" Image.Check.MouseOver="VirtualSpeaker/BtnManual_mo.png" />
+	<Button Left="73" Top="338" Width="43" Height="42" Name="Reset" Cursor="Hand"  ToolTip="ml_SPDIFOutVirtual_Reset"
+		Image.Normal="VirtualSpeaker/BtnReset_no.png" Image.MouseOver="VirtualSpeaker/BtnReset_mo.png" 
+		Image.MouseDown="VirtualSpeaker/BtnReset_se.png" />
+
+	<PanelVS Name="PanelVSRoom" Left="130" Top="110" Width="340" Height="340" Image.Bg="VirtualSpeaker\\SoundField-Bg.png" 
+	Image.Head="VirtualSpeaker\\Head.png" Tooltip.Head="ml_SPDIFOutVirtual_Head"
+	Image.C="VirtualSpeaker\\C.png"	Tooltip.C="ml_SPDIFOutVirtual_Center"
+	Image.L="VirtualSpeaker\\L.png" Tooltip.L="ml_SPDIFOutVirtual_FrontLeft"
+	Image.R="VirtualSpeaker\\R.png" Tooltip.R="ml_SPDIFOutVirtual_FrontRight"
+	Image.Ls="VirtualSpeaker\\Ls.png" Tooltip.Ls="ml_SPDIFOutVirtual_SideLeft"
+	Image.Rs="VirtualSpeaker\\Rs.png" Tooltip.Rs="ml_SPDIFOutVirtual_SideRight"
+	Image.Lb="VirtualSpeaker\\Lb.png" Tooltip.Lb="ml_SPDIFOutVirtual_BackLeft"
+	Image.Rb="VirtualSpeaker\\Rb.png" Tooltip.Rb="ml_SPDIFOutVirtual_BackRight"
+	Image.Sw="VirtualSpeaker\\W.png"	Tooltip.Sw="ml_SPDIFOutVirtual_Woofer"/>
+
+		 <Button Left="470" Top="140" Width="18" Height="18" Name="BtnSubdB" Cursor="Hand" 
+			Image.Normal="VirtualSpeaker/BtnDecreaseDB_no.png" Image.MouseOver="VirtualSpeaker/BtnDecreaseDB_mo.png" 
+			Image.MouseDown="VirtualSpeaker/BtnDecreaseDB_se.png" Image.Disable="VirtualSpeaker/BtnDecreaseDB_di.png" ToolTip="ml_SPDIFOutVirtual_SubdB"/>
+		<Image Name="IMG_VOLUME" Left="530" Top="142" Width="21" Height="15" Source="VirtualSpeaker/Volume.png" >
+		</Image>
+		 <Button Left="590" Top="140" Width="18" Height="18" Name="BtnAdddB" Cursor="Hand" 
+			Image.Normal="VirtualSpeaker/BtnIncreaseDB_no.png" Image.MouseOver="VirtualSpeaker/BtnIncreaseDB_mo.png" 
+			Image.MouseDown="VirtualSpeaker/BtnIncreaseDB_se.png" Image.Disable="VirtualSpeaker/BtnIncreaseDB_di.png"  ToolTip="ml_SPDIFOutVirtual_AdddB"/>
+
+	<Canvas Left="465" Top="160" Width="160" Height="50" >
+	  <TextBlock Width="30" Height="15" Left="110" Top="8" Name="LF_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="LF_dB_text" Left="135" Top="7" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="10" Style="HProgress" Name="LF_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+	  <TextBlock Width="30" Height="15" Left="110" Top="24" Name="RF_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="RF_dB_text" Left="135" Top="23" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="28" Style="HProgress" Name="RF_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+		<TextBlock Name="LF_title" Left="0" Top="8" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_L" />
+		<TextBlock Name="RF_title" Left="0" Top="24" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_R" />
+	</Canvas>
+
+	<Canvas Left="465" Top="310" Width="160" Height="50" >
+	  <TextBlock Width="30" Height="15" Left="110" Top="8" Name="C_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="C_dB_text" Left="135" Top="7" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="10" Style="HProgress" Name="C_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+	  <TextBlock Width="30" Height="15" Left="110" Top="24" Name="W_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="W_dB_text" Left="135" Top="23" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="28" Style="HProgress" Name="W_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+		<TextBlock Name="C_title" Left="0" Top="8" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_C" />
+		<TextBlock Name="W_title" Left="0" Top="24" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_W" />
+	</Canvas>
+
+	<Canvas Left="465" Top="260" Width="160" Height="50" >
+	  <TextBlock Width="30" Height="15" Left="110" Top="8" Name="LB_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="LB_dB_text" Left="135" Top="7" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="10" Style="HProgress" Name="LB_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+	  <TextBlock Width="30" Height="15" Left="110" Top="24" Name="RB_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="RB_dB_text" Left="135" Top="23" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="28" Style="HProgress" Name="RB_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+		<TextBlock Name="LB_title" Left="0" Top="8" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_Lb" />
+		<TextBlock Name="RB_title" Left="0" Top="24" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_Rb" />
+	</Canvas>
+
+	<Canvas Left="465" Top="210" Width="160" Height="50" >
+	  <TextBlock Width="30" Height="15" Left="110" Top="8" Name="LS_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="LS_dB_text" Left="135" Top="7" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="10" Style="HProgress" Name="LS_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+	  <TextBlock Width="30" Height="15" Left="110" Top="24" Name="RS_dB" Style="ApoText" Text.HorizontalAlignment="Center" />
+		<TextBlock Name="RS_dB_text" Left="135" Top="23" Height="15" Width="30" Style="ApoText" Text="ml_SPDIFOutVirtual_dB" />
+		<Slider Left="25" Top="28" Style="HProgress" Name="RS_dB_Bar" Minimum="-13" Maximum="4" >
+		</Slider>	
+		<TextBlock Name="LS_title" Left="0" Top="8" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_LS" />
+		<TextBlock Name="RS_title" Left="0" Top="24" Height="20" Width="25" Style="ApoText" Text="ml_SPDIFOutVirtual_RS" />
+	</Canvas>
+<!--
+	<CheckBox Left="470" Top="366" Name="ChannelCopy" Style="DefaultCheckbox" />
+	<TextBlock Name="ChannelCopyTB" Left="492" Top="375" Width="150" Height="15" Text="ml_SPDIFOutVirtual_ChannelCopySF" Style="ApoText"/>		
+-->
+</Canvas>

@@ -1,0 +1,305 @@
+;
+;C-MEDIA USB Audio Class 1.0 and 2.0 Device Driver Driver
+;
+
+[Version]
+signature="$WINDOWS NT$"
+Class=Media
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=%CMEDIA%
+Catalogfile=CMUAC.cat
+DriverVer=08/01/2014,5.12.12.19
+
+[SourceDisksNames]
+1000=%cdname%,,,
+
+[SourceDisksFiles.x86]
+CMUAC.sys=1000,\x86
+
+[SourceDisksFiles.amd64]
+CMUAC.sys=1000,\x64
+
+[DestinationDirs]
+DefaultDestDir=12
+CMUAC.CopyFiles=12
+
+[Manufacturer]
+%CMEDIA%=C-MEDIA,NTamd64
+
+[C-MEDIA]
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0301&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0302&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0102&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_016F&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0012&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0311&MI_00	;CM6610A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0312&MI_00	;CM6620A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0313&MI_00	;CM6630A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0314&MI_00	;CM6631A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0319&MI_00	;CM6631A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0315&MI_00	;CM6632A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_147A&PID_E055&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0023&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0024&MI_00
+
+[C-MEDIA.NTamd64]
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0301&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0302&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0102&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_016F&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0012&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0311&MI_00	;CM6610A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0312&MI_00	;CM6620A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0313&MI_00	;CM6630A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0314&MI_00	;CM6631A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0319&MI_00	;CM6631A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0315&MI_00	;CM6632A
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_147A&PID_E055&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0023&MI_00
+%CMUAC.DeviceDesc%=CMUAC,USB\VID_0D8C&PID_0024&MI_00
+
+;---------------------------------------------------------------
+;                x 86  D D I n s t a l l
+;---------------------------------------------------------------
+
+[CMUAC]
+Include=ks.inf, wdmaudio.inf
+Needs=KS.Registration, WDMAUDIO.Registration
+DelReg=CMUAC.DelReg
+AddReg=CMUAC.AddReg, CMUAC_NAMES.AddReg
+CopyFiles=CMUAC.CopyFiles
+
+;---------------------------------------------------------------
+;                A M D 64  D D I n s t a l l
+;---------------------------------------------------------------
+
+[CMUAC.NTamd64]
+Include=ks.inf, wdmaudio.inf
+Needs=KS.Registration, WDMAUDIO.Registration
+DelReg=CMUAC.DelReg
+AddReg=CMUAC.AddReg, CMUAC_NAMES.AddReg
+CopyFiles=CMUAC.CopyFiles
+
+;---------------------------------------------------------------
+;                I n t e r f a c e s
+;---------------------------------------------------------------
+
+[CMUAC.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SPEAKER.WAVE%,Audio.I.SPEAKER.WAVE
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SPEAKER.WAVE%,Audio.I.SPEAKER.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SPDIFOUT.WAVE%,Audio.I.SPDIFOUT.WAVE
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SPDIFOUT.WAVE%,Audio.I.SPDIFOUT.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPOUT.WAVE%,Audio.I.HPOUT.WAVE
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_HPOUT.WAVE%,Audio.I.HPOUT.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RECIN.WAVE%,Audio.I.RECIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RECIN.WAVE%,Audio.I.RECIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_MICIN.WAVE%,Audio.I.MICIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_MICIN.WAVE%,Audio.I.MICIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_LINEIN.WAVE%,Audio.I.LINEIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_LINEIN.WAVE%,Audio.I.LINEIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SPDIFIN.WAVE%,Audio.I.SPDIFIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SPDIFIN.WAVE%,Audio.I.SPDIFIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_GLOBAL.TOPO%,Audio.I.GLOBAL.TOPO
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_GLOBAL.TOPO%,Audio.I.GLOBAL.TOPO
+
+[CMUAC.NTamd64.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SPEAKER.WAVE%,Audio.I.SPEAKER.WAVE
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SPEAKER.WAVE%,Audio.I.SPEAKER.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SPDIFOUT.WAVE%,Audio.I.SPDIFOUT.WAVE
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SPDIFOUT.WAVE%,Audio.I.SPDIFOUT.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPOUT.WAVE%,Audio.I.HPOUT.WAVE
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_HPOUT.WAVE%,Audio.I.HPOUT.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RECIN.WAVE%,Audio.I.RECIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RECIN.WAVE%,Audio.I.RECIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_MICIN.WAVE%,Audio.I.MICIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_MICIN.WAVE%,Audio.I.MICIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_LINEIN.WAVE%,Audio.I.LINEIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_LINEIN.WAVE%,Audio.I.LINEIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SPDIFIN.WAVE%,Audio.I.SPDIFIN.WAVE
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SPDIFIN.WAVE%,Audio.I.SPDIFIN.WAVE
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_GLOBAL.TOPO%,Audio.I.GLOBAL.TOPO
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_GLOBAL.TOPO%,Audio.I.GLOBAL.TOPO
+
+[Audio.I.SPEAKER.WAVE]
+AddReg=CMUAC.I.SPEAKER.WAVE.AddReg
+
+[Audio.I.SPDIFOUT.WAVE]
+AddReg=CMUAC.I.SPDIFOUT.WAVE.AddReg
+
+[Audio.I.HPOUT.WAVE]
+AddReg=CMUAC.I.HPOUT.WAVE.AddReg
+
+[Audio.I.RECIN.WAVE]
+AddReg=CMUAC.I.RECIN.WAVE.AddReg
+
+[Audio.I.MICIN.WAVE]
+AddReg=CMUAC.I.MICIN.WAVE.AddReg
+
+[Audio.I.LINEIN.WAVE]
+AddReg=CMUAC.I.LINEIN.WAVE.AddReg
+
+[Audio.I.SPDIFIN.WAVE]
+AddReg=CMUAC.I.SPDIFIN.WAVE.AddReg
+
+[Audio.I.GLOBAL.TOPO]
+AddReg=CMUAC.I.GLOBAL.TOPO.AddReg
+
+;---------------------------------------------------------------
+;                A d d R e g
+;---------------------------------------------------------------
+[CMUAC.AddReg]
+HKR,,Driver,,CMUAC.sys
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,NTMPDriver,,"CMUAC.sys,sbemul.sys"
+HKR,Drivers,SubClasses,,"wave,midi,mixer,aux"
+HKR,,SetupPreferredAudioDevices,3,01,00,00,00
+HKR,Drivers\wave\wdmaud.drv, Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv, Driver,,wdmaud.drv
+HKR,Drivers\aux\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\wave\wdmaud.drv,Description,,%CMUAC.Audio.DeviceDesc%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%CMUAC.Audio.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv,Description,,%CMUAC.Audio.DeviceDesc%
+HKR,Drivers\aux\wdmaud.drv,Description,,%CMUAC.Audio.DeviceDesc%
+
+[CMUAC_NAMES.AddReg]
+HKLM,%MediaCategories%\%CMUACGUID.SpdifOut%,Name,,%CMUACNode.SpdifOut%
+HKLM,%MediaCategories%\%CMUACGUID.SpdifOut%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%CMUACGUID.SpdifIn%,Name,,%CMUACNode.SpdifIn%
+HKLM,%MediaCategories%\%CMUACGUID.SpdifIn%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%HDAGuidStereoMixPin%,Name,,%HDAStereoMixPinName%
+HKLM,%MediaCategories%\%HDAGuidStereoMixPin%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%HDAGuidAuxInPin%,Name,,%HDAAuxInPinName%
+HKLM,%MediaCategories%\%HDAGuidAuxInPin%,Display,1,00,00,00,00
+
+[CMUAC.I.SPEAKER.WAVE.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.SPEAKER.WAVE.szPname%
+
+[CMUAC.I.SPDIFOUT.WAVE.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.SPDIFOUT.WAVE.szPname%
+
+[CMUAC.I.HPOUT.WAVE.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.HPOUT.WAVE.szPname%
+
+[CMUAC.I.RECIN.WAVE.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.RECIN.WAVE.szPname%
+
+[CMUAC.I.MICIN.WAVE.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.MICIN.WAVE.szPname%
+
+[CMUAC.I.LINEIN.WAVE.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.LINEIN.WAVE.szPname%
+
+[CMUAC.I.SPDIFIN.WAVE.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.SPDIFIN.WAVE.szPname%
+
+[CMUAC.I.GLOBAL.TOPO.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CMUAC.GLOBAL.TOPO.szPname%
+
+;---------------------------------------------------------------
+;                D e l R e g
+;---------------------------------------------------------------
+
+[CMUAC.DelReg]
+HKR,Settings
+
+;---------------------------------------------------------------
+;                Copy Files
+;---------------------------------------------------------------
+[CMUAC.CopyFiles]
+CMUAC.SYS
+
+
+;---------------------------------------------------------------
+;                S e r v i c e s  
+;---------------------------------------------------------------
+
+[CMUAC.Services]
+AddService=CMUAC, 0x00000002, CMUAC.ServiceInstall
+
+[CMUAC.NTamd64.Services]
+AddService=CMUAC, 0x00000002, CMUAC.ServiceInstall
+
+[CMUAC.ServiceInstall]
+DisplayName=%CMUAC.SvcDesc%
+ServiceType=%SERVICE_KERNEL_DRIVER%
+StartType=%SERVICE_DEMAND_START%
+ErrorControl=%SERVICE_ERROR_NORMAL%
+ServiceBinary=%12%\CMUAC.sys
+
+;---------------------------------------------------------------
+;                S t r i n g s
+;---------------------------------------------------------------
+
+[Strings]
+; non-localizeable
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_AUDIO="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_TOPOLOGY = "{DDA54A40-1E4C-11D1-A050-405705C10000}" ; non-localizable
+
+KSNAME_SPEAKER.WAVE="SPKOut00Wave"
+KSNAME_SPDIFOUT.WAVE="SPDIFOut00Wave"
+KSNAME_HPOUT.WAVE="HPOut00Wave"
+KSNAME_RECIN.WAVE="RecIn00Wave"
+KSNAME_MICIN.WAVE="MicIn00Wave"
+KSNAME_LINEIN.WAVE="LineIn00Wave"
+KSNAME_SPDIFIN.WAVE="SPDIFIn00Wave"
+KSNAME_GLOBAL.TOPO="GlobalTopo"
+
+SERVICE_KERNEL_DRIVER=1
+SERVICE_DEMAND_START=3
+SERVICE_ERROR_NORMAL=1
+REG_DWORD=0x00010001
+
+MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"
+
+;localizeable
+CMUACGUID.SpdifOut="{12C15946-BA58-42c1-9F11-8341E2198622}"
+CMUACGUID.SpdifIn	="{017D895C-7AE7-4f4d-B78C-CD1FFC0CE776}"
+HDAGuidStereoMixPin 		="{8c5716e6-c984-492e-a2fb-1385f2d0f3c9}"
+HDAGuidAuxInPin 		="{5f4bb488-a646-408a-9265-8647f9c374d4}"
+
+CMEDIA="C-MEDIA Inc."
+CMUAC.DeviceDesc="USB Audio Class 1.0 and 2.0 Device Driver"
+CMUAC.SvcDesc="USB Audio Class 1.0 and 2.0 Device Driver"
+CMUAC.SPEAKER.WAVE.szPname="Speaker"
+CMUAC.SPDIFOUT.WAVE.szPname="SpdifOut"
+CMUAC.HPOUT.WAVE.szPname="Headphone"
+CMUAC.RECIN.WAVE.szPname="Capture"
+CMUAC.MICIN.WAVE.szPname="MicIn"
+CMUAC.LINEIN.WAVE.szPname="LineIn"
+CMUAC.SPDIFIN.WAVE.szPname="SpdifIn"
+CMUAC.GLOBAL.TOPO.szPname="Global Mixer"
+CMUAC.Audio.DeviceDesc="CMUAC Audio"
+cdname="USB Audio Class 1.0/2.0 Device Installation Disk"
+CMUACNode.SpdifOut="SPDIF Out"
+CMUACNode.SpdifIn="SPDIF In"
+HDAStereoMixPinName="Stereo Mix"
+HDAAuxInPinName="Aux In"
+
+REG_BINARY          = 0x00000001

@@ -1,0 +1,39 @@
+<Canvas Width="643" Height="455" Name="SPDIFOutXearVoiceClarity">  
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerXearVoiceClarity_Title"/>	
+	
+	<TextBlock Foreground="White" Left="80" Top="93" Height="30"  Style="ApoText" Text="ml_SpeakerXearVoiceClarity_Enable" />
+	<CheckBox Left="56" Top="89" Height="27" Width="26" Name="BtnEnableVoiceClarity" Style="EnableFeatureButton" ToolTip="ml_SpeakerXearVoiceClarity_Enable" />
+
+	<TextBlock Name="VoiceClarity_Logo" Source="XearVoiceClarity/VoiceClarity_Logo.png" Left="534" Top="10" />
+	
+<Canvas Name="MainContent" Left="0" Top="140" Width="640" Height="455" >
+	<TextBlock Name="Level" Foreground="White" Left="93" Top="20"  Style="ApoText" Text="ml_SpeakerXearVoiceClarity_Level" />
+  <Slider Orientation="Horizontal" Height="36" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="93" Top="46" Width="240" Maximum="6" Name="VoiceClarityLevel" Minimum="0" SmallChange="1" Style="HSlider" Tooltip.Show="True"/>
+	<!--<TextBox Left="350" Top="46" Name="LevelTextBox" Style="XearTextbox" FontSize="10"/>-->
+	<TextBox Left="350" Top="46" width="45" Name="LevelTextBox" Style="KaraokeTextbox"/>
+	<Button Left="435" Top="45" Name="ResetVoiceLevel" Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerXearVoiceClarity_Reset"/> 
+    
+	
+	<TextBlock Name="SuppLevelText" Foreground="White" Left="93" Top="120" Style="ApoText" Text="ml_SpeakerXearVoiceClarity_Supp" />
+  <Slider Orientation="Horizontal" Height="36" Ticks="0,5,10,15,20" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="93" Top="146" Width="240" Maximum="20" Name="SuppLevel" Minimum="0" SmallChange="5" Tag="0" Style="HSlider" Tooltip.Show="True"/>
+  <Image Name="Tick1" Source="FlexBass/Tick.png" Left="95" Top="176" Width="2" Height="12" />
+	<Image Name="Tick2" Source="FlexBass/Tick.png" Left="153" Top="176" Width="2" Height="8.75" />
+	<Image Name="Tick3" Source="FlexBass/Tick.png" Left="211" Top="176" Width="2" Height="12" />
+	<Image Name="Tick4" Source="FlexBass/Tick.png" Left="269" Top="176" Width="2" Height="8.75" />
+	<Image Name="Tick5" Source="FlexBass/Tick.png" Left="327" Top="176" Width="2" Height="12" />
+	<TextBlock Name="Text0" Foreground="White" Left="90" Top="192" Height="16" Style="ApoText" Text = "0" />
+	<TextBlock Name="Text5" Foreground="White" Left="147" Top="192" Height="16" Style="ApoText" Text = "5" />
+	<TextBlock Name="Text10" Foreground="White" Left="201" Top="192" Height="16" Style="ApoText" Text = "10" />
+	<TextBlock Name="Text15" Foreground="White" Left="259" Top="192" Height="16" Style="ApoText" Text = "15" />
+	<TextBlock Name="Text20" Foreground="White" Left="317" Top="192" Height="16" Style="ApoText" Text = "20" />
+	
+   <!--<TextBox Left="350" Top="146" Name="SuppLevelTextBox" Style="XearTextbox" FontSize="10"/>-->
+   <TextBox Left="350" Top="146" width="45" Name="SuppLevelTextBox" Style="KaraokeTextbox"/>
+   <TextBlock Foreground="White" Left="390" Top="146" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="dB"/>
+   <Button Left="435" Top="145" Name="ResetSuppLevel" Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerXearVoiceClarity_Reset" /> 
+
+<!--<TextBlock Name="Intro" Foreground="White" Left="93" Top="250" Style="ApoText" Text="Xear Voice Clarity introduction in here." />-->
+	</Canvas>
+	
+</Canvas>

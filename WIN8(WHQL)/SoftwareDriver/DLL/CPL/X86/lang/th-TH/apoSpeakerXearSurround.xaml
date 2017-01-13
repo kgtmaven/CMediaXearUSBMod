@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurround_Title">Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_EnableXearSurroundEffect">เปิดใช้งาน  Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSize">ขนาดห้อง</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeS">ห้องขนาดเล็ก</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeM">ห้องขนาดกลาง</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeL">ห้องขนาดใหญ่</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeA">ห้องไร้เสียงสะท้อน</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelRequirement">เอฟเฟ็กต์ Xear เซอร์ราวนด์สนับสนุนเฉพาะระบบสเตอริโอ (2 แชนเนล), คุณสามารถกดปุ่มด้านล่างเพื่อปรับการตั้งค่าแชนเนลได้</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelsSetting">การตั้งค่าช่อง</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Sound_Field_Expansion">การขยายสนามเสียง</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Speaker_Angle">มุมลำโพง</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Narrow">แคบ</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Wide">กว้าง</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

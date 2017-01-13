@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_Title">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_EnableXearSurroundEffect">Aktifkan Xear Surround</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundHeadPhone_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_ChannelRequirement">Xear Surround Effect hanya mendukung Stereo (2 saluran), Anda dapat menekan tombol di bawah ini untuk menyesuaikan pengaturan saluran.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_ChannelsSetting">Saluran Setting</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_Sound_Field_Expansion">Ekspansi Ruang Suara</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_Speaker_Angle">Sudut Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_Narrow">Sempit</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_Wide">Luas</sys:String>
+  <sys:String x:Key="ml_HeadPhoneXearSurroundSpeakers_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

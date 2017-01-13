@@ -1,0 +1,12 @@
+<SkinMenu Name="SystemTrayMenu" Style="SystemTrayMenu">
+	<SkinMenuItem Name="OpenMainWnd" Style="TrayMenuItem" Content="ml_Main_TrayMenu_Open"/>
+	<SkinMenuItem Style="Separator"/>
+	<SkinMenuItem Name="VolumeControl" Style="TrayMenuItem" Content="ml_Main_TrayMenu_VolumeControl"/>
+	<SkinMenuItem Name="WindowMediaPlayer" Style="TrayMenuItem" Content="ml_Main_TrayMenu_MediaPlayer"/>
+	<SkinMenuItem Name="SoundRecorder" Style="TrayMenuItem" Content="ml_Main_TrayMenu_SoundRecorder"/>
+	<SkinMenuItem Name="MultimediaProperties" Style="TrayMenuItem" Content="ml_Main_TrayMenu_MultimediaProperties"/>
+	<SkinMenuItem Style="Separator"/>
+	<SkinMenuItem Name="Settings" Style="TrayMenuItem" Content="ml_Main_TrayMenu_Settings"/>
+	<SkinMenuItem Style="Separator"/>
+	<SkinMenuItem Name="AppClose" Style="TrayMenuItem" Content="ml_Main_TrayMenu_Exit"/>
+</SkinMenu>

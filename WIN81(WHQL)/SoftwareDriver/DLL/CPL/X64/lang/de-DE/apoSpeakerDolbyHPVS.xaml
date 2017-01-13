@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_EnableDolbyVirtualSpeaker">Dolby Virtual Lautsprecher aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Title">Dolby Surround Effekt</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_VSSmall">Referenzmodus</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_VSLarge">Weiter Modus</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_EnableDolbyHeadphone">Dolby Headphone aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Studio">Studio</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Cinema">Kino</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_Hall">Halle</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_DolbyHeadphone">Dolby Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_DolbyVirtualSpeaker">Dolby Virtual Lautsprecher</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_EnableDolbySurroundEffect">Dolby Surround Effect aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_ChannelRequirement">Dolby Surround Effekt unterstützt nur Stereo (2 Kanäle)</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHPVS_ChannelsSetting">Kanäle einstellen</sys:String>
+</ResourceDictionary>

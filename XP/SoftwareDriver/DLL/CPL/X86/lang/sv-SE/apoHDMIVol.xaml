@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HDMIVol_HDMIVol">HDMI</sys:String>
+  <sys:String x:Key="ml_HDMIVol_L">L</sys:String>
+  <sys:String x:Key="ml_HDMIVol_R">R</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Title">Volymkontroll</sys:String>
+  <sys:String x:Key="ml_HDMIVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_HDMIVol_VoldB_Range_Error">Området för volym i dB är mellan {0:F2} och {1:F2}.</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Balance">Låsa</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnBalance">Låsa upp</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Mute">Ljud av</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnMute">Ljud på</sys:String>
+</ResourceDictionary>

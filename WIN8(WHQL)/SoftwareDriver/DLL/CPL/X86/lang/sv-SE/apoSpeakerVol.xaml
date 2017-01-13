@@ -1,0 +1,16 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerVol_Front">Framsida</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Rear">Baksida</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_CenLFE">Cen/LFE</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Side">Sida</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_L">L</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_R">R</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Title">Volymkontroll</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_VoldB_Range_Error">Området för volym i dB är mellan {0:F2} och {1:F2}.</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Balance">Låsa</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnBalance">Låsa upp</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Mute">Ljud av</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnMute">Ljud på</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Master">Master</sys:String>
+</ResourceDictionary>

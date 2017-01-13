@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDTSSS_EnableDTSSurroundSensation">DTS Surround Sensation aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_UseNEOPCasstereoexpander">Benutze NEO:PC als Stereoerweiterung</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_BassEnhancement">Bassverbesserung</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_DailogClarity">Dailog Clarity</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_SoundStageExpansionFactor">Sound Stage Expansion Factor</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_PhysicalSpeakerAngle">Physikalischer Lautsprecherwinkel</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MixLFEChanneltoOutput">Mix LFE Kanal zum Ausgang</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Headphone">Kopfhörer</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Speaker">Lautsprecher</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Title">DTS Surround Sensation</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ChannelRequirement">DTS Surround Sensation unterstützt nur Stereo (2 Kanäle)</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ChannelsSetting">Kanäle einstellen</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Mode">Modus</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MusicMode">Musikmodus</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MovieMode">Filmmodus</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ContentType">Inhaltstyp</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_DTSVoiceClarity">DTS Voice Clarity</sys:String>
+</ResourceDictionary>

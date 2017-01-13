@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEQ_Title">Equalizer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_EnableEqualizer">Aktivera Equalizer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Prompt">*Ange förinställt namn...*</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Invalid">Filnamnet ogiltigt (kan inte innefatta tecknen /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_SaveError">Spara EQ användardefinierat fel</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_LoadError">Ladda EQ användardefinierat fel</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_DeleteError">Radera EQ användardefinierat fel</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_ContentSameAsPreset">Innehållet i profilen är samma som i förinställt läge</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Dance">Dans</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Bass">Bas</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Tremble">Diskant</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Live">Live</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_SoftRock">SoftRock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Classic">Klassiskt</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Vocal">Opera</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Save">Spara</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Delete">Ta bort</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Default">Standard</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Manual">Manuell</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_HasTheSameUserDefineName">EQ-namnet finns redan. Vill du skriva över det?</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,60 @@
+<SkinMenu.Dictionary>	
+	
+	<!-- this Background value is for control background fill color, which format is #ARGB, white, black, red, green, blue, yellow, ... -->
+	<Setter Property="Background" Value="White"/>					
+
+	<!-- for draw menu background -->
+	<Setter Property="Image.Background" Value=""/>
+
+	<!-- the margin for draw menu background -->
+	<Setter Property="Margin.Background" Value="0, 0, 0, 0"/>
+
+	<!-- the margin of the menu item view -->
+	<Setter Property="Margin.Item" Value="0, 0, 0, 0"/>
+
+	<!-- the max width of the menu item -->
+	<Setter Property="MaxWidth" Value="1000"/>
+
+	<!-- the flag of calculate menu item width, use MaxWidth if DynamicWidth is false -->
+	<Setter Property="DynamicWidth" Value="True"/>   <!-- True, False -->
+
+	<!-- the position for trackink popup menu -->
+	<Setter Property="TrackingAlign" Value="RIGHT"/>  <!-- RIGHT, TOP -->	
+
+	<!-- for show the popup menu -->
+	<Setter Property="TrackingOffset" Value="0, 0"/>	
+  
+  <!-- this Border value is for border line width -->
+		<Setter Property="Border"	Value="2"/>
+		
+	<!-- this Border.Color value is for border line color -->
+	<Setter Property="Border.Color"	Value="LightGray"/>	
+
+	<!-- define the menu item property -->
+	<Style Key="EffectMenu">
+		<Setter Property="Image.Background" Value="Main\\PopupMenu_bg.png"/>
+		<Setter Property="Margin.Background" Value="16, 0, 0, 0"/>
+		<Setter Property="Margin.Item" Value="28, 4, 12, 4"/>
+		<Setter Property="MaxWidth" Value="1000"/>
+		<Setter Property="TrackingAlign" Value="RIGHT"/>		
+		<Setter Property="TrackingOffset" Value="20, -32"/>		
+	</Style>
+	<Style Key="SystemTrayMenu">
+		<Setter Property="Image.Background" Value="Main\\PopupMenu_bg.png"/>
+		<Setter Property="Margin.Background" Value="0, 0, 0, 16"/>
+		<Setter Property="Margin.Item" Value="12, 4, 12, 20"/>
+		<Setter Property="MaxWidth" Value="1000"/>
+		<Setter Property="TrackingAlign" Value="TOP"/>		
+		<Setter Property="TrackingOffset" Value="-28, 0"/>		
+	</Style>
+	<Style Key="TextBoxMenu">
+		<Setter Property="Image.Background" Value="Main\\PopupMenu_bg.png"/>
+		<Setter Property="Margin.Background" Value="0, 0, 0, 0"/>
+		<Setter Property="Margin.Item" Value="12, 4, 12, 4"/>
+		<Setter Property="MaxWidth" Value="100"/>
+		<Setter Property="TrackingAlign" Value="RIGHT"/>		
+		<Setter Property="TrackingOffset" Value="0, 0"/>		
+	</Style>
+
+</SkinMenu.Dictionary>
+

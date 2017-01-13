@@ -1,0 +1,57 @@
+<Canvas Width="643" Height="455" Name="SPDIFOutKaraoke" Stretch="Fill" StretchDirection="Both" MaxWidth="643" MaxHeight="455">
+
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35" Style="ApoTitle" Text="ml_SPDIFOutKaraoke_Title"/>
+	<TextBlock Name="SingFX_Logo" Source="SingFX/Logo_SingFX.png" Left="534" Top="10" />
+	<CheckBox Left="102" Top="121" Name="BtnEnableKeyShifting" ToolTip="ml_SPDIFOutKaraoke_EnableKeyShifting" Style="EnableFeatureButton" />
+
+	<CheckBox Left="102" Top="255" Name="BtnEnableVocalCanellation" ToolTip="ml_SPDIFOutKaraoke_EnableVocalFading" Style="EnableFeatureButton" />
+
+
+	<TextBox Left="465" Top="181" width="45" Name="KeyShiftValue" Style="KaraokeTextbox"/>
+	<TextBox Left="465" Top="316" width="45" Name="VocalCancelValue" Style="KaraokeTextbox"/>
+
+	<Slider Orientation="Horizontal" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Left="168" Top="185" Width="286" Maximum="4" Name="KeyShifting" Minimum="-4" SmallChange="1" Style="NonFillSlider" Tooltip.Show="True"/>
+
+	<Slider Orientation="Horizontal" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Left="168" Top="320" Width="286" Maximum="100" Name="VocalCanellation" Minimum="0" SmallChange="1" Style="NonFillSlider" Tooltip.Show="True"/>
+
+	<TextBlock Name="Tick1" Source="SingFX/Tick.png" Top="204" Width="2" Height="12" Left="170" />
+
+	<TextBlock Name="Tick2" Source="SingFX/Tick.png" Top="205" Width="2" Height="9" Left="239.5" />
+
+	<TextBlock Name="Tick3" Source="SingFX/Tick.png" Top="205.75" Width="2" Height="12" Left="309.25" />
+
+	<TextBlock Name="Tick4" Source="SingFX/Tick.png" Top="205" Width="2" Height="9" Left="379" />
+
+	<TextBlock Name="Tick5" Source="SingFX/Tick.png" Top="204" Width="2" Height="12" Left="449.75" />
+
+	<TextBlock Name="Tick6" Source="SingFX/Tick.png" Top="340" Width="2" Height="12" Left="170" />
+
+	<TextBlock Name="Tick7" Source="SingFX/Tick.png" Top="340" Width="2" Height="9" Left="239.5" />
+
+	<TextBlock Name="Tick8" Source="SingFX/Tick.png" Top="340" Width="2" Height="12" Left="309.25" />
+
+	<TextBlock Name="Tick9" Source="SingFX/Tick.png" Top="340" Width="2" Height="9" Left="379" />
+
+	<TextBlock Name="Tick10" Source="SingFX/Tick.png" Top="340" Width="2" Height="12" Left="449.75" />
+
+
+	<TextBlock Name="EnableKeyShifting" Foreground="White" Left="123" Top="125" Height="25" Style="ApoText" Text="ml_SPDIFOutKaraoke_EnableKeyShifting" Text.VerticalAlignment="Center"/>
+
+	<TextBlock Name="EnableVocalFading" Foreground="White" Left="123" Top="259" Height="25" Style="ApoText" Text="ml_SPDIFOutKaraoke_EnableVocalFading" Text.VerticalAlignment="Center"/>
+
+	<TextBlock Name="Low" Foreground="White" Left="123" Top="160" Height="20" Style="ApoText" Text="ml_SPDIFOutKaraoke_Low" Text.VerticalAlignment="Center"/>
+
+	<TextBlock Name="High" Foreground="White" Left="460" Top="160" Height="20" Style="ApoText" Text="ml_SPDIFOutKaraoke_High" Text.VerticalAlignment="Center"/>
+
+	<TextBlock Name="Voice" Foreground="White" Left="123" Top="290" Height="20" Style="ApoText" Text="ml_SPDIFOutKaraoke_Voice" Text.VerticalAlignment="Center"/>
+
+	<TextBlock Name="NoVoice" Foreground="White" Left="460" Top="290" Height="20" Style="ApoText" Text="ml_SPDIFOutKaraoke_NoVoice" Text.VerticalAlignment="Center"/>
+
+	<Button Name="BtnKSReset" Left="550" Top="180"  Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerKaraoke_Reset" />
+	<Button Name="BtnVCReset" Left="550" Top="315"  Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerKaraoke_Reset" />		
+	<!--	<Button Name="BtnReset" Width="81.043" Height="27.488" Cursor="Hand" Tag="227" Left="537" Top="385.59" ToolTip="ml_SPDIFOutKaraoke_Reset" Foreground="Black" Visibility="Hidden" Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png"/> 
+-->
+
+</Canvas>
+

@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEM_Title">เอฟเฟกต์สภาพแวดล้อม</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_EnableEnvironmentEffects">เปิดใช้งานเอฟเฟกต์สภาพแวดล้อม</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Environment">สภาพแวดล้อม</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_RoomSize">ขนาดห้อง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SmallRoom">ห้องขนาดเล็ก</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_MediumRoom">ห้องขนาดกลาง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LargeRoom">ห้องขนาดใหญ่</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Default">ค่าเริ่มต้น</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Generic">ทั่วไป</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_PaddedCell">ห้องเก็บเสียงแบบบุนวม</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Room">ห้อง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Bathroom">ห้องน้ำ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LivingRoom">ห้องนั่งเล่น</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneRoom">ห้องเก็บเสียงแบบหิน</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Auditorium">หอประชุม</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ConcertHall">หอแสดงคอนเสิร์ต</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Cave">ถ้ำ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Arena">สนามกีฬา</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hangar">โรงเก็บเครื่องบิน</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_CarpetedHallway">โถงทางเดินปูพรม</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hallway">โถงทางเดิน</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneCorridor">ระเบียงหิน</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Alley">ตรอก</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Forest">ป่า</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_City">เมือง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Mountains">ภูเขา</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Quarry">เหมืองแร่</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Plain">ที่ราบ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ParkingLot">ที่จอดรถ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SewerPipe">ท่อระบายน้ำ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_UnderWater">น้ำบาดาล</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Drugged">มึนเมา</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Dizzy">วิงเวียน</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Psychotic">โรคจิต</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_KTV">คาราโอเกะ</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInVol_MicInVol">Micrófono</sys:String>
+  <sys:String x:Key="ml_MicInVol_L">L</sys:String>
+  <sys:String x:Key="ml_MicInVol_R">R</sys:String>
+  <sys:String x:Key="ml_MicInVol_Title">Control del volumen</sys:String>
+  <sys:String x:Key="ml_MicInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_MicInVol_VoldB_Range_Error">El rango de volumen en dB está entre {0:F2} y {1:F2}.</sys:String>
+  <sys:String x:Key="ml_MicInVol_Balance">Bloquear</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnBalance">Desbloquear</sys:String>
+  <sys:String x:Key="ml_MicInVol_Mute">Silencio</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnMute">Anular silencio</sys:String>
+  <sys:String x:Key="ml_MicInVol_MonitorVol">del monitor</sys:String>
+  <sys:String x:Key="ml_MicInVol_ListenToThisDeviceOnDefaultRender">Escuchar este dispositivo desde el dispositivo de salida predeterminado</sys:String>
+</ResourceDictionary>

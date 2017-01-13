@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyVS_Title">Dolby Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSSmall">Reference 模式</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSLarge">Wide 模式</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_EnableDolbySurroundEffect">启动 Dolby Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelRequirement">Dolby Surround 效果 只支持喇叭组态为立体声(2声道),请按下方按钮至喇叭设定页面调整声道设定</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelsSetting">频道设定</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,18 @@
+﻿<ResourceDictionary 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="ml_DialogAppSetting_Yes">Yes</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_No">No</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_AudioDeviceSelect">Audio Device Select :</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_ASIODriverSelect">ASIO Driver Select :</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_LanguageSelect">Language Select :</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_SkinSelect">Skin Select :</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_UITransparent">UI Transparent :</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_ShowSystemTrayIcon">Show System Tray Icon :</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_Title">Application Setting</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_OK">OK</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_Canel">Cancel</sys:String>
+	<sys:String x:Key="ml_DialogAppSetting_Apply">Apply</sys:String>
+  	<sys:String x:Key="ml_DialogAppSetting_DisableWelcomeMsg">Don't show start up message :</sys:String>
+</ResourceDictionary>

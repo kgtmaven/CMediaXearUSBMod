@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Kulaklık Ayar</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Kulaklık Test</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Kulaklık</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Lütfen kullanım senaryonuza uygun veya kulaklık empedansıyla eşleşen fayda ayarını seçin. </sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Normal Fayda (&lt;64 ohm için 0dB)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">Yüksek Fayda (64~150 ohm için 6dB)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Ekstra Yüksek Fayda (150~300 ohm için 12dB)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

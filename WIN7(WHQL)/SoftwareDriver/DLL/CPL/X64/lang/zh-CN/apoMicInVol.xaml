@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInVol_MicInVol">麦克风输入</sys:String>
+  <sys:String x:Key="ml_MicInVol_L">左</sys:String>
+  <sys:String x:Key="ml_MicInVol_R">右</sys:String>
+  <sys:String x:Key="ml_MicInVol_Title">音量控制</sys:String>
+  <sys:String x:Key="ml_MicInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_MicInVol_VoldB_Range_Error">音量范围dB值介于 {0:F2} 到 {1:F2}之间</sys:String>
+  <sys:String x:Key="ml_MicInVol_Balance">锁定</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnBalance">解除锁定</sys:String>
+  <sys:String x:Key="ml_MicInVol_Mute">静音</sys:String>
+  <sys:String x:Key="ml_MicInVol_UnMute">解除静音</sys:String>
+  <sys:String x:Key="ml_MicInVol_MonitorVol">监听音量</sys:String>
+  <sys:String x:Key="ml_MicInVol_ListenToThisDeviceOnDefaultRender">从默认输出装置聆听此装置</sys:String>
+</ResourceDictionary>

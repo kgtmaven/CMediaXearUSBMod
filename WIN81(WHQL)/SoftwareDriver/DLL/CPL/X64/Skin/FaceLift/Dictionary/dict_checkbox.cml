@@ -1,0 +1,74 @@
+<CheckBox.Dictionary>
+
+		<!-- this Cursor value is for mouse cursor when mouse is over on this control, for example: Arrow, Hand, Cross, ... -->
+		<Setter Property="Cursor" Value="Hand"/>		<!-- Hand, Arrow -->
+
+		<!-- this Toolip value is for control tooltip when control is checked -->
+		<Setter Property="Tooltip.Check" Value=""/>		
+		
+		<!-- this Image.Uncheck.Normal value is for normal image in uncheck status -->
+		<Setter Property="Image.Uncheck.Normal"/>
+
+		<!-- this Image.Uncheck.MouseOver value is for mouse over image in uncheck status -->
+		<Setter Property="Image.Uncheck.MouseOver"/>
+
+		<!-- this Image.Check.Normal value is for normal image in check status -->
+		<Setter Property="Image.Check.Normal"/>
+
+		<!-- this Image.Check.MouseOver value is for mouse over image in check status -->
+		<Setter Property="Image.Check.MouseOver"/>
+
+  	<!-- style of default checkbox -->
+		<Style Key="DefaultCheckbox">
+					<Setter Property="Width" Value="27"/>
+					<Setter Property="Height" Value="26"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_CheckBox_no.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_CheckBox_se.png"/>
+		</Style>
+
+  	<!-- style looks like radio-->
+		<Style Key="RadioStyle">
+					<Setter Property="Width" Value="14"/>
+					<Setter Property="Height" Value="14"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_RadioButton_Unchecked.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_RadioButton_Checked.png"/>
+		</Style>
+
+  	<!-- style of mute button, mute and unmute -->
+		<Style Key="MuteButton">
+					<Setter Property="Width" Value="21"/>
+					<Setter Property="Height" Value="21"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_Unmute_no.png"/>
+					<Setter Property="Image.Uncheck.MouseOver" Value="Resources/Res_Unmute_mo.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_Mute_no.png"/>
+					<Setter Property="Image.Check.MouseOver" Value="Resources/Res_Mute_mo.png"/>
+		</Style>
+
+  	<!-- style of lock button, lock and unlock -->
+		<Style Key="LockButton">
+					<Setter Property="Width" Value="21"/>
+					<Setter Property="Height" Value="21"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_Unlock_no.png"/>
+					<Setter Property="Image.Uncheck.MouseOver" Value="Resources/Res_UnLock_mo.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_Lock_no.png"/>
+					<Setter Property="Image.Check.MouseOver" Value="Resources/Res_Lock_mo.png"/>
+		</Style>
+
+  	<!-- style of sperker test play/stop button -->
+		<Style Key="TestButton">
+					<Setter Property="Width" Value="21"/>
+					<Setter Property="Height" Value="21"/>
+					<Setter Property="Image.Uncheck.Normal" Value="XearSurroundEffect/AutoTest_no.png"/>
+					<Setter Property="Image.Uncheck.MouseOver" Value="XearSurroundEffect/AutoTest_glow.png"/>
+					<Setter Property="Image.Check.Normal" Value="XearSurroundEffect/AutoTest_Stop_no.png"/>
+					<Setter Property="Image.Check.MouseOver" Value="XearSurroundEffect/AutoTest_Stop_glow.png"/>
+		</Style>
+
+		<Style Key="EnableFeatureButton">
+					<Setter Property="Width" Value="27"/>
+					<Setter Property="Height" Value="26"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_CheckBox_no.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_CheckBox_se.png"/>
+		</Style>
+
+</CheckBox.Dictionary>

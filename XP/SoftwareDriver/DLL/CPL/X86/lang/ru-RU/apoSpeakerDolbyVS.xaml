@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyVS_Title">Dolby Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSSmall">Reference Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_VSLarge">Wide Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_EnableDolbySurroundEffect">Включить Dolby Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelRequirement">Dolby Surround Эффект поддерживает только стереозвук (2-канальный)</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyVS_ChannelsSetting">Параметры динамиков</sys:String>
+</ResourceDictionary>

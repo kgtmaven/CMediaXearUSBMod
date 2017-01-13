@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerSetting_Title">喇叭设定</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_LFECenterChannelSwap">中置/重低音声道互换</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SideBackSurroundSwap">侧置/后置声道互换</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SpeakerTest">喇叭测试</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_2Channels">立体声</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_4Channels">四声道</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_5dot1Channels">5.1 环场音效</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_7dot1Channels">7.1 环场音效</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_Headphone">耳机</sys:String>
+</ResourceDictionary>

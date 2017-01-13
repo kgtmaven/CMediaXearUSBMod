@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Auscultadores Definição</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Auscultadores Teste</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Estéreo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Auscultadores</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Seleccione a sintonia de ganho de acordo com o seu cenário de utilização ou de forma a coincidir com a impedância dos auscultadores.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Ganho normal (0dB para &lt;64 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">Ganho elevado (6dB para 64~150 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Ganho extra elevado (12dB para 150~300 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,11 @@
+﻿<ResourceDictionary 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="ml_SpeakerSurroundMax_Title">Xear Surround Max</sys:String>
+	<sys:String x:Key="ml_SpeakerSurroundMax_EnableSM">Enable Xear Surround Max</sys:String>
+  <sys:String x:Key="ml_SpeakerSurroundMax_ChannelRequirement">Xear Surround Max can only be enabled when Virtual Surround, Speaker Shifter or Real Multi-Channel Output setting is turned on.</sys:String>
+	<sys:String x:Key="ml_SpeakerSurroundMax_ChannelsSetting">Channels Setting</sys:String>
+	<sys:String x:Key="ml_SpeakerSurroundMax_XearSurroundEffect"> Xear Surround Effect</sys:String>
+	<!--Leave space to solve mantis 0005672: [8828]Xear surround Max頁面，無法開啟功能時，"Xear Surround Effect"的字超出按鈕 -->
+</ResourceDictionary>

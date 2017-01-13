@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+
+		<RadioButton Name="HiFi" GroupName="ProFileMenu" Left="275" Top="0" Width="42" Height="41" Cursor="Hand" Image.Uncheck.Normal="PanelProfile/HiFi_no.png" Image.Check.Normal="PanelProfile/HiFi_se.png"  Image.Check.MouseOver="PanelProfile/HiFi_se.png" Image.Uncheck.MouseOver="PanelProfile/HiFi_mo.png" Tooltip="ml_PanelProfile_HiFi" Tooltip.Check="ml_PanelProfile_HiFi" />
+

@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutKaraoke_Title">Xear SingFX</sys:String>
+  <sys:String x:Key="ml_SPDIFOutKaraoke_EnableKeyShifting">啟動音階升降功能</sys:String>
+  <sys:String x:Key="ml_SPDIFOutKaraoke_EnableVocalFading">啟動原音消除功能</sys:String>
+  <sys:String x:Key="ml_SPDIFOutKaraoke_Low">降音</sys:String>
+  <sys:String x:Key="ml_SPDIFOutKaraoke_High">升音</sys:String>
+  <sys:String x:Key="ml_SPDIFOutKaraoke_Voice">人聲</sys:String>
+  <sys:String x:Key="ml_SPDIFOutKaraoke_NoVoice">無人聲</sys:String>
+  <sys:String x:Key="ml_SPDIFOutKaraoke_Reset">回覆預設值</sys:String>
+</ResourceDictionary>

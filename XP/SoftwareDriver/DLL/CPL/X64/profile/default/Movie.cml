@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+		
+		<RadioButton Name="Movie" GroupName="ProFileMenu" Left="455" Top="0" Width="42" Height="41" Cursor="Hand" Image.Uncheck.Normal="PanelProfile/Movie_no.png" Image.Check.Normal="PanelProfile/Movie_se.png" Image.Check.MouseOver="PanelProfile/Movie_se.png" Image.Uncheck.MouseOver="PanelProfile/Movie_mo.png" Tooltip="ml_PanelProfile_Movie" Tooltip.Check="ml_PanelProfile_Movie" />

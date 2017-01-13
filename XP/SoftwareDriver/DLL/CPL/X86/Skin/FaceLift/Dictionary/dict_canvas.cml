@@ -1,0 +1,24 @@
+<Canvas.Dictionary>
+	
+		<!-- for draw profile panel animate, for example D3D, 2D -->
+		<Setter Property="Animate.Style" Value=""/>
+
+		<!-- for draw panel background -->
+		<Setter Property="Background.Image" Value=""/>
+
+		<!-- this Stretch value is for image stretch, optional: Fill (default), None, Uniform, UniformToFill -->
+		<Setter Property="Stretch" Value=""/>
+		
+		<!-- horizontal scroll size -->
+		<Setter Property="Scroll.cx" Value="0"/>
+
+		<!-- vertical scroll size -->
+		<Setter Property="Scroll.cy" Value="0"/>
+		
+		<!-- horizontal page size -->
+		<Setter Property="Page.cx" Value="0"/>
+
+		<!-- vertical page size -->
+		<Setter Property="Page.cy" Value="0"/>
+		
+</Canvas.Dictionary>

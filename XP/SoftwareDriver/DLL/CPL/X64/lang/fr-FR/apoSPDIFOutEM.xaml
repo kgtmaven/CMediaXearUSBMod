@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEM_Title">Effets d’environnement</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_EnableEnvironmentEffects">Activer les effets d’environnement</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Environment">Environnement</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_RoomSize">Taille de la pièce</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SmallRoom">Petite pièce</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_MediumRoom">Pièce de taille moyenne</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LargeRoom">Grande pièce</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Default">Par défaut</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Generic">Generic</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_PaddedCell">Cellule capitonée</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Room">Chambre</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Bathroom">S.D.B.</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LivingRoom">Séjour</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneRoom">Salle en pierre</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ConcertHall">Salle de concert</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Cave">Grotte</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Arena">Stade</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hangar">Hangar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_CarpetedHallway">Couloir avec tapis plein</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hallway">Couloir</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneCorridor">Couloir en pierre</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Alley">Allée</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Forest">Forêt</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_City">Ville</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Mountains">Montagnes</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Quarry">Carrière</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Plain">Plaine</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ParkingLot">Parking</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SewerPipe">Pipeline</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_UnderWater">Sous l’eau</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Drugged">Drogues</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Dizzy">Saoul</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Psychotic">Psychotique</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_KTV">Karaoké</sys:String>
+</ResourceDictionary>

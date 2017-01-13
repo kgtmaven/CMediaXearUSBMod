@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window Title="ml_Main_Title" Background.Image="Main/bg.png" Width="800" Height="600" AllowsTransparency="True" Topmost="False" >
+
+	<Button Name="BtnMainLogo" Left="27" Top="47" Width="80" Height="60" Image.Normal="Main/Logo.png" Tag="http://www.cmedia.com.tw/EN/index.aspx" Tooltip="ml_Main_BtnMainLogo" />	
+	<Image Left="185" Top="0" Width="425" Height="24" Source="Main/TitleBar.png" />
+	<TextBlock Left="335" Foreground="#FF666666" FontSize="13" FontWeight="Normal" Text="ml_Main_Title" />		
+	<Image Left="661" Top="0" Width="141" Height="26" Source="Main/SysBar.png" />
+	<Button Name="BtnClose" Left="776" Top="2"  Image.Normal="Main/CloseBtn_no.png" Image.MouseOver="Main/CloseBtn_mo.png" Tooltip="ml_Main_Close" />
+	<Button Name="BtnMinimize" Left="748" Top="2"  Image.Normal="Main/MiniBtn_no.png" Image.MouseOver="Main/MiniBtn_mo.png" Tooltip="ml_Main_Minimize" />
+	<Button Name="BtnSetting" Left="717" Top="2"  Image.Normal="Main/SettingBtn_no.png" Image.MouseOver="Main/SettingBtn_mo.png" Tooltip="ml_Main_Setting" />
+	<Button Name="BtnInfo" Left="686" Top="2"  Image.Normal="Main/InfoBtn_no.png" Image.MouseOver="Main/InfoBtn_mo.png" Tooltip="ml_Main_Info"/>
+	
+	<Embed Name="PanelDeviceList" Left="20" Top="126" Width="120" Height="442"/>
+
+	<Embed Name="PanelStatus" Left="138" Top="50.7" Width="490" Height="66" />
+	<Embed Name="PanelProfile" Left="138" Top="50.7" Width="490" Height="66" />
+
+	<CheckBox Name="PanelSwitchButton" Width="25" Height="24" Cursor="Hand" Left="602.25" Top="91.168" Image.Uncheck.Normal="Main/PanelSwtichButton_no.png" Image.Uncheck.MouseOver="Main/PanelSwtichButton_mo.png" 
+			Tooltip="ml_Main_PanelSwitch"  Tooltip.Check="ml_Main_CPanelSwitch"/>
+
+	<Image Width="7" Height="6" Left="743" Top="67" Source="Main/VolUp.png"/>
+	<Image Width="7" Height="2" Left="652" Top="70" Source="Main/VolDown.png"/>
+
+	<Slider Left="662" Top="61" Width="79.667" Value="100" Minimum="0" Maximum="100" Name="SpeakerVol" AutoToolTipPrecision="0" AutoToolTipPlacement="TopLeft" SmallChange="1" Style="HSliderSmall" Tooltip.Show="True"/>
+
+	<CheckBox Name="SpeakerMute" Width="26" Height="20" Cursor="Hand" Left="757.333" Top="59.333" Tooltip="ml_Main_Mute" Tooltip.Check="ml_Main_UnMute"
+		Image.Uncheck.Normal="Main/UnmuteBtn_no.png" Image.Uncheck.MouseOver="Main/UnmuteBtn_mo.png" 
+		Image.Check.Normal="Main/MuteBtn_no.png" Image.Check.MouseOver="Main/MuteBtn_mo.png" />
+
+  <CheckBox Name="EnableSmartVol" Width="42" Height="40" Cursor="Hand" Left="646.5" Top="82" Tooltip="ml_Main_SmartVol" Tooltip.Check="ml_Main_CSmartVol"
+		Image.Uncheck.Normal="Main/SVN_no.png" Image.Uncheck.MouseOver="Main/SVN_mo.png" 
+		Image.Check.Normal="Main/SVN_Selected_no.png" Image.Check.MouseOver="Main/SVN_Selected_mo.png"/>
+
+  <CheckBox Name="EnableGX" Width="42" Height="40" Cursor="Hand" Left="686" Top="82" Tooltip="ml_Main_GX" Tooltip.Check="ml_Main_CGX" 
+		Image.Uncheck.Normal="Main/GX_no.png" Image.Uncheck.MouseOver="Main/GX_mo.png" 
+		Image.Check.Normal="Main/GX_Selected_no.png" Image.Check.MouseOver="Main/GX_Selected_mo.png" />
+        
+  <Button Left="725.25" Top="82" Name="BtnASIO" Width="42" Height="40" Cursor="Hand" Tooltip="ml_Main_ASIO" 
+  	Image.Normal="Main/ASIO_no.png" Image.MouseOver="Main/ASIO_mo.png" />
+
+	<Image Left="138" Top="125" Width="656" Height="466" Source="Main/ContentFrame.png" >
+	</Image>		
+	<Embed Name="FrameContent" Left="140" Top="131" Width="643" Height="455" >
+	</Embed>
+</Window>

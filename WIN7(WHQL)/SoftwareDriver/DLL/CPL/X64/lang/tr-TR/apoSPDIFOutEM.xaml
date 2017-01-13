@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEM_Title">Çevre efektleri</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_EnableEnvironmentEffects">Çevre efektlerini etkinleştir</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Environment">Çevre</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_RoomSize">Oda Boyutu</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SmallRoom">Küçük Oda</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_MediumRoom">Orta Oda</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LargeRoom">Büyük Oda</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Default">Varsayılan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Generic">Genel</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_PaddedCell">Kaplanmış hücre</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Room">Oda</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Bathroom">Banyo</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LivingRoom">Oturma odası</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneRoom">Taş oda</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Auditorium">Konferans salonu</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ConcertHall">Konser salonu</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Cave">Mağara</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Arena">Arena</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hangar">Hangar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_CarpetedHallway">Halı kaplı koridor</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hallway">Koridor</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneCorridor">Taş koridor</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Alley">Geçit</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Forest">Orman</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_City">Şehir</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Mountains">Dağlar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Quarry">Taş ocağı</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Plain">Ova</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ParkingLot">Otopark</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SewerPipe">Kanalizasyon borusu</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_UnderWater">Su altı</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Drugged">Uyuşturulmuş</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Dizzy">Başdöndürücü</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Psychotic">Psikotik</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

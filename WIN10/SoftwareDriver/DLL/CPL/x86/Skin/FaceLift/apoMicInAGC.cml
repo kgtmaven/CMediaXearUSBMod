@@ -1,0 +1,8 @@
+<Canvas  Width="643" Height="455" Name="MicInAGC">
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_AGC_Title" />
+  
+	<TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_AGC_On" />
+	<CheckBox Left="56" Top="71" Name="BtnEnableAGC" Style="EnableFeatureButton" ToolTip="ml_AGC_On"/>	
+		   
+</Canvas>

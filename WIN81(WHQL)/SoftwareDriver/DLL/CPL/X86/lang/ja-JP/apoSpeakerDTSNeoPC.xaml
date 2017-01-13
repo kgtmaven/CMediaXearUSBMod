@@ -1,0 +1,9 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_EnableDTSNEOPC">DTS NEO:PC 有効にする</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_MusicMode">音楽モード</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_MovieMode">ムービーモード</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_Reset">リセット</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_Title">DTS Neo:PC</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_ChannelRequirement">DTS Neo:PC は Quadraphonic、5.1 サラウンド、7.1 サラウンドのスピーカー設定をサポートしています。</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_ChannelsSetting">チャンネル設定</sys:String>
+</ResourceDictionary>

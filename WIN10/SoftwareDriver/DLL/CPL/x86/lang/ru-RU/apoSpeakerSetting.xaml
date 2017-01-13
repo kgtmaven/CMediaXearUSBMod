@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerSetting_Title">Параметры динамиков</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_LFECenterChannelSwap">Изменить вывод: центр/басы</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SideBackSurroundSwap">Изменить вывод: окружение сбоку/сзади</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SpeakerTest">Speaker Test</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_2Channels">Стереомикс</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_4Channels">Квадрофоническое</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_5dot1Channels">5.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_7dot1Channels">7.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_Headphone">Наушники</sys:String>
+</ResourceDictionary>

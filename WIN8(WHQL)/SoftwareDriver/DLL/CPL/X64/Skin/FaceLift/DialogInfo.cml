@@ -1,0 +1,73 @@
+﻿<Window WindowStartupLocation="CenterScreen" ShowInTaskbar="True" WindowStyle="None" BorderThickness="0" Padding="0" ResizeMode="CanMinimize" Name="DialogInfo" AllowsTransparency="True" Width="740" Height="391" Title="ml_DialogInfo_Title" Background.Image="DialogInfo/BG.png" Opacity="0.99" Topmost="False" >
+  			
+	<Image Source="DialogInfo/TitleBar.png" Left="253" Name="InfoTitleBar" />
+	<TextBlock Foreground="#000000" Style="ApoText" Left="263" Top="2.5" Text="ml_DialogInfo_Title" Text.HorizontalAlignment="Center" Width="223" Name="ml_InfoTitleBar_Text"/>
+
+	<Button Name="BtnExit" Cursor="Hand" Left="615" Top="350" Width="80" Height="35" Style="ClickButton" Text="ml_DialogInfo_Exit" Foreground="#000000" FontWeight="Bold" Text.HorizontalAlignment="Center" Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png"/>
+	<Button Name="BtnDetail" Cursor="Hand" Left="30" Top="350" Width="80" Height="35" Style="StaticResource" Text="ml_DialogInfo_Detail" Foreground="#000000" FontWeight="Bold" Text.HorizontalAlignment="Center" Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png"/>
+	<Button Name="BtnLegal" Cursor="Hand" Left="120" Top="350" Width="80" Height="35" Style="StaticResource" Text="ml_DialogInfo_Legal" Foreground="#000000" FontWeight="Bold" Text.HorizontalAlignment="Center" Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png"/>
+
+	<!--<TextBlock Foreground="#FF666666" Background="Transparent" Style="ApoText" Left="145" Top="158" Text="USB 2.0 High Speed True HD Audio Ver: 1.0"/>-->
+	<TextBlock Foreground="#FF666666" Background="Transparent" Style="ApoText" Left="240" Top="142" Text="Copyright © 2012 C-Media Inc."/>
+	<Button Name="BtnUrl" Foreground="Blue" Left="285" Top="158.45" FontSize="9" FontWeight="Bold" Text="www.cmedia.com.tw" Tag="http://www.cmedia.com.tw" />		
+	
+	<TextBlock Foreground="#FF666666" Background="Transparent" Left="75" Top="60" Style="ApoText" Text="ml_DialogInfo_AudioCodec" Text.HorizontalAlignment="Right" Width="290"/>
+	<TextBlock Name="AudioCodec" Foreground="#FF666666" Background="Transparent" Left="367.989" Top="60" Style="ApoText" Width="314" Text="NULL" Text.HorizontalAlignment="Left"/>
+			
+	<TextBlock Foreground="#FF666666" Background="Transparent" Left="75" Top="75" Style="ApoText" Text="ml_DialogInfo_AudioDriverVersion" Text.HorizontalAlignment="Right" Width="290"/>
+	<TextBlock Name="DriverVer" Foreground="#FF666666" Background="Transparent" Left="367.989" Top="75" Style="ApoText" Width="314" Text="NULL" Text.HorizontalAlignment="Left"/>
+	
+	<TextBlock Foreground="#FF666666" Background="Transparent" Left="75" Top="90" Style="ApoText" Text="ml_DialogInfo_FirmwareVersion" Text.HorizontalAlignment="Right" Width="290"/>
+	<TextBlock Name="FirmwareVer" Foreground="#FF666666" Background="Transparent" Left="367.989" Top="90" Style="ApoText" Width="314" Text="NULL" Text.HorizontalAlignment="Left"/>
+	
+	<TextBlock Foreground="#FF666666" Background="Transparent" Left="75" Top="105" Style="ApoText" Text="ml_DialogInfo_DirectXVersion" Text.HorizontalAlignment="Right" Width="290"/>
+	<TextBlock Name="DirectXVer" Foreground="#FF666666" Background="Transparent" Left="367.989" Top="105" Style="ApoText" Width="314" Text="NULL" Text.HorizontalAlignment="Left"/>
+	
+	<TextBlock Foreground="#FF666666" Background="Transparent" Left="75" Top="120" Style="ApoText" Text="ml_DialogInfo_CPLVersion" Text.HorizontalAlignment="Right" Width="290"/>
+	<TextBlock Name="CPLVer" Foreground="#FF666666" Background="Transparent" Left="367.989" Top="120" Style="ApoText" Width="314" Text="NULL" Text.HorizontalAlignment="Left"/>
+	
+	<!--
+	<TextBlock Foreground="#FF666666" Background="Transparent" FontSize="9" Left="60" Top="278" Text="ml_DialogInfo_ASIOTech"/>
+	<TextBlock Foreground="#FF666666" Background="Transparent" FontSize="9" Left="58" Top="305" Text="ml_DialogInfo_ASIOInterface"/>
+	-->
+
+
+	
+	<Image Width="28" Height="29" Left="47" Top="59" Source="DialogInfo/InfoLogo.png" />
+	
+	<Canvas Width="665" Height="165" Left="30" Top="172" Name="LogoCanvas">
+	<Image Name="LogoLiving" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_Living.png" Visibility="Hidden" />
+	<Image Name="LogoLivingEM" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_LivingEM.png" Visibility="Hidden" />
+	<Image Name="LogoLivingEQ" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_LivingEQ.png" Visibility="Hidden" />
+	<Image Name="LogoLivingFBII" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_LivingFBII.png" Visibility="Hidden" />
+	<Image Name="LogoLivingSVN" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_LivingSVN.png" Visibility="Hidden" />
+	<Image Name="LogoLivingVSS" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_LivingVSS.png" Visibility="Hidden" />
+	
+	<Image Name="LogoMagicVoice" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_MagicVoice.png" Visibility="Hidden" />
+	<Image Name="LogoPitchShifting" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_PitchShifting.png" Visibility="Hidden" />
+	<Image Name="LogoSingFX" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_SingFX.png" Visibility="Hidden" />
+	<Image Name="LogoSingingEcho" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_SingingEcho.png" Visibility="Hidden" />
+	<Image Name="LogoVocalFading" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_VocalFading.png" Visibility="Hidden" />
+	
+	<Image Name="LogoAudioBrilliant" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_AudioBrilliant.png" Visibility="Hidden" />
+	<Image Name="LogoDynamicBass" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_DynamicBass.png" Visibility="Hidden" />
+	<Image Name="LogoSmartVolume" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_SmartVolume.png" Visibility="Hidden" />
+	<Image Name="LogoSonic" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_Sonic.png" Visibility="Hidden" />
+	<Image Name="LogoVoiceClarity" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_VoiceClarity.png" Visibility="Hidden" />
+	
+	<Image Name="LogoSurround" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_Surround.png" Visibility="Hidden" />
+	<Image Name="LogoSurroundMax" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_SurroundMax.png" Visibility="Hidden" />
+	<Image Name="LogoSurroundHeadphone" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_SurroundHeadphone.png" Visibility="Hidden" />
+	<Image Name="LogoSurroundSpeaker" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_SurroundSpeaker.png" Visibility="Hidden" />
+	
+	<Image Name="LogoVoClear" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_VoClear.png" Visibility="Hidden" />
+	<Image Name="LogoVoClearAEC" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_VoClearAEC.png" Visibility="Hidden" />
+	<Image Name="LogoVoClearBF" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_VoClearBF.png" Visibility="Hidden" />
+	<Image Name="LogoVoClearENC" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_VoClearENC.png" Visibility="Hidden" />
+	<Image Name="LogoVoClearNR" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_VoClearNR.png" Visibility="Hidden" />
+	
+	<Image Name="Logo3DEX" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_3DEX.png" Visibility="Hidden" />
+	<Image Name="LogoPro" Width="100" Height="55" Left="0" Top="0" Source="DialogInfo/Logo_Pro.png" Visibility="Hidden" />
+	</Canvas>
+
+</Window>

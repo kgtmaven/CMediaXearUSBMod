@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_PanelProfile_Music">Musikmodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Movie">Filmmodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Karaoke">Karaoke</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HiFi">Hi-Fi-Modus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Recording">Aufnahmemodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Communication">Kommunikationsmodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Gaming">Spielemodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Racing">Rennmodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_FPS">FPSmodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_RTS">RTSmodus</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Manual">Manuell</sys:String>
+  <sys:String x:Key="ml_PanelProfile_AddProfile">Profil hinzufügen</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfile">Profil löschen</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName">Profilname</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileDescription">Profilbeschreibung</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Prompt">Bitte geben Sie den Profilnamen ein.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Invalid">Dateiname ungültig (darf die Zeichen /\:*?\"&lt;&gt;| nicht enthalten)</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowOK">OK</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowCancel">Abbrechen</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindow_Title">Neues Profil</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_DeleteConfirm">Möchten Sie dieses Profil wirklich löschen?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileNumberLimit">Die Anzahl der Profile darf nicht größer als fünf sein?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowDelete">Löschen</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowCancel">Abbrechen</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileName">Profilname</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindow_Title">Profil löschen</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameSettingInProfileList">Das Profil hat dieselben Einstellungen wie das aktuelle.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameUserDefineName">Dieses Profil existiert bereits. Wollen Sie dieses ersetzen?</sys:String>
+</ResourceDictionary>

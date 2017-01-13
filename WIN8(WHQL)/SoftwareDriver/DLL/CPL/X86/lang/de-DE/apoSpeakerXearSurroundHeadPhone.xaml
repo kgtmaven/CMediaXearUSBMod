@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_EnableXearSurroundEffect">Xear Surround aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSize">Raumgröße</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeS">Kleiner Raum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeM">Mittelgroßer Raum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeL">Großer Raum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeA">Reflexionsarmer Raum</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelRequirement">Xear Surround Effect unterstützt nur Stereo (2 Kanäle)</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelsSetting">Kanäle einstellen</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

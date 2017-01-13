@@ -1,0 +1,5 @@
+<SkinMenu Name="LineInMenu" Style="EffectMenu" Opacity="0.95">
+  <SkinMenuItem Name="LineInVol" Style="EffectMenuItem" Content="ml_LineInVol_Title"/>
+  <SkinMenuItem Name="LineInSamplingRate" Style="EffectMenuItem" Content="ml_LineInSamplingRate_Title"/>
+  <SkinMenuItem Name="LineInAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+</SkinMenu>

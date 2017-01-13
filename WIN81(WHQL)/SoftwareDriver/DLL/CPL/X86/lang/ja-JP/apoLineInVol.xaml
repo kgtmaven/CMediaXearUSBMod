@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_LineInVol_LineInVol">ライン入力</sys:String>
+  <sys:String x:Key="ml_LineInVol_L">L</sys:String>
+  <sys:String x:Key="ml_LineInVol_R">R</sys:String>
+  <sys:String x:Key="ml_LineInVol_Title">音量コントロール</sys:String>
+  <sys:String x:Key="ml_LineInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_LineInVol_VoldB_Range_Error">dB の音量範囲は{0:F2}から{1:F2}です。</sys:String>
+  <sys:String x:Key="ml_LineInVol_Balance">ロック</sys:String>
+  <sys:String x:Key="ml_LineInVol_UnBalance">ロック解除</sys:String>
+  <sys:String x:Key="ml_LineInVol_Mute">消音</sys:String>
+  <sys:String x:Key="ml_LineInVol_UnMute">消音解除</sys:String>
+  <sys:String x:Key="ml_LineInVol_MonitorVol">モニター</sys:String>
+  <sys:String x:Key="ml_LineInVol_ListenToThisDeviceOnDefaultRender">デフォルトの出力デバイスからこのデバイスを聴く</sys:String>
+</ResourceDictionary>

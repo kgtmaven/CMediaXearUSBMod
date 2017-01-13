@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFInVol_SPDIFInVol">S/PDIF-เข้า</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_L">L</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_R">R</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Title">ตัวควบคุมระดับเสียง</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_VoldB_Range_Error">ช่วงของระดับเสียงเป็น dB อยู่ระหว่าง {0:F2} ถึง {1:F2}</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Balance">ล็อก</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnBalance">ปลดล็อก</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Mute">ปิดเสียง</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnMute">เปิดเสียง</sys:String>
+</ResourceDictionary>

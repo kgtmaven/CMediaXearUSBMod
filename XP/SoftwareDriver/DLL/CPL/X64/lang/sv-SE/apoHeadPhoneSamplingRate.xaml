@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadphoneSamplingRate_Title">Samplingsfrekvens</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_44dot1KHz">44.1 KHz</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_48KHz">48 KHz</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_88dot2KHz">88.2 KHz</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_96KHz">96 KHz</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_176dot4KHz">176.4 KHz</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_192KHz">192 KHz</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_16Bits">16 Bits</sys:String>
+  <sys:String x:Key="ml_HeadphoneSamplingRate_24Bits">24 Bits</sys:String>
+</ResourceDictionary>

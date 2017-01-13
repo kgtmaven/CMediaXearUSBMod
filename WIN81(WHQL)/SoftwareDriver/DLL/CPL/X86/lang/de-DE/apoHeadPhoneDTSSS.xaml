@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneDTSSS_EnableDTSSurroundSensation">DTS Surround Sensation aktivieren</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_UseNEOPCasstereoexpander">Nutze NEO:PC als Stereoerweiterung</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_BassEnhancement">Bassverbesserung</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_DailogClarity">Dailog Clarity</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_SoundStageExpansionFactor">Sound Stage Expansion Faktor</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_PhysicalSpeakerAngle">Physikalischer Lautsprecherwinkel</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_MixLFEChanneltoOutput">Mixe LFE Kanal zum Ausgang</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Headphone">Kopfhörer</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Speaker">Lautsprecher</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Title">DTS Surround Sensation</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_ChannelRequirement">DTS Surround Sensation unterstutzt nur Stereo (2 Kanale)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_ChannelsSetting">Kanale einstellen</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Mode">Modus</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_MusicMode">Musikmodus</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_MovieMode">Filmmodus</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_ContentType">Inhaltstyp/sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_DTSVoiceClarity">DTS Voice Clarity</sys:String>
+</ResourceDictionary>

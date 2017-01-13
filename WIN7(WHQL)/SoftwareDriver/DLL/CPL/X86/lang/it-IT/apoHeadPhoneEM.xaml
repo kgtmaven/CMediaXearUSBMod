@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEM_Title">Effetti ambiente</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_EnableEnvironmentEffects">Abilita effetti ambiente</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Environment">Ambiente</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_RoomSize">Dimensione stanza</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SmallRoom">Stanza piccola</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_MediumRoom">Stanza media</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LargeRoom">Stanza grande</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Default">Predefinito</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Generic">Generico</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_PaddedCell">Cella imbottita</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Room">Stanza</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Bathroom">Bagno</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_LivingRoom">Soggiorno</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneRoom">Stanza di pietra</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ConcertHall">Hall concerto</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Cave">Caverna</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Arena">Arena</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hangar">Hangar</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_CarpetedHallway">Corridoio con tappeto</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Hallway">Corridoio</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_StoneCorridor">Corridoio in pietra</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Alley">Vicolo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Forest">Foresta</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_City">Città</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Mountains">Montagne</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Quarry">Cava</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Plain">Pianura</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_ParkingLot">Parcheggio</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_SewerPipe">Tubazione</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_UnderWater">Sott'acqua</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Drugged">Alterato</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Dizzy">Vertigini</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_Psychotic">Psicotico</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

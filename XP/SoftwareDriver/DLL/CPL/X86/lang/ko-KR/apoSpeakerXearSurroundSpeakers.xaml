@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Title">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_EnableXearSurroundEffect">활성화 Xear Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelRequirement">Xear 서라운드 효과가 스테레오(2개의 채널)만 지원합니다</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelsSetting">채널 설정</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Sound_Field_Expansion">사운드 필드 확장</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Speaker_Angle">스피커 각도</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Narrow">좁게</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_Wide">넓게</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundSpeakers_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,20 @@
+﻿<ResourceDictionary.MergedDictionaries>
+	<ResourceDictionary Source="Dictionary/dict_button.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_canvas.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_checkbox.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_combobox.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_comboboxitem.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_control.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_embed.cml"/>	
+	<ResourceDictionary Source="Dictionary/dict_image.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_panel_vs.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_radiobutton.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_shape.cml"/>			
+	<ResourceDictionary Source="Dictionary/dict_skinmenu.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_skinmenuitem.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_slider.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_textblock.cml"/>	
+	<ResourceDictionary Source="Dictionary/dict_textbox.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_window.cml"/>
+	<ResourceDictionary Source="Dictionary/dict_repeatbutton.cml"/>
+</ResourceDictionary.MergedDictionaries>

@@ -1,0 +1,57 @@
+<RadioButton.Dictionary>	
+	
+		<!-- this Cursor value is for mouse cursor when mouse is over on this control, for example: Arrow, Hand, Cross, ... -->
+		<Setter Property="Cursor" Value="Hand"/>		<!-- Hand, Arrow -->
+
+		<!-- this GroupName value is for mark radio group in parent window -->
+		<Setter Property="GroupName"/>
+
+		<!-- this Image.Uncheck.Normal value is for normal image in uncheck status -->
+		<Setter Property="Image.Uncheck.Normal"/>
+
+		<!-- this Image.Uncheck.MouseOver value is for mouse over image in uncheck status -->
+		<Setter Property="Image.Uncheck.MouseOver"/>
+
+		<!-- this Image.Check.Normal value is for normal image in check status -->
+		<Setter Property="Image.Check.Normal"/>
+
+		<!-- this Image.Check.MouseOver value is for mouse over image in check status -->
+		<Setter Property="Image.Check.MouseOver"/>
+
+  	<!-- style of default radio button -->
+		<Style Key="DefaultRadio">
+					<Setter Property="Width" Value="14"/>
+					<Setter Property="Height" Value="14"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_RadioButton_Unchecked.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_RadioButton_Checked.png"/>
+		</Style>
+
+		<Style Key="RadioClickButton">
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_Button_no.png"/>
+					<Setter Property="Image.Uncheck.MouseOver" Value="Resources/Res_Button_mo.png"/>
+		</Style>
+
+  	<!-- style of EQ mode radio button -->
+		<Style Key="EQRadio">
+					<Setter Property="Width" Value="80"/>
+					<Setter Property="Height" Value="20"/>
+					<Setter Property="FontSize" Value="10"/>
+					<Setter Property="FontWeight" Value="Bold"/>
+					<Setter Property="Text.HorizontalAlignment" Value="Center"/>
+					<Setter Property="Foreground" Value="#FF787878"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_Button_no.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_Button_se.png"/>
+					<Setter Property="Image.Uncheck.MouseOver" Value="Resources/Res_Button_mo.png"/>
+					<Setter Property="Image.Check.MouseOver" Value="Resources/Res_Button_se.png"/>
+		</Style>
+
+  	<!-- style of selected input/output device mark -->
+		<Style Key="DefaultDeviceButton">
+					<Setter Property="Width" Value="33"/>
+					<Setter Property="Height" Value="29"/>
+					<Setter Property="Image.Uncheck.Normal" Value="Resources/Res_CheckBox_no.png"/>
+					<Setter Property="Image.Check.Normal" Value="Resources/Res_CheckBox_se.png"/>
+		</Style>
+
+
+</RadioButton.Dictionary>

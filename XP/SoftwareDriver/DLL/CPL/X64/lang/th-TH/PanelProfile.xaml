@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_PanelProfile_Music">โหมดเพลง</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Movie">โหมดภาพยนตร์</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Karaoke">คาราโอเกะ</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HiFi">โหมดไฮไฟ</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Recording">โหมดการบันทึก</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Communication">โหมดการติดต่อสื่อสาร</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Gaming">โหมดเกม</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Racing">โหมดการแข่งขัน</sys:String>
+  <sys:String x:Key="ml_PanelProfile_FPS">FPS โหมด</sys:String>
+  <sys:String x:Key="ml_PanelProfile_RTS">RTS โหมด</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Manual">กำหนดเอง</sys:String>
+  <sys:String x:Key="ml_PanelProfile_AddProfile">รายละเอียดเพิ่ม</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfile">ลบโปรไฟล์</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName">ชื่อโปรไฟล์</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileDescription">รายละเอียดข้อมูลส่วนตัว</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Prompt">โปรดใส่ชื่อของโปรไฟล์</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Invalid">ชื่อไฟล์ไม่ถูกต้อง (ต้องไม่มีอักขระ /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowOK">ตกลง</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowCancel">ยกเลิก</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindow_Title">โปรไฟล์ใหม่</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_DeleteConfirm">คุณแน่ใจหรือไม่ว่าต้องการลบโปรไฟล์นี้?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileNumberLimit">จำนวนโปรไฟล์สูงสุดต้องไม่เกินห้า?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowDelete">ลบ</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowCancel">ยกเลิก</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileName">ชื่อโปรไฟล์</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindow_Title">ลบโปรไฟล์</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameSettingInProfileList">มีโปรไฟล์ที่เหมือนกับการตั้งค่าปัจจุบันนี้อยู่</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameUserDefineName">ชื่อโปรไฟล์มีอยู่แล้ว คุณต้องการแทนที่หรือไม่?</sys:String>
+</ResourceDictionary>

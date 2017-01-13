@@ -1,0 +1,5 @@
+<SkinMenu Name="StereoMixMenu" Style="EffectMenu" Opacity="0.95">
+  <SkinMenuItem Name="StereoMixVol" Style="EffectMenuItem" Content="ml_StereoMixVol_Title"/>
+  <SkinMenuItem Name="StereoMixSamplingRate" Style="EffectMenuItem" Content="ml_StereoMixSamplingRate_Title"/>
+  <SkinMenuItem Name="StereoMixAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+</SkinMenu>

@@ -1,0 +1,24 @@
+﻿<Window WindowStartupLocation="CenterScreen" WindowStyle="None" BorderThickness="0" Name="Dialog_WelcomeMsg" AllowsTransparency="True" Topmost="False"
+	Width="640" Height="391" Background.Image="DialogWelcomeMsg/BG.png" Title="ml_DialogWelcomeMsg_InfoTitle">
+
+    <Image Source="DialogWelcomeMsg/TitleBar.png" Left="203.323" Top="0" Width="243" Height="27" Name="WelcomeMsgTitleBar"/>
+
+		<TextBlock Foreground="#000000" Background="Transparent"  FontSize="10" FontWeight="Bold" Left="213" Top="4" Text="ml_DialogWelcomeMsg_InfoTitle"  Width="223" Name="DialogWelcomeMsgBar_Text" />
+		<Image Source="DialogWelcomeMsg/InfoLogo.png" Left="47" Top="59" Width="28" Height="29" />
+		<Image Source="DialogWelcomeMsg/Speakers.png" Left="449" Top="93.5" Width="89" Height="82" />
+		<Image Source="DialogWelcomeMsg/CheckBox_se.png" Left="515.5" Top="145.5" Width="20" Height="19" />
+		<Image Source="DialogWelcomeMsg/Pop_menu.png" Left="444.651" Top="211.012" Width="159" Height="65" />
+
+		<!--<Image Source="Image/DialogWelcomeMsg/Mic.png" Width="101" Height="95"  Canvas.Left="487" Canvas.Top="199"/>		
+		<Image Source="Image/DialogWelcomeMsg/CheckBox_se.png" Width="27" Height="26"  Canvas.Left="570" Canvas.Top="267"/>-->		
+		
+		<Button Name="BtnExit" Left="525" Top="350"  Width="80" Height="35" Style="ClickButton" Text="ml_DialogWelcomeMsg_Exit" Foreground="#000000" FontWeight="Bold" />
+		
+		<TextBlock Foreground="#000000" FontWeight="Bold" Background="Transparent" Text.HorizontalAlignment="Center" Width="400" FontSize="10" Left="110" Top="48" Text="ml_DialogWelcomeMsg_MsgTitle"  />
+		<TextBlock Foreground="#FF666666" FontWeight="Bold" Background="Transparent" Text.HorizontalAlignment="Left" Height="50" Width="350" Left="90" Top="114" FontSize="10" Text="ml_DialogWelcomeMsg_MsgPratOne" TextWrapping="Wrap" />
+		<TextBlock Foreground="#FF666666" FontWeight="Bold" Background="Transparent" Text.HorizontalAlignment="Left" Height="50" Width="350" Left="90" Top="229" FontSize="10" Text="ml_DialogWelcomeMsg_MsgPratTwo" TextWrapping="Wrap" />
+		
+		<CheckBox Left="22" Top="346"  Name="BtnDisableWelcomeMsg" ToolTip="ml_DialogWelcomeMsg_DisableWelcomeMsg" Style="DefaultCheckbox" />
+		<TextBlock Foreground="#FF666666"  FontWeight="Bold" Background="Transparent" FontSize="10" Left="44" Top="355" Text="ml_DialogWelcomeMsg_DisableWelcomeMsg" />
+
+</Window>

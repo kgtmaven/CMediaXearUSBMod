@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEM_Title">Эффекты среды</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_EnableEnvironmentEffects">Включить эффекты среды</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Environment">Среда</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_RoomSize">Размер помещения</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SmallRoom">Небольшая комната</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_MediumRoom">Средняя комната</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LargeRoom">Большая комната</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Default">По умолчанию</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Generic">Общее</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_PaddedCell">Палата, обитая войлоком</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Room">Комната</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Bathroom">Ванная</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LivingRoom">Гостиная</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneRoom">Комната с каменными стенами</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Auditorium">Аудитория</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ConcertHall">Концертный зал</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Cave">Пещера</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Arena">Арена</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hangar">Ангар</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_CarpetedHallway">Коридор с ковровым покрытием</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hallway">Коридор</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneCorridor">Коридор с каменными стенами</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Alley">Аллея</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Forest">Лес</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_City">Город</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Mountains">Горы</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Quarry">Каменоломня</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Plain">Поле</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ParkingLot">Автостоянка</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SewerPipe">Канализационная труба</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_UnderWater">Под водой</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Drugged">Медленно</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Dizzy">Головокружительный</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Psychotic">Психотический</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_KTV">Караоке</sys:String>
+</ResourceDictionary>

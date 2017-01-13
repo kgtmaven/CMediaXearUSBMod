@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HDMIVol_HDMIVol">HDMI</sys:String>
+  <sys:String x:Key="ml_HDMIVol_L">L</sys:String>
+  <sys:String x:Key="ml_HDMIVol_R">R</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Title">볼륨 컨트롤</sys:String>
+  <sys:String x:Key="ml_HDMIVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_HDMIVol_VoldB_Range_Error">볼륨 범위(dB)는 {0:F2} ~ {1:F2} 사이입니다.</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Balance">밸런스</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnBalance">밸런스</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Mute">음소거</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnMute">음소거 해제</sys:String>
+</ResourceDictionary>

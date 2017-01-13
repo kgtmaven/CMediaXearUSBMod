@@ -1,0 +1,19 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogInfo_DetailInformation">Подробная информация</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_Name">Имя</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_Version">Версия</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailField_ModifiedDate">Дата</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DetailWindow_Title">Подробная информация</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Title">Информация</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Exit">Выход</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Detail">Подробно</sys:String>
+  <sys:String x:Key="ml_DialogInfo_AudioCodec">App Интерфейс :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_AudioDriverVersion">Версия аудиодрайвера :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_DirectXVersion">Версия DirectX :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_FirmwareVersion">Устройство :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_CPLVersion">Версия прошивки :</sys:String>
+  <sys:String x:Key="ml_DialogInfo_ASIOTech">ASIO Technology by Steinberg Media Technologies GmbH.</sys:String>
+  <sys:String x:Key="ml_DialogInfo_ASIOInterface">ASIO Interface Technology by Steinberg Media Technologies GmbH.</sys:String>
+  <sys:String x:Key="ml_DialogInfo_LegalWindow_Title">Правовая информация</sys:String>
+  <sys:String x:Key="ml_DialogInfo_Legal">юридический</sys:String>
+</ResourceDictionary>

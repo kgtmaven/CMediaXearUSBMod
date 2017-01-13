@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneDTSSS_EnableDTSSurroundSensation">DTS Surround Sensation 활성화</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_UseNEOPCasstereoexpander">Use NEO:PC as stereo expander</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_BassEnhancement">Bass Enhancement</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_DailogClarity">Dailog Clarity</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_SoundStageExpansionFactor">Sound Stage Expansion Factor</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_PhysicalSpeakerAngle">Physical Speaker Angle</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_MixLFEChanneltoOutput">Mix LFE Channel to Output</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Headphone">Headphones</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Speaker">Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Title">DTS Surround Sensation</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_ChannelRequirement">DTS Surround Sensation 는 스테레오만 지원합니다(2 채널).</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_ChannelsSetting">채널 설정</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_Mode">모드</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_MusicMode">음악 모드</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_MovieMode">영화 모드</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_ContentType">Content Type</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDTSSS_DTSVoiceClarity">DTS Voice Clarity</sys:String>
+</ResourceDictionary>

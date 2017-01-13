@@ -1,0 +1,54 @@
+<Canvas Name="SpeakerDolbyHPVS">
+		<Canvas Width="643" Height="455" Name="MainContent">
+
+			<TextBlock Name="TitleDolbyHPVS" Left="30" Top="23" Width="400" Height="35" Style="ApoTitle" Text="ml_SpeakerDolbyHPVS_Title" />		
+			<CheckBox Left="56" Top="70" Name="BtnEnableDolbySurroundEffect" ToolTip="ml_SpeakerDolbyHPVS_EnableDolbySurroundEffect" Style="DefaultCheckbox" />
+			<TextBlock Name="TitleCheckDolbyHPVS" Left="80" Top="74" Width="300" Height="30" Style="ApoText" Text="ml_SpeakerDolbyHPVS_EnableDolbySurroundEffect" />		
+		
+			<RadioButton Left="67" Top="151" Style="DefaultRadio" GroupName="DolbySurroundEffect" Name="BtnEnableVS" ToolTip="ml_SpeakerDolbyHPVS_DolbyVirtualSpeaker" />
+			<TextBlock Name="TitleCheckDolbyVS" Left="85" Top="151" Width="200" Height="15" Style="ApoText" Text="ml_SpeakerDolbyHPVS_DolbyVirtualSpeaker" />		
+			<RadioButton Left="67" Top="191" Style="DefaultRadio" GroupName="DolbySurroundEffect" Name="BtnEnableHP" ToolTip="ml_SpeakerDolbyHPVS_DolbyHeadphone"  />
+			<TextBlock Name="TitleCheckDolbyHP" Left="85" Top="191" Width="200" Height="15" Style="ApoText" Text="ml_SpeakerDolbyHPVS_DolbyHeadphone" />		
+	
+	
+			<Canvas Height="430" Left="180"  Width="460" Name="BSDVS" Top="23">
+				<RadioButton Name="BtnVSSmall" GroupName="SpeakerDolbyVirtualSpeaker" Cursor="Hand" Left="150" Top="320" Width="75" Height="70" ToolTip="ml_SpeakerDolbyHPVS_VSSmall" 
+		    	Image.Uncheck.Normal="DolbyHPVS/ReferenceMode_no.png" Image.Uncheck.MouseOver="DolbyHPVS/ReferenceMode_mo.png" Image.Check.Normal="DolbyHPVS/ReferenceMode_se.png" 
+		    />
+				<RadioButton Name="BtnVSLarge" GroupName="SpeakerDolbyVirtualSpeaker" Cursor="Hand" Left="240" Top="320" Width="74" Height="71" ToolTip="ml_SpeakerDolbyHPVS_VSLarge" 
+		    	Image.Uncheck.Normal="DolbyHPVS/WideMode_no.png" Image.Uncheck.MouseOver="DolbyHPVS/WideMode_mo.png" Image.Check.Normal="DolbyHPVS/WideMode_se.png" 
+		    />
+
+				<Image Name="ImgVSSmall" Width="240" Height="220" Left="110" Top="80" Source="DolbyHPVS/Diagram_ReferenceMode.png" />
+				<Image Name="ImgVSLarge" Width="240" Height="220" Left="110" Top="80" Source="DolbyHPVS/Diagram_WideMode.png" />
+
+				<Image Name="LogoVS" Width="93" Height="41" Left="350" Source="DolbyHPVS/VSLogo.png"/>
+	  	</Canvas>
+
+			<Canvas Height="430" Left="180"  Width="460" Name="BSDHP" Top="23">
+				<RadioButton Name="BtnHPDH1" GroupName="SpeakerDolbyHeadphone" Style="EQRadio" Cursor="Hand" Left="115" Top="323" Width="76" Height="30" 
+				Text="ml_SpeakerDolbyHPVS_Studio" ToolTip="ml_SpeakerDolbyHPVS_Studio" 
+		    />
+				<RadioButton Name="BtnHPDH2" GroupName="SpeakerDolbyHeadphone" Style="EQRadio" Cursor="Hand" Left="195" Top="323" Width="76" Height="30" 
+				Text="ml_SpeakerDolbyHPVS_Cinema" ToolTip="ml_SpeakerDolbyHPVS_Cinema" 
+		    />
+				<RadioButton Name="BtnHPDH3" GroupName="SpeakerDolbyHeadphone" Style="EQRadio" Cursor="Hand" Left="275" Top="323" Width="76" Height="30" 
+				Text="ml_SpeakerDolbyHPVS_Hall" ToolTip="ml_SpeakerDolbyHPVS_Hall" 
+		    />
+		
+				<Image Name="ImgHPDH1" Width="380" Height="220" Left="40" Top="80" Source="DolbyHPVS/Diagram_Studio.png" />
+				<Image Name="ImgHPDH2" Width="380" Height="220" Left="40" Top="80" Source="DolbyHPVS/Diagram_Cinema.png" />
+				<Image Name="ImgHPDH3" Width="380" Height="220" Left="40" Top="80" Source="DolbyHPVS/Diagram_Hall.png" />
+		
+		
+				<Image Name="LogoHP" Width="55" Height="34" Left="380" Source="DolbyHPVS/HPLogo.png"/>
+	  	</Canvas>
+  </Canvas>
+
+  <Canvas Width="643" Height="455" Name="WarningContent" Visibility="Hidden">
+      <TextBlock Width="620" Height="80"  Left="15" Top="127" Foreground="White" Text.HorizontalAlignment="Center" FontSize="13" TextWrapping="Wrap" FontWeight="Bold"
+				Text="ml_SpeakerDolbyHPVS_ChannelRequirement"/>
+      <Button Left="250" Top="227" Name="ChannelsSetting" Style="ClickButton"  Text.HorizontalAlignment="Center"  Text.VerticalAlignment="Center" Text="ml_SpeakerDolbyHPVS_ChannelsSetting" FontWeight="Bold" Foreground="#FF787878" />
+  </Canvas>
+
+</Canvas>

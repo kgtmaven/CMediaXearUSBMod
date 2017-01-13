@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEM_Title">Effets d’environnement</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_EnableEnvironmentEffects">Activer les effets d’environnement</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Environment">Environnement</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_RoomSize">Taille de la pièce</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SmallRoom">Petite pièce</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_MediumRoom">Pièce de taille moyenne</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LargeRoom">Grande pièce</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Default">Par défaut</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Generic">Generic</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_PaddedCell">Cellule capitonée</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Room">Chambre</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Bathroom">S.D.B.</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LivingRoom">Séjour</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneRoom">Salle en pierre</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ConcertHall">Salle de concert</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Cave">Grotte</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Arena">Stade</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hangar">Hangar</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_CarpetedHallway">Couloir avec tapis plein</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hallway">Couloir</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneCorridor">Couloir en pierre</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Alley">Allée</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Forest">Forêt</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_City">Ville</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Mountains">Montagnes</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Quarry">Carrière</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Plain">Plaine</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ParkingLot">Parking</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SewerPipe">Pipeline</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_UnderWater">Sous l’eau</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Drugged">Drogues</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Dizzy">Saoul</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Psychotic">Psychotique</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_KTV">Karaoké</sys:String>
+</ResourceDictionary>

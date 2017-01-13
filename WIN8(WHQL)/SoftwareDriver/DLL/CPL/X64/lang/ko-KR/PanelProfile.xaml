@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_PanelProfile_Music">음악 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Movie">영화 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Karaoke">노래방 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HiFi">Hi-Fi 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Recording">레코딩 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Communication">통신 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Gaming">게임 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Racing">레이싱 모드</sys:String>
+  <sys:String x:Key="ml_PanelProfile_FPS">FPS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_RTS">RTS</sys:String>
+  <sys:String x:Key="ml_PanelProfile_Manual">수동</sys:String>
+  <sys:String x:Key="ml_PanelProfile_AddProfile">프로필 추가</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfile">프로필 삭제</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName">프로필 이름</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileDescription">프로필 설명</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Prompt">프로필 이름을 입력하십시오.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_Invalid">파일 이름이 유효하지 않습니다(/\:*?\"&lt;&gt;| 문자는 사용할 수 없음).</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowOK">OK</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindowCancel">취소</sys:String>
+  <sys:String x:Key="ml_PanelProfile_NewProfileWindow_Title">새 프로필</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileName_DeleteConfirm">이 프로필을 삭제하시겠습니까 ?</sys:String>
+  <sys:String x:Key="ml_PanelProfile_ProfileNumberLimit">프로필 수는 5개 이상이 될 수 없습니다.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowDelete">삭제</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindowCancel">취소</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileName">프로필 이름</sys:String>
+  <sys:String x:Key="ml_PanelProfile_DeleteProfileWindow_Title">프로필 삭제</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameSettingInProfileList">현재 설정과 동일한 프로필이 있습니다.</sys:String>
+  <sys:String x:Key="ml_PanelProfile_HasTheSameUserDefineName">프로필 이름이 이미 존재합니다. EQ 이름을 바꾸시겠습니까?</sys:String>
+</ResourceDictionary>

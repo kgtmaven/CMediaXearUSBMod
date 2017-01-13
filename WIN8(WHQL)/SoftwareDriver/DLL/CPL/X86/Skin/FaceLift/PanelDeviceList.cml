@@ -1,0 +1,105 @@
+<Canvas Name="PanelDeviceList" Width="110" Height="442">	
+	<Canvas Name="PanelDeviceIconList" Left="0" Top="24" Width="110" Height="395" Page.cy="100">
+		<Canvas Name="PanelSpeaker" Left="0" Top="0" Width="110" Height="100" >
+			<RadioButton Name="MenuSpeakers" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_Speakers" 
+				Image.Uncheck.Normal="Main/JackSpeakers_no.png" Image.Uncheck.MouseOver="Main/JackSpeakers_mo.png" 
+				Image.Check.Normal="Main/JackSpeakers_se.png" 	Image.Check.MouseOver="Main/JackSpeakers_se.png" RepeatClick="True"/>	
+			<RadioButton Name="DefaultSpeakers" GroupName="OUTPUT" Style="EnableFeatureButton" Cursor="Hand"
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelSpeakerQuarter" Left="0" Top="100" Width="110" Height="100" >
+			<RadioButton Name="MenuSpeakersQuarter" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_Speakers" 
+				Image.Uncheck.Normal="Main/JackSpeakers_no.png" Image.Uncheck.MouseOver="Main/JackSpeakers_mo.png" 
+				Image.Check.Normal="Main/JackSpeakers_se.png" 	Image.Check.MouseOver="Main/JackSpeakers_se.png" RepeatClick="True"/>	
+			<RadioButton Name="DefaultSpeakersQuarter" GroupName="OUTPUT" Style="EnableFeatureButton" Cursor="Hand"
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelHeadPhone" Left="0" Top="100" Width="110" Height="100" >
+			<RadioButton Name="MenuHeadPhone" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_Headpone" 
+				Image.Uncheck.Normal="Main/JackHP_no.png" Image.Uncheck.MouseOver="Main/JackHP_mo.png" 
+				Image.Check.Normal="Main/JackHP_se.png" 	 Image.Check.MouseOver="Main/JackHP_se.png"  RepeatClick="True"/>	
+			<RadioButton Name="DefaultHeadPhone" GroupName="OUTPUT" Style="EnableFeatureButton" Cursor="Hand" 
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelSPDIFOut" Left="0" Top="200" Width="110" Height="100" >
+			<RadioButton Name="MenuSPDIFOut" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_SPDIFOut" 
+				Image.Uncheck.Normal="Main/JackSPDIFOut_no.png" Image.Uncheck.MouseOver="Main/JackSPDIFOut_mo.png" 
+				Image.Check.Normal="Main/JackSPDIFOut_se.png" Image.Check.MouseOver="Main/JackSPDIFOut_se.png"  RepeatClick="True"/>	
+			<RadioButton Name="DefaultSPDIFOut" GroupName="OUTPUT" Style="EnableFeatureButton" Cursor="Hand" 
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelMicIn" Left="0" Top="300" Width="110" Height="100" >
+			<RadioButton Name="MenuMicIn" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_MicIn" 
+				Image.Uncheck.Normal="Main/JackMicIn_no.png" Image.Uncheck.MouseOver="Main/JackMicIn_mo.png" 
+				Image.Check.Normal="Main/JackMicIn_se.png" Image.Check.MouseOver="Main/JackMicIn_se.png"  RepeatClick="True"/>	
+			<RadioButton Name="DefaultMicIn" GroupName="INPUT" Style="EnableFeatureButton" Cursor="Hand" 
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelDesktopMic" Left="0" Top="300" Width="110" Height="100" >
+			<RadioButton Name="MenuDesktopMic" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_MicIn" 
+				Image.Uncheck.Normal="Main/JackDesktopMic_no.png" Image.Uncheck.MouseOver="Main/JackDesktopMic_mo.png" 
+				Image.Check.Normal="Main/JackDesktopMic_se.png" Image.Check.MouseOver="Main/JackDesktopMic_se.png"  RepeatClick="True"/>	
+			<RadioButton Name="DefaultDesktopMic" GroupName="INPUT" Style="EnableFeatureButton" Cursor="Hand" 
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelLineIn" Left="0" Top="400" Width="110" Height="100" >
+			<RadioButton Name="MenuLineIn" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_LineIn" 
+				Image.Uncheck.Normal="Main/JackLineIn_no.png" Image.Uncheck.MouseOver="Main/JackLineIn_mo.png" 
+				Image.Check.Normal="Main/JackLineIn_se.png" Image.Check.MouseOver="Main/JackLineIn_se.png"  RepeatClick="True"/>	
+			<RadioButton Name="DefaultLineIn" GroupName="INPUT" Style="EnableFeatureButton" Cursor="Hand" 
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelSPDIFIn" Left="0" Top="500" Width="110" Height="100" >
+			<RadioButton Name="MenuSPDIFIn" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_SPDIFIn" 
+				Image.Uncheck.Normal="Main/JackSPDIFIn_no.png" Image.Uncheck.MouseOver="Main/JackSPDIFIn_mo.png" 
+				Image.Check.Normal="Main/JackSPDIFIn_se.png" Image.Check.MouseOver="Main/JackSPDIFIn_se.png"  RepeatClick="True"/>	
+			<RadioButton Name="DefaultSPDIFIn" GroupName="INPUT" Style="EnableFeatureButton" Cursor="Hand" 
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+		<Canvas Name="PanelStereoMixer" Left="0" Top="600" Width="110" Height="100" >
+			<RadioButton Name="MenuStereoMixer" GroupName="DeviceGroup" Left="0" Top="0" Width="101" Height="95" 
+				Tooltip="ml_Main_Jack_StereoMix" 
+				Image.Uncheck.Normal="Main/JackStereoMix_no.png" Image.Uncheck.MouseOver="Main/JackStereoMix_mo.png" 
+				Image.Check.Normal="Main/JackStereoMix_se.png" Image.Check.MouseOver="Main/JackStereoMix_se.png"  RepeatClick="True"/>	
+			<RadioButton Name="DefaultStereoMixer" GroupName="INPUT" Style="EnableFeatureButton" Cursor="Hand"
+				Left="80" Top="68" Width="27" Height="26" 
+				Image.Uncheck.Normal="Resources/Res_CheckBox_no.png" 
+				Image.Check.Normal="Resources/Res_CheckBox_se.png"
+				Tooltip="ml_Main_Jack_SetAsDefaultDevice" />
+		</Canvas>
+	</Canvas>
+	<RepeatButton Name="ScrollUp" Left="26" Top="0" Width="32" Height="18" Image.Normal="Main/ArrowUp_no.png" Image.MouseOver="Main/ArrowUp_mo.png" />	
+	<RepeatButton Name="ScrollDown" Left="26" Top="424" Width="32" Height="18" Image.Normal="Main/ArrowDown_no.png" Image.MouseOver="Main/ArrowDown_mo.png" />	
+</Canvas>

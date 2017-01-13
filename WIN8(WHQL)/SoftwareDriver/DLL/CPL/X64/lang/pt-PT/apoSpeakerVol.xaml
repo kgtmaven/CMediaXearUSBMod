@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerVol_Front">Frente</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Rear">Traseira</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_CenLFE">Cen/LFE</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Side">Lado</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_L">L</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_R">R</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Title">Controlo do Volume</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_VoldB_Range_Error">A gama de volume de dB está entre {0:F2} e {1:F2}</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Balance">Balanço</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnBalance">Balanço</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Mute">Sem som</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnMute">Voltar a colocar som</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Master">Principal</sys:String>
+</ResourceDictionary>

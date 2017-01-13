@@ -1,0 +1,4 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_Message_Caption">Hinweis</sys:String>
+  <sys:String x:Key="ml_Exit_Application">Wollen Sie diese Anwendung beenden?</sys:String>
+</ResourceDictionary>

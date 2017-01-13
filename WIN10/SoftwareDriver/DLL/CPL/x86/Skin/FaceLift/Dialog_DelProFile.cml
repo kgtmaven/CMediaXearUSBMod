@@ -1,0 +1,30 @@
+<Window WindowStartupLocation="CenterScreen" ShowInTaskbar="True"  WindowStyle="None" BorderThickness="0" Padding="0" ResizeMode="CanMinimize" Name="Dialog_DelProFile" 
+	Width="391" Height="199" Background.Image="DialogProfile/DeleteProfileWindow_bg.png"  AllowsTransparency="True" Opacity="0.99" Topmost="False" >
+    <Image Source="DialogProfile/TitleBar.png" Left="109.5" Top="0" Width="174" Height="23" Name="DialogProfileTitleBar"/>
+<!--
+		<Button Name="BtnWinClose" Cursor="Hand" Left="341" Top="0" Width="50" Height="26" Image.Normal="DialogProfile/Close.png"/>
+	-->
+		
+		
+		<Button Name="DelProFileBtnYes" Left="195" Top="160" Width="80" Height="35" FontSize="10" Style="ClickButton" 
+										Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_PanelProfile_DeleteProfileWindowDelete" Foreground="#FF787878" FontWeight="Bold"/>
+		
+		<Button Name="DelProFileBtnNo" Left="285" Top="160" Width="80" Height="35" FontSize="10" Style="ClickButton" 
+										Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png" Text="ml_PanelProfile_DeleteProfileWindowCancel" Foreground="#FF787878" FontWeight="Bold"/>
+	
+
+
+	<TextBlock Name="PanelProfile_DeleteProfileName" Left="40" Top="130" Foreground="#FF666666" Style="ApoText" Text.HorizontalAlignment="Left" Text="ml_PanelProfile_DeleteProfileName" >		
+	</TextBlock>
+		
+	<TextBlock Name="PanelProfileSeletDescription" Left="38.4" Top="45.6" Height="75" Width="310" Foreground="#FF666666" Style="ApoText" Text.HorizontalAlignment="Left" Text.VerticalAlignment="Top" Text="" TextWrapping="Wrap">		
+	</TextBlock>
+
+
+	<ComboBox Name="DelProfileBox" Style="DefaultCombobox" Left="180" Top="125" Width="127" Height="26" >
+	</ComboBox>
+
+		
+	<TextBlock Name="DialogDelProfileTitle" Text="ml_PanelProfile_DeleteProfile" Foreground="#FF666666" Style="ApoText" Text.HorizontalAlignment="Center" Text.VerticalAlignment="Top" Top="2" Left="139" Height="18.95" Width="115.233"/>
+	
+</Window>

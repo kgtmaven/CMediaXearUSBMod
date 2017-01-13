@@ -1,0 +1,20 @@
+<Canvas Name="HeadPhoneDolbyHPV2">
+		<Canvas Width="643" Height="455" Name="MainContent">
+
+			<TextBlock Name="TitleDolbyHPVS" Left="30" Top="23" Width="400" Height="35" Style="ApoTitle" Text="ml_HeadPhoneDolbyHPVS_Title" />		
+			<CheckBox Left="56" Top="72" Name="BtnEnableDolbySurroundEffect" ToolTip="ml_HeadPhoneDolbyHPVS_EnableDolbySurroundEffect" Style="EnableFeatureButton" />
+			<TextBlock Name="TitleCheckDolbyHPVS" Left="80" Top="74" Width="300" Height="30" Style="ApoText" Text="ml_HeadPhoneDolbyHPVS_EnableDolbySurroundEffect" />		
+		
+			<TextBlock Name="TitleCheckDolbyHP" Left="100" Top="106" Width="200" Height="15" Style="ApoText" Text="ml_HeadPhoneDolbyHPVS_DolbyHeadphone" />		
+	
+			<Canvas Height="430" Left="180"  Width="460" Name="BSDHP" Top="23">
+
+				<Image Name="ImgHPDH1" Width="380" Height="220" Left="40" Top="80" Source="DolbyHPVS/Diagram_Studio.png" />
+				<Image Name="ImgHPDH2" Width="380" Height="220" Left="40" Top="80" Source="DolbyHPVS/Diagram_Cinema.png" />
+				<Image Name="ImgHPDH3" Width="380" Height="220" Left="40" Top="80" Source="DolbyHPVS/Diagram_Hall.png" />
+			
+				<Image Name="LogoHP" Width="55" Height="34" Left="380" Source="DolbyHPVS/HPLogo.png"/>
+	  	</Canvas>
+    </Canvas>
+
+</Canvas>

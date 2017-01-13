@@ -1,0 +1,15 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_EnableDolbyVirtualSpeaker">Habilitar Dolby Virtual Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_Title">Dolby Surround Efecto</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_VSSmall">Reference Mode</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_VSLarge">Wide Mode</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_EnableDolbyHeadphone">Habilitar Dolby Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_Studio">Studio</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_Cinema">Cinema</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_Hall">Hall</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_DolbyHeadphone">Dolby Headphone</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_DolbyVirtualSpeaker">Dolby Virtual Speaker</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_EnableDolbySurroundEffect">Habilitar Dolby Surround Efecto</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_ChannelRequirement">Dolby Surround Efecto solo admite Estéreo (2 canales)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneDolbyHPVS_ChannelsSetting">Configuración de canales</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutSetting_Title">การตั้งค่าS/PDIF-ออก</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_LFECenterChannelSwap">เปลี่ยนเอาต์พุตกลาง/เบส</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SideBackSurroundSwap">เปลี่ยนเอาต์พุตเสียงรอบทิศทางด้านข้าง/ด้านหลัง</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SpeakerTest">ทดสอบลำโพง</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_2Channels">สเตอริโอ</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_4Channels">สี่ช่องสัญญาณ</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_5dot1Channels">5.1รอบทิศทาง</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_7dot1Channels">7.1รอบทิศทาง</sys:String>
+</ResourceDictionary>

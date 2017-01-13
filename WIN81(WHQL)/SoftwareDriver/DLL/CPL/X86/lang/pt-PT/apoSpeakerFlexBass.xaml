@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerFlexBass_Title">Grave Flexível II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_EnableFlexBass">Activar Grave Flexível II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassCof">Frequência de corte</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassLevel">Nível de Grave</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LR">LR</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LsRs">Ls/Rs</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LbRb">Lb/Rb</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_C">C</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_Hz">Hz</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_FullRangeSpeaker">Altifalante grande c/ graves</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_NonfullRangeSpeaker">Altifalante pequeno s/ graves</sys:String>
+</ResourceDictionary>

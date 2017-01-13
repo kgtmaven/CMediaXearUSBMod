@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFInVol_SPDIFInVol">S/PDIF-In</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_L">L</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_R">R</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Title">Volumebediening</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_VoldB_Range_Error">Het volumebereik in dB is tussen {0:F2} en {1:F2}.</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Balance">Vergrendelen</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnBalance">Vrijgeven</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Mute">Dempen</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnMute">Geluid aan</sys:String>
+</ResourceDictionary>

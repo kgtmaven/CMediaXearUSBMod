@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_EnableDolbyPrologicIIx">Habilitar Dolby Pro logic IIx</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Panorama">Panorama</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MusicMode">Music Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_MovieMode">Movie Mode</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Reset">Restablecer</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_Title">Dolby Pro logic IIx</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelRequirement">Dolby PLIIx admite la configuración de altavoces Cuadrafónico, 5.1 Surround y 7.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyPLIIx_ChannelsSetting">Configuración de canales</sys:String>
+</ResourceDictionary>

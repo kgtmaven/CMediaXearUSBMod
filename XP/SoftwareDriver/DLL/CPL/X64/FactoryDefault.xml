@@ -1,0 +1,19 @@
+<Profile Name="UserDefine">
+	<Endpoint Name="Speakers" DataFlow="Out">
+		<ApoEffect Name="SpeakerSetting">
+			<Property Name="DefaultDeviceControl" Value="1" UIName="" ValueType="System.UInt32" Args="1" ArgsType="System.UInt32"/>
+		</ApoEffect>
+	</Endpoint>
+
+	<Endpoint Name="Mic" DataFlow="In">
+		<ApoEffect Name="MicInVolume">
+			<Property Name="DefaultDeviceControl" Value="1" UIName="" ValueType="System.UInt32" Args="1" ArgsType="System.UInt32"/>	
+		</ApoEffect>
+	</Endpoint>
+
+	<Endpoint Name="DesktopMic" DataFlow="In">
+		<ApoEffect Name="DesktopMicSamplingRate">
+			<Property Name="DefaultDeviceControl" Value="1" UIName="" ValueType="System.UInt32" Args="1" ArgsType="System.UInt32"/>
+		</ApoEffect>
+	</Endpoint>
+</Profile>

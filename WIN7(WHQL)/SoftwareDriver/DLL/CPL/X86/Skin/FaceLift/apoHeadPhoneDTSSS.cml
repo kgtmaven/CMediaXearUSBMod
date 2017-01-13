@@ -1,0 +1,62 @@
+﻿<Canvas Width="643" Height="455" Name="HeadPhoneDTSSS">
+
+	<Canvas Width="643" Height="455" Name="MainContent">
+		<TextBlock Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_HeadPhoneDTSSS_Title"/>
+	
+		<Canvas Name="CanvasEnableDTSSS" Width="643" Height="455" >
+		<Image Source="DTSSS/DTSSS_Logo.png" Name="Logo" Left="470" Top="28" />
+	
+		<Image Name="DiagramHeadphone" Left="300" Top="100" Width="320" Height="160" Source="DTSSS/Diagram_HP.png" />
+		<Image Name="DiagramSpeaker" Left="300" Top="100" Width="320" Height="160" Source="DTSSS/Diagram_Speaker.png" />
+	
+		<TextBlock Left="85" Top="110" Style="ApoText" Text="ml_HeadPhoneDTSSS_Mode" />
+		<RadioButton Name="ModeHeadphone" GroupName="SPKorHP" Cursor="Hand" Left="110" Top="140" Width="57" Height="57" ToolTip="ml_HeadPhoneDTSSS_Headphone" Image.Uncheck.Normal="DTSSS/HP_no.png" Image.Uncheck.MouseOver="DTSSS/HP_mo.png" Image.Check.Normal="DTSSS/HP_mo.png" Image.Check.MouseOver="DTSSS/HP_mo.png" />
+		<RadioButton Name="ModeSpeaker" GroupName="SPKorHP" Cursor="Hand" Left="180" Top="140" Width="57" Height="57" ToolTip="ml_HeadPhoneDTSSS_Speaker" Image.Uncheck.Normal="DTSSS/Speaker_no.png" Image.Uncheck.MouseOver="DTSSS/Speaker_mo.png" Image.Check.Normal="DTSSS/Speaker_mo.png" Image.Check.MouseOver="DTSSS/Speaker_mo.png" />
+	
+		<TextBlock Left="85" Top="220" Style="ApoText" Text="ml_HeadPhoneDTSSS_ContentType" />
+			
+		<RadioButton Name="ContentTypeMovie" GroupName="MovieorMusic" Left="100" Top="249" Style="DefaultRadio"/>
+		<TextBlock Left="120" Top="249" Style="ApoText" Text="ml_HeadPhoneDTSSS_MovieMode" />
+	
+		<RadioButton Name="ContentTypeMusic" GroupName="MovieorMusic" Left="100" Top="279" Style="DefaultRadio"/>
+		<TextBlock Left="120" Top="279" Style="ApoText" Text="ml_HeadPhoneDTSSS_MusicMode" />
+			
+		<Canvas Name="CanvasExpanFactor" Left="120" Top="310" Width="460" Height="24"  >
+		<TextBlock Left="0" Top="3"  Style="ApoText" Text="ml_HeadPhoneDTSSS_SoundStageExpansionFactor" />
+		<Slider Name="SoundStageExpansionFactor" Style="NonFillSlider" Left="240" Top="0" Width="180" Height="20" Minimum="0" Maximum="10" TickFrequency="1" Tooltip.Show="True"/>
+		<TextBlock Left="220" Top="3" Style="ApoText" Text="0" />
+		<TextBlock Left="425" Top="3" Style="ApoText" Text="10" />
+		</Canvas>
+			
+		<Canvas Name="CanvasSpeakerAngle" Left="120" Top="340" Width="460" Height="24"  >
+		<TextBlock Left="0" Top="3"  Style="ApoText" Text="ml_HeadPhoneDTSSS_PhysicalSpeakerAngle" />
+		<Slider Name="PhysicalSpeakerAngle" Style="NonFillSlider" Left="240" Top="0" Width="180" Height="20" Minimum="5" Maximum="30" TickFrequency="5" Tooltip.Show="True"/>
+		<TextBlock Left="220" Top="3" Style="ApoText" Text="5" />
+		<TextBlock Left="425" Top="3" Style="ApoText" Text="30" />
+		</Canvas>
+	
+		<CheckBox Name="DTSVoiceClarity" Style="EnableFeatureButton" Left="98" Top="368" ToolTip="ml_HeadPhoneDTSSS_DTSVoiceClarity" />
+		<TextBlock Foreground="White" Left="120" Top="378" Style="ApoText" Text="ml_HeadPhoneDTSSS_DTSVoiceClarity" />
+	
+		<Canvas Name="CanvasDTSVoiceClarityGain" Left="340" Top="370" Width="260" Height="24"  >
+		<Slider Name="DTSVoiceClarityGain" Style="NonFillSlider" Left="20" Top="0" Width="180" Height="20" Minimum="0" Maximum="10" TickFrequency="1" Tooltip.Show="True"/>
+		<TextBlock Left="0" Top="5" Style="ApoText" Text="0" />
+		<TextBlock Left="205" Top="5" Style="ApoText" Text="10" />
+		</Canvas>
+	
+		<CheckBox Name="MixLFEChanneltoOutput" Style="EnableFeatureButton" Left="98" Top="394" ToolTip="ml_HeadPhoneDTSSS_MixLFEChanneltoOutput" />
+		<TextBlock Left="120" Top="404" Style="ApoText" Text="ml_HeadPhoneDTSSS_MixLFEChanneltoOutput" />
+		</Canvas>
+
+		<Canvas Left="56" Top="68" Width="460" Height="24" >
+		<CheckBox Name="EnableDTSSS" Style="EnableFeatureButton" Left="0" Top="0" ToolTip="ml_HeadPhoneDTSSS_EnableDTSSurroundSensation" />
+		<TextBlock Left="24" Top="10" Style="ApoText" Text="ml_HeadPhoneDTSSS_EnableDTSSurroundSensation" />
+		</Canvas>
+	</Canvas>
+	
+  <Canvas Width="643" Height="455" Name="WarningContent" Visibility="Hidden">
+      <TextBlock Width="620" Height="80"  Left="15" Top="127" Foreground="White" Text.HorizontalAlignment="Center" Style="ApoText" TextWrapping="Wrap" FontWeight="Bold"
+				Text="ml_HeadPhoneDTSSS_ChannelRequirement"/>
+      <Button Left="250" Top="227" Name="ChannelsSetting" Style="ClickButton" Text.HorizontalAlignment="Center" Text.VerticalAlignment="Center" Text="ml_HeadPhoneDTSSS_ChannelsSetting" FontWeight="Bold" Foreground="#FF787878" />
+  </Canvas>
+</Canvas>

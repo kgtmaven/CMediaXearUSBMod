@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_EnableXearSurroundEffect">Inschakelen Xear Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSize">Kamergrootte</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeS">Kleine ruimte</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeM">Middelgrote ruimte</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeL">Grote ruimte</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeA">Galmvrije ruimte</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelRequirement">Xear Surround Effect ondersteunt alleen stereo (2 kanalen)</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelsSetting">Kanalen instellen</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_MicInXearMagicVoice_Title">Xear Magic Voice</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_EnableMicrophoneEffects">Microfooneffecten inschakelen</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_MicrophoneEcho">Microfoonecho</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_MagicVoice">Magische stem</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Low">Lage</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Default">Standaard</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_High">Hoge</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Cartoon">Cartoon</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Monster">Monster</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Man">Man</sys:String>
+  <sys:String x:Key="ml_MicInXearMagicVoice_Woman">Vrouw</sys:String>
+</ResourceDictionary>

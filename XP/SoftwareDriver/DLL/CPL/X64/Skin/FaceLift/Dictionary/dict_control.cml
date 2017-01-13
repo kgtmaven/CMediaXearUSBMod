@@ -1,0 +1,94 @@
+<!-- all controls are based on this base control -->
+<Control.Dictionary>	
+	
+		<!-- this Name value is for control name -->
+		<Setter Property="Name" Value=""/>		
+		
+		<!-- this Left value is for control left position -->
+		<Setter Property="Left" Value="0"/>		
+
+		<!-- this Top value is for control top position -->
+		<Setter Property="Top" Value="0"/>		
+		
+		<!-- this Width value is for control width -->
+		<Setter Property="Width" Value="0"/>		
+
+		<!-- this Height value is for control height -->
+		<Setter Property="Height" Value="0"/>		
+		
+		<!-- this Toolip value is for control tooltip -->
+		<Setter Property="Tooltip" Value=""/>		
+		
+		<!-- this Tag value is for control tag -->
+		<Setter Property="Tag" Value=""/>		
+		
+		<!-- this Visibility value is for control visible, optional: Visible (default), Hidden -->
+		<Setter Property="Visibility" Value=""/>		
+		
+		<!-- this Opacity value is for control opacity level, which range is from 0.0 to 1.0 -->
+		<Setter Property="Opacity" Value="1"/>		
+
+		<!-- this TransformOrigin value is for control transform origin -->
+		<Setter Property="TransformOrigin" Value="0.5,0.5"/>		
+		
+		<!-- this RotateAngle value is for control rotate angle, which range is from 0 to 360 -->
+		<Setter Property="RotateAngle" Value="0"/>		
+		
+		<!-- this ScaleX value is for horizontal scale size, which is from 0.1 to 10 -->
+		<Setter Property="ScaleX" Value="1"/>		
+		
+		<!-- this ScaleY value is for vertical scale size, which is from 0.1 to 10 -->
+		<Setter Property="ScaleY" Value="1"/>		
+		
+		<!-- this SkewAngleX value is for horizontal skew angle, which is from -45 to 45 -->
+		<Setter Property="SkewAngleX" Value="0"/>		
+		
+		<!-- this SkewAngleY value is for vertical skew angle, which is from -45 to 45 -->
+		<Setter Property="SkewAngleY" Value="0"/>		
+		
+		<!-- this Style value is for control preset style -->
+		<Setter Property="Style" Value=""/>		
+		
+		<!-- this Cursor value is for mouse cursor when mouse is over on this control, optional: Arrow, Hand, ... -->
+		<Setter Property="Cursor" Value=""/>		
+		
+		<!-- this Background value is for control background fill color, which format is #ARGB, white, black, red, green, blue, yellow, ... -->
+		<Setter Property="Background" Value=""/>					
+		
+		<!-- this Foreground value is for text color, which format is #ARGB, white, black, red, green, blue, yellow, ... -->
+		<Setter Property="Foreground" Value=""/>				
+		
+		<!-- this Text value is for text content -->
+		<Setter Property="Text" Value=""/>						
+
+		<!-- this FontFamily value is for text font name, optional: Arial, Tahoma, ...  -->
+		<Setter Property="FontFamily" Value=""/>					
+		
+		<!-- this FontWeight value is for text font weight, optional: Normal (default), Bold -->
+		<Setter Property="FontWeight" Value=""/>				
+			
+		<!-- this FontItalic value is for text font italic, optional: False(default), True  -->
+		<Setter Property="FontItalic" Value="False"/>				
+			
+		<!-- this FontUnderline value is for text font underline, optional: False(default), True -->
+		<Setter Property="FontUnderline" Value="False"/>		
+		
+		<!-- this FontSize value is for text font size  -->
+		<Setter Property="FontSize" Value="9"/>						
+
+		<!-- this Text.HorizontalAlignment value is for text horizontal alignment, optional: Left, Center, Right -->
+		<Setter Property="Text.HorizontalAlignment"	Value="Center"/>	
+
+		<!-- this Text.VerticalAlignment value is for text horizontal alignment, optional: Top, Center, Bottom -->
+		<Setter Property="Text.VerticalAlignment"	Value="Center"/>
+		
+		<!-- this Border value is for border line width -->
+		<Setter Property="Border"	Value="0"/>
+		
+		<!-- this Border.Color value is for border line color -->
+		<Setter Property="Border.Color"	Value="#FF000000"/>
+		
+		<!-- this Freeze value is for disable input -->
+		<Setter Property="Freeze"	Value="False"/>
+		
+</Control.Dictionary>

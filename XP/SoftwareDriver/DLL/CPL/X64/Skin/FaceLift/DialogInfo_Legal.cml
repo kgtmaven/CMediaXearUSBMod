@@ -1,0 +1,15 @@
+<Window WindowStartupLocation="CenterScreen" ShowInTaskbar="True" WindowStyle="None" BorderThickness="0" Padding="0" ResizeMode="CanMinimize" AllowsTransparency="True" Width="350" Height="199" Name="DialogInfo_DetailWindow" Opacity="0.99" Topmost="False" Title="ml_DialogInfo_DetailWindow_Title" Background.Image="DialogInfo/DetailWindow_bg.png" > 
+
+	<Image Source="DialogInfo/TitleBar.png" Left="57" Name="DetailWindowTitleBar"/>
+	<TextBlock Foreground="#000000" Style="ApoText" Text.HorizontalAlignment="Center" Top="2" Left="69" Width="220" Height="18" Text="ml_DialogInfo_LegalWindow_Title" />
+
+	<TextBlock Foreground="#EE111111" Background="Transparent" FontSize="9" Left="30" Top="50" Text="1." Text.HorizontalAlignment="Left"/>
+	<TextBlock Foreground="#EE111111" Background="Transparent" FontSize="9" Left="50" Top="50" Height="50" Width="270" Text.HorizontalAlignment="Left" Text.VerticalAlignment="Top" Text="ml_DialogInfo_ASIOInterface" TextWrapping="Wrap"/>
+	<TextBlock Foreground="#EE111111" Background="Transparent" FontSize="9" Left="30" Top="85" Text="2." Text.HorizontalAlignment="Left"/>
+	<TextBlock Foreground="#EE111111" Background="Transparent" FontSize="9" Left="50" Top="85" Height="50" Width="270" Text.HorizontalAlignment="Left" Text.VerticalAlignment="Top" Text="ml_DialogInfo_ASIOTech" TextWrapping="Wrap"/>
+			
+	<Button Name="DetailWindowExit" Left="255.763" Top="160.364" Width="78" Height="33" Style="ClickButton" Text="ml_DialogInfo_Exit" Foreground="#000000" FontWeight="Bold" Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png"/>
+<!--
+	<Button Name="DetailWindowClose"  Cursor="Hand" Left="341" Top="0" Width="50" Height="26" Style="ClickButton" Visibility="Hidden" />
+-->
+</Window> 

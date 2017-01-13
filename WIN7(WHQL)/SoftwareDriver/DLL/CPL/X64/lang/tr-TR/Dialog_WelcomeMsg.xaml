@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Bilgi</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Çıkış</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Çıkış cihazı seçimi</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Hoparlörü aktive etmek için lütfen hoparlör simgesinin işaretlenmiş olduğundan emin olun.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">İşlev menüsüne erişmek için lütfen cihaz simgesine sağ tıklatın. Bu, size ek özellikler ve ses efektleri sağlar.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">Bu mesajı tekrar gösterme.</sys:String>
+</ResourceDictionary>

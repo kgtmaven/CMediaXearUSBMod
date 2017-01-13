@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">耳機設定</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">耳機測試</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">立體聲</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">耳機</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">請參考您的耳機規格,以設定耳機相對增益值</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Normal Gain (0dB for &lt;64 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">High Gain (6dB for 64~150 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Extra High Gain (12dB for 150~300 ohms)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

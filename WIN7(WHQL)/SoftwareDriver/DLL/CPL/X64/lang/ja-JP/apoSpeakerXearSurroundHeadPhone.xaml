@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Title">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_EnableXearSurroundEffect">Xear Surround 有効にする</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSize">ルームサイズ</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeS">小部屋</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeM">中部屋</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeL">大部屋</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_RoomSizeA">音響室</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelRequirement">Xearサラウンド効果はステレオ(2チャンネル)にのみ対応します</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelsSetting">チャンネル設定</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurroundHeadPhone_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

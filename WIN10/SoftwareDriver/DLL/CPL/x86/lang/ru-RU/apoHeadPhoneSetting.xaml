@@ -1,0 +1,11 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Наушники Интерфейс</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Наушники Выпрабаванняў</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Стерео</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Наушники</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Выберите настройку коэффициента усиления в соответствии со сценарием использования или в зависимости от сопротивления наушников.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Обычный коэффициент усиления (0 дБ для &lt;64 Ом)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">Высокий коэффициент усиления (6 дБ для 64~150 Ом)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Сверхвысокий коэффициент усиления (12 дБ для 150~300 Ом)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

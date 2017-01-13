@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HDMIVol_HDMIVol">HDMI</sys:String>
+  <sys:String x:Key="ml_HDMIVol_L">左</sys:String>
+  <sys:String x:Key="ml_HDMIVol_R">右</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Title">音量控制</sys:String>
+  <sys:String x:Key="ml_HDMIVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_HDMIVol_VoldB_Range_Error">音量范围dB值介于 {0:F2} 到 {1:F2}之间</sys:String>
+  <sys:String x:Key="ml_HDMIVol_Balance">锁定</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnBalance">解除锁定</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnMute">静音</sys:String>
+  <sys:String x:Key="ml_HDMIVol_UnMute">解除静音</sys:String>
+</ResourceDictionary>

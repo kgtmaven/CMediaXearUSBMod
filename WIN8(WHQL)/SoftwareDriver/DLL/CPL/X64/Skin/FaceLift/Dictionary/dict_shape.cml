@@ -1,0 +1,20 @@
+<Shape.Dictionary>	
+	
+		<!-- this Type value is for shape type, for example: Rectangle, Ellipse, Triangle -->
+		<Setter Property="Type" Value="Rectangle"/>		
+		
+		<!-- this Fill value is for fill type, for example: Solid, Gradient -->
+		<Setter Property="Fill" Value="Solid"/>				
+		
+		<!-- this Solid.Color value is for solid fill color -->
+		<Setter Property="Solid.Color" Value="Black"/>			
+			
+		<!-- this Gradient.StartPoint value is for gradient start point, which format is x,y -->
+		<Setter Property="Gradient.StartPoint" Value="0.5,0"/>				
+		
+		<!-- this Gradient.EndPoint value is for gradient end point, which format is x,y -->
+		<Setter Property="Gradient.EndPoint" Value="0.5,1"/>				
+		
+		<!-- this Gradient.Stops value is for gradient stops, which format is <percentage 1>,<color 1>;<percentage 2>,<color 2>;...;<percentage n>,<color n>; -->
+		<Setter Property="Gradient.Stops" Value=""/>				
+</Shape.Dictionary>

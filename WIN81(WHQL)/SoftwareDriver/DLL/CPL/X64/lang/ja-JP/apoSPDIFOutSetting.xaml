@@ -1,0 +1,11 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutSetting_Title">S/PDIF 出力設定</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_LFECenterChannelSwap">中央/ベース出力の交換</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SideBackSurroundSwap">側面/背部の周辺出力の交換</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SpeakerTest">スピーカーテスト</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_2Channels">ステレオ</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_4Channels">4チャンネル方式</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_5dot1Channels">5.1 サラウンド</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_7dot1Channels">7.1 サラウンド</sys:String>
+</ResourceDictionary>

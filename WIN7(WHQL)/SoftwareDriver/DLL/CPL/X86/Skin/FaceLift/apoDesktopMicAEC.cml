@@ -1,0 +1,11 @@
+<Canvas Width="643" Height="455" Name="MicInAEC">
+
+	<TextBlock Name="AEC_Logo" Left="534" Top="10" Source="AEC/Logo_VoClearAEC.png" />
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_MicInAEC_Title"/>
+	<CheckBox Left="56" Top="71"  Name="BtnEnableAEC" Style="EnableFeatureButton" Tooltip="ml_MicInAEC_EnableAEC" />
+	<TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_MicInAEC_EnableAEC" />
+	
+	<Image Name="Diagram_AECOff" Width="320" Height="295" Left="162" Top="118.666" Source="AEC/Diagram_AECOff.png"/>	
+	<Image Name="Diagram_AECOn" Width="320" Height="295" Left="162" Top="118.666" Source="AEC/Diagram_AECOn.png"/>	
+	
+</Canvas>

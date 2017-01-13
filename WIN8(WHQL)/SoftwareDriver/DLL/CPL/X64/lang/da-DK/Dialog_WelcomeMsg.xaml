@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogWelcomeMsg_InfoTitle">Oplysninger</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_Exit">Afslut</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgTitle">Valg af outputenhed</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratOne">Hvis du vil aktivere højttaler, skal du sørge for, at højttalerikonet er markeret.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_MsgPratTwo">Få adgang til funktionsmenuen ved at højreklikke på enhedsikonet. Dette vil give dig de yderligere funktioner og lydeffekter.</sys:String>
+  <sys:String x:Key="ml_DialogWelcomeMsg_DisableWelcomeMsg">Vis ikke denne meddelelse igen.</sys:String>
+</ResourceDictionary>

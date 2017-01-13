@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEQ_Title">ตัวปรับแต่งเสียง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_EnableEqualizer">เปิดใช้งานตัวปรับแต่งเสียง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Prompt">*โปรดใส่ชื่อของค่าที่ตั้งไว้…*</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Invalid">ชื่อไฟล์ไม่ถูกต้อง (ต้องไม่มีอักขระ /\:*?\"&lt;&gt;|)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_SaveError">การบันทึก EQ แบบผู้ใช้กําหนดเองล้มเหลว</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_LoadError">การโหลด EQ แบบผู้ใช้กําหนดเองล้มเหลว</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_DeleteError">การลบ EQ แบบผู้ใช้กําหนดเองล้มเหลว</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_ContentSameAsPreset">เนื้อหาของโปรไฟล์นี้เหมือนกันกับโหมดที่ตั้งไว้</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Dance">แดนซ์</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Bass">เบส</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Tremble">เสียงแหลม</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Live">สด</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rock">ร็อค</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_SoftRock">ซอฟต์ร็อค</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Jazz">แจ๊ส</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Metal">เมทัล</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rap">แร็พ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Classic">คลาสสิค</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Vocal">โอเปร่า</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Save">บันทึก</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Delete">ลบ</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Default">ค่าเริ่มต้น</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Manual">กำหนดเอง</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_HasTheSameUserDefineName">ชื่อ EQ มีอยู่แล้ว คุณต้องการแทนที่หรือไม่?</sys:String>
+</ResourceDictionary>

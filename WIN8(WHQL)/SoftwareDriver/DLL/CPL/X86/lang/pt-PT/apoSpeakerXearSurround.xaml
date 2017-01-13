@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerXearSurround_Title">Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_EnableXearSurroundEffect">Habilitar Xear Surround Effect</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Headphone">Xear Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Speakers">Xear Surround Speaker</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSize">Room Size</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeS">Small Room</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeM">Medium Room</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeL">Large Room</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_RoomSizeA">Anechoic Room</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelRequirement">O efeito surround Xear apenas suporta estéreo (2 canais). Pode premir o botão abaixo para ajustar a definição dos canais.</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelsSetting">Definição de Canais</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Sound_Field_Expansion">Expansão do campo de som</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Speaker_Angle">Posicionamento dos altifalantes</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Narrow">Estreito</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_Wide">Alargado</sys:String>
+  <sys:String x:Key="ml_SpeakerXearSurround_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

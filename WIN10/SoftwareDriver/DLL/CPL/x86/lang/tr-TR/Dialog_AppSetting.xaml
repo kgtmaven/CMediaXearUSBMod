@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_DialogAppSetting_Yes">Evet</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_No">Yok</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_AudioDeviceSelect">Ses Aygıtı Seç :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_ASIODriverSelect">ASIO Sürücü Seç :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_LanguageSelect">Dil Seç :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_SkinSelect">Dış Görünüm Seç :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_UITransparent">UI Şeffaf :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_ShowSystemTrayIcon">Sistem Tepsisi Simgesini Göster :</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Title">Uygulama Ayarı</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_OK">Tamam</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Canel">İptal</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_Apply">Uygula</sys:String>
+  <sys:String x:Key="ml_DialogAppSetting_DisableWelcomeMsg">Başlatma mesajını gösterme :</sys:String>
+</ResourceDictionary>

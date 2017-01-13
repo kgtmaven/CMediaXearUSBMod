@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDynamicBass_Title">Xear Dynamic Bass</sys:String>
+  <sys:String x:Key="ml_SpeakerDynamicBass_Enable">Xear Dynamic Bass aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerDynamicBass_BassLevel">Bass Level</sys:String>
+  <sys:String x:Key="ml_SpeakerDynamicBass_Reset">Zurücksetzen</sys:String>
+  <sys:String x:Key="ml_SpeakerDynamicBass_Cutoff">Frequenz abschneiden</sys:String>
+</ResourceDictionary>

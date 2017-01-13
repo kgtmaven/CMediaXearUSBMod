@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadphoneVol_HeadphoneVol">Auricular</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_L">L</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_R">R</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_Title">Control del volumen</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_VoldB_Range_Error">El rango de volumen en dB está entre {0:F2} y {1:F2}.</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_Balance">Bloquear</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_UnBalance">Desbloquear</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_Mute">Silencio</sys:String>
+  <sys:String x:Key="ml_HeadphoneVol_UnMute">Anular silencio</sys:String>
+</ResourceDictionary>

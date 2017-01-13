@@ -1,0 +1,83 @@
+﻿<Canvas Width="643" Height="455" Name="SpeakerSetting">
+		
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerSetting_Title"/>
+
+	<Canvas Width="280" Height="108" Left="55" Top="130">	
+		<Canvas Width="387" Height="27" Name="Canvas_Channels2">	
+		<RadioButton Top="0" GroupName="Channels" Name="Channels2" Tag="2" Style="DefaultRadio"/>
+		<TextBlock Top="0" Foreground="White" Left="18" Style="ApoText" Text="ml_SpeakerSetting_2Channels" />
+		</Canvas>	
+
+		<Canvas Top="27" Width="387" Height="27" Name="Canvas_Channels4">
+		<RadioButton Top="0" GroupName="Channels" Name="Channels4" Tag="4" Style="DefaultRadio"/>
+		<TextBlock Foreground="White" Left="18" Top="0" Style="ApoText" Text="ml_SpeakerSetting_4Channels" />
+		</Canvas>	
+
+		<Canvas Top="54" Width="387" Height="27" Name="Canvas_Channels6">
+		<RadioButton Top="0" GroupName="Channels" Name="Channels6" Tag="6" Style="DefaultRadio"/>
+		<TextBlock Foreground="White" Left="18" Top="0" Style="ApoText" Text="ml_SpeakerSetting_5dot1Channels" />
+		</Canvas>	
+
+		<Canvas Top="81" Width="387" Height="27" Name="Canvas_Channels8">
+		<RadioButton Top="0" GroupName="Channels" Name="Channels8" Tag="8" Style="DefaultRadio"/>	
+		<TextBlock Foreground="White" Left="18" Top="0" Style="ApoText" Text="ml_SpeakerSetting_7dot1Channels" />		
+		</Canvas>	
+	</Canvas>		
+
+	<Canvas Width="387" Height="75.5" Left="255" Top="328">
+		<!--<Canvas Width="387" Height="25" Name="Canvas_ChannelCopy">
+			<CheckBox Name="ChannelCopy" ToolTip="ml_SpeakerSetting_ChannelCopySF" Style="DefaultCheckbox" />
+			<TextBlock Name="ChannelCopy_Text" Foreground="White" Left="22" Top="9" Style="ApoText" Text="ml_SpeakerSetting_ChannelCopySF" />			
+		</Canvas>-->			
+		<Canvas Top="25" Width="387" Height="25"  Name="Canvas_WooferCenterSwap">
+			<CheckBox Name="WooferCenterSwap" ToolTip="ml_SpeakerSetting_LFECenterChannelSwap" Style="DefaultCheckbox" />
+			<TextBlock Foreground="White" Left="22" Top="9" Style="ApoText" Text="ml_SpeakerSetting_LFECenterChannelSwap" />
+		</Canvas>
+	</Canvas>	
+	
+		<Image Top="145.333" Width="360" Height="159" Left="249.5" Source="Setting/SoundField.png" />
+	
+		<Canvas Width="385" Height="224.5" Left="236.5" Top="85.5" Name="SpeakerTestView" >
+			<RadioButton Name="ImgLF" Width="48" Height="73" Cursor="Hand" GroupName="SpeakerTest" Tag="1" Left="106.6" Top="22.5" Image.Uncheck.Normal="Setting/L_no.png" Image.Check.Normal="Setting/L_glow.png" />
+			<RadioButton Name="ImgRF" Width="48" Height="73" Cursor="Hand" GroupName="SpeakerTest" Tag="2" Left="223" Top="22.5" Image.Uncheck.Normal="Setting/R_no.png" Image.Check.Normal="Setting/R_glow.png" />
+			<RadioButton Name="ImgCenter" Width="68" Height="48" Cursor="Hand" GroupName="SpeakerTest" Tag="4" Left="156.833" Top="10.333" Image.Uncheck.Normal="Setting/C_no.png" Image.Check.Normal="Setting/C_glow.png" Visibility="Hidden" />
+			<RadioButton Name="ImgWoofer" Width="55" Height="48" Cursor="Hand" GroupName="SpeakerTest" Tag="8" Left="178.125" Top="46.333" Image.Uncheck.Normal="Setting/Bass_no.png" Image.Check.Normal="Setting/Bass_glow.png" Visibility="Hidden" />
+			<RadioButton Name="ImgLB" Width="49" Height="79" Cursor="Hand" GroupName="SpeakerTest" Tag="16" Left="126.042" Top="132.875" Image.Uncheck.Normal="Setting/LB_no.png" Image.Check.Normal="Setting/LB_glow.png" Visibility="Hidden" />
+			<RadioButton Name="ImgRB" Width="49" Height="79" Cursor="Hand" GroupName="SpeakerTest" Tag="32" Left="206.167" Top="132.875" Image.Uncheck.Normal="Setting/RB_no.png" Image.Check.Normal="Setting/RB_glow.png" Visibility="Hidden" />
+			<RadioButton Name="ImgLS" Width="50" Height="80" Cursor="Hand" GroupName="SpeakerTest" Tag="512" Left="62.75" Top="81.375" Image.Uncheck.Normal="Setting/LS_no.png" Image.Check.Normal="Setting/LS_glow.png" Visibility="Hidden" />
+			<RadioButton Name="ImgRS" Width="50" Height="80" Cursor="Hand" GroupName="SpeakerTest" Tag="1024" Left="267.958" Top="81.375" Image.Uncheck.Normal="Setting/RS_no.png" Image.Check.Normal="Setting/RS_glow.png" Visibility="Hidden" />
+		</Canvas>
+			
+<!--	
+		<Canvas Width="385" Height="224.5" Left="216.5" Top="85.5" Name="HeadphoneTestView" >
+			<Image Width="138" Height="101" Left="122.5" Top="44.75"  Source="Setting/HeadphoneIcon.png" />
+			<RadioButton Name="LHP" Cursor="Hand" GroupName="SpeakerTest" Width="46" Height="64" Left="122.5" Top="82.5" Tag="1" Image.Uncheck.Normal="Setting/HeadphoneLeft_no.png" Image.Check.Normal="Setting/HeadphoneLeft_glow.png" />
+			<RadioButton Name="RHP" Cursor="Hand" GroupName="SpeakerTest" Width="46" Height="64" Left="214" Top="83" Tag="2" Image.Uncheck.Normal="Setting/HeadphoneRight_no.png" Image.Check.Normal="Setting/HeadphoneRight_glow.png" />
+		</Canvas>
+-->
+	
+	<CheckBox Name="BtnSpeakerTest" Width="65" Height="56" Cursor="Hand" Tag="1024" Left="394.833" Top="175.375" ToolTip="ml_SpeakerSetting_SpeakerTest" Style="TestButton" />
+
+<!--
+		<Canvas Width="314.001" Height="50" Left="10.333" Top="356.5" Name="AreaTimeDelay" Visibility="Hidden">
+			<Slider Left="13" Top="25.333" Maximum="5" Minimum="0" Width="88" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Height="27" Name="DelayCenter"/>	
+			<Slider Width="88" Maximum="20" Minimum="0" Left="217" Top="25.333" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Name="DelayBack"/>
+			<Slider Width="88" Maximum="20" Minimum="0" Left="113" Top="25.333" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Name="DelaySide"/>
+			<TextBlock Left="57.475" Top="1.333" Background="Gray" BorderThickness="1" BorderBrush="#FFFFE200" FontSize="10" Foreground="White" Height="22" Width="23" Name="DelayTimeCenter"/>
+			<TextBlock Left="155" Top="1.333" Background="Gray" BorderBrush="#FFFFE200" BorderThickness="1" FontSize="10" RenderTransformOrigin="0.512,0.516" Foreground="White" Height="22" Width="23" Name="DelayTimeSide"/>
+			<TextBlock Left="260" Top="1.333" Background="Gray" BorderBrush="#FFFFE200" BorderThickness="1" FontSize="10" RenderTransformOrigin="0.512,0.516" Foreground="White" Height="22" Width="23" Name="DelayTimeBack"/>
+			<TextBlock Foreground="#FFF2EE6E" FontSize="14" Left="13" Top="3"><Run Text="Center"/></TextBlock>
+			<TextBlock Foreground="#FFF2EE6E" FontSize="14" Left="82" Top="3"><Run Text="ms"/></TextBlock>
+			<TextBlock Foreground="#FFF2EE6E" FontSize="14" Left="115" Top="3"><Run Text="Ls/Rs"/></TextBlock>
+			<TextBlock Foreground="#FFF2EE6E" FontSize="14" Left="182" Top="3"><Run Text="ms"/></TextBlock>
+			<TextBlock Foreground="#FFF2EE6E" FontSize="14" Left="218" Top="3"><Run Text="Lb/Rb"/></TextBlock>
+			<TextBlock Foreground="#FFF2EE6E" FontSize="14" Left="285" Top="3"><Run Text="ms"/></TextBlock>
+		</Canvas>
+-->
+	<ComboBox Style="DefaultCombobox" Left="450" Top="30" Name="OutputTerminalTypeControl" Width="140" Label.Width="113" Dropbutton.Left="116" Height="26" >	
+		<ComboBoxItem Tag="0" Foreground="Black" Content="Speaker"/>	
+		<ComboBoxItem Tag="1" Foreground="Black" Content="HeadPhone"/>	
+		<ComboBoxItem Tag="2" Foreground="Black" Content="SPDIF Out"/>	
+	</ComboBox>
+	
+</Canvas>

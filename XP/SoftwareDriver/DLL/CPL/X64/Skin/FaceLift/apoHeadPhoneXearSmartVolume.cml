@@ -1,0 +1,25 @@
+<Canvas Width="643" Height="455" Name="HeadPhoneXearSmartVolume">  
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerXearSmartVolume_Title"/>	
+	
+	<TextBlock Foreground="White" Left="80" Top="93" Height="30"  Style="ApoText" Text="ml_SpeakerXearSmartVolume_Enable" />
+	<CheckBox Left="56" Top="89" Height="27" Width="26" Name="BtnEnableSmartVol" Style="EnableFeatureButton" ToolTip="ml_SpeakerXearSmartVolume_Enable" />
+
+<TextBlock Name="SmartVol_Logo" Source="XearSmartVolume/SmartVol_Logo.png" Left="534" Top="10"/>
+
+<Canvas Name="MainContent" Left="0" Top="140" Width="640" Height="455" >
+	<TextBlock Name="Level" Foreground="White" Left="93" Top="20"  Style="ApoText" Text="ml_SpeakerXearSmartVolume_Level" />
+  <Slider Orientation="Horizontal" Height="36" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="93" Top="46" Width="280" Maximum="100" Name="VolumeLevel" Minimum="0" SmallChange="0" Style="HSlider" Tooltip.Show="True"/>
+  <!--<TextBox Left="400" Top="46" Name="LevelTextBox" Style="XearTextbox" FontSize="10"/>-->
+  <TextBox Left="400" Top="46" width="45" Name="LevelTextBox" Style="KaraokeTextbox"/>
+	
+	<TextBlock Name="TextMode" Foreground="White" Left="93" Top="120" Style="ApoText" Text="ml_SpeakerXearSmartVolume_Mode" />
+    <ComboBox Name="Mode" Style="DefaultCombobox" Left="93" Top="140" Width="187" Height="26" Label.Width="150" Dropbutton.Left="163">
+        <ComboBoxItem Name="MusicMode" Foreground="Black" Content="ml_SpeakerXearSmartVolume_Music"/>
+        <ComboBoxItem Name="SpeechMode" Foreground="Black" Content="ml_SpeakerXearSmartVolume_Speech"/>
+    </ComboBox>
+    
+    <!--<TextBlock Name="Intro" Foreground="White" Left="93" Top="250" Style="ApoText" Text="Smart Volume introduction in here." />-->
+	</Canvas>
+	
+</Canvas>

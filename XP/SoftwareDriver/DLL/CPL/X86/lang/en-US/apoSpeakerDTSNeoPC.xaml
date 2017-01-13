@@ -1,0 +1,12 @@
+﻿<ResourceDictionary 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="ml_SpeakerDTSNeoPC_EnableDTSNEOPC">Enable DTS NEO:PC</sys:String>
+	<sys:String x:Key="ml_SpeakerDTSNeoPC_MusicMode">Music Mode</sys:String>
+        <sys:String x:Key="ml_SpeakerDTSNeoPC_MovieMode">Movie Mode</sys:String>
+        <sys:String x:Key="ml_SpeakerDTSNeoPC_Reset">Reset</sys:String>
+	<sys:String x:Key="ml_SpeakerDTSNeoPC_Title">DTS Neo:PC</sys:String>
+	<sys:String x:Key="ml_SpeakerDTSNeoPC_ChannelRequirement">DTS Neo:PC supports Quadraphonic, 5.1 Surround and 7.1 Surround speaker settings, You can press below button to adjust the channel setting</sys:String>
+	<sys:String x:Key="ml_SpeakerDTSNeoPC_ChannelsSetting">Channels Setting</sys:String>
+</ResourceDictionary>

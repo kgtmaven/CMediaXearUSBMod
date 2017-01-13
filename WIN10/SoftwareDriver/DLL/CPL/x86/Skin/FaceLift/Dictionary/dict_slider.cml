@@ -1,0 +1,102 @@
+<Slider.Dictionary>	
+	
+		<Setter Property="Orientation" value="Horizontal"/>	<!-- Horizontal, Vertical -->
+		<Setter Property="Type" Value="SliderBar"/>	<!-- SliderBar, ProgressBar -->
+
+		<!-- this Image.Bar.Normal value is for bar's bg image -->
+		<Setter Property="Image.Bar.Normal"/>
+
+		<!-- this Image.Bar.Color value is for bar's cover image -->
+		<Setter Property="Image.Bar.Color"/>
+
+		<!-- this Image.Bar.Disable value is for bar's disable image -->
+		<Setter Property="Image.Bar.Disable"/>
+
+		<!-- this Image.Thumb.Normal value is for thumb's normal image -->
+		<Setter Property="Image.Thumb.Normal"/>
+
+		<!-- this Image.Thumb.MouseOver value is for thumb's mouse over image , not support now-->
+		<Setter Property="Image.Thumb.MouseOver"/>
+
+		<!-- this Image.Thumb.Disable value is for thumb's mouse disable image , not support now-->
+		<Setter Property="Image.Thumb.Disable"/>
+
+		<!-- this Image.Thumb.MouseDown value is for thumb's mouse down image , not support now-->
+		<Setter Property="Image.Thumb.MouseDown"/>
+		
+		<!-- this Minimum value is for slider's Minimum pos-->
+		<Setter Property="Minimum"/>
+
+		<!-- this Maximum value is for slider's Maximum pos-->
+		<Setter Property="Maximum"/>
+
+		<!-- this Pos value is for slider's pos-->
+		<Setter Property="Pos"/>
+		
+		<!-- ¡°SmallChange¡± value is the minimum scale value for each sliding. -->
+		<Setter Property="SmallChange"/>
+
+		<!-- ¡°Ticks¡± value is a list of slider tick value where the slider thumb can only stop. -->
+		<Setter Property="Ticks"/>
+
+		<!-- this Tooltip.Show value is whether show tooltip (volume) or  dont show -->
+		<Setter Property="Tooltip.Show" value="False"/>	<!-- True, or False -->
+
+  	<!-- style of horizontal progress bar, has no thumb -->
+		<Style Key="HProgress">
+					<Setter Property="Width" Value="82"/>
+					<Setter Property="Height" Value="7"/>
+					<Setter Property="Type" Value="ProgressBar"/>
+					<Setter Property="Image.Bar.Normal" Value="Resources/Res_HProgressBar_Empty.png"/>
+					<Setter Property="Image.Bar.Color" Value="Resources/Res_HProgressBar_Full.png"/>
+		</Style>
+
+  	<!-- style of horizontal slider -->
+		<Style Key="HSlider">
+					<Setter Property="Cursor" Value="Hand"/>
+					<Setter Property="Width" Value="190"/>
+					<Setter Property="Height" Value="24"/>
+					<Setter Property="Image.Bar.Normal" Value="Resources/Res_HSlider_Empty.png"/>
+					<Setter Property="Image.Bar.Color" Value="Resources/Res_HSlider_Full.png"/>
+					<Setter Property="Image.Thumb.Normal" Value="Resources/Res_HSlider_Thumb.png"/>
+		</Style>
+
+		<Style Key="HSliderSmall">
+					<Setter Property="Cursor" Value="Hand"/>
+					<Setter Property="Width" Value="83"/>
+					<Setter Property="Height" Value="19"/>
+					<Setter Property="Image.Bar.Normal" Value="Resources/Res_HSlider_SEmpty.png"/>
+					<Setter Property="Image.Bar.Color" Value="Resources/Res_HSlider_SFull.png"/>
+					<Setter Property="Image.Thumb.Normal" Value="Resources/Res_HSlider_SThumb.png"/>
+		</Style>
+
+		<Style Key="NonFillSlider">
+					<Setter Property="Cursor" Value="Hand"/>
+					<Setter Property="Width" Value="91"/>
+					<Setter Property="Height" Value="19"/>
+					<Setter Property="Image.Bar.Normal" Value="Resources/Res_HSlider_Empty.png"/>
+					<Setter Property="Image.Thumb.Normal" Value="Resources/Res_HSlider_Thumb.png"/>
+		</Style>
+
+  	<!-- style of vertical slider -->
+		<Style Key="VSlider">
+					<Setter Property="Cursor" Value="Hand"/>
+					<Setter Property="Width" Value="24"/>
+					<Setter Property="Height" Value="190"/>
+					<Setter Property="Orientation" Value="Vertical"/>
+					<Setter Property="Image.Bar.Normal" Value="Resources/Res_VSlider_Empty.png"/>
+					<Setter Property="Image.Bar.Color" Value="Resources/Res_VSlider_Full.png"/>
+					<Setter Property="Image.Thumb.Normal" Value="Resources/Res_VSlider_Thumb.png"/>
+		</Style>
+
+  	<!-- style of vertical slider -->
+		<Style Key="VNonFillSlider">
+					<Setter Property="Cursor" Value="Hand"/>
+					<Setter Property="Width" Value="24"/>
+					<Setter Property="Height" Value="190"/>
+					<Setter Property="Orientation" Value="Vertical"/>
+					<Setter Property="Image.Bar.Normal" Value="Resources/Res_VSlider_Empty.png"/>
+					<Setter Property="Image.Thumb.Normal" Value="Resources/Res_VSlider_Thumb.png"/>
+		</Style>
+
+</Slider.Dictionary>

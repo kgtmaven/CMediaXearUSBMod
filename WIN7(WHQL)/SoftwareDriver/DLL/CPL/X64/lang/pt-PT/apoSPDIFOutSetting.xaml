@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutSetting_Title">Definicoes de Altifalantes</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_LFECenterChannelSwap">Alternar a saida central/graves</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SideBackSurroundSwap">Alternar a saida estereofonica lateral/traseira</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SpeakerTest">Teste alto-falante</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_2Channels">Estereo</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_4Channels">Quadrifonico</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_5dot1Channels">Surround 5.1</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_7dot1Channels">Surround 7.1</sys:String>
+</ResourceDictionary>

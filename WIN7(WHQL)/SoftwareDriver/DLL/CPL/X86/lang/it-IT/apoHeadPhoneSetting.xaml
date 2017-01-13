@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Cuffie Impostazioni</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Cuffie Test</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Cuffie </sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Selezionare la regolazione del guadagno secondo il tipo di utilizzo o accoppiando l'impedenza delle cuffie.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Guadagno normale (0dB per &lt;64 ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">Guadagno elevato (6dB per 64~150 ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Guadagno estremamente elevato (12dB per 150~300 ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

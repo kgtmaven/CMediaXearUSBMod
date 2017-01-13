@@ -1,0 +1,30 @@
+<TextBlock.Dictionary>
+
+		<!-- this BorderLine value is for border line which format is <left>,<top>,<right>,<bottom>, for example: "0,0,1,1" -->
+		<Setter Property="BorderLine" Value=""/>
+
+		<!-- this Foreground value is for border line color, which format is #ARGB, white, black, red, green, blue, yellow, ... -->
+		<Setter Property="BorderLineColor" Value=""/>
+
+		<!-- this Text.Wrapping value is for text wrapping, for example: Wrap -->
+		<Setter Property="TextWrapping" Value=""/>
+
+		<!-- this Text.Wrapping value is for text wrapping, for example: Wrap -->
+		<Setter Property="TextWrapping" Value=""/>
+
+	  <!-- this preset style is default button -->
+		<Style Key="ApoTitle">
+					<Setter Property="FontSize" Value="18"/>
+					<Setter Property="FontWeight" Value="Bold"/>
+					<Setter Property="Foreground" Value="White"/>
+					<Setter Property="Text.HorizontalAlignment" Value="Left"/>
+		</Style>
+		
+		<Style Key="ApoText">
+					<Setter Property="FontSize" Value="10"/>
+					<Setter Property="FontWeight" Value="Bold"/>
+					<Setter Property="Foreground" Value="White"/>
+					<Setter Property="Text.HorizontalAlignment" Value="Left"/>
+		</Style>
+		
+</TextBlock.Dictionary>

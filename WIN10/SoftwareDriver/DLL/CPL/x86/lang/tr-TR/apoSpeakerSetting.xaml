@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerSetting_Title">Hoparlör Ayarları</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_LFECenterChannelSwap">Orta/bas çıkışını değiştir</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SideBackSurroundSwap">Yan/arka surround çıkışını değiştir</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SpeakerTest">Hoparlör Test</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_4Channels">Kuadrofonik</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_5dot1Channels">5.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_7dot1Channels">7.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_Headphone">Kulaklık</sys:String>
+</ResourceDictionary>

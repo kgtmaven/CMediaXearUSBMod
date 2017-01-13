@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFInVol_SPDIFInVol">S/PDIF</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_L">L</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_R">R</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Title">Lydstyrkekontrol</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_VoldB_Range_Error">Intervallet for lydstyrken i dB er mellem {0:F2} og {1:F2}.</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Balance">Lås</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnBalance">Lås op</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Mute">Lydløs</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnMute">Slå lyden til</sys:String>
+</ResourceDictionary>

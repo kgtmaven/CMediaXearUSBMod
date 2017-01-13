@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutSetting_Title">Hojttalerindstillinger</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_LFECenterChannelSwap">Skift center-/bas-output</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SideBackSurroundSwap">Skift surround-output mellem side/bagved</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_SpeakerTest">hojtalertest</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_4Channels">Kvadrofonisk</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_5dot1Channels">5.1 Surround</sys:String>
+  <sys:String x:Key="ml_SPDIFOutSetting_7dot1Channels">7.1 Surround</sys:String>
+</ResourceDictionary>

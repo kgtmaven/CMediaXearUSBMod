@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerFlexBass_Title">เฟล็กซ์ เบส II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_EnableFlexBass">เปิดใช้งานเฟล็กซ์ เบส II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassCof">คาความถี่ลดทอน</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassLevel">ระดับเสียงเบส</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LR">LR</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LsRs">Ls/Rs</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LbRb">Lb/Rb</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_C">C</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_Hz">Hz</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_FullRangeSpeaker">ลำโพงขนาดใหญ่แบบมีเสียงเบส</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_NonfullRangeSpeaker">ลำโพงขนาดเล็กแบบไม่มีเสียงเบส</sys:String>
+</ResourceDictionary>

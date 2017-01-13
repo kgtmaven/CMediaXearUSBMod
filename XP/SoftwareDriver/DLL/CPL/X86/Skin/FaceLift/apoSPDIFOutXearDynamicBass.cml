@@ -1,0 +1,43 @@
+<Canvas Width="643" Height="455" Name="SPDIFOutXearDynamicBass">  
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerDynamicBass_Title"/>	
+	
+	<TextBlock Foreground="White" Left="80" Top="73" Height="30"  Style="ApoText" Text="ml_SpeakerDynamicBass_Enable" />
+	<CheckBox Left="56" Top="69" Height="27" Width="26" Name="BtnEnableDynamicBass" Style="EnableFeatureButton" ToolTip="ml_SpeakerDynamicBass_Enable" />
+
+	<TextBlock Name="DynamicBass_Logo" Source="XearDynamicBass/DynamicBass_Logo.png" Left="534" Top="10" />
+	
+<Canvas Name="MainContent" Left="0" Top="140" Width="640" Height="455" >
+	<TextBlock Name="TextBassLevel" Foreground="White" Left="93" Top="0"  Style="ApoText" Text="ml_SpeakerDynamicBass_BassLevel" />
+  <Slider Orientation="Horizontal" Height="36" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="93" Top="26" Width="240" Maximum="10" Name="BassLevel" Minimum="0" SmallChange="0" Style="HSlider" Tooltip.Show="True"/>
+   <!--<TextBox Left="350" Top="26" Name="LevelTextBox" Style="XearTextbox" FontSize="10"/>-->
+   <TextBox Left="350" Top="26" width="45" Name="LevelTextBox" Style="KaraokeTextbox"/>
+	<Button Left="435" Top="25" Name="ResetBassLevel"Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerDynamicBass_Reset" />
+	
+	<TextBlock Name="TextFrequency" Foreground="White" Left="93" Top="100" Style="ApoText" Text="ml_SpeakerDynamicBass_Cutoff" />
+  <Slider Orientation="Horizontal" Height="36" Ticks="100,150,200,300,400" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="93" Top="126" Width="240" Maximum="400" Name="CutoffFrequency" Minimum="100" SmallChange="50" Tag="0" Style="HSlider" Tooltip.Show="True"/>
+  <Image Name="Tick1" Source="FlexBass/Tick.png" Left="95" Top="156" Width="2" Height="12" />
+	<Image Name="Tick2" Source="FlexBass/Tick.png" Left="133" Top="156" Width="2" Height="8.75" />
+	<Image Name="Tick3" Source="FlexBass/Tick.png" Left="172" Top="156" Width="2" Height="12" />
+	<!--<Image Name="Tick4" Source="FlexBass/Tick.png" Left="211" Top="156" Width="2" Height="8.75" />-->
+	<Image Name="Tick5" Source="FlexBass/Tick.png" Left="250" Top="156" Width="2" Height="12" />
+	<!--<Image Name="Tick6" Source="FlexBass/Tick.png" Left="289" Top="156" Width="2" Height="8.75" />-->
+	<Image Name="Tick7" Source="FlexBass/Tick.png" Left="328" Top="156" Width="2" Height="12" />
+	
+	<TextBlock Name="Text100" Foreground="White" Left="85" Top="172" Height="16" Style="ApoText" Text = "100" />
+	<TextBlock Name="Text200" Foreground="White" Left="162" Top="172" Height="16" Style="ApoText" Text = "200" />
+	<TextBlock Name="Text300" Foreground="White" Left="240" Top="172" Height="16" Style="ApoText" Text = "300" />
+	<TextBlock Name="Text400" Foreground="White" Left="318" Top="172" Height="16" Style="ApoText" Text = "400" />
+	
+	
+	   <!--<TextBox Left="350" Top="126" Name="FrequencyTextBox" Style="XearTextbox" FontSize="10"/>-->
+   <TextBox Left="350" Top="126" width="45" Name="FrequencyTextBox" Style="KaraokeTextbox"/>
+	<TextBlock Foreground="White" Left="390" Top="126" Height="22" Width="32" FontSize="10" FontWeight="Bold" Text="Hz"/>
+   <Button Left="435" Top="125" Name="ResetFrequency" Image.Normal="SingFX/Reset_no.png" Image.MouseOver="SingFX/Reset_mo.png" Tooltip="ml_SpeakerDynamicBass_Reset" />
+
+
+
+<!--<TextBlock Name="Intro" Foreground="White" Left="93" Top="250" Style="ApoText" Text="Xear Sonic Virtual Bass introduction in here." />-->
+	</Canvas>
+	
+</Canvas>

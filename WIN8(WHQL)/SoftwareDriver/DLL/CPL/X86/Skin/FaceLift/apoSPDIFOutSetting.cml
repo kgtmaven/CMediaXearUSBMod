@@ -1,0 +1,36 @@
+﻿<Canvas Width="643" Height="455" Name="SPDIFOutSetting">
+		
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SPDIFOutSetting_Title" />
+
+	<Canvas Width="280" Height="108" Left="65" Top="180">		
+		<RadioButton Top="1" GroupName="Channels" Name="Channels2" Tag="2" Style="DefaultRadio"/>
+		<TextBlock Foreground="White" Left="18" Style="ApoText" Text="ml_SPDIFOutSetting_2Channels" />
+	
+	</Canvas>		
+
+	<Canvas Width="387" Height="75.5" Left="255" Top="328">
+		<Canvas Width="387" Height="25" Name="Canvas_ChannelCopy">
+			<CheckBox Name="ChannelCopy" ToolTip="ml_SPDIFOutSetting_ChannelCopySF" Style="DefaultCheckbox" />
+			<TextBlock Foreground="White" Left="22" Top="9" Style="ApoText" Text="ml_SPDIFOutSetting_ChannelCopySF" />			
+		</Canvas>			
+	</Canvas>	
+	
+		<Image Top="145.333" Width="360" Height="159" Left="229.5" Source="Setting/SoundField.png" />
+	
+		<Canvas Width="385" Height="224.5" Left="216.5" Top="85.5" Name="SPDIFOutTestView" >
+			<RadioButton Name="ImgLF" Width="48" Height="73" Cursor="Hand" GroupName="SPDIFOutTest" Tag="1" Left="106.6" Top="22.5" Image.Uncheck.Normal="Setting/L_no.png" Image.Check.Normal="Setting/L_glow.png" />
+			<RadioButton Name="ImgRF" Width="48" Height="73" Cursor="Hand" GroupName="SPDIFOutTest" Tag="2" Left="223" Top="22.5" Image.Uncheck.Normal="Setting/R_no.png" Image.Check.Normal="Setting/R_glow.png" />
+		</Canvas>
+			
+	
+	<CheckBox Name="BtnSpeakerTest" Width="65" Height="56" Cursor="Hand" Tag="1024" Left="374.833" Top="175.375" ToolTip="ml_SPDIFOutSetting_SpeakerTest" 
+				Image.Normal="Setting/AutoTest_no.png" Image.MouseOver="Setting/AutoTest_Glow.png" />
+	
+	<ComboBox Style="DefaultCombobox" Left="450" Top="30" Name="OutputTerminalTypeControl" Width="140" Label.Width="113" Dropbutton.Left="116" Height="26" >	
+		<ComboBoxItem Tag="0" Foreground="Black" Content="Speaker"/>	
+		<ComboBoxItem Tag="1" Foreground="Black" Content="HeadPhone"/>	
+		<ComboBoxItem Tag="2" Foreground="Black" Content="SPDIF Out"/>	
+	</ComboBox>
+	
+
+</Canvas>

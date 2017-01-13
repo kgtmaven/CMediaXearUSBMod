@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <!--<sys:String x:Key="ml_SPDIFOutVolume_SPDIFOUT">S/PDIF-Out</sys:String>-->
+  <sys:String x:Key="ml_StereoMixVol_StereoMixVol">Stereo Mix</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_L">L</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_R">R</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_Title">Регулировка громкости</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_VoldB_Range_Error">Громкость в дБ находится в пределах от {0:F2} до {1:F2}</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_Balance"> Блокировка</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_UnBalance">отпереть</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_Mute">Выкл Звук</sys:String>
+  <sys:String x:Key="ml_StereoMixVol_UnMute">включить звук</sys:String>
+</ResourceDictionary>

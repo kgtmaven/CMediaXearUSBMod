@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Hoofdtelefoon Instelling</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Hoofdtelefoon Test</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Hoofdtelefoon</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Selecteer de versterking volgens uw gebruiksscenario of volgens de impedantie van uw hoofdtelefoon.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Normale versterking (0dB voor &lt;64 ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">Hoge versterking (6dB voor 64~150 ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Zeer hoge versterking (12dB voor 150~300 ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

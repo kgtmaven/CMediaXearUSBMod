@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDolbyHP_Title">Dolby Surround Headphone</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHP_Studio">Studio</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHP_Cinema">Cinema</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHP_Hall">Hall</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHP_EnableDolbySurroundEffect">Dolby Surround 有効にする </sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHP_ChannelRequirement">Dolby Surround 効果  2チャンネルのステレオのみサポートしています</sys:String>
+  <sys:String x:Key="ml_SpeakerDolbyHP_ChannelsSetting">チャンネル設定</sys:String>
+</ResourceDictionary>

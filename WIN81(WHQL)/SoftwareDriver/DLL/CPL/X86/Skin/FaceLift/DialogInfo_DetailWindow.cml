@@ -1,0 +1,25 @@
+<Window WindowStartupLocation="CenterScreen" ShowInTaskbar="True" WindowStyle="None" BorderThickness="0" Padding="0" ResizeMode="CanMinimize" AllowsTransparency="True" Width="391" Height="199" Name="DialogInfo_DetailWindow" Opacity="0.99" Topmost="False" Title="ml_DialogInfo_DetailWindow_Title" Background.Image="DialogInfo/DetailWindow_bg.png" > 
+
+	<Image Source="DialogInfo/TitleBar.png" Left="89.5" Name="DetailWindowTitleBar"/>
+	<TextBlock Foreground="#000000" Style="ApoText" Text.HorizontalAlignment="Center" Top="2" Left="89" Width="240" Height="18" Text="ml_DialogInfo_DetailInformation" Name="ml_DetailWindowTitleBar_Text"/>
+
+<Canvas Name="PanelDetailList" Left="30" Top="43.5" Width="310" Height="110" Page.cy="30" Scroll.cy="0">
+	<TextBlock Left="0" Top="0" Width="130" Text="ml_DialogInfo_DetailField_Name" Text.HorizontalAlignment="Center" FontWeight="Bold" Foreground="Black"/>
+	<TextBlock Left="130" Top="0" Width="90" Text="ml_DialogInfo_DetailField_Version" Text.HorizontalAlignment="Center" FontWeight="Bold" Foreground="Black"/>
+	<TextBlock Left="210" Top="0" Width="100" Text="ml_DialogInfo_DetailField_ModifiedDate" Text.HorizontalAlignment="Center" FontWeight="Bold" Foreground="Black"/>
+
+	
+	<TextBlock Name="item" Left="0" Top="20" Width="130" Text="NULL" Text.HorizontalAlignment="Left" Foreground="Black" BorderLine="0,0,1,1" BorderLineColor="#FFD3D3D3"/>
+	<TextBlock Name="itemVer" Left="130" Top="20" Width="90" Text="NULL" Text.HorizontalAlignment="Center" Foreground="Black" BorderLine="0,0,1,1" BorderLineColor="#FFD3D3D3"/>
+	<TextBlock Name="itemDate" Left="210" Top="20" Width="98" Text="NULL" Text.HorizontalAlignment="Center" Foreground="Black" BorderLine="0,0,0,1" BorderLineColor="#FFD3D3D3"/>
+	
+</Canvas>
+
+	<RepeatButton Cursor="Hand" Name="ArrowUp" Left="341" Top="43.5" Width="22" Height="15" Style="ClickButton" Image.Normal="DialogInfo/DetailWindow_ArrowUp_no.png" Image.MouseOver="DialogInfo/DetailWindow_ArrowUp_mo.png" />
+	<RepeatButton Cursor="Hand" Name="ArrowDown" Left="341" Top="135" Width="22" Height="15" Style="ClickButton" Image.Normal="DialogInfo/DetailWindow_ArrowDown_no.png" Image.MouseOver="DialogInfo/DetailWindow_ArrowDown_mo.png" />
+
+	<Button Name="DetailWindowExit" Left="285.763" Top="160.364" Width="78" Height="33" Style="ClickButton" Text="ml_DialogInfo_Exit" Foreground="#000000" FontWeight="Bold" Image.Normal="Resources/Res_Button_no.png" Image.MouseOver="Resources/Res_Button_mo.png"/>
+<!--
+	<Button Name="DetailWindowClose"  Cursor="Hand" Left="341" Top="0" Width="50" Height="26" Style="ClickButton" Visibility="Hidden" />
+-->
+</Window> 

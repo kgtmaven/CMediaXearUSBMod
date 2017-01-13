@@ -1,0 +1,67 @@
+<Canvas Width="643" Height="455" Name="SPDIFInSamplingRate">
+
+	<TextBlock Left="30" Top="23" Height="35" Text="ml_SPDIFInSamplingRate_Title" Style="ApoTitle" />
+
+	<Canvas Name="CanvasSamplingRate" Left="50" Top="110" Width="400" Height="200" >
+		<Canvas Name="Canvas44100" Width="200" Height="20" >
+			<RadioButton Name="Hz44100" GroupName="Frequency" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_44dot1KHz" />
+			<TextBlock Text="ml_SPDIFInSamplingRate_44dot1KHz" Left="18" Top="0" Height="16" Style="ApoText" />
+		</Canvas>
+		<Canvas Name="Canvas48000" Width="200" Height="20" Top="24">
+			<RadioButton Name="Hz48000" GroupName="Frequency" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_48KHz" />
+			<TextBlock Text="ml_SPDIFInSamplingRate_48KHz" Left="18" Top="0" Height="16" Style="ApoText" />
+		</Canvas>
+
+		<Canvas Name="Canvas88200" Width="200" Height="20" Top="48">
+			<RadioButton Name="Hz88200" GroupName="Frequency" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_88dot2KHz" />
+			<TextBlock Text="ml_SPDIFInSamplingRate_88dot2KHz" Left="18" Top="0" Height="16" Style="ApoText" />
+		</Canvas>
+
+		<Canvas Name="Canvas96000" Width="200" Height="20" Top="0" Left="110">
+			<RadioButton Name="Hz96000" GroupName="Frequency" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_96KHz" />
+			<TextBlock Text="ml_SPDIFInSamplingRate_96KHz" Left="18" Top="0" Height="16" Style="ApoText" />
+		</Canvas>
+
+		<Canvas Name="Canvas176400" Width="200" Height="20" Top="24" Left="110">
+			<RadioButton Name="Hz176400" GroupName="Frequency" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_176dot4KHz" />
+			<TextBlock Text="ml_SPDIFInSamplingRate_176dot4KHz" Left="18" Top="0" Height="16" Style="ApoText" />
+		</Canvas>
+
+		<Canvas Name="Canvas192000" Width="200" Height="20" Top="48" Left="110">
+			<RadioButton Name="Hz192000" GroupName="Frequency" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_192KHz" />
+			<TextBlock Text="ml_SPDIFInSamplingRate_192KHz" Left="18" Top="0" Height="16" Style="ApoText" />
+		</Canvas>
+	</Canvas>
+	<Canvas Name="CanvasBitDepth" Left="430" Top="110" Width="400" Height="200" >
+		<Canvas Name="Canvas16" Width="200" Height="20" Top="0">
+			<RadioButton Name="BitDepth16" GroupName="BitDepth" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_16Bits" />
+			<TextBlock Name="TextBit16" Text="ml_SPDIFInSamplingRate_16Bits" Left="18" Height="16" Style="ApoText" />
+		</Canvas>
+
+		<Canvas Name="Canvas24" Width="200" Height="20" Top="24">
+			<RadioButton Name="BitDepth24" GroupName="BitDepth" Cursor="Hand" Style="DefaultRadio" ToolTip="ml_SPDIFInSamplingRate_24Bits" />
+			<TextBlock Name="TextBit24" Text="ml_SPDIFInSamplingRate_24Bits" Left="18" Height="16" Style="ApoText" />
+		</Canvas>
+    
+    <Canvas Name="Canvas32" Width="200" Height="20" Top="48">
+			<RadioButton Name="BitDepth32" GroupName="BitDepth" Cursor="Hand" Style="DefaultRadio" ToolTip="32 Bits" />
+			<TextBlock Name="TextBit32" Text="32 Bits" Left="18" Height="16" Style="ApoText" />
+		</Canvas>
+	</Canvas>
+
+	<Canvas Name="DiagramRate" Width="333" Height="132" Top="222" Left="50">
+		<Image Name="Diagram44100" Source="Resources/Res_Diagram_441KHz.png" Visibility="hidden" />
+		<Image Name="Diagram48000" Source="Resources/Res_Diagram_48KHz.png" Visibility="hidden" />
+		<Image Name="Diagram88200" Source="Resources/Res_Diagram_882KHz.png" Visibility="hidden" />
+		<Image Name="Diagram96000" Source="Resources/Res_Diagram_96KHz.png" Visibility="hidden" />
+		<Image Name="Diagram176400" Source="Resources/Res_Diagram_1764KHz.png" Visibility="hidden" />
+		<Image Name="Diagram192000" Source="Resources/Res_Diagram_192KHz.png" Visibility="hidden" />
+	</Canvas>
+
+	<Canvas Name="DiagramBits" Width="150" Height="131" Top="222" Left="415">
+		<Image Name="Diagram16Bits" Source="Resources/Res_Diagram_16Bits.png" Visibility="hidden" />
+		<Image Name="Diagram24Bits" Source="Resources/Res_Diagram_24Bits.png" Visibility="hidden" />
+    <Image Name="Diagram32Bits" Source="Resources/Res_Diagram_32Bits.png" Visibility="hidden" />
+	</Canvas>
+
+</Canvas>

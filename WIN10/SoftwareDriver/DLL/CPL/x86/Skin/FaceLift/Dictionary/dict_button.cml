@@ -1,0 +1,62 @@
+<Button.Dictionary>
+
+		<!-- this Cursor value is for mouse cursor when mouse is over on this control, for example: Arrow, Arrow, Cross, ... -->
+		<Setter Property="Cursor" Value="Hand"/>		<!--  Hand, Arrow -->
+		
+		<!-- this Image.Normal value is for button normal image -->
+		<Setter Property="Image.Normal"/>
+		
+		<!-- this Image.Normal value is for button image when mouse is over this button -->
+		<Setter Property="Image.MouseOver"/>
+		
+		<!-- this Image.Normal value is for button image when button is selected -->
+		<Setter Property="Image.Selected"/>
+		
+		<!-- this Image.Normal value is for button image when button is disabled -->
+		<Setter Property="Image.Disable"/>
+		
+		<!-- this Image.Normal value is for button image when mouse is clicked in this button -->
+		<Setter Property="Image.MouseDown"/>
+
+		<!-- this Image.Content value is for button content image -->
+		<Setter Property="Image.Content"/>
+
+	  <!-- this preset style is default button -->
+		<Style Key="DefaultButton">
+					<Setter Property="Image.Normal" Value="common\\btn_no.png"/>
+					<Setter Property="Image.MouseOver" Value="common\\btn_mo.png"/>
+					<Setter Property="Image.Selected" Value="common\\btn_se.png"/>
+					<Setter Property="Image.Disable" Value="common\\btn_di.png"/>
+		</Style>
+
+	  <!-- this preset style is click button -->
+		<Style Key="ClickButton">
+					<Setter Property="Image.Normal" Value="Resources\\Res_Button_no.png"/>
+					<Setter Property="Image.MouseOver" Value="Resources\\Res_Button_mo.png"/>
+					<Setter Property="Image.Selected" Value="Resources\\Res_Button_se.png"/>
+					<Setter Property="Image.Disable" Value="Resources\\Res_Button_di.png"/>
+		</Style>
+
+	  <!-- this preset style is EQ button -->
+		<Style Key="EQButton">
+					<Setter Property="Image.Normal" Value="eq\\btn_no.png"/>
+					<Setter Property="Image.MouseOver" Value="eq\\btn_mo.png"/>
+					<Setter Property="Image.Selected" Value="eq\\btn_se.png"/>
+					<Setter Property="Image.Disable" Value="eq\\btn_di.png"/>
+		</Style>
+
+	<Style Key="TitleButton">
+		<Setter Property="Text.HorizontalAlignment"	Value="Left"/>
+		<Setter Property="Background" Value="#01000000"/>
+		<Setter Property="Foreground" Value="White"/>
+		<Setter Property="FontWeight" Value="Bold"/>
+		<Setter Property="FontSize" Value="12.5"/>
+	</Style>
+	
+		<Style Key="XearButton">
+					<Setter Property="Image.Normal" Value="XearDynamicBass\\Res_Button_no.png"/>
+					<Setter Property="Image.MouseOver" Value="XearDynamicBass\\Res_Button_mo.png"/>
+					<Setter Property="Image.Disable" Value="XearDynamicBass\\Res_Button_di.png"/>
+		</Style>
+	
+</Button.Dictionary>

@@ -1,0 +1,66 @@
+	<PanelVS.Dictionary>	
+	
+		<!-- this Cursor value is for mouse cursor when mouse is over on this control, for example: Arrow, Arrow, Cross, ... -->
+		<Setter Property="Cursor" Value="Hand"/>		<!--  Hand, Arrow -->
+
+		<!-- this Image.Bg value is for panel's bg image -->
+		<Setter Property="Image.Bg"/>
+
+		<!-- this Image.Bg value is for panel's bg disable image -->
+		<Setter Property="Image.Bg.Disable"/>
+
+		<!-- this Image.Head value is for head's image -->
+		<Setter Property="Image.Head"/>
+
+		<!-- this Image.Head value is for head's disable image -->
+		<Setter Property="Image.Head.Disable"/>
+
+		<!-- this Image.C value is for speaker center's image -->
+		<Setter Property="Image.C"/>
+
+		<!-- this Image.C value is for speaker center's disable image -->
+		<Setter Property="Image.C.Disable"/>
+
+		<!-- this Image.L value is for speaker left's image -->
+		<Setter Property="Image.L"/>
+
+		<!-- this Image.L value is for speaker left's disable image -->
+		<Setter Property="Image.L.Disable"/>
+
+		<!-- this Image.Lb value is for speaker left-back's image -->
+		<Setter Property="Image.Lb"/>
+
+		<!-- this Image.Lb value is for speaker left-back's disable image -->
+		<Setter Property="Image.Lb.Disable"/>
+
+		<!-- this Image.Ls value is for speaker left-surround's image -->
+		<Setter Property="Image.Ls"/>
+
+		<!-- this Image.Ls value is for speaker left-surround's disable image -->
+		<Setter Property="Image.Ls.Disable"/>
+
+		<!-- this Image.R value is for speaker right's image -->
+		<Setter Property="Image.R"/>
+
+		<!-- this Image.R value is for speaker right's disable image -->
+		<Setter Property="Image.R.Disable"/>
+
+		<!-- this Image.Rb value is for speaker right-back's image -->
+		<Setter Property="Image.Rb"/>
+
+		<!-- this Image.Rb value is for speaker right-back's disable image -->
+		<Setter Property="Image.Rb.Disable"/>
+
+		<!-- this Image.Rs value is for speaker right-surround's image -->
+		<Setter Property="Image.Rs"/>
+
+		<!-- this Image.Rs value is for speaker right-surround's disable image -->
+		<Setter Property="Image.Rs.Disable"/>
+
+		<!-- this Image.Sw value is for speaker subwoofer's image -->
+		<Setter Property="Image.Sw"/>
+
+		<!-- this Image.Sw value is for speaker subwoofer's disable image -->
+		<Setter Property="Image.Sw.Disable"/>
+
+</PanelVS.Dictionary>

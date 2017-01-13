@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">헤드폰 설정</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">헤드폰 시험</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">스테레오</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">헤드폰</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">사용 시나리오에 따르거나 헤드폰 임피던스와 일치하는 게인 조정을 선택하십시오.  </sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">표준 게인(&lt;64 ohms 시 0dB)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">높은 게인(64~150 ohms의 경우 6dB)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">매우 높은 게인(150~300 ohms의 경우 12dB)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

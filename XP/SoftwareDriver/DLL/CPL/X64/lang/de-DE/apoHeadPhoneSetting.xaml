@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneSetting_Title">Kopfhörereinstellungen</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_SpeakerTest">Kopfhörertest</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_Headphone">Kopfhörer </sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_AmplifierDescription">Bitte wählen Sie Verstärkung nach Ihrem Nutzungsszenario oder die übereinstimmende Kopfhörer-Impedanz.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_NormalGain">Normale Verstärkung (0 dB für &lt;64 Ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_HighGain">Hohe Verstärkung (6 dB für 64~150 Ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ExtraHighGain">Besonders hohe Verstärkung (12 dB für 150~300 Ohm)</sys:String>
+  <sys:String x:Key="ml_HeadPhoneSetting_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

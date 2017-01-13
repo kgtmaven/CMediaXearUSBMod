@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEM_Title">Umgebungseffekte</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_EnableEnvironmentEffects">Umgebungseffekte aktivieren</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Environment">Umgebung</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_RoomSize">Raumgröße</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SmallRoom">Kleiner Raum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_MediumRoom">Mittelgroßer Raum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LargeRoom">Großer Raum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Default">Standard</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Generic">Generisch</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_PaddedCell">Gummizelle</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Room">Raum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Bathroom">Badezimmer</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_LivingRoom">Wohnzimmer</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneRoom">Steinerner Raum</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Auditorium">Auditorium</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ConcertHall">Konzerthalle</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Cave">Keller</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Arena">Stadion</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hangar">Hangar</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_CarpetedHallway">Mit Teppich ausgelegte Halle</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Hallway">Halle</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_StoneCorridor">Steinerner Flur</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Alley">Allee</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Forest">Wald</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_City">Stadt</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Mountains">Berge</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Quarry">Steinbruch</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Plain">Ebene</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_ParkingLot">Parkplatz</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_SewerPipe">Kanalisationsrohr</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_UnderWater">Unter Wasser</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Drugged">Betäubt</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Dizzy">Nebelig</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_Psychotic">Psychotisch</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEM_KTV">Karaoke</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,70 @@
+<Canvas Width="643" Height="455" Name="SpeakerQuarterEQ" >
+
+<!--	<Button Key="TitleBtn" Name="TitleBtn" Tag="SpeakerEqualizer" Text="ml_SpeakerEQ_Title" ToolTip="ml_SpeakerEQ_Title" Style="TitleButton" />
+-->
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerEQ_Title"/>
+	<TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_SpeakerEQ_EnableEqualizer" />
+	<TextBlock Name="EQ_Logo" Source="EQ/Logo_LivingEQ.png" Left="534" Top="10"/>
+	<CheckBox Left="56" Top="71" Name="BtnEnableEQ" Style="EnableFeatureButton" ToolTip="ml_SpeakerEQ_EnableEqualizer" />
+
+	<Image Top="120.5" Width="421" Height="169" Left="91" Source="EQ/TickLines.png" />
+
+	<TextBlock Name="Text30" Foreground="White" Left="113.91" Top="300" Height="13"  Style="ApoText" Text="30" />
+	<TextBlock Name="Text60" Foreground="White" Left="155.198" Top="300" Height="13"  Style="ApoText" Text="60" />
+	<TextBlock Name="Text120" Foreground="White" Left="190.065" Top="300" Height="13"  Style="ApoText" Text="120" />
+	<TextBlock Name="Text250" Foreground="White" Left="230.58" Top="300" Height="13"  Style="ApoText" Text="250" />
+	<TextBlock Name="Text500" Foreground="White" Left="270.117" Top="300" Height="13"  Style="ApoText" Text="500" />
+	<TextBlock Name="Text1K" Foreground="White" Left="311.997" Top="300" Height="13"  Style="ApoText" Text="1K" />
+	<TextBlock Name="Text2K" Foreground="White" Left="352.195" Top="300" Height="13"  Style="ApoText" Text="2K" />
+	<TextBlock Name="Text4K" Foreground="White" Left="390.146" Top="300" Height="13"  Style="ApoText" Text="4K" />
+	<TextBlock Name="Text8K" Foreground="White" Left="430.593" Top="300" Height="13"  Style="ApoText" Text="8K" />
+	<TextBlock Name="Text16K" Foreground="White" Left="466.784" Top="300" Height="13"  Style="ApoText" Text="16K" />
+
+	<TextBlock Name="Text+20" Foreground="White" Left="515" Top="112" Height="13"  Style="ApoText" Text="+20" />
+	<TextBlock Name="Text0" Foreground="White" Left="515" Top="197" Height="13"  Style="ApoText" Text="0" />
+	<TextBlock Name="Text-20" Foreground="White" Left="515" Top="282" Height="13"  Style="ApoText" Text="-20" />
+	<TextBlock Name="TextDB1" Foreground="White" Left="545" Top="112" Height="16"  Width="40" Style="ApoText" Text="ml_SpeakerEQ_dB" />
+	<TextBlock Name="TextDB2" Foreground="White" Left="545" Top="197" Height="16"  Width="40" Style="ApoText" Text="ml_SpeakerEQ_dB" />
+	<TextBlock Name="TextDB3" Foreground="White" Left="545" Top="282" Height="16"  Width="40" Style="ApoText" Text="ml_SpeakerEQ_dB" />
+	
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="110" Top="117" Width="32" Maximum="20" Name="Hz30" Minimum="-20" SmallChange="1" Tag="0" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="149" Top="117" Width="32" Maximum="20" Name="Hz60" Minimum="-20" SmallChange="1" Tag="1" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="189" Top="117" Width="32" Maximum="20" Name="Hz120" Minimum="-20" SmallChange="1" Tag="2" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="228" Top="117" Width="32" Maximum="20" Name="Hz250" Minimum="-20" SmallChange="1" Tag="3" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="268" Top="117" Width="32" Maximum="20" Name="Hz500" Minimum="-20" SmallChange="1" Tag="4" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="307" Top="117" Width="32" Maximum="20" Name="Hz1K" Minimum="-20" SmallChange="1" Tag="5" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="347" Top="117" Width="32" Maximum="20" Name="Hz2K" Minimum="-20" SmallChange="1" Tag="6" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="386" Top="117" Width="32" Maximum="20" Name="Hz4K" Minimum="-20" SmallChange="1" Tag="7" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="426" Top="117" Width="32" Maximum="20" Name="Hz8K" Minimum="-20" SmallChange="1" Tag="8" Style="VSlider" Tooltip.Show="True"/>
+	<Slider Orientation="Vertical" Height="175" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="465" Top="117" Width="32" Maximum="20" Name="Hz16K" Minimum="-20" SmallChange="1" Tag="9" Style="VSlider" Tooltip.Show="True"/>
+
+
+	<RadioButton Name="BtnDance" Text="Dance" Cursor="Hand" GroupName="EQMode" Tag="10" Width="70" Height="28" Left="61.763" Top="330.364" ToolTip="ml_SpeakerEQ_Dance" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnBass" Text="Bass" Cursor="Hand" GroupName="EQMode" Tag="11" Width="70" Height="28" Left="61.763" Top="387.34" ToolTip="ml_SpeakerEQ_Bass" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnTreble" Text="Treble" Cursor="Hand" GroupName="EQMode" Tag="12" Width="70" Height="28" Left="277.263" Top="359.34" ToolTip="ml_SpeakerEQ_Tremble" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnLive" Text="Live" Cursor="Hand" GroupName="EQMode" Tag="13" Width="70" Height="28" Left="205.786" Top="359.34" ToolTip="ml_SpeakerEQ_Live" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+
+
+	<RadioButton Name="BtnRock" Text="Rock" Cursor="Hand" GroupName="EQMode" Tag="14" Width="70" Height="28" Left="133.786" Top="359.34" ToolTip="ml_SpeakerEQ_Rock" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnSoftRock" Text="SoftRock" Cursor="Hand" GroupName="EQMode" Tag="15" Width="70" Height="28" Left="61.763" Top="359.34" ToolTip="ml_SpeakerEQ_SoftRock" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnJazz" Text="Jazz" Cursor="Hand" GroupName="EQMode" Tag="16" Width="70" Height="28" Left="277.263" Top="330.364" ToolTip="ml_SpeakerEQ_Jazz" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnMetal" Text="Metal" Cursor="Hand" GroupName="EQMode" Tag="17" Width="70" Height="28" Left="205.786" Top="330.364" ToolTip="ml_SpeakerEQ_Metal" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+
+
+	<RadioButton Name="BtnRap" Text="Rap" Cursor="Hand" GroupName="EQMode" Tag="18" Width="70" Height="28" Left="133.786" Top="330.364" ToolTip="ml_SpeakerEQ_Rap" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnClassic" Text="Classic" Cursor="Hand" GroupName="EQMode" Tag="19" Width="70" Height="28" Left="133.786" Top="387.34" ToolTip="ml_SpeakerEQ_Classic" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnVocal" Text="Opera" Cursor="Hand" GroupName="EQMode" Tag="20" Width="70" Height="28" Left="205.786" Top="387.34" ToolTip="ml_SpeakerEQ_Vocal" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+	<RadioButton Name="BtnDefault" Text="Default" Cursor="Hand" GroupName="EQMode" Tag="21" Width="70" Height="28" Left="277.263" Top="387.34" ToolTip="ml_SpeakerEQ_Default" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png"/>
+
+	<RadioButton Name="BtnUserDefine" Text="Manual" Cursor="Hand" GroupName="EQMode" Tag="24" Width="70" Height="28" Left="366.647" Top="330.864" ToolTip="ml_SpeakerEQ_Manual" FontSize="9" FontWeight="Bold" Text.HorizontalAlignment="Center" Foreground="#FF787878" Image.Uncheck.Normal="Resources/Res_Button_no.png" Image.Uncheck.MouseOver="Resources/Res_Button_mo.png" Image.Check.Normal="Resources/Res_Button_se.png" Image.Check.MouseOver="Resources/Res_Button_se.png" RepeatClick="True"/>
+
+<!--	<ComboBox Name="EQProfileList" Style="DefaultCombobox" Left="441.735" Top="334.864" Height="25" Width="154.265" Dropbutton.Left="127.265" Label.Width="154.265" Droplist.Width="154.265"/>
+-->
+	<ComboBox Name="EQProfileList" Style="DefaultCombobox" Left="441" Top="334" Height="26" Width="164" Dropbutton.Left="140"/>
+
+	<TextBox Name="EQProfileName" MaxLength="30" Left="441" Top="366" InputHintText="ml_SpeakerEQ_ProfileName_Prompt" Style="EQTextbox" />
+
+	<Button Name="BtnSave" Width="27" Height="26" Cursor="Hand" Tag="22" Left="532.089" Top="395.59" ToolTip="ml_SpeakerEQ_Save" Image.Normal="EQ/Save_no.png" Image.MouseOver="EQ/Save_mo.png" />
+	<Button Name="BtnDelete" Width="27" Height="26" Cursor="Hand" Tag="23" Left="569.089" Top="395.59" ToolTip="ml_SpeakerEQ_Delete" Image.Normal="EQ/Delete_no.png" Image.MouseOver="EQ/Delete_mo.png" />
+</Canvas>

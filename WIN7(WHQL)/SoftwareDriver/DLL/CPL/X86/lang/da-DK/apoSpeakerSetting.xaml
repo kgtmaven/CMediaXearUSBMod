@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerSetting_Title">Højttalerindstillinger</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_ChannelCopySF">Surround Max</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_LFECenterChannelSwap">Skift center-/bas-output</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SideBackSurroundSwap">Skift surround-output mellem side/bagved</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_SpeakerTest">højtalertest</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_2Channels">Stereo</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_4Channels">Kvadrofonisk</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_5dot1Channels">5.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_7dot1Channels">7.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerSetting_Headphone">Hovedtelefon</sys:String>
+</ResourceDictionary>

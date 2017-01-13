@@ -1,0 +1,5 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerHWEQ_Title">Höhe / Bass</sys:String>
+  <sys:String x:Key="ml_SpeakerHWEQ_BassLevel">Bass</sys:String>
+  <sys:String x:Key="ml_SpeakerHWEQ_TrebleLevel">Höhe</sys:String>
+</ResourceDictionary>

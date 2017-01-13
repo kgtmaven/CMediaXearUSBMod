@@ -1,0 +1,22 @@
+<SkinMenu Name="HeadPhoneMenu" Style="EffectMenu" Opacity="0.95">
+  <SkinMenuItem Name="HeadPhoneVol" Style="EffectMenuItem" Content="ml_HeadphoneVol_Title"/>
+  <SkinMenuItem Name="HeadPhoneSetting" Style="EffectMenuItem" Content="ml_HeadPhoneSetting_Title"/>
+  <SkinMenuItem Name="HeadPhoneSamplingRate" Style="EffectMenuItem" Content="ml_HeadphoneSamplingRate_Title"/>
+  <SkinMenuItem Name="HeadPhoneEQ" Style="EffectMenuItem" Content="ml_HeadPhoneEQ_Title"/>
+  <SkinMenuItem Name="HeadPhoneEM" Style="EffectMenuItem" Content="ml_HeadPhoneEM_Title"/>
+  <SkinMenuItem Name="HeadPhoneKaraoke" Style="EffectMenuItem" Content="ml_SpeakerKaraoke_Title"/>
+  <SkinMenuItem Name="HeadPhoneHWEQ" Style="EffectMenuItem" Content="ml_SpeakerHWEQ_Title" />
+  <SkinMenuItem Name="HeadPhoneVirtual" Style="EffectMenuItem" Content="ml_HeadPhoneVirtual_Title"/>
+  <SkinMenuItem Name="HeadPhoneXearSingFX" Style="EffectMenuItem" Content="ml_HeadPhoneXearSingFX_Title"/>
+  <SkinMenuItem Name="HeadPhoneXearSurroundHeadPhone" Style="EffectMenuItem" Content="ml_HeadPhoneXearSurroundHeadPhone_Title"/>
+  <SkinMenuItem Name="HeadPhoneXearSurroundSpeakers" Style="EffectMenuItem" Content="ml_HeadPhoneXearSurroundSpeakers_Title"/>
+  <SkinMenuItem Name="HeadPhoneDTSSS" Style="EffectMenuItem" Content="ml_HeadPhoneDTSSS_Title" Normal.Image.Content="Resources/Res_DTS_Menu_Logo.png" />
+  <SkinMenuItem Name="HeadPhoneDolbyHPVS" Style="EffectMenuItem" Content="ml_HeadPhoneDolbyHPVS_Title" Normal.Image.Content="Resources/Res_Dolby_Menu_Logo.png" />
+  <SkinMenuItem Name="HeadPhoneDolbyHPV2" Style="EffectMenuItem" Content="ml_HeadPhoneDolbyHPVS_Title" Normal.Image.Content="Resources/Res_Dolby_Menu_Logo.png" />
+  <SkinMenuItem Name="HeadPhoneXearAudioBrilliant" Style="EffectMenuItem" Content="Xear Audio Brilliant" />
+  <SkinMenuItem Name="HeadPhoneXearDynamicBass" Style="EffectMenuItem" Content="Xear Dynamic Bass" />
+  <SkinMenuItem Name="HeadPhoneXearSmartVolume" Style="EffectMenuItem" Content="Xear Smart Volume" />
+  <SkinMenuItem Name="HeadPhoneXearVoiceClarity" Style="EffectMenuItem" Content="Xear Voice Clarity" />
+  <SkinMenuItem Name="HeadPhoneAGC" Style="EffectMenuItem" Content="ml_AGC_Title"/>
+  <SkinMenuItem Name="HeadPhoneSurroundMax" Style="EffectMenuItem" Content="ml_HeadPhoneSurroundMax_Title"/>
+</SkinMenu>

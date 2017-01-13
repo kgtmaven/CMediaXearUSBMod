@@ -1,0 +1,16 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerVol_Front">Front</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Rear">Bagpå</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_CenLFE">Cen/LFE</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Side">Side</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_L">L</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_R">R</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Title">Lydstyrkekontrol</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_VoldB_Range_Error">Intervallet for lydstyrken i dB er mellem {0:F2} og {1:F2}.</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Balance">Lås</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnBalance">Lås op</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Mute">Lydløs</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_UnMute">Slå lyden til</sys:String>
+  <sys:String x:Key="ml_SpeakerVol_Master">Hovedlydstyrke</sys:String>
+</ResourceDictionary>

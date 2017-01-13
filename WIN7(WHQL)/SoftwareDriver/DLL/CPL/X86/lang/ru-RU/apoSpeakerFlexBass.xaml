@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerFlexBass_Title">Flex Bass II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_EnableFlexBass">Включить Flex Bass II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassCof">Урезать частоту</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassLevel">Уровень басов</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LR">LR</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LsRs">Ls/Rs</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LbRb">Lb/Rb</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_C">C</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_Hz">Hz</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_FullRangeSpeaker">Большой динамик с басами</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_NonfullRangeSpeaker">Небольшой динамик без басов</sys:String>
+</ResourceDictionary>

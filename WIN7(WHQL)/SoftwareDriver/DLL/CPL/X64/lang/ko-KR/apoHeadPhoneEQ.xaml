@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneEQ_Title">이퀄라이저</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_EnableEqualizer">이퀄라이저 활성화</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Prompt">*사전 설정 이름을 입력하십시오…*</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_Invalid">파일 이름이 유효하지 않습니다(/\:*?\"&lt;&gt;| 문자는 사용할 수 없음).</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_SaveError">EQ 사용자 정의 저장 실패</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_LoadError">EQ 사용자 정의 로드 실패</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_DeleteError">EQ 사용자 정의 삭제 실패</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_ProfileName_ContentSameAsPreset">프로파일 내용이 사전 설정 모드와 동일합니다.</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Dance">댄스</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Bass">저음</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Tremble">고음</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Live">라이브</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rock">록</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_SoftRock">소프트 록</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Jazz">재즈</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Metal">메탈</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Rap">랩</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Classic">클래식</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Vocal">오페라</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Save">저장</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Delete">삭제</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Default">기본값</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_Manual">수동</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_HeadPhoneEQ_HasTheSameUserDefineName">EQ 이름이 이미 존재합니다. EQ 이름을 바꾸시겠습니까?</sys:String>
+</ResourceDictionary>

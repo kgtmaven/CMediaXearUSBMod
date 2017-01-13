@@ -1,0 +1,31 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_HeadPhoneVirtual_Title">7.1 Virtual Speaker Shifter</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_EnableVirtualSpeakerShifter">Activar 7.1 Virtual Speaker Shifter</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Volume_SPDIFOUT">S/PDIF-Out</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Clockwise">Sentido dos ponteiros do relógio</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_CounterClockwise">Sentido inverso ao dos ponteiros do relógio</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_WiseArround">Rotação manual</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_ManualSetting">Alteração manual</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_SubdB">Diminuir nível</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_AdddB">Aumentar nível</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Head">Usuário</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Center">Center</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_FrontLeft">Frente de Esquerda</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_BackLeft">Voltar para a esquerda</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_SideLeft">Lado Esquerdo</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_FrontRight">Frontal Direito</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_BackRight">Lateral Direito</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_SideRight">Lado Direito</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Woofer">Woofer</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_L">L</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_R">R</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Reset">Repor</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_LS">LS</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_RS">RS</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Lb">Lb</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_Rb">Rb</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_C">C</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_W">W</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_dB">dB</sys:String>
+  <sys:String x:Key="ml_HeadPhoneVirtual_ChannelCopySF">Surround Max</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_EnableDTSNEOPC">Aktifkan DTS NEO:PC</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_MusicMode">Modus musik</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_MovieMode">Mode film</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_Reset">Setel ulang</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_Title">DTS Neo:PC</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_ChannelRequirement">DTS Neo:PC mendukung setelan speaker Kuadrafonik, 5.1 Surround dan 7.1 Surround</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSNeoPC_ChannelsSetting">Saluran Setting</sys:String>
+</ResourceDictionary>

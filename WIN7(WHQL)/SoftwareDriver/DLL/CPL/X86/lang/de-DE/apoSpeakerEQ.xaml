@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEQ_Title">Equalizer</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_EnableEqualizer">Equalizer aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Prompt">*Geben Sie bitten den voreingestellten Namen ein.*</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Invalid">Dateiname ungültig (darf die Zeichen /\:*?\"&lt;&gt;| nicht enthalten)</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_SaveError">Speichern des benutzerdefinierten EQs fehlgeschlagen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_LoadError">Laden der benutzerdefinierten EQs fehlgeschlagen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_DeleteError">Löschen der benutzerdefinierten EQs fehlgeschlagen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_ContentSameAsPreset">Der Inhalt des Profils ist identisch mit dem voreingestellten Modus</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Dance">Dance</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Bass">Bass</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Tremble">Höhen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Live">Live</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_SoftRock">SoftRock</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Jazz">Jazz</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Classic">Klassisch</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Vocal">Oper</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Save">Speichern</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Delete">Löschen</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Default">Standard</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Manual">Manuell</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_HasTheSameUserDefineName">Diese Einstellung existiert bereits. Wollen Sie diese ersetzen?</sys:String>
+</ResourceDictionary>

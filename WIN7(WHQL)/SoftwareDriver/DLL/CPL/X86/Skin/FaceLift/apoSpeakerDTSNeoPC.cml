@@ -1,0 +1,47 @@
+﻿<Canvas Width="643" Height="455" Name="SpeakerDTSNeoPC">  
+
+	<Canvas Width="643" Height="455" Name="MainContent">
+		<TextBlock Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerDTSNeoPC_Title"/>	
+		<CheckBox Left="56" Top="72" Height="27" Width="26" Name="BtnEnableDTSNeoPC" Style="EnableFeatureButton" ToolTip="ml_SpeakerFlexBass_EnableFlexBass" />
+		<TextBlock Left="80" Top="74" Height="30" Style="ApoText" Text="ml_SpeakerDTSNeoPC_EnableDTSNEOPC"/>
+	
+		<Image Name="NeoPC_Logo" Left="534" Top="10" Width="95" Height="43" Source="DTSNeoPC/Logo.png" />		
+	
+		<RadioButton Name="BtnMusicMode" Cursor="Hand" GroupName="Mode" Tag="0" Width="57" Height="57" Left="89" Top="186" ToolTip="ml_SpeakerDTSNeoPC_MusicMode"
+			 Image.Uncheck.Normal="DTSNeoPC/MusicMode_no.png" Image.Uncheck.MouseOver="DTSNeoPC/MusicMode_mo.png" Image.Check.Normal="DTSNeoPC/MusicMode_se.png" Image.Check.MouseOver="EM/MusicMode_mo.png" />
+		<RadioButton Name="BtnMovieMode" Cursor="Hand" GroupName="Mode" Tag="1" Width="57" Height="57" Left="89" Top="259" ToolTip="ml_SpeakerDTSNeoPC_MovieMode"
+			 Image.Uncheck.Normal="DTSNeoPC/MovieMode_no.png" Image.Uncheck.MouseOver="DTSNeoPC/MovieMode_mo.png" Image.Check.Normal="DTSNeoPC/MovieMode_se.png" Image.Check.MouseOver="EM/MovieMode_mo.png" />
+	
+	  <Slider Orientation="Horizontal" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="238.999" Top="117" Width="176.334" Maximum="10" Name="CenterGain" Minimum="0" SmallChange="1" Tag="0" Style="NonFillSlider" Tooltip.Show="True"/>
+	  <Slider Orientation="Vertical" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" Left="478" Top="191.333" Height="170.667" Maximum="14" Name="Dimension" Minimum="0" SmallChange="1" Tag="0" Style="VNonFillSlider" Tooltip.Show="True"/>
+		<Button Name="BtnReset" Width="31" Height="32" Left="473" Top="114"	ToolTip="ml_SpeakerDTSNeoPC_Reset" Cursor="Hand" Image.Normal = "DTSNeoPC/Reset_no.png" Image.MouseDown = "DTSNeoPC/Reset_se.png" Style = "DefaultButton" />
+	
+	  <Image Name="FanNarrow" Width="22" Height="15" Left="212.333" Top="121" Source="DTSNeoPC/FanNarrow.png" />
+	  <Image Name="FanWide" Width="22" Height="15" Left="417.333" Top="121" Source="DTSNeoPC/FanWide.png" />
+		
+	  <Image Name="CircleFront" Width="18" Height="17" Left="482.5" Top="171.5" Source="DTSNeoPC/CircleFront.png" />
+	  <Image Name="CircleBack" Width="17" Height="16" Left="483" Top="369" Source="DTSNeoPC/CircleBack.png" />
+	
+		<Image Name="Circle" Width="259" Height="256" x:Name="CircleView" Left="197.167" Top="151.001"		Source="DTSNeoPC/Circle.png" />
+		<Image Name="Fan" Width="227" Height="121" x:Name="RangeView" Left="213.994" Top="164.339"		Source="DTSNeoPC/FAN.png" />
+	
+		<Shape Name="Shape" Width="228" Height="229.5" Left="214" Top="164" Type="Ellipse" Fill="Gradient" Gradient.StartPoint="0.5,0" Gradient.EndPoint="0.5,1" Gradient.Stops="0.0,#00000000;0.4,#7FFFFFFF;1.0,#00000000" />
+	
+		<Image Name="Speaker_L" Width="43" Height="44"  Left="224.8" Top="171.8" Source="Resources/Res_Speaker_L.png" />	
+		<Image Name="Speaker_C" Width="41" Height="21"  Left="297.5" Top="156.2" Source="Resources/Res_Speaker_C.png" />	
+		<Image Name="Speaker_W" Width="27" Height="17"   Left="344.1" Top="160"  Source="Resources/Res_Speaker_W.png" />	
+		<Image Name="Speaker_R" Width="43" Height="44"  Left="390.1" Top="173.3" Source="Resources/Res_Speaker_R.png" />	
+		<Image Name="Speaker_Ls" Width="34" Height="38"  Left="198.8" Top="257.8" Source="Resources/Res_Speaker_Ls.png" />	
+		<Image Name="Speaker_Rs" Width="34" Height="38"  Left="424.1" Top="257.5" Source="Resources/Res_Speaker_Rs.png" />	
+		<Image Name="Speaker_Lb" Width="43" Height="43"  Left="235.6" Top="342.6" Source="Resources/Res_Speaker_Lb.png" />	
+		<Image Name="Speaker_Rb" Width="43" Height="44"  Left="381" Top="341.786" Source="Resources/Res_Speaker_Rb.png" />	
+	
+		<Image Name="Speaker_Head" Width="39" Height="41"  Left="307.833" Top="257.167" Source="Resources/Res_Speaker_Head.png" />	
+	</Canvas>
+	
+  <Canvas Width="643" Height="455" Name="WarningContent" Visibility="Hidden">
+      <TextBlock Width="620" Height="80"  Left="15" Top="127" Foreground="White" Text.HorizontalAlignment="Center" FontSize="13" TextWrapping="Wrap" FontWeight="Bold"
+				Text="ml_SpeakerDTSNeoPC_ChannelRequirement"/>
+      <Button Left="250" Top="227" Name="ChannelsSetting" Style="ClickButton"  Text.HorizontalAlignment="Center"  Text.VerticalAlignment="Center" Text="ml_SpeakerDTSNeoPC_ChannelsSetting" FontWeight="Bold" Foreground="#FF787878" />
+  </Canvas>
+</Canvas>

@@ -1,0 +1,32 @@
+END-USER LICENSE AGREEMENT
+
+IMPORTANT 
+
+PLEASE READ THE TERMS AND CONDITIONS OF THIS END-USER LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM INSTALL. 
+
+C-MEDIA ELECTRONICS INC.("C-MEDIA")'s End-User License Agreement ("EULA") is a legal agreement between You (either an individual or a single entity) and C-MEDIA for the C-MEDIA software("SOFTWARE"). By installing, copying, or otherwise using the SOFTWARE, You agree to be bound by the terms of this EULA. If You do not agree to the terms of this EULA, do not install or use the SOFTWARE. 
+
+1.GRANT OF LICENSE. 
+C-MEDIA hereby grants You a limited, personal, non-commercial, non-exclusive license to use the SOFTWARE solely as embedded in the C-MEDIA products. The SOFTWARE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE is licensed, not sold.
+
+2.LIMITATIONS
+You shall not rent, lease, or lend the SOFTWARE. You shall not reverse engineer, decompile, decrypt, disassemble, or make derivate works of the SOFTWARE or permit or induce the foregoing except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation. You shall not remove or alter any copyright notices on the SOFTWARE. You may make one copy of the SOFTWARE as may be necessary for backup and archival purposes only. C-MEDIA may provide You with support services related to the SOFTWARE ("SUPPORT SERVICES"). Any supplemental software code provided to You as part of the SUPPORT SERVICES shall be considered part of the SOFTWARE and shall be subject to the terms and conditions of this EULA.
+
+3.CONFIDENTIALITY
+You shall have a duty to protect and not to disclose or cause to be disclosed in whole or in part of confidential information of the SOFTWARE including but not limited to copyrights, trade secrets, and intellectual property rights in any form to any third party. You shall prevent any unauthorized persons or entities from using the SOFTWARE, and shall prevent the SOFTWARE from unauthorized copying, publication, or circulation. 
+
+4.INTELLECTUAL PROPERTY RIGHTS
+You acknowledge and agree that all copyrights, intellectual property rights, and interest to or arising from the SOFTWARE are and shall remain the exclusive property of C-MEDIA. Any unauthorized use of the aforesaid rights is a violation of this EULA as well as a violation of related intellectual property laws.
+
+5.TERM AND TERMINATION 
+This EULA will be effective as of the date You install the SOFTWARE. You may terminate this License at any time by ceasing all use of the SOFTWARE and promptly removing the SOFTWARE from C-MEDIA product. Without prejudice to any other rights, C-MEDIA may terminate this EULA if You fail to comply with any of the terms and conditions of this EULA. In such event, You shall promptly remove the SOFTWARE and all copies of the SOFTWARE in Your possession.
+
+6.LIMITATIONS OF LIABILITIES
+C-MEDIA makes no warranties for the SOFTWARE. The SOFTWARE is provided AS IS without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, non-infringement, or fitness of a particular purpose. C-MEDIA does not warrant or assume responsibility for the accuracy or completeness of any information including but not limited to text, graphics, links, or other items contained within the SOFTWARE. C-MEDIA makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. C-MEDIA further expressly disclaims any warranty or representation to You or to any third party.
+
+You agree to take the entire risk of using this SOFTWARE. In no event shall C-MEDIA be liable for any direct, indirect, special, incidental, consequential or other damages in connection with or arising out of this EULA including but not limited to loss of profit, interruption, loss of data, or any pecuniary loss. Notwithstanding anything to the contrary, C-MEDIA's maximum aggregate liability to You for all claims, liabilities or obligations arising under or relating to this EULA shall in no event exceed all amounts paid by You for the SOFTWARE.
+
+7.GENERAL PROVISIONS
+This EULA shall be governed by, and construed in accordance with the laws of Taiwan, Republic of China. Except for rights granted in this EULA, all other rights are reserved by C-Media. The provisions of this EULA are separable, and the unenforceability of one or more provisions shall not affect the enforceability of any other. The parties hereto agree to submit all disputes arising from or related to this EULA or its performance hereunder to the Taipei District Court in the first instance.
+
+

@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFInVol_SPDIFInVol">Entrée S/PDIF</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_L">L</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_R">R</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Title">Réglage du volume</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_VoldB_Range_Error">La plage de volume en dB est comprise entre {0:F2} et {1:F2}.</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Balance">Verrouiller</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnBalance">Déverrouiller</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Mute">Silence</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnMute">Activer le son</sys:String>
+</ResourceDictionary>

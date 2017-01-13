@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerDTSSS_EnableDTSSurroundSensation">启动 DTS Surround Sensation</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_UseNEOPCasstereoexpander">启动 NEO:PC as stereo expander</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_BassEnhancement">Bass Enhancement</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_DailogClarity">Dailog Clarity</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_SoundStageExpansionFactor">Sound Stage Expansion Factor</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_PhysicalSpeakerAngle">Physical Speaker Angle</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MixLFEChanneltoOutput">Mix LFE Channel to Output</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Headphone">耳机</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Speaker">喇叭</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Title">DTS Surround Sensation</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ChannelRequirement">DTS Surround Sensation 只支持喇叭组态为立体声(2声道),请按下方按钮至喇叭设定页面调整声道设定</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ChannelsSetting">频道设定</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_Mode">模式</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MusicMode">音乐模式</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_MovieMode">电影模式</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_ContentType">Content Type</sys:String>
+  <sys:String x:Key="ml_SpeakerDTSSS_DTSVoiceClarity">DTS Voice Clarity</sys:String>
+</ResourceDictionary>

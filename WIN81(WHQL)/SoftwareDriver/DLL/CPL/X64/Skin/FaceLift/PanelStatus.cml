@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Canvas Name="PanelStatus" Background.Image="PanelStatus/bg.png">	
+
+	<TextBlock Name="Playback"  Left="8.3" Top="5.6" Foreground="White" FontSize="8" FontWeight="Bold" Text.HorizontalAlignment="Left" Text="Playback" />		
+	<TextBlock Name="Render_Method" Left="23.3" Top="19" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="Render_Method" />		
+
+	<TextBlock Name="Capture" Left="8.3" Top="32" Foreground="White" FontSize="8" FontWeight="Bold" Text.HorizontalAlignment="Left" Text="Capture" />		
+	<TextBlock Name="Capture_Method" Left="23.3" Top="45" Foreground="White" FontSize="8"  Text.HorizontalAlignment="Left" Text="Capture_Method" />		
+	
+	<TextBlock Name="2" Left="105" Top="7" Foreground="White" FontSize="10" Text.HorizontalAlignment="Left" Text="2" />		
+	<TextBlock Name="2/" Left="112" Top="7" Foreground="Gray" FontSize="10"  Text.HorizontalAlignment="Left" Text="/" />		
+	<TextBlock Name="4" Left="116" Top="7" Foreground="White" FontSize="10" Text.HorizontalAlignment="Left" Text="4" />		
+	<TextBlock Name="4/" Left="124" Top="7" Foreground="Gray" FontSize="10"  Text.HorizontalAlignment="Left" Text="/" />		
+	<TextBlock Name="5.1" Left="128" Top="7" Foreground="White" FontSize="10" Text.HorizontalAlignment="Left" Text="5.1" />		
+	<TextBlock Name="5.1/" Left="144" Top="7" Foreground="Gray" FontSize="10"  Text.HorizontalAlignment="Left" Text="/" />		
+	<TextBlock Name="7.1" Left="149" Top="7" Foreground="White" FontSize="10" Text.HorizontalAlignment="Left" Text="7.1" />		
+
+	<TextBlock Name="KHzVaule" Left="105" Top="25" Foreground="White" FontSize="16"  Text.HorizontalAlignment="Left" Text="KHzVaule" />		
+	<TextBlock Name="KHz" Left="160" Top="27" Foreground="White" FontSize="14"  Text.HorizontalAlignment="Left" Text="KHz" />		
+	<TextBlock Name="KHz2" Left="150" Top="27" Foreground="White" FontSize="14"  Text.HorizontalAlignment="Left" Text="KHz" />		
+	<TextBlock Name="KHz3" Left="140" Top="27" Foreground="White" FontSize="14"  Text.HorizontalAlignment="Left" Text="KHz" />		
+
+	<TextBlock Name="Out" Left="200" Top="5" Foreground="White" FontSize="10" FontWeight="Bold" Text.HorizontalAlignment="Left" Text="Out" />		
+	<Canvas Name="OutWrapPanel" Left="200" Top="20" Width="100" Height="43.375" >
+		<TextBlock Name="EQ" Left="0" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="EQ" Tooltip="ml_EQ"/>		
+		<TextBlock Name="EM" Left="0" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="EM" Tooltip="ml_EM"/>		
+		<TextBlock Name="VSS" Left="0" Top="26" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="VSS" Tooltip="ml_VSS"/>		
+		<TextBlock Name="FB" Left="25" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="FB" Tooltip="ml_FB"/>		
+		<TextBlock Name="KS" Left="25" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="KS" Tooltip="ml_KS"/>		
+		<TextBlock Name="VF" Left="25" Top="26" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="VF" Tooltip="ml_VF"/>		
+		<TextBlock Name="XSS" Left="50" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="XS" Tooltip="ml_XS"/>
+		<TextBlock Name="XSH" Left="50" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="XHP" Tooltip="ml_XSH"/>						
+		<TextBlock Name="AB" Left="50" Top="26" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="AB" Tooltip="ml_AB"/>						
+		<TextBlock Name="DB" Left="75" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="DB" Tooltip="ml_DB"/>						
+		<TextBlock Name="SVN" Left="75" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="SVN" Tooltip="ml_SVN"/>						
+		<TextBlock Name="VC" Left="75" Top="26" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="VC" Tooltip="ml_VC"/>
+		<TextBlock Name="SMX" Left="100" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="SMX" Tooltip="ml_SMX"/>						
+	</Canvas>	
+
+	<TextBlock Name="In" Left="305" Top="5" Foreground="White" FontSize="10" FontWeight="Bold" Text.HorizontalAlignment="Left" Text="In" />		
+	<Canvas Name="InWrapPanel" Left="305" Top="20" Width="50" Height="43.375" >
+		<TextBlock Name="SF" Left="0" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="SF" Tooltip="ml_SF"/>		
+		<TextBlock Name="MV" Left="0" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="MV" Tooltip="ml_MV"/>		
+		<TextBlock Name="ENC" Left="0" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="ENC" Tooltip="ml_ENC"/>		
+		<TextBlock Name="AEC" Left="0" Top="26" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="AEC" Tooltip="ml_AEC"/>		
+		<TextBlock Name="BF" Left="25" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="BF" Tooltip="ml_BF"/>	
+		<TextBlock Name="NR" Left="25" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="NR" Tooltip="ml_NR"/>		
+	</Canvas>
+
+	<Button Name="Dolby" Left="360" Top="7"  Cursor="Arrow"  Image.Normal="PanelStatus/DolbyLogo.png"/>
+	<Canvas Name="DolbyWrapPanel" Left="360" Top="20" Width="40" Height="43.375" >
+		<TextBlock Name="DS" Left="0" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="DS" Tooltip="ml_DS"/>		
+		<TextBlock Name="PLIIX" Left="0" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="PLIIX" Tooltip="ml_PLIIx"/>		
+		<TextBlock Name="DL" Left="0" Top="26" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="DL" Tooltip="ml_DL"/>		
+	</Canvas>
+
+	<TextBlock Name="dts" Left="405" Top="7" Foreground="White" FontSize="10" FontWeight="Bold" Text.HorizontalAlignment="Left" Source="PanelStatus/DTSLogo.png" />		
+	<Canvas Name="DTSWrapPanel" Left="405" Top="20" Width="60" Height="43.375" >
+		<TextBlock Name="SS" Left="0" Top="0" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="SS" Tooltip="ml_SS"/>		
+		<TextBlock Name="Neo:PC" Left="0" Top="13" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="Neo:PC" Tooltip="ml_NeoPC"/>		
+		<TextBlock Name="Interactive" Left="0" Top="26" Foreground="White" FontSize="8" Text.HorizontalAlignment="Left" Text="Interactive" Tooltip="ml_Interactive"/>		
+	</Canvas>
+
+</Canvas>

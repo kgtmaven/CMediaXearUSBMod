@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEQ_Title">イコライザー</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_EnableEqualizer">イコライザーを有効にする</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Prompt">*プリセット名を入力してください*</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_Invalid">ファイル名が正しくありません（/\:*?\"&lt;&gt;| 文字は使えません）</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_SaveError">ユーザー定義EQの保存に失敗しました</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_LoadError">ユーザー定義EQのロードに失敗しました</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_DeleteError">ユーザー定義EQの削除に失敗しました</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_ProfileName_ContentSameAsPreset">プロファイルの内容が現在のモードと同じです</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Dance">ダンス</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Bass">ベース</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Tremble">高音域</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Live">ライブ</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rock">ロック</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_SoftRock">ソフトロック</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Jazz">ジャズ</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Metal">メタル</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Rap">ラップ</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Classic">クラシック</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Vocal">オペラ</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Save">名前を付けて保存</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Delete">削除</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Default">デフォルト</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_Manual">マニュアル</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerEQ_HasTheSameUserDefineName">EQ名はすでに存在してます。 交換しますか?</sys:String>
+</ResourceDictionary>

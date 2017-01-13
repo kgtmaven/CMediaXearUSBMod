@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerFlexBass_Title">Flexibler Bass II</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_EnableFlexBass">Flexiblen Bass II aktivieren</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassCof">Grenzfrequenz</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_BassLevel">Basshöhe</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LR">LR</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LsRs">Ls/Rs</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_LbRb">Lb/Rb</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_C">C</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_dB">dB</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_Hz">Hz</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_FullRangeSpeaker">Großer Lautsprecher mit Bass</sys:String>
+  <sys:String x:Key="ml_SpeakerFlexBass_NonfullRangeSpeaker">Kleiner Lautsprecher ohne Bass</sys:String>
+</ResourceDictionary>

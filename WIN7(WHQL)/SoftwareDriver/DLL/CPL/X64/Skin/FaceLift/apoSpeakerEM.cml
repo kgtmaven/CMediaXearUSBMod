@@ -1,0 +1,65 @@
+<Canvas Width="643" Height="455" Name="SpeakerEM" >
+
+	<TextBlock Foreground="White" Left="30" Top="23" Height="35"  Style="ApoTitle" Text="ml_SpeakerEM_Title"/>
+	<TextBlock Foreground="White" Left="80" Top="74" Height="30"  Style="ApoText" Text="ml_SpeakerEM_EnableEnvironmentEffects" />
+	<TextBlock Name="EM_Logo" Source="EM/Logo_LivingEM.png" Left="534" Top="10"/>
+	<CheckBox Left="56" Top="71" Height="27" Width="26" Name="BtnEnableEM" Style="EnableFeatureButton" ToolTip="ml_SpeakerEM_EnableEnvironmentEffects" />
+	<TextBlock Name="TextEM" Foreground="White" Left="97.501" Top="105.877" Height="18"  Style="ApoText" Text="ml_SpeakerEM_Environment" />
+	<TextBlock Name="TextRoomSize" Foreground="White" Left="105.001" Top="274.377" Height="18"  Style="ApoText" Text="ml_SpeakerEM_RoomSize" />
+	
+	<RadioButton Name="BtnLargeRoom" Cursor="Hand" GroupName="RoomSize" Tag="2" Width="106" Height="102" Left="395" Top="308" ToolTip="ml_SpeakerEM_LargeRoom"
+			 Image.Uncheck.Normal="EM/LargeRoom_no.png" Image.Uncheck.MouseOver="EM/LargeRoom_mo.png" Image.Check.Normal="EM/LargeRoom_se.png" Image.Check.MouseOver="EM/LargeRoom_mo.png" />
+	
+	<RadioButton Name="BtnMediumRoom" Cursor="Hand" GroupName="RoomSize" Tag="1" Width="106" Height="102" Left="260" Top="308" ToolTip="ml_SpeakerEM_MediumRoom"
+			 Image.Uncheck.Normal="EM/MediumRoom_no.png" Image.Uncheck.MouseOver="EM/MediumRoom_mo.png" Image.Check.Normal="EM/MediumRoom_se.png" Image.Check.MouseOver="EM/MediumRoom_mo.png" />
+	
+	<RadioButton Name="BtnSmallRoom" Cursor="Hand" GroupName="RoomSize" Tag="0" Width="106" Height="102" Left="126" Top="308" ToolTip="ml_SpeakerEM_SmallRoom"
+			 Image.Uncheck.Normal="EM/SmallRoom_no.png" Image.Uncheck.MouseOver="EM/SmallRoom_mo.png" Image.Check.Normal="EM/SmallRoom_se.png" Image.Check.MouseOver="EM/SmallRoom_mo.png" />
+
+	<ComboBox Name="EffectList" Style="DefaultCombobox" Left="128" Top="146" Width="127" Height="26" >
+		<!--<ComboBoxItem Name="SpeakerEMDefault" Content="ml_SpeakerEM_Default" />-->
+		<ComboBoxItem Name="SpeakerEM_Generic" Content="ml_SpeakerEM_Generic" />
+    <ComboBoxItem Name="SpeakerEM_PaddedCell" Content="ml_SpeakerEM_PaddedCell" />
+		<ComboBoxItem Name="SpeakerEM_Room" Content="ml_SpeakerEM_Room" />
+		<ComboBoxItem Name="SpeakerEM_Bathroom" Content="ml_SpeakerEM_Bathroom" />
+    <ComboBoxItem Name="SpeakerEM_LivingRoom" Content="ml_SpeakerEM_LivingRoom" />
+    <ComboBoxItem Name="SpeakerEM_StoneRoom" Content="ml_SpeakerEM_StoneRoom" />
+    <ComboBoxItem Name="SpeakerEM_Auditorium" Content="ml_SpeakerEM_Auditorium" />
+		<ComboBoxItem Name="SpeakerEM_ConcertHall" Content="ml_SpeakerEM_ConcertHall" />
+    <ComboBoxItem Name="SpeakerEM_Cave" Content="ml_SpeakerEM_Cave" />
+		<ComboBoxItem Name="SpeakerEM_Arena" Content="ml_SpeakerEM_Arena" />
+		<ComboBoxItem Name="SpeakerEM_Hangar" Content="ml_SpeakerEM_Hangar" />
+		<ComboBoxItem Name="SpeakerEM_CarpetedHallway" Content="ml_SpeakerEM_CarpetedHallway" />
+		<ComboBoxItem Name="SpeakerEM_Hallway" Content="ml_SpeakerEM_Hallway" />
+		<ComboBoxItem Name="SpeakerEM_StoneCorridor" Content="ml_SpeakerEM_StoneCorridor" />
+		<ComboBoxItem Name="SpeakerEM_Alley" Content="ml_SpeakerEM_Alley" />
+		<ComboBoxItem Name="SpeakerEM_Forest" Content="ml_SpeakerEM_Forest" />
+		<ComboBoxItem Name="SpeakerEM_City" Content="ml_SpeakerEM_City" />
+		<ComboBoxItem Name="SpeakerEM_Mountains" Content="ml_SpeakerEM_Mountains" />
+		<ComboBoxItem Name="SpeakerEM_Quarry" Content="ml_SpeakerEM_Quarry" />
+		<ComboBoxItem Name="SpeakerEM_Plain" Content="ml_SpeakerEM_Plain" />
+		<ComboBoxItem Name="SpeakerEM_ParkingLot" Content="ml_SpeakerEM_ParkingLot" />
+		<ComboBoxItem Name="SpeakerEM_SewerPipe" Content="ml_SpeakerEM_SewerPipe" />
+		<ComboBoxItem Name="SpeakerEM_UnderWater" Content="ml_SpeakerEM_UnderWater" />
+		<ComboBoxItem Name="SpeakerEM_Drugged" Content="ml_SpeakerEM_Drugged" />
+		<ComboBoxItem Name="SpeakerEM_Dizzy" Content="ml_SpeakerEM_Dizzy" />
+		<ComboBoxItem Name="SpeakerEM_Psychotic" Content="ml_SpeakerEM_Psychotic" />
+		<ComboBoxItem Name="SpeakerEM_KTV" Content="ml_SpeakerEM_KTV" />
+	</ComboBox>
+
+
+	<RadioButton Name="BtnEffectInCombox" GroupName="EMEffect" Visibility="Hidden"/>
+	
+	<RadioButton Name="BtnUnderWater" Cursor="Hand" GroupName="EMEffect" Tag="23" Width="67" Height="65" Left="212.5" Top="187" ToolTip="ml_SpeakerEM_UnderWater"
+			 Image.Uncheck.Normal="EM/Underwater_no.png" Image.Uncheck.MouseOver="EM/Underwater_mo.png" Image.Check.Normal="EM/Underwater_se.png" Image.Check.MouseOver="EM/Underwater_mo.png" />
+	
+	<RadioButton Name="BtnPsychotic" Cursor="Hand" GroupName="EMEffect" Tag="26" Width="67" Height="65" Left="377.5" Top="187" ToolTip="ml_SpeakerEM_Psychotic"
+			 Image.Uncheck.Normal="EM/Bar_no.png" Image.Uncheck.MouseOver="EM/Bar_mo.png" Image.Check.Normal="EM/Bar_se.png" Image.Check.MouseOver="EM/Bar_mo.png" />
+	
+	<RadioButton Name="BtnBathroom" Cursor="Hand" GroupName="EMEffect" Tag="4" Width="67" Height="65" Left="295" Top="187" ToolTip="ml_SpeakerEM_Bathroom"
+			 Image.Uncheck.Normal="EM/Shower_no.png" Image.Uncheck.MouseOver="EM/Shower_mo.png" Image.Check.Normal="EM/Shower_se.png" Image.Check.MouseOver="EM/Shower_mo.png" />
+	
+	<RadioButton Name="BtnConcertHall" Cursor="Hand" GroupName="EMEffect" Tag="8" Width="67" Height="65" Left="128.5" Top="187" ToolTip="ml_SpeakerEM_ConcertHall"
+			 Image.Uncheck.Normal="EM/Theater_no.png" Image.Uncheck.MouseOver="EM/Theater_mo.png" Image.Check.Normal="EM/Theater_se.png" Image.Check.MouseOver="EM/Theater_mo.png" />
+	
+</Canvas>

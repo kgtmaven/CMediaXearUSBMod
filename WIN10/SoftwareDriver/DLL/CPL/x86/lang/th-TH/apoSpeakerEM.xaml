@@ -1,0 +1,37 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SpeakerEM_Title">เอฟเฟกต์สภาพแวดล้อม</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_EnableEnvironmentEffects">เปิดใช้งานเอฟเฟกต์สภาพแวดล้อม</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Environment">สภาพแวดล้อม</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_RoomSize">ขนาดห้อง</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SmallRoom">ห้องขนาดเล็ก</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_MediumRoom">ห้องขนาดกลาง</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LargeRoom">ห้องขนาดใหญ่</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Default">ค่าเริ่มต้น</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Generic">ทั่วไป</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_PaddedCell">ห้องเก็บเสียงแบบบุนวม</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Room">ห้อง</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Bathroom">ห้องน้ำ</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_LivingRoom">ห้องนั่งเล่น</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneRoom">ห้องเก็บเสียงแบบหิน</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Auditorium">หอประชุม</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ConcertHall">หอแสดงคอนเสิร์ต</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Cave">ถ้ำ</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Arena">สนามกีฬา</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hangar">โรงเก็บเครื่องบิน</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_CarpetedHallway">โถงทางเดินปูพรม</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Hallway">โถงทางเดิน</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_StoneCorridor">ระเบียงหิน</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Alley">ตรอก</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Forest">ป่า</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_City">เมือง</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Mountains">ภูเขา</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Quarry">เหมืองแร่</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Plain">ที่ราบ</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_ParkingLot">ที่จอดรถ</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_SewerPipe">ท่อระบายน้ำ</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_UnderWater">น้ำบาดาล</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Drugged">มึนเมา</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Dizzy">วิงเวียน</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_Psychotic">โรคจิต</sys:String>
+  <sys:String x:Key="ml_SpeakerEM_KTV">คาราโอเกะ</sys:String>
+</ResourceDictionary>

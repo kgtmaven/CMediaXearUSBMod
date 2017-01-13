@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFInVol_SPDIFInVol">S/PDIF-In</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_L">L</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_R">R</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Title">볼륨 컨트롤</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_VoldB_Range_Error">볼륨 범위(dB)는 {0:F2} ~ {1:F2} 사이입니다.</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Balance">잠금</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnBalance">잠금 해제</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_Mute">음소거</sys:String>
+  <sys:String x:Key="ml_SPDIFInVol_UnMute">음소거 해제</sys:String>
+</ResourceDictionary>

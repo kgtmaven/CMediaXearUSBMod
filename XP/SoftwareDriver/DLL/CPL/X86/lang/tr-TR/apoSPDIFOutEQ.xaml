@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <sys:String x:Key="ml_SPDIFOutEQ_Title">Ekolayzer</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_EnableEqualizer">Ekolayzeri Etkinleştir</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Prompt">*Lütfen öntanımlı ayar adını girin...*</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_Invalid">Dosya adı geçersiz (/\:*?\"&lt;&gt;| karakterleri kapsanamaz)</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_SaveError">EQ Kullanıcı Tanımlı Kaydetme Başarısız</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_LoadError">EQ Kullanıcı Tanımlı Yükleme Başarısız</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_DeleteError">EQ Kullanıcı Tanımlı Silme Başarısız</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_ProfileName_ContentSameAsPreset">Profilin içeriği önayarlı mod ile aynı</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Dance">Dans</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Bass">Bas</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Tremble">Tiz</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Live">Canlı</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rock">Rock</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_SoftRock">SoftRock</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Jazz">Caz</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Metal">Metal</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Rap">Rap</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Classic">Klasik</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Vocal">Opera</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Save">Kaydetmek</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Delete">Sil</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Default">Varsayılan</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_Manual">Manuel</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_dB">dB</sys:String>
+  <sys:String x:Key="ml_SPDIFOutEQ_HasTheSameUserDefineName">EQ adı zaten mevcut. Değiştirmek istiyor musunuz ?</sys:String>
+</ResourceDictionary>
