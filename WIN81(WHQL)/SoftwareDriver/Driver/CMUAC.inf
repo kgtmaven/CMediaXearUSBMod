@@ -17,16 +17,42 @@ DriverVer=08/01/2014,8.1.12.19
 CMUAC.sys=1000,\x86
 CMEFFECTAPO.dll=1000,\x86
 CMCPLEXT.dll=1000,\x86
+EEA32A.dll=1000,\x86
+EED32A.dll=1000,\x86
+EEG32A.dll=1000,\x86
+EEL32A.dll=1000,\x86
+EEP32A.dll=1000,\x86
+MCWRP32.dll=1000,\x86
+MCPPCN32.dll=1000,\x86
+nQAPO.dll=1000,\x86
+nQPropPageExt.dll=1000,\x86
+nQAPOb.dll=1000,\x86
+nQPropPageExtb.dll=1000,\x86
 
 [SourceDisksFiles.amd64]
 CMUAC.sys=1000,\x64
 CMEFFECTAPO.dll=1000,\x64
 CMCPLEXT.dll=1000,\x64
+EEA64A.dll=1000,\x64
+EED64A.dll=1000,\x64
+EEG64A.dll=1000,\x64
+EEL64A.dll=1000,\x64
+EEP64A.dll=1000,\x64
+MCWRP64.dll=1000,\x64
+MCPPCN64.dll=1000,\x64
+nQAPO.dll=1000,\x64
+nQPropPageExt.dll=1000,\x64
+nQAPOb.dll=1000,\x64
+nQPropPageExtb.dll=1000,\x64
 
 [DestinationDirs]
 DefaultDestDir=12
 CMUAC.CopyFiles=12
 CMEFFECT.CopyFiles=11	
+PCEE4.CopyFiles_x86=11
+PCEE4.CopyFiles_x64=11
+SfxFx.CopyList_x86=11
+SfxFx.CopyList_x64=11
 
 
 [SignatureAttributes]
@@ -74,10 +100,12 @@ PETrust=true
 [CMUAC]
 Include=ks.inf, wdmaudio.inf
 Needs=KS.Registration,WDMAUDIO.Registration
-DelReg=CMUAC.DelReg
-AddReg=CMUAC.AddReg, CMUAC_NAMES.AddReg, SfxFx.AddReg
+DelReg=CMUAC.DelReg, PCEE4GlobalKeys.DelReg
+AddReg=CMUAC.AddReg, CMUAC_NAMES.AddReg, SfxFx.AddReg, PCEE4_DHT_Keys.AddReg, PCEE4GlobalKeys.AddReg
 AddProperty=CMUACBranding.AddProperty
-CopyFiles=CMUAC.CopyFiles, CMEFFECT.CopyFiles
+CopyFiles=CMUAC.CopyFiles, CMEFFECT.CopyFiles, PCEE4.CopyFiles_x86, SfxFx.CopyList_x86
+RegisterDlls=PCEE4.RegisterDlls_x86, SfxFx.RegisterDlls_x86
+
 
 ;---------------------------------------------------------------
 ;                A M D 64  D D I n s t a l l
@@ -86,13 +114,14 @@ CopyFiles=CMUAC.CopyFiles, CMEFFECT.CopyFiles
 [CMUAC.NTamd64]
 Include=ks.inf, wdmaudio.inf
 Needs=KS.Registration,WDMAUDIO.Registration
-DelReg=CMUAC.DelReg
-AddReg=CMUAC.AddReg, CMUAC_NAMES.AddReg, SfxFx.AddReg
+DelReg=CMUAC.DelReg, PCEE4GlobalKeys.DelReg
+AddReg=CMUAC.AddReg, CMUAC_NAMES.AddReg, SfxFx.AddReg, PCEE4_DHT_Keys.AddReg, PCEE4GlobalKeys.AddReg
 AddProperty=CMUACBranding.AddProperty
-CopyFiles=CMUAC.CopyFiles, CMEFFECT.CopyFiles
+CopyFiles=CMUAC.CopyFiles, CMEFFECT.CopyFiles, PCEE4.CopyFiles_x64, SfxFx.CopyList_x64
+RegisterDlls=PCEE4.RegisterDlls_x64, SfxFx.RegisterDlls_x64
 
 [CMUACBranding.AddProperty]
-DeviceVendorWebSite,,,,"http://www.cmedia.com.tw" ; Place your URL here
+DeviceVendorWebSite,,,,"http://blog.naver.com/kgtmaven" ; Place your URL here
 
 ;---------------------------------------------------------------
 ;                I n t e r f a c e s
@@ -234,27 +263,67 @@ HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
 HKR,"EP\\0",%PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
 
 [SysFx.AddReg]
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Audio","DisableProtectedAudioDG", %REG_DWORD%, 0x00000001
+
 HKR,"FX\\0",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
-HKR,"FX\\0",%PKEY_FX_UiClsid%,,%SYSFX_UI_CLSID%
-HKR,"FX\\0",%PKEY_FX_StreamEffectClsid%,,%SYSFX_STREAM_CLSID%
-HKR,"FX\\0",%PKEY_FX_ModeEffectClsid%,,%SYSFX_MODE_CLSID%
+HKR, "FX\\0", %PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%, 0x00000000
+;HKR,"FX\\0",%PKEY_FX_UiClsid%,,%SYSFX_UI_CLSID%
+;HKR,"FX\\0",%PKEY_FX_StreamEffectClsid%,,%SYSFX_STREAM_CLSID%
+;HKR,"FX\\0",%PKEY_FX_ModeEffectClsid%,,%SYSFX_MODE_CLSID%
+HKR,"FX\\0",%PKEY_FX_UiClsid%,,%CT_SYSFX_UI_CLSID%
+HKR,"FX\\0",%PKEY_FX_StreamEffectClsid%,,%CT_SYSFX_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_FX_ModeEffectClsid%,,%CT_SYSFX_POSTMIX_CLSID%
+HKR,"FX\\0",%PKEY_GFX_APO1%,,%QSOUND2_SYSFX_POSTMIX_CLSID%
+HKR,"FX\\0",%PKEY_LFX_APO1%,,%QSOUND2_SYSFX_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_UI_APO1%,,%QSOUND2_SYSFX_UI_CLSID%
+HKR,"FX\\0",%PKEY_GFX_APO2%,,%QSOUND_SYSFX_POSTMIX_CLSID%
+HKR,"FX\\0",%PKEY_LFX_APO2%,,%QSOUND_SYSFX_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_UI_APO2%,,%SYSFX_UI_CLSID%
+HKR,"FX\\0",%PKEY_QSOUND_CALL_LFX%,,%SYSFX_STREAM_CLSID%
+HKR,"FX\\0",%PKEY_QSOUND_CALL_GFX%,,%SYSFX_MODE_CLSID%
+HKR,"FX\\0",%PKEY_QSOUND_CALL_UI%,,%SYSFX_UI_CLSID%
+HKR,"FX\\0",%PKEY_QSOUND2_CALL_LFX%,,%PCEE4_HT_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_QSOUND2_CALL_GFX%,,%PCEE4_HT_POSTMIX_CLSID%
+HKR,"FX\\0",%PKEY_QSOUND2_CALL_UI%,,%PCEE4_UI_CLSID%
+HKR,"FX\\0",%PKEY_APO_NUM%,0x10001,2
 HKR,"FX\\0",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,"FX\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,"FX\\0",%PKEY_FX_Association%,,%KSNODETYPE_SPEAKER%
 HKR,"FX\\0","{C020CDBF-756F-4b6d-9031-BE6E20CF1C9F},6",%REG_DWORD%,6
 
 HKR,"FX\\1",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
-HKR,"FX\\1",%PKEY_FX_UiClsid%,,%SYSFX_UI_CLSID%
-HKR,"FX\\1",%PKEY_FX_StreamEffectClsid%,,%SYSFX_STREAM_CLSID%
-HKR,"FX\\1",%PKEY_FX_ModeEffectClsid%,,%SYSFX_MODE_CLSID%
+HKR, "FX\\1", %PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%, 0x00000000
+;HKR,"FX\\1",%PKEY_FX_UiClsid%,,%SYSFX_UI_CLSID%
+;HKR,"FX\\1",%PKEY_FX_StreamEffectClsid%,,%SYSFX_STREAM_CLSID%
+;HKR,"FX\\1",%PKEY_FX_ModeEffectClsid%,,%SYSFX_MODE_CLSID%
+HKR,"FX\\1",%PKEY_FX_UiClsid%,,%CT_SYSFX_UI_CLSID%
+HKR,"FX\\1",%PKEY_FX_StreamEffectClsid%,,%CT_SYSFX_PREMIX_CLSID%
+HKR,"FX\\1",%PKEY_FX_ModeEffectClsid%,,%CT_SYSFX_POSTMIX_CLSID%
+HKR,"FX\\1",%PKEY_GFX_APO1%,,%QSOUND2_SYSFX_POSTMIX_CLSID%
+HKR,"FX\\1",%PKEY_LFX_APO1%,,%QSOUND2_SYSFX_PREMIX_CLSID%
+HKR,"FX\\1",%PKEY_UI_APO1%,,%QSOUND2_SYSFX_UI_CLSID%
+HKR,"FX\\1",%PKEY_GFX_APO2%,,%QSOUND_SYSFX_POSTMIX_CLSID%
+HKR,"FX\\1",%PKEY_LFX_APO2%,,%QSOUND_SYSFX_PREMIX_CLSID%
+HKR,"FX\\1",%PKEY_UI_APO2%,,%SYSFX_UI_CLSID%
+HKR,"FX\\1",%PKEY_QSOUND_CALL_LFX%,,%SYSFX_STREAM_CLSID%
+HKR,"FX\\1",%PKEY_QSOUND_CALL_GFX%,,%SYSFX_MODE_CLSID%
+HKR,"FX\\1",%PKEY_QSOUND_CALL_UI%,,%SYSFX_UI_CLSID%
+HKR,"FX\\1",%PKEY_QSOUND2_CALL_LFX%,,%PCEE4_HT_PREMIX_CLSID%
+HKR,"FX\\1",%PKEY_QSOUND2_CALL_GFX%,,%PCEE4_HT_POSTMIX_CLSID%
+HKR,"FX\\1",%PKEY_QSOUND2_CALL_UI%,,%PCEE4_UI_CLSID%
+HKR,"FX\\1",%PKEY_APO_NUM%,0x10001,2
 HKR,"FX\\1",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,"FX\\1",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,"FX\\1",%PKEY_FX_Association%,,%KSNODETYPE_HEADPHONES%
 HKR,"FX\\1","{C020CDBF-756F-4b6d-9031-BE6E20CF1C9F},6",%REG_DWORD%,6
 HKR,"FX\\2",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
-HKR,"FX\\2",%PKEY_FX_UiClsid%,,%SYSFX_UI_CLSID%
-HKR,"FX\\2",%PKEY_FX_StreamEffectClsid%,,%SYSFX_STREAM_CLSID%
-HKR,"FX\\2",%PKEY_FX_ModeEffectClsid%,,%SYSFX_MODE_CLSID%
+HKR, "FX\\2", %PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%, 0x00000001
+;HKR,"FX\\2",%PKEY_FX_UiClsid%,,%SYSFX_UI_CLSID%
+;HKR,"FX\\2",%PKEY_FX_StreamEffectClsid%,,%SYSFX_STREAM_CLSID%
+;HKR,"FX\\2",%PKEY_FX_ModeEffectClsid%,,%SYSFX_MODE_CLSID%
+;HKR,"FX\\2",%PKEY_FX_UiClsid%,,%PCEE4_UI_CLSID%
+HKR,"FX\\2",%PKEY_FX_PreMixClsid%,,%PCEE4_HT_PREMIX_CLSID%
+HKR,"FX\\2",%PKEY_FX_PostMixClsid%,,%PCEE4_HT_POSTMIX_CLSID%
 HKR,"FX\\2",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,"FX\\2",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,"FX\\2",%PKEY_FX_Association%,,%KSNODETYPE_SPDIF_INTERFACE%
@@ -310,6 +379,43 @@ HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_STREAM_CLSID%, "MaxInstances", %R
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_STREAM_CLSID%, "NumAPOInterfaces", %REG_DWORD%, 1
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_STREAM_CLSID%, "APOInterface0", ,"{FD7F2B29-24D0-4B5C-B177-592C39F9CA10}"
 
+[PCEE4_DHT_Keys.AddReg]
+;; PCEE4 Master enables
+HKLM, "Software\Dolby\PCEE4\StaticKeys",  "{8A92D74F-1332-43f6-AB72-01C0E37F1CF0},0",   %REG_DWORD%, 0x000003FF; Premium SKU: Dolby Home Theater v4
+HKLM, "SOFTWARE\Dolby\PCEE4\DynamicKeys"
+HKLM, "SOFTWARE\Dolby\PCEE4\AppKeys"
+
+[PCEE4_DHT_Keys.AddReg.Security]
+"D:(A;;GA;;;WD)"
+
+[PCEE4GlobalKeys.AddReg]
+
+;;
+;; PCEE4 property keys
+;;
+;; From this point to the end of this section, the property keys shown here are all set to the default values, which will be read
+;; if no registry key is present in the INF.
+;;
+;; Therefore, if you remove all of the following keys from the INF file, you will get identical behavior because these keys are the same values as the registry defaults.
+;; Alternatively, you can use them as a starting point for creating a customized set of defaults
+;; Remember that all of these property keys are global, so they should all be kept in a single INF section that is applied to all KSNODETYPE endpoints.
+;; The same keys should not be set from within more than one section of an INF file
+
+;	Set Dolby Enable On
+HKLM, "Software\Dolby\PCEE4\DynamicKeys", "{DD0DF94B-53A2-4a92-854E-91F42E28FD7B},1",   %REG_DWORD%, 0x00000001; PCEE4_DOLBY_ENABLE_PID
+
+;; The following entries are commented out because they are the default values. uncomment and change them if you want something other than the default value
+;; HKLM, "Software\Dolby\PCEE4\DynamicKeys", "{DD0DF94B-53A2-4a92-854E-91F42E28FD7B},6",   %REG_DWORD%, 0x00000000; PCEE4_UPMIX_TO_LFE_DYNAMIC_ENABLE_PID
+;; HKLM, "Software\Dolby\PCEE4\StaticKeys",  "{DD0DF94B-53A2-4a92-854E-91F42E28FD7B},55",  %REG_DWORD%, 0x00000000; PCEE4_MONO_SPEAKER_FILL_PID
+;; HKLM, "Software\Dolby\PCEE4\StaticKeys",  "{DD0DF94B-53A2-4a92-854E-91F42E28FD7B},56",  %REG_DWORD%, 0x00000000; PCEE4_UPMIX_TO_LFE_ENABLE_PID
+
+;; Uncomment the profile (Movie, Music, Game) that you want to use as the default. Movie is the default if there is no value specified
+HKLM,  "Software\Dolby\PCEE4\DynamicKeys",   "{DD0DF94B-53A2-4a92-854E-91F42E28FD7B},2",   %REG_DWORD%, 0x00000000; Movie PCEE4_ACTIVE_PROFILE_PID (0 = Movie, 1 = Music, 2 = Game)
+
+
+
+
+
 ;---------------------------------------------------------------
 ;                D e l R e g
 ;---------------------------------------------------------------
@@ -328,6 +434,66 @@ CMUAC.SYS
 CMEFFECTAPO.dll 
 CMCPLEXT.dll
 
+[PCEE4.CopyFiles_x86]
+EEL32A.dll
+EED32A.dll
+EEG32A.dll
+EEA32A.dll
+EEP32A.dll
+
+[PCEE4.CopyFiles_x64]
+EEL64A.dll
+EED64A.dll
+EEG64A.dll
+EEA64A.dll
+EEP64A.dll
+
+[SfxFx.CopyList_x86]
+MCWRP32.DLL
+MCPPCN32.DLL
+nQAPO.dll
+nQPropPageExt.dll
+nQAPOb.dll
+nQPropPageExtb.dll
+
+[SfxFx.CopyList_x64]
+MCWRP64.DLL
+MCPPCN64.DLL
+nQAPO.dll
+nQPropPageExt.dll
+nQAPOb.dll
+nQPropPageExtb.dll
+
+[PCEE4.RegisterDlls_x86]
+11,,EEL32A.dll,1
+11,,EED32A.dll,1
+11,,EEG32A.dll,1
+11,,EEA32A.dll,1
+11,,EEP32A.dll,1
+
+[PCEE4.RegisterDlls_x64]
+11,,EEL64A.dll,1
+11,,EED64A.dll,1
+11,,EEG64A.dll,1
+11,,EEA64A.dll,1
+11,,EEP64A.dll,1
+
+[SfxFx.RegisterDlls_x86]
+11,,MCWRP32.DLL,1
+11,,MCPPCN32.DLL,1
+11,,nQAPO.dll,1
+11,,nQPropPageExt.dll,1
+11,,nQAPOb.dll,1
+11,,nQPropPageExtb.dll,1
+
+[SfxFx.RegisterDlls_x64]
+11,,MCWRP64.DLL,1
+11,,MCPPCN64.DLL,1
+11,,nQAPO.dll,1
+11,,nQPropPageExt.dll,1
+11,,nQAPOb.dll,1
+11,,nQPropPageExtb.dll,1
+
 ;---------------------------------------------------------------
 ;                S e r v i c e s  
 ;---------------------------------------------------------------
@@ -344,6 +510,10 @@ ServiceType=%SERVICE_KERNEL_DRIVER%
 StartType=%SERVICE_DEMAND_START%
 ErrorControl=%SERVICE_ERROR_NORMAL%
 ServiceBinary=%12%\CMUAC.sys
+
+[PCEE4GlobalKeys.DelReg]
+HKLM, "Software\Dolby\PCEE4\StaticKeys"
+HKLM, "Software\Dolby\PCEE4\DynamicKeys"
 
 ;---------------------------------------------------------------
 ;                S t r i n g s
@@ -381,7 +551,7 @@ CMUACGUID.SpdifIn	="{017D895C-7AE7-4f4d-B78C-CD1FFC0CE776}"
 HDAGuidStereoMixPin 		="{8c5716e6-c984-492e-a2fb-1385f2d0f3c9}"
 HDAGuidAuxInPin 		="{5f4bb488-a646-408a-9265-8647f9c374d4}"
 
-CMEDIA="C-MEDIA Inc."
+CMEDIA="Modded by kgtmaven"
 CMUAC.DeviceDesc="USB Audio Class 1.0 and 2.0 Device Driver"
 CMUAC.SvcDesc="USB Audio Class 1.0 and 2.0 Device Driver"
 CMUAC.SPEAKER.WAVE.szPname="Speaker"
@@ -416,11 +586,15 @@ KSNODETYPE_DESKTOP_MICROPHONE     = "{DFF21BE2-F70F-11D0-B917-00A0C9223196}"
 ;;
 
 PKEY_FX_Association          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_FX_PreMixClsid  		 = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},1"
+PKEY_FX_PostMixClsid 		 = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},2"
 PKEY_FX_UiClsid              = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},3"
+PKEY_DisplayName			 = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},4"
 PKEY_FX_StreamEffectClsid    = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},5"
 PKEY_FX_ModeEffectClsid      = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},6"
 PKEY_FX_EndpointEffectClsid  = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},7"
 PKEY_ItemNameDisplay         = "{B725F130-47EF-101A-A5F1-02608C9EEBAC},10"
+PKEY_AudioEndpoint_Disable_SysFx = "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},5"
 
 PKEY_AudioEndpoint_ControlPanelPageProvider = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},1"
 PKEY_AudioEndpoint_Association  = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},2"
@@ -440,4 +614,50 @@ SYSFX_STREAM_CLSID  = "{4B6D29DE-D0E1-4D68-A3D5-A0ADC4C92789}"
 SYSFX_MODE_CLSID    = "{2CE65715-83F7-493C-89B9-8305D5D85D8D}"
 SYSFX_FriendlyName  = "CMedia Audio System Effect"
 
-REG_BINARY          = 0x00000001
+; Dolby PCEE4 Defines
+PCEE4_HT_PREMIX_CLSID           = "{BC8E3B67-3306-4eef-B230-6798E9A67F0B}" ; analog driver Dolby Home Theater v4
+PCEE4_HT_POSTMIX_CLSID          = "{56E00778-C664-4bb5-AA2B-CA6F14840BB3}" ; analog driver premium
+PCEE4_UI_CLSID                  = "{C53E5AAF-5F6F-41c2-9F63-ADEBBC9B6B64}" ; analog driver mainstream
+PCEE4_FORMFACTOR_OVERRIDE       = "{DD0DF94B-53A2-4a92-854E-91F42E28FD7B},0"; analog driver form factor override
+
+; Creative Chaining Property Keys
+PKEY_APO_NUM                   = "{d46c4dfd-28b8-4ab8-a45d-70399958ef26},0"
+PKEY_GFX_APO1                  = "{e1032fc5-ddab-4c4b-9940-8a6be78a4db6},0"
+PKEY_LFX_APO1                  = "{3a418faa-93d7-4bd8-a0d3-c784ad25476a},0"
+PKEY_UI_APO1                   = "{9a708e6f-a639-4f1c-9206-62b7018853a4},0"
+PKEY_GFX_APO2                  = "{e1032fc5-ddab-4c4b-9940-8a6be78a4db6},1"
+PKEY_LFX_APO2                  = "{3a418faa-93d7-4bd8-a0d3-c784ad25476a},1"
+PKEY_UI_APO2                   = "{9a708e6f-a639-4f1c-9206-62b7018853a4},1"
+
+; Creative Chainer GUIDs 
+CT_SYSFX_POSTMIX_CLSID  = "{EC1F506D-6205-4ec8-AF7E-5ECA8E7E92BF}"
+CT_SYSFX_UI_CLSID       = "{9BC05C6A-7171-4bcc-A124-0FE140E12F75}"
+CT_SYSFX_PREMIX_CLSID   = "{AD0F1567-A5D2-415e-9FC8-168F5A26C8A3}"
+
+; QSound ids:
+QSOUND_SYSFX_UI_CLSID      = "{0BF47CA8-6767-4d2f-9836-4BF50B917192}"
+QSOUND_SYSFX_PREMIX_CLSID  = "{0BF47CA2-6767-4d2f-9836-4BF50B917192}"
+QSOUND_SYSFX_POSTMIX_CLSID = "{0BF47CA1-6767-4d2f-9836-4BF50B917192}"
+
+; QSound properties:
+PKEY_QSOUND_CALL_LFX = "{F494C4DB-ABC0-4EDD-9E4C-3AA75D67A74A},1"
+PKEY_QSOUND_CALL_GFX = "{F494C4DB-ABC0-4EDD-9E4C-3AA75D67A74A},2"
+PKEY_QSOUND_CALL_UI  = "{F494C4DB-ABC0-4EDD-9E4C-3AA75D67A74A},3"
+
+;;QSound APOs
+QSOUND2_SYSFX_UI_CLSID      = "{6A0F1C78-53AE-4581-9FFE-B23138CF1097}"
+QSOUND2_SYSFX_PREMIX_CLSID  = "{6A0F1C72-53AE-4581-9FFE-B23138CF1097}"
+QSOUND2_SYSFX_POSTMIX_CLSID = "{6A0F1C71-53AE-4581-9FFE-B23138CF1097}"
+
+;;and properties for reusing default APOs
+PKEY_QSOUND2_CALL_LFX = "{6a0f1c75-53ae-4581-9ffe-b23138cf1097},105"
+PKEY_QSOUND2_CALL_GFX = "{6a0f1c75-53ae-4581-9ffe-b23138cf1097},106"
+PKEY_QSOUND2_CALL_UI  = "{6a0f1c75-53ae-4581-9ffe-b23138cf1097},107"
+
+REG_DWORD                                     = 0x00010001
+REG_MULTI_SZ                                  = 0x00010000
+REG_MULTI_SZ_APPEND                           = 0x00010008
+REG_MULTI_SZ_DELETE                           = 0x00018002
+REG_EXPAND_SZ                                 = 0x00020000
+REG_BINARY_NOCLOBBER                          = 0x00030003
+REG_BINARY                                    = 0x00000001
